@@ -4,20 +4,20 @@ Dated per-chunk entries; append, never rewrite. Pattern IDs P1..P12 refer to the
 
 ## Pattern census (firings per batch; a miss is a datum)
 
-| Pattern | B01a | B01b | Total | Note |
-|---------|------|------|-------|------|
-| P1 Read the label (OTC sourcing) | 3/3 | 3/3 | 6 | load-bearing everywhere, as designed |
-| P2 Separation train | 0/3 | 1/3 | 1 | filter/crystallize in KClO3 route |
-| P3 Metathesis-precipitation | 0/3 | 1/3 | 1 | KClO3 from NaClO3 + KCl |
-| P4 Acid-base liberation | 2/3 | 1/3 | 3 | SO2 liberation; hydrazine salt liberation; acid displacement distillation |
-| P5 Electricity as reagent | 0/3 | 0/3 | 0 | honest: no electrolysis video gathered yet |
-| P6 Concentration ladder | 3/3 | 0/3 | 3 | boil-off HCl/H2O; H2SO4 distillation; HNO3 distillation |
-| P7 Thermal decomposition | 0/3 | 0/3 | 0 | honest: not yet exercised |
-| P8 Redox smelting/displacement | 0/3 | 1/3 | 1 | NaOH + Mg → Na |
-| P9 Instrumentless verification | 1/3 | 0/3 | 1 | purity-by-appearance in H2SO4 distillation |
-| P10 Route economics | 1/3 | 1/3 | 2 | distill-vs-buy; luminol precursor network |
-| P11 Apparatus improvisation | 2/3 | 1/3 | 3 | DIY heating mantle; all-glass requirement; oil-bath stirring setup |
-| P12 Yield bookkeeping | 1/3 | 0/3 | 1 | stoichiometric H2SO4:KNO3 for max yield |
+| Pattern | B01a | B01b | B02a | B02b | Total | Note |
+|---------|------|------|------|------|-------|------|
+| P1 Read the label (OTC sourcing) | 3/3 | 3/3 | 4/4 | 3/3 | 13 | 13/13 across batches 1-2: load-bearing as designed |
+| P2 Separation train | 0/3 | 1/3 | 3/4 | 3/3 | 7 | filter+sublime (iodine); solvent extraction (caffeine); steam distillation (limonene); crystallization everywhere |
+| P3 Metathesis-precipitation | 0/3 | 1/3 | 0/4 | 0/3 | 1 | only KClO3 so far; watch Ch 8/13 sources |
+| P4 Acid-base liberation | 2/3 | 1/3 | 1/4 | 0/3 | 4 | hydrazine sulfate precipitation |
+| P5 Electricity as reagent | 0/3 | 0/3 | 2/4 | 0/3 | 2 | exercised in B02a: CuSO4 electrochemical method; KClO3 cell |
+| P6 Concentration ladder | 3/3 | 0/3 | 0/4 | 0/3 | 3 | all from B01a acid family |
+| P7 Thermal decomposition | 0/3 | 0/3 | 0/4 | 0/3 | 0 | STILL untested after 13 papers — batch 3 target (calcination source needed) |
+| P8 Redox smelting/displacement | 0/3 | 1/3 | 0/4 | 0/3 | 1 | |
+| P9 Instrumentless verification | 1/3 | 0/3 | 0/4 | 0/3 | 1 | under-counted: identity checks are implicit in most sources; formalize when writing Ch 12 |
+| P10 Route economics | 1/3 | 1/3 | 3/4 | 2/3 | 7 | CuSO4 3-way cost comparison is the exemplar |
+| P11 Apparatus improvisation | 2/3 | 1/3 | 1/4 | 1/3 | 5 | chlorate cell; simple steam-distillation setup |
+| P12 Yield bookkeeping | 1/3 | 0/3 | 0/4 | 0/3 | 1 | weak firing; prioritize a yield-focused source in batch 3 |
 
 ## Dated chunk entries
 
@@ -44,15 +44,45 @@ Papers gathered (register-first, URLs + evidence in `papers/batches/batch-01b.md
 - **CAND-3 Protective medium + selective dissolution/co-distillation.** Isolate a reactive product (molten Na) below its boiling point under a liquid barrier, then separate from slag by selective solvent. Fired: B01b N04.
 - **CAND-4 High-boiling solvent at atmospheric pressure.** Reach dehydration/condensation temperatures without pressure apparatus by switching to a high-boiler (glycerin, glycols). Fired: B01b N06.
 
+### 2026-10-16 — Batch 02a (NurdRage: hydrazine, iodine, copper sulfate, electrolytic chlorate), sub-chunk commit
+
+Papers gathered (register-first, URLs + evidence in `papers/batches/batch-02a.md`):
+- **N07** Make Hydrazine Sulfate by the Hypochlorite-Ketazine Process, NurdRage (date unverified). Ammonia + MEK + bleach → hydrazine protected as ketazine during oxidation, then hydrolyzed + acidified to hydrazine sulfate. Moves: P1, P4, P10 + **CAND-5 fired** (protective-intermediate staging). Feeds Ch 19, 22. Misses: P3, P5, P7, P8.
+- **N08** Make Iodine from an Alkali Metal Iodide, Hydrochloric Acid and Hydrogen Peroxide, NurdRage 2009-04-02. KI/NaI + HCl + 5 vol 3% H2O2 → I2 filtered, purified by sublimation/crystallization. Moves: P1, P2 + **CAND-1 fired in generalized form** (in-solution redox generation of the element). Feeds Ch 17. Misses: P3, P5, P7, P8.
+- **N09** Make Copper Sulfate from Copper and Sulfuric Acid (3 Ways), NurdRage. Cu + H2SO4 needs an oxidant: H2O2 method, HNO3 method (NO2 hazard), electrochemical method (DC supply, Cu anode); electricity cheapest per gram. Moves: P1, P2, P5, P10 (the 3-way route-economics exemplar). Feeds Ch 18, 11. Misses: P3, P7.
+- **N10** Make Potassium Chlorate by Electrolysis — The Basic Guide, NurdRage. Saturated KCl cell, carbon/Pt/MMO anode → KClO3 crystallized. Moves: P5, P1, P11, P2, P10. Feeds Ch 15, 11. Misses: P3, P7, P8. Note: r/NurdRage community corroboration shows NurdRage advising selective ethanol extraction of chlorate — a CAND-3-family selective-dissolution move (watch).
+
+**Sub-chunk census:** P1 4/4, P2 3/4, P5 2/4, P10 3/4, P11 1/4, P4 1/4. P5 now exercised; P7 still zero.
+
+### 2026-10-16 — Batch 02b (NileRed first entries: extraction focus), sub-chunk commit
+
+Papers gathered (register-first, URLs + evidence in `papers/batches/batch-02b.md`):
+- **N11** Extracting Caffeine from Coffee — NileRed (circa 2016-12). Solvent extraction of caffeine from Folgers coffee; community route economics: tea easier to purify than coffee. Moves: P1, P2, P10. Feeds Ch 31, 5. Verification: metadata-verified (official channel video confirmed via Perfect Daily Grind + Chegg lab reference + official Facebook video); YouTube URL to pin at next pass (honest gap).
+- **N12** Turning Plastic Gloves Into Hot Sauce — NileRed (2022-02-26). Artificial hot sauce from nitrile gloves + vanilla-derived ingredients; the genre's theatrical OTC-sourcing exemplar. Moves: P1, P10. Feeds Ch 32, 34 (motivation exemplar). Verification: metadata-verified (X post + reactor video credit + subreddit); chemistry details flagged for transcript-level fetch.
+- **N13** How to Extract Limonene from Orange Peels — NileRed (2015). Steam distillation: peel oil co-distills with water vapor below 100 °C; immiscible oil separates. Moves: P1, P2, P11 + **CAND-6 fired** (carrier/steam distillation). Feeds Ch 5, 31. Corroborated by RSC class experiment (parallel procedure).
+
+**Batch 2 census (a+b):** P1 7/7 (cumulative 13/13); P2 6/7; P10 5/7; P5 2/7; P7 remains 0/14 papers — batch 3 must include a calcination/thermal-decomposition source; P12 weak (1 firing) — prioritize a yield-focused source.
+
+**Promotion recommendation (pending user approval):** **REC-1: promote CAND-1 to the book P-index as P13 "In-situ redox generation"** (generalized: generate the reactive species in the pot from OTC reagents and oxidize/consume it in solution, never handling bulk material). Faces: dissolved-gas route (SO2 → H2SO4, N01) and dissolved-ion route (iodide → I2, N08). Fired across B01a + B02a (recurrence test passed).
+
 ## Candidate patterns (recurrence test: promote on firing across >= 2 batches)
 
-- **CAND-1 In-situ redox generation (dissolved-gas route).** Generate a reactive gas in the pot from OTC reagents and oxidize/consume it in solution rather than handling bulk gas. Fired: B01a N01. Watch: iodine-from-iodide videos (HCl + H2O2) in batch 2.
-- (CAND-2..4 opened in B01b — see the B01b entry below.)
+- **CAND-1 In-situ redox generation.** Generate the reactive species in the pot from OTC reagents and oxidize/consume it in solution, never handling bulk material. Fired: B01a N01 (dissolved-gas: SO2 → H2SO4), B02a N08 (dissolved-ion: iodide → I2). **REC-1: promotion to book P-index as P13 recommended, pending user approval.**
+- **CAND-2 Disproportionation upgrade.** Heat-driven self-redex converts a weak OTC oxidant into a stronger one (hypochlorite → chlorate). Fired: B01b N05. Watch: further cascades (chlorate → perchlorate references).
+- **CAND-3 Protective medium + selective dissolution.** Isolate a reactive product under a liquid barrier, then separate from slag by selective solvent. Fired: B01b N04. Watch: r/NurdRage ethanol-extraction-of-chlorate advice (community corroboration, not yet a registered paper).
+- **CAND-4 High-boiling solvent at atmospheric pressure.** Fired: B01b N06. Watch: Ch 22 sources (soap/ester syntheses).
+- **CAND-5 Protective-intermediate staging.** Temporarily mask a reactive species as a stable intermediate to survive harsh reaction conditions, then unmask it. Fired: B02a N07 (hydrazine as ketazine during hypochlorite oxidation).
+- **CAND-6 Carrier (steam) distillation.** Co-distill a high-boiling immiscible liquid with water at ~100 °C to isolate it without pressure/vacuum gear. Fired: B02b N13. Watch: other essential-oil/Ch 31 sources.
 
 ## Follow-ups register (registered, not yet gathered)
 
-- NurdRage "Make Nitric Acid from Sodium Bisulfate and Sodium Nitrate" (2020-08-01) — route-economics comparison, no H2SO4 needed.
-- NurdRage "Make Nitric Acid without Sulfuric Acid by Oxalate Precipitation" — Ca nitrate (fertilizer) + oxalic acid; P3 route to HNO3.
-- NurdRage potassium chlorate from bleach by ELECTROLYSIS (r/NurdRage thread reference) — tests P5.
+- NurdRage "Make Nitric Acid from Sodium Bisulfate and Sodium Nitrate" (2020-08-01, https://www.youtube.com/watch?v=CqzrTxshOXM) — route-economics comparison, no H2SO4 needed.
+- NurdRage "Make Nitric Acid without Sulfuric Acid by Oxalate Precipitation" (https://www.youtube.com/watch?v=1x8oXCBjHFY) — P3 route to HNO3.
+- NurdRage "Making Hydrazine Sulfate from Urea and Bleach" (https://www.youtube.com/watch?v=PCovDr4FVNQ) — second hydrazine route; luminol-series predecessor; P10 comparison vs ketazine.
+- NurdRage "Make Iodine from Sulfuric acid and Alkali Metal Iodide" (2009-03-28, https://www.youtube.com/watch?v=2F_kPXbi2D8, URL via archive listing) — variant route.
+- NurdRage "make sulfuric acid electrochemically" (copper sulfate electrochemical method, WonderHowTo reference) — network chaining: CuSO4 → H2SO4 regeneration.
 - NurdRage sodium original thermite video + improved-process response video (channel attribution to verify).
-- NurdRage hydrazine from bleach+ammonia+gelatin; 3-nitrophthalic acid from phthalic anhydride (luminol precursors).
+- NurdRage "Making 3-Nitrophthalic Acid" (https://www.youtube.com/watch?v=ridu6XIDb4I, attribution to verify) — luminol precursor, first-class paper.
+- Pin YouTube URL for NileRed caffeine-from-coffee video (N11); transcript-level fetch for N12 (gloves→hot sauce chemistry).
+- **P7 hunt (zero firings after 14 papers):** register a calcination/thermal-decomposition source in batch 3 (candidates: Cody's Lab lime/calcination videos; NurdRage thermal-decomposition videos).
+- **P12 hunt:** register a yield-focused source (gold-refining-forum-style stoichiometry threads or a NurdRage "revisited" video with yield numbers).

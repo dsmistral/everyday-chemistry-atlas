@@ -7,7 +7,7 @@ description: "Survey track for the Everyday-Chemistry Atlas: register-first dist
 
 ## Current state
 
-Survey live since 2026-10-15 (book session 2). Batch 1 (NurdRage corpus, 6 papers, sub-chunks 1a + 1b) gathered register-first: acid family (sulfuric generation + distillation purification, nitric acid), sodium metal, potassium chlorate from bleach, luminol synthesis. 4 candidate patterns opened (CAND-1..4). Corpus skeleton + batch files live in the backup repo `dsmistral/everyday-chemistry-atlas` under `papers/`. Next: batch 2 (NurdRage continued: hydrazine from bleach, iodine from iodide, copper sulfate three ways; then first NileRed entries). The survey feeds the book; adoption decisions are user-approved; the survey never edits the manuscript.
+Survey live since 2026-10-15. Batches 1-2 complete (13 papers): batch 1 NurdRage core (acid family, sodium, chlorate, luminol); batch 2 NurdRage round 2 (hydrazine ketazine, iodine, copper sulfate 3 ways, electrolytic chlorate — P5 exercised) + first NileRed entries (caffeine, gloves→hot sauce, limonene — CAND-6 steam distillation). **REC-1 pending user approval: promote CAND-1 → book P13 "In-situ redox generation"** (recurrence test passed across batches 1-2). Six candidates open (CAND-1..6). Honest gaps: P7 zero-firing after 14 papers (batch 3 hunts a calcination source); P12 weak (1 firing). Next: batch 3 — NurdRage round 3 (urea hydrazine, electrochemical H2SO4, oxalate HNO3), then book-canon batches (Thompson/Dunn/Golden Book) before the authoring-start proposal. The survey feeds the book; adoption decisions are user-approved; the survey never edits the manuscript.
 
 ## Routing
 
