@@ -225,6 +225,8 @@ Papers gathered (register-first, URLs + evidence in `papers/batches/batch-09b.md
 
 **Session-10 census (batch 9 = upgrades 9a + N49-N51; corpus now 51 papers):** P1 44/51, P10 34/51, P2 24/51, P9 14/51, P6 10/51, P11 13/51, P4 15/51, P5 6/51, P3 6/51, P8 6/51, P12 4/51, P7 4/51, P13 5 firings. Plus upgrade-level datums (batch 9a): N22 +P3/P1, N26 +P5, N28 +P10-failure-face (recorded against the papers' own entries).
 
+**Correction (2026-10-15, dated, authoritative):** batch-09b.md's N51 line mis-types the watch-page date as "2015-11-15" — the correct date is **2021-11-15** (filmot page: 15 Nov 2021; the session-8 record was right). The committed batch file stands as-is (extend, never rewrite); this correction governs.
+
 ## Candidate patterns (recurrence test: promote on firing across >= 2 batches)
 
 - **CAND-1 In-situ redox generation.** Generate the reactive species in the pot from OTC reagents and oxidize/consume it in solution, never handling bulk material. Fired: B01a N01 (dissolved-gas: SO2 → H2SO4), B02a N08 (dissolved-ion: iodide → I2). **PROMOTED: user approved REC-1 on 2026-10-16 → book P13.**
