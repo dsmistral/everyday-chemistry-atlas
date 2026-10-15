@@ -6,15 +6,15 @@ Register-first rule: every fetch is fresh web verification, never from memory. V
 |----|--------|------|----------|--------|
 | S01 | NurdRage | YouTube channel | 1 (amateur-accessible synthesis from OTC precursors) | gathered (N01-N10, N15-N17, N21-N22, N26-N28); N14 reattributed to S02 at session 6 — correction in papers/batches/batch-05a.md; N07 date pinned 2010-11-11 at session 7 (batch-06a correction: UB7vwIFCnR0 is N07, no separate urea-route NurdRage video exists) |
 | S02 | NileRed / NileBlue | YouTube channel | 2 | gathered (N11-N14) |
-| S03 | Cody's Lab | YouTube channel | 2 | first entry gathered (N34 gold refining, Metal Refining & Recovery series; uranium flagship video lost — availability datum) |
-| S04 | Extractions&Ire | YouTube channel | 2 | audited (N31) + PET-to-benzene series gathered (N35, honest failure) |
+| S03 | Cody's Lab | YouTube channel | 2 | first entry gathered (N34 gold refining, Metal Refining & Recovery series; uranium flagship video lost — availability datum); part-1 URL pinned at session 8: OyOzfP-JAI4, 2015-12-27 |
+| S04 | Extractions&Ire | YouTube channel | 2 | audited (N31) + PET-to-benzene series (N35, honest failure) + acid pair gathered (N40 concentrating H2SO4; N41 distilling HCl, honest mishap); remaining individual videos: dichromates (2 parts), zinc powder, sodium sulfide, sodium ethoxide |
 | S05 | Chemical Force | YouTube channel | 3 | audited (N36, batch 7a — exotic-extreme genre, largely beyond hazard charter; hazard-recognition knowledge faces for Ch 28) |
 | S06 | Explosions&Fire | YouTube channel | 3 | seeded |
 | S07 | Doug's Lab | YouTube channel | 3 | gathered (N37, batch 7a — narrated lab-preparation curriculum, channel-listing level; CAND-8 literature-recipe face fired) |
 | S08 | Thompson, *Illustrated Guide to Home Chemistry Experiments* (O'Reilly 2008) | book | 1 (audit canon) | gathered (N20) |
 | S09 | Dunn, *Caveman Chemistry* (2003) | book | 1 (audit canon) | gathered (N23; metadata re-verified) |
 | S10 | *The Golden Book of Chemistry Experiments* (1960) | book | 2 (benchmark only) | gathered (N24) |
-| S11 | Thompson, Make: "Setting Up a Home Science Lab" series | web articles | 2 | gathered (N30; Parts I-II + video series still follow-ups) |
+| S11 | Thompson, Make: "Setting Up a Home Science Lab" series | web articles | 2 | gathered (N30 = Part III; Parts I-II gathered as N39 — series complete); The Home Scientist video series still a follow-up |
 | S12 | Texium, "Essential Chemicals for the Organic Lab" | web article | 3 | gathered (N29) |
 | S13 | ScienceMadness.org forum | forum | 3 | corroborator (N14/N16/N26); Keras replication extension gathered inside N28; the Hoffmann urea-route member publication registered as a possible future paper |
 | S14 | OpenStax Chemistry 2e | textbook | theory canon (verification source) | gathered (N25) |
