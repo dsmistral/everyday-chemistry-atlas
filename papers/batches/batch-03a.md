@@ -1,0 +1,43 @@
+# Batch 03a — NurdRage round 3 (gathered 2026-10-16, book session 4)
+
+Register-first: fresh web verification this session; URLs + evidence recorded; never from memory.
+
+### N14. Making Hydrazine Sulfate from Urea and Bleach — NurdRage (upload date unverified)
+- Verified URLs: https://www.youtube.com/watch?v=PCovDr4FVNQ (fresh search this session); luminol-series predecessor confirmed from the ketazine guide's own text ("I intend to use hydrazine sulfate to make Luminol in a later video", https://www.instructables.com/Make-Hydrazine-Sulfate-by-the-Hypochlorite-Ketazin/); route corroborated by ScienceMadness Wiki "Hydrazine sulfate" (10% NaOCl onto NaOH kept cold; urea + a few hundred mg gelatin; chill to 0 C; H2SO4 addition precipitates hydrazine sulfate; vacuum filter; ~50% yields quoted for both amateur routes) https://www.sciencemadness.org/smwiki/index.php/Hydrazine_sulfate; classic-procedure parallel via OrgSyn "Hydrazine Sulfate" (gelatin viscolizer, ice-cold acidification, H2SO4 precipitation) https://orgsyn.org/demo.aspx?prep=cv1p0309.
+- Verification level: content-verified (URL + route + workup confirmed via two independent procedure-level corroborations; upload date unverified — honest gap).
+- Faithful summary: hydrazine made from OTC urea + bleach by hypochlorite oxidation under cold, strongly alkaline conditions with a trace of gelatin as viscolizer/protective colloid; the solution is then chilled and acidified with sulfuric acid so hydrazine sulfate — a stable, storable salt — crystallizes out. Route sibling of N07 (ketazine process): same target, different protection strategy. The urea route needs NO ketazine intermediate: protection is a route-specific cost, not a universal requirement (route-economics input for the book).
+- Decisive moves: OTC sourcing (urea, bleach, NaOH, H2SO4) [P1]; chill-to-crystallize + vacuum filtration [P2]; acidification to precipitate the stable salt [P4]; urea-route vs ketazine-route comparison [P10].
+- Candidates: CAND-5 MISSED here — honest datum: the urea route makes hydrazine without any protective intermediate; the ketazine route (N07) pays for protection the urea route does not need.
+- Honest misses: P3, P5, P6, P7, P8, P9, P11, P12 (wiki context quotes ~50% yields for both routes — a P12 datum from the corroboration, not the video's own bookkeeping; P12 hunt stays open).
+- Feeds: book Ch 19 (nitrogen compounds), Ch 22 (luminol precursor network), Ch 34 (tech tree: two routes to one node).
+
+### N15. Make Sulfuric Acid (Copper Sulfate Electrochemical Method) — NurdRage (2009-12-25)
+- Verified URLs: https://www.youtube.com/watch?v=5dUSF9Gl0xE (archive listing gives 2009-12-25); author Instructables mirror https://www.instructables.com/Make-Sulfuric-Acid-by-Copper-Sulfate-Electrolysis/; WonderHowTo copy https://science.wonderhowto.com/how-to/make-sulfuric-acid-electrochemically-291683/.
+- Verification level: content-verified (author mirror + corroborating copy; procedure details from mirror text).
+- Faithful summary: electrolyze a copper(II) sulfate solution with an INERT anode: copper plates out at the cathode and sulfuric acid builds up in solution (CuSO4 + H2O -> Cu + H2SO4 + 1/2 O2). CuSO4 is easy to obtain from gardening stores; current is adjusted to minimize hydrogen evolution at the cathode — gas there means wasted charge. This is the REVERSE of N09's electrochemical method (Cu anode dissolving into H2SO4): together the two videos close a Cu/CuSO4/H2SO4 cycle — copper shuttles between metal and salt while the acid is made and remade.
+- Decisive moves: OTC sourcing (gardening-store CuSO4) [P1]; electrolysis as the redox engine [P5]; observable-based process control — watch the cathode for H2 and turn the current down (process-control face of instrumentless verification) [P9]; network cycle: N09 + N15 close a reversible pair, and the route needs no sulfuric-acid precursor to make sulfuric acid [P10].
+- Candidates: none new.
+- Honest misses: P2, P3, P4, P6 (concentration of the dilute product not verified this pass — flag for transcript fetch), P7, P8, P11, P12.
+- Feeds: book Ch 11 (electrochemistry — the reversible-cell lecture), Ch 14 (mineral acids), Ch 18 (copper chemistry), Ch 34 (tech-tree cycle edge).
+
+### N16. Make Nitric Acid without Sulfuric Acid by Oxalate Precipitation — NurdRage (2024-07-13)
+- Verified URLs: https://www.youtube.com/watch?v=1x8oXCBjHFY; Patreon post (2024-07-13) https://www.patreon.com/posts/make-nitric-acid-108062723; r/homechemistry discussion corroborating the route https://www.reddit.com/r/homechemistry/comments/1fmdfsl/checking_if_this_isnt_going_to_work/; ScienceMadness discussion thread on the same method generalized to sulphates ("Notes on the new NurdRage video: making sulphuric acid from sulphates and oxalic acid") https://www.sciencemadness.org/whisper/viewthread.php?tid=160390.
+- Verification level: content-verified (URL + Patreon date + procedure (300 g calcium ammonium nitrate fertilizer + oxalic acid) + two community corroborations, including a thread extending the method to sulphates).
+- Faithful summary: 300 g of calcium ammonium nitrate (fertilizer) reacts with oxalic acid: insoluble calcium oxalate precipitates, pulling the exchange and leaving nitric acid in solution; filter off the precipitate. A mineral acid is made from a fertilizer salt + a weak organic acid — no sulfuric acid, no distillation. Community extension: the same oxalate trick on sulphates for sulfuric acid (CAND-7 watch item). Oxalic-acid OTC availability (wood bleach / rust removers) to verify at next pass — honest gap.
+- Decisive moves: OTC sourcing (fertilizer nitrate) [P1]; filter off the insoluble byproduct [P2]; metathesis whose insoluble byproduct does the work [P3]; the free acid is liberated in solution by the precipitation [P4]; route economics: frees HNO3 from the H2SO4 dependency of the classic route (N03) [P10].
+- Candidates: CAND-7 — FIRED here: precipitation-driven acid liberation (the P3/P4 intersection; dossier in patterns/candidates/CAND-7.md).
+- Honest misses: P5, P6 (product concentration not verified this pass), P7, P8, P9, P11, P12.
+- Feeds: book Ch 14 (mineral acids — the no-distillation route), Ch 8 (precipitation network — insolubility as a driving force), Ch 19 (nitrates), Ch 34 (tech tree: the acid node gains a second parent).
+
+### N17. Make Iodine from Sulfuric acid and Alkali Metal Iodide — NurdRage (2009-03-28)
+- Verified URLs: https://www.youtube.com/watch?v=2F_kPXbi2D8 (archive listing gives 2009-03-28); author Instructables mirror https://www.instructables.com/How-to-Make-Iodine-from-Sulfuric-acid-and-an-Alkal/; WonderHowTo copy https://science.wonderhowto.com/how-to/make-iodine-from-sulfuric-acid-and-alkali-metal-iodide-274009/.
+- Verification level: content-verified (author mirror + corroborating copy; procedure from mirror text).
+- Faithful summary: dissolve the alkali iodide (KI/NaI) in minimal water, chill in an ice bath, and add concentrated sulfuric acid with stirring: the strong acid displaces hydrogen iodide, which the concentrated acid itself oxidizes to iodine in the same pot. Cold is kept throughout to suppress side reactions — heated, the mixture can release H2S. Route variant of N08 (HCl + H2O2 as the acid/oxidant pair): here one reagent (conc. H2SO4) plays both roles.
+- Decisive moves: OTC sourcing (alkali iodides; H2SO4 from the book's own acid network upstream) [P1]; acid displacement of HI, consumed in situ — the generated-acid face: the unstable acid is made and oxidized in the same pot, never isolated [P4 + P13]; route variant vs N08 — one-reagent-two-roles vs two-reagent split [P10].
+- Candidates: none new (P13 gains a third face: generated-unstable-acid, never isolated).
+- Honest misses: P2 (product isolation/purification not detailed in the mirror text — flag for transcript fetch), P3, P5, P6, P7, P8, P9, P11, P12. Temperature-steering note (a Ch 24 kinetics datum, no P-ID yet): the ice bath is not a purity nicety but a pathway switch — cold steers the reaction to iodine, hot steers it to H2S.
+- Feeds: book Ch 17 (halogens — route-variant lecture), Ch 14 (sulfuric acid as oxidizer), Ch 24 (kinetics — temperature as a pathway selector).
+
+**Sub-chunk census:** P1 4/4 (cumulative 17/17); P10 4/4 (11/17); P4 3/4 (7/17); P2 2/4 (9/17); P3 1/4 (2/17 — the acid-liberation firing, CAND-7); P5 1/4 (3/17); P9 1/4 (process-control face); P13 1/4 (3 firings: N01, N08, N17). P7 still 0/17 — batch 3b hunts calcination next. P12 0/4 — yield hunt still open.
+
+**Candidates:** CAND-7 opened (precipitation-driven acid liberation, N16); CAND-5 honest miss in N14 (urea route needs no protection).
