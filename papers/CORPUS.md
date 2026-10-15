@@ -7,14 +7,14 @@ Register-first rule: every fetch is fresh web verification, never from memory. V
 | S01 | NurdRage | YouTube channel | 1 (amateur-accessible synthesis from OTC precursors) | gathered (N01-N10, N15-N17, N21-N22, N26-N28); N14 reattributed to S02 at session 6 — correction in papers/batches/batch-05a.md; N07 date pinned 2010-11-11 at session 7 (batch-06a correction: UB7vwIFCnR0 is N07, no separate urea-route NurdRage video exists) |
 | S02 | NileRed / NileBlue | YouTube channel | 2 | gathered (N11-N14) |
 | S03 | Cody's Lab | YouTube channel | 2 | first entry gathered (N34 gold refining, Metal Refining & Recovery series; uranium flagship video lost — availability datum); part-1 URL pinned at session 8: OyOzfP-JAI4, 2015-12-27 |
-| S04 | Extractions&Ire | YouTube channel | 2 | audited (N31) + ALL in-scope individual videos gathered (batch 8a COMPLETE): PET-to-benzene (N35), acid pair (N40/N41), dichromates Parts 1-2 (N42 — YouTube originals removed, archive-only), sodium ethoxide (N43), zinc powder (N44), sodium sulfide (N45) |
+| S04 | Extractions&Ire | YouTube channel | 2 | audited (N31) + ALL in-scope individual videos gathered (batch 8a COMPLETE): PET-to-benzene (N35), acid pair (N40/N41), dichromates Parts 1-2 (N42 — YouTube originals removed, archive-only), sodium ethoxide (N43), zinc powder (N44), sodium sulfide (N45). Channel-identity datum (batch 8b, N48 catch): E&I is the second channel of Explosions&Fire (same author) |
 | S05 | Chemical Force | YouTube channel | 3 | audited (N36, batch 7a — exotic-extreme genre, largely beyond hazard charter; hazard-recognition knowledge faces for Ch 28) |
-| S06 | Explosions&Fire | YouTube channel | 3 | seeded |
+| S06 | Explosions&Fire | YouTube channel | 3 | audited (N48, batch 8b — audit-only under the binding line; platform-risk datum #3: E&F(1) 2011-2017 terminated after 3 community-guideline strikes in 2 hours; current channel = successor; Extractions&Ire is the author's second channel) |
 | S07 | Doug's Lab | YouTube channel | 3 | gathered (N37, batch 7a — narrated lab-preparation curriculum, channel-listing level; CAND-8 literature-recipe face fired) |
 | S08 | Thompson, *Illustrated Guide to Home Chemistry Experiments* (O'Reilly 2008) | book | 1 (audit canon) | gathered (N20) |
 | S09 | Dunn, *Caveman Chemistry* (2003) | book | 1 (audit canon) | gathered (N23; metadata re-verified) |
 | S10 | *The Golden Book of Chemistry Experiments* (1960) | book | 2 (benchmark only) | gathered (N24) |
-| S11 | Thompson, Make: "Setting Up a Home Science Lab" series | web articles | 2 | gathered (N30 = Part III; Parts I-II gathered as N39 — series complete); The Home Scientist video series still a follow-up |
+| S11 | Thompson, Make: "Setting Up a Home Science Lab" series | web articles | 2 | gathered (N30 = Part III; Parts I-II gathered as N39 — series complete); The Home Scientist video series: first entry gathered (N46 "007 - Purify hydrochloric acid", batch 8b — watch page sign-walled, description + corroborating-article level); remaining videos still follow-ups |
 | S12 | Texium, "Essential Chemicals for the Organic Lab" | web article | 3 | gathered (N29) |
 | S13 | ScienceMadness.org forum | forum | 3 | corroborator (N14/N16/N26); Keras replication extension gathered inside N28; the Hoffmann urea-route member publication registered as a possible future paper |
 | S14 | OpenStax Chemistry 2e | textbook | theory canon (verification source) | gathered (N25) |
@@ -23,10 +23,12 @@ Register-first rule: every fetch is fresh web verification, never from memory. V
 | S17 | ThoughtCo (home-chemistry how-tos) | web articles | 3 | gathered (N19) |
 | S18 | Scientific American (education activities) | web articles | 3 | gathered (N19 corroborator) |
 | S19 | Collins, *The Boy Chemist* (Lothrop, Lee & Shepard, 1924) | book | 2 (pre-1950 canon audit) | gathered (N32 — apparatus-improvisation ancestor; full TOC pin pending) |
-| S20 | Swezey, *Chemistry Magic* (McGraw-Hill, 1956) | book | 2 (demonstration-genre canon; the register's "Chemical Magic" resolves here) | gathered (N33, metadata + summary-level; TOC pin pending). Siblings as follow-ups: Ford & Grundmeier (Dover 1981); Gilbert; V. E. Johnson |
-
+| S20 | Swezey, *Chemistry Magic* (McGraw-Hill, 1956) | book | 2 (demonstration-genre canon; the register's "Chemical Magic" resolves here) | gathered (N33, metadata + summary-level; TOC pin pending — djvu full-text stream exposed session 9, extraction failed at tool level). Siblings GATHERED as N47 (batch 8b) — see S22 |
 | S21 | Periodic Videos (Brady Haran / University of Nottingham) | YouTube channel | 2 (theory support) | gathered (N38, batch 7a — metadata-verified; the 118-element video canon; theory layer companion to OpenStax) |
+| S22 | Chemical Magic siblings: Ford & Grundmeier, *Chemical Magic* (Dover 1981); V. E. Johnson, *Chemistry and Chemical Magic* | books | 3 (demonstration-genre canon) | gathered (N47, batch 8b — Ford & Grundmeier verified at archive.org/details/chemicalmagic00ford + Google Books id MKzL3WQoRh0C + Dover ISBN 9780486676289; Johnson = CC0 full scan at archive.org/details/ChemistryAndChemicalMagic, freely adaptable asset; Gilbert noted from the session-7 record, unverified) |
 
 Session-6/7 corrections (dated): N14 reattributed NurdRage -> NileRed (batch-05a); UB7vwIFCnR0 resolved as N07 with date pinned 2010-11-11 — session 6's inference of a separate NurdRage urea-route video was an overreach, refined in batch-06a (authoritative).
 
 Session-8 corrections (dated, batch-07a): tM6XsDWkqOY "How to make sulfuric acid from sulfur" is The Science Furry, NOT ChemicalForce (watch-page verified; registered as a follow-up). "Preparation of Bromine" (HuHceKvSHk0) and "08 - Make sodium chlorate (two ways)" (wXEQ5rlA8Us) are NOT Doug's Lab — attribution unverified (possibly hkparker), follow-ups.
+
+Session-9 corrections/datums (dated, batch-08a/08b): E&I dichromate originals removed by YouTube (lost-video datum #2 — archive-only at archive.org/details/extractionsire_archive); The DIY Chemist (mT586uly_lk) + Shroom Lab (6cyDSHUXDMI) + four zinc-powder videos are NOT E&I (attribution catches); Explosions&Fire(1) 2011-2017 terminated (platform-risk datum #3); Extractions&Ire = the author's second channel (N48 register-first catch). Seeded-channel program COMPLETE with N48.
