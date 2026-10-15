@@ -15,3 +15,17 @@
 **Canon findings for the authoring gate.** FINDING-A: Thompson's forensics chapter is beyond the map (optional Ch 12 section). FINDING-B1: Dunn's gunpowder chapter is constrained by the energetics binding line (Ch 27 knowledge only). FINDING-B2: nuclear chemistry absent (Ch 27 section or exclude). FINDING-C: atomic structure/electronic structure/bonding have no home chapter (weave into Ch 2/3/7 or one new Vol I chapter).
 
 **Standing honest gaps.** Transcript-level fetches deferred across batches 1-5; several upload dates unverified; CAND-7's H2SO4 face unverified; P3's video-corpus thinness is a datum, not a failure — the books own that pattern.
+
+## 2026-10-15 — Synthesis II addendum: batch 5 (N26-N31; corpus now 31 papers)
+
+**CAND-7 recurrence test PASSED.** Precipitation-driven acid liberation fired in batch 3 (N16: HNO3 from calcium ammonium nitrate + oxalic acid) and batch 5 (N28: H2SO4 from iron(II) sulfate + oxalic acid, with Keras's copper(II) sulfate replication at description level). Two different strong acids by the same move, across two batches and two independent performers -> REC-2 proposed (user gate): promote to book P14. If approved, the oxalate pair becomes a Ch 15 exemplar pair and the P3/P4 intersection gets its own named move.
+
+**Census (31 papers).** P1 28/31, P10 21/31, P2 17/31, P4 13/31, P3 5/31 (still book-heavy, but now with two field firings — N16, N28 — plus the Thompson carbonate hub N30), P6 6/31, P11 9/31, P9 6/31 (video-side under-counting stands), P5 5/31, P7 4/31, P8 4/31, P12 3/31 (resolved but thin), P13 3 firings.
+
+**Route-economics corpus deepened.** N26 vs N21 is the video corpus's first explicit A/B route comparison on the same target (waste Cu(NO3)2 -> HNO3: metathesis+distillation vs thermal decomposition). N27's bisulfate route removes the strongest-acid precursor entirely (the accessibility axis of P10). N29 (Texium) is the BUY-branch cost function made explicit — the Atlas's Tech Tree (Ch 36) generalizes its green/blue/purple/orange/red classification into edge costs on the reagent graph. N30's carbonate hub ($3 pottery BaCO3 -> $50 of salts; CuCO3 as the metathesis hub) is the strongest single P3 exemplar in the corpus.
+
+**Corpus-filter datum (N31).** Extractions&Ire splits roughly half energetic-materials content (excluded by the binding line) and half in-scope reagent-network content (acid concentration, metal compounds, PET -> benzene). The Atlas cites the channel only for in-scope items; the energetic fraction is recognition/safety context for Ch 28, not gatherable material.
+
+**Corrections.** N14 is NileRed's video (2016-02-18), not NurdRage's — batch-03a's attribution corrected in batch-05a; the chemistry and the CAND-5 honest-miss datum stand. Follow-up 0yvbJ8tE2y8 is ChemEx LK (minor channel), de-prioritized.
+
+**Standing honest gaps.** Transcript-level fetches still deferred (N22, N26-N28, including the "with the SUN" element of N28); N30's article date unpinned; Cody's Lab, Chemical Force, Doug's Lab, Periodic Videos still ungathered; pre-1950 books (*The Boy Chemist*, *Chemical Magic*) not yet audited; NurdRage urea-route hydrazine video (UB7vwIFCnR0) unverified.
