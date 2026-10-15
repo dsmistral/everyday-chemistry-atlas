@@ -1,0 +1,30 @@
+# batch-06a.md — Survey batch 6a: pre-1950-era book canon audit (session 7)
+
+Gathered 2026-10-15 (sandbox clock), register-first: all metadata freshly verified this session; verification level recorded per paper. Papers N32-N33.
+
+### N32. The Boy Chemist — A. Frederick Collins (Lothrop, Lee & Shepard, 1924)
+- Verified URL: https://archive.org/details/boychemist00coll (full-text stream: https://archive.org/stream/boychemist00coll/boychemist00coll_djvu.txt; LoC scan: https://www.loc.gov/resource/gdcmassbookdig.boychemist00coll/; Open Library 1924 edition record: https://openlibrary.org/books/OL6668412M/The_boy_chemist; xix + 300 p.)
+- Verification level reached: content-verified (chapter contents read from the full-text stream — Ch I-III verbatim; Ch IX verified from scan listings; full chapter-list TOC to pin at the next pass — honest flag)
+- Faithful summary: the 1924 home-chemistry course. Chapter I "What You Need to Experiment With" builds the entire lab: how to make a ring stand, an alcohol lamp, a Bunsen burner, a test-tube rack; how to work, cut, bend, and draw glass tubing; the beginner's chemical supply list; and home-made indicator papers (litmus, phenolphthalein, methyl orange, Congo red, sulphide test paper). Chapter II: air, combustion, rusting/oxidation, spontaneous combustion, ozone. Chapter III: making oxygen, nitrogen, and carbon dioxide at the bench, with recognition tests. Chapter IX "The Mystic Metals": how the elements are classified, the activity of the metals with a table of activities, potassium and sodium, alloys and amalgams.
+- Decisive moves: improvised apparatus as the DEFAULT starting point — the direct ancestor of our Ch 1 [P11 archetype, historical face] ; OTC-era chemical sourcing + home-made indicators [P1] ; gas generation + recognition tests [P4][P9] ; the activity-series metals treatment [P8]
+- Candidate new patterns: none
+- Honest misses: P2 (separations not evidenced at the level read — TOC pin pending), P5, P6, P7, P10, P12, P13. Era-context datum: a 1924 children's-era book casually includes mercury amalgams and phosphorus work — hazard-recognition context for Ch 28, never a procedure source
+- Feeds: Ch 1 (The Lab in a Ruined World — the apparatus-improvisation ancestor), Ch 10 (Gases), Ch 11 (Redox and Metals — historical activity-series face), Ch 22 (Indicators, Dyes, and Pigments — home-made indicator papers), Ch 28 (era-hazard context)
+
+### N33. Chemistry Magic — Kenneth M. Swezey (McGraw-Hill, 1956)
+- Verified URL: https://archive.org/details/chemistrymagic00swez (access-restricted scan; 180 p.); Open Library: https://openlibrary.org/books/OL6201039M/Chemistry_magic.; Science Education review record: https://ui.adsabs.harvard.edu/abs/1957SciEd..41R.239./abstract; community identification: https://chemistry.stackexchange.com/questions/132831/looking-for-an-old-1950s-chemical-experiments-book
+- Verification level reached: metadata-verified + summary-level content (publisher's jacket text via the AnyFlip listing: demonstrations "range all the way from how to make bakelite, rayon, and synthetic rubber to how to remove spots from your clothes"; chapters on atomic energy, paper chromatography, and sleuthing with ultraviolet light; Google Books keyword cloud). Full TOC to pin when an accessible copy is found — honest flag
+- Faithful summary: the canonical "chemical magic" book of the era — the register's planned "*Chemical Magic*" resolves to this title (community-identified). ~90+ demonstrations staged as performance tricks, each with an explanation — the demonstration/motivation genre. Content spans polymer syntheses (bakelite, rayon, synthetic rubber), atomic energy (1956!), paper chromatography, ultraviolet "sleuthing", and consumer spot-removal chemistry.
+- Decisive moves: chromatography as a home-scale separation [P2 — a face the corpus had not shown before] ; consumer-product chemistry + spot removal [P1] ; ultraviolet-based analysis "sleuthing" [P9 face]
+- Candidate new patterns: none
+- Honest misses: the demonstrations consume prepared chemicals — the genre fires no reagent-network patterns (positioning datum: the motivation layer, not the make-it layer); P3-P8, P10-P13 zero (P2/P9 as tagged)
+- Feeds: Ch 35 (Adhesives, Polymers, and Plastics — bakelite/rayon/synthetic rubber), Ch 29 (Nuclear Chemistry at Home — vintage atomic-energy chapter precedent), Ch 13 (Analysis Without Instruments — chromatography + UV sleuthing), Ch 31 (Cleaning-Product Chemistry — spot removal)
+- Notes: title correction to the register — "*Chemical Magic*" resolves to Swezey's *Chemistry Magic* (1956). Siblings registered as follow-ups: Ford & Grundmeier, *Chemical Magic* (Dover, 1981); Gilbert's *Chemical Magic* (Science History Institute copy verified); V. E. Johnson's old *Chemical Magic*.
+
+### Corrections (dated 2026-10-15, this batch; authoritative over earlier records)
+
+1. **Session-6 correction refined.** UB7vwIFCnR0 is **N07** — "Make Hydrazine Sulfate by the Hypochlorite-Ketazine Process — The Complete Guide", upload date now pinned **2010-11-11** via the archive.org NurdRage archive listing (https://archive.org/details/nurdrage-youtube-archive). It is NOT a separate urea-route video. The ScienceMadness member publication ("Synthesis of hydrazine sulfate via the Hoffmann route", http://www.sciencemadness.org/member_publications/hydrazine_sulfate_ketazine.pdf) is a community urea-route write-up that CITES NurdRage's ketazine video; session 6's batch-05a correction overreached in calling UB7vwIFCnR0 "NurdRage's own urea-route video". No separate NurdRage urea+bleach hydrazine video is verified to exist; the urea-route field entries remain NileRed's N14 (plus the de-prioritized ChemEx LK video). N07's date pin closes a session-3 deferral. The Hoffmann PDF itself is registered as a possible future forum paper (S13).
+
+### Sub-chunk census (N32-N33)
+
+P1 2/2 (30/33), P9 2/2 (8/33), P11 1/2 (10/33), P4 1/2 (14/33), P8 1/2 (5/33), P2 1/2 (18/33). Zero-firings: P3, P5, P6, P7, P10, P12, P13 — honest datum: the book canon carries P11/P8; the demonstration genre fires no network patterns (positioning, not failure).
