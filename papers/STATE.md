@@ -12,5 +12,7 @@ Protocol: one batch per session; batches split into sub-chunks of ~3 papers; eac
 | 3b | N18-N19 (P7 hunt: Primitive Technology lime cycle + SkillCult; baking-soda calcination) — P7 FIRES; P12 hunt missed again | 4 | DONE |
 | 4a | Book canon: Thompson audit table + P12 hunt RESOLVED (N21 yield 60-80%) + azeotropic HNO3 (N20-N22) | 5 | DONE |
 | 4b | Book canon: Dunn + Golden Book + OpenStax audit tables (N23-N25); FINDINGS B1/B2/C logged | 5 | DONE |
+| 5a | N26-N28 (CAND-7 watch: oxalate H2SO4 — SECOND FIRING, recurrence PASSED; Cu-nitrate recovery; bisulfate HNO3) — N14 attribution corrected to NileRed | 6 | DONE |
+| 5b | Corpus expansion: Texium (N29), Thompson Make: Chemicals on the Cheap (N30), Extractions&Ire channel audit (N31) | 6 | IN PROGRESS (this commit) |
 
-NEXT: the authoring-start proposal (user gate) before any chapter authoring — then Vol I Ch 1 (canvas per chapter). Follow-ups register lives in the survey record (SURVEY.md); mirror: knowledge/survey/SURVEY.md.
+NEXT (session 6 close): REC-2 user gate — promote CAND-7 to book P14 (recurrence test passed in batch 5). Per the session-6 authoring gate, more survey batches run before chapter authoring; batch 6 candidates: pre-1950 home-chem books (*The Boy Chemist*, *Chemical Magic*), Cody's Lab first entry, NurdRage urea-route hydrazine video (UB7vwIFCnR0), Extractions&Ire individual in-scope videos, Thompson Make: Parts I-II. Follow-ups register lives in the survey record (SURVEY.md); mirror: knowledge/survey/SURVEY.md.
