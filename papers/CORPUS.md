@@ -12,12 +12,12 @@ Register-first rule: every fetch is fresh web verification, never from memory. V
 | S06 | Explosions&Fire | YouTube channel | 3 | seeded |
 | S07 | Doug's Lab | YouTube channel | 3 | seeded |
 | S08 | Thompson, *Illustrated Guide to Home Chemistry Experiments* (O'Reilly 2008) | book | 1 (audit canon) | gathered (N20) |
-| S09 | Dunn, *Caveman Chemistry* (2003) | book | 1 (audit canon; metadata to re-verify) | seeded |
-| S10 | *The Golden Book of Chemistry Experiments* (1960) | book | 2 (benchmark only) | seeded |
+| S09 | Dunn, *Caveman Chemistry* (2003) | book | 1 (audit canon) | gathered (N23; metadata re-verified) |
+| S10 | *The Golden Book of Chemistry Experiments* (1960) | book | 2 (benchmark only) | gathered (N24) |
 | S11 | Thompson, Make: "Setting Up a Home Science Lab" series | web articles | 2 | seeded |
 | S12 | Texium, "Essential Chemicals for the Organic Lab" | web article | 3 | seeded |
 | S13 | ScienceMadness.org forum | forum | 3 | seeded (corroboration used in N14/N16) |
-| S14 | OpenStax Chemistry 2e | textbook | theory canon (verification source) | seeded |
+| S14 | OpenStax Chemistry 2e | textbook | theory canon (verification source) | gathered (N25) |
 | S15 | Primitive Technology | YouTube channel + author blog | 2 (primitive process chemistry: lime cycle) | gathered (N18) |
 | S16 | SkillCult / BuildCult | YouTube channel + blog + Instructables | 3 (primitive kilns, lime) | gathered (N18 secondary) |
 | S17 | ThoughtCo (home-chemistry how-tos) | web articles | 3 | gathered (N19) |

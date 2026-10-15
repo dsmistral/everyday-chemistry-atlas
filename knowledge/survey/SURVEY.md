@@ -4,21 +4,21 @@ Dated per-chunk entries; append, never rewrite. Pattern IDs P1..P12 refer to the
 
 ## Pattern census (firings per batch; a miss is a datum)
 
-| Pattern | B01a | B01b | B02a | B02b | B03a | B03b | B04a | Total | Note |
-|---------|------|------|------|------|------|------|------|-------|------|
+| Pattern | B01a | B01b | B02a | B02b | B03a | B03b | B04a | B04b | Total | Note |
+|---------|------|------|------|------|------|------|------|------|-------|------|
 | P1 Read the label (OTC sourcing) | 3/3 | 3/3 | 4/4 | 3/3 | 4/4 | 2/2 | 1/3 | 22 | 19/19 video corpus; +Thompson (BUY branch) in B04a — OpenStax will be the only non-firing source |
-| P2 Separation train | 0/3 | 1/3 | 3/4 | 3/3 | 2/4 | 0/2 | 3/3 | 14 | strong in book canon: Thompson separation curriculum; distillation in both acid papers |
-| P3 Metathesis-precipitation | 0/3 | 1/3 | 0/4 | 0/3 | 1/4 | 0/2 | 0/3 | 2 |  |
-| P4 Acid-base liberation | 2/3 | 1/3 | 1/4 | 0/3 | 3/4 | 0/2 | 0/3 | 7 |  |
-| P5 Electricity as reagent | 0/3 | 0/3 | 2/4 | 0/3 | 1/4 | 0/2 | 1/3 | 4 | Thompson electrolytic H2/O2 |
-| P6 Concentration ladder | 3/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 4 | B04a exemplar: azeotropic HNO3 ladder (dilute -> 68% azeotrope -> fuming via drying agents) |
-| P7 Thermal decomposition | 0/3 | 0/3 | 0/4 | 0/3 | 0/4 | 2/2 | 1/3 | 3 | fires again in the video corpus: Cu(NO3)2 -> HNO3 (N21) |
-| P8 Redox smelting/displacement | 0/3 | 1/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1 | |
-| P9 Instrumentless verification | 1/3 | 0/3 | 0/4 | 0/3 | 1/4 | 2/2 | 1/3 | 5 | Thompson qual+quant analysis chapters = the verification curriculum |
-| P10 Route economics | 1/3 | 1/3 | 3/4 | 2/3 | 4/4 | 0/2 | 3/3 | 14 | Thompson synthesis routes; N21 recycling; N22 concentrate-vs-make |
-| P11 Apparatus improvisation | 2/3 | 1/3 | 1/4 | 1/3 | 0/4 | 2/2 | 0/3 | 7 | Thompson uses proper purchased gear — honest contrast datum |
-| P12 Yield bookkeeping | 1/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 2 | HUNT RESOLVED: N21 states its own 60-80% yield (transcript-level, flagged) |
-| P13 In-situ redox generation | 1/3 | 0/3 | 1/4 | 0/3 | 1/4 | 0/2 | 0/3 | 3 |  |
+| P2 Separation train | 0/3 | 1/3 | 3/4 | 3/3 | 2/4 | 0/2 | 3/3 | 2/3 | 14 | separation is both curriculum (Thompson) and practice (distillation/filtration in most routes) |
+| P3 Metathesis-precipitation | 0/3 | 1/3 | 0/4 | 0/3 | 1/4 | 0/2 | 0/3 | 1/3 | 3 | rare in the video corpus (2/19); carried by book canon (Dunn metathesis project) + the oxalate acid firing — honest split: field-light, curriculum-heavy |
+| P4 Acid-base liberation | 2/3 | 1/3 | 1/4 | 0/3 | 3/4 | 0/2 | 0/3 | 2/3 | 9 | Dunn acid project; Golden Book gas/salt making |
+| P5 Electricity as reagent | 0/3 | 0/3 | 2/4 | 0/3 | 1/4 | 0/2 | 1/3 | 1/3 | 5 | CuSO4 electrochemical; KClO3 cell; electrochemical H2SO4; Thompson electrolysis; Dunn batteries/electrochemicals |
+| P6 Concentration ladder | 3/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 1/3 | 5 | B04a exemplar: azeotropic HNO3 (dilute -> 68% -> fuming); Dunn alcohol distillation |
+| P7 Thermal decomposition | 0/3 | 0/3 | 0/4 | 0/3 | 0/4 | 2/2 | 1/3 | 1/3 | 4 | lime cycle (N18) + baking soda (N19) + copper nitrate -> HNO3 (N21) + Dunn lime project (N23) |
+| P8 Redox smelting/displacement | 0/3 | 1/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 2/3 | 4 | sodium thermite; Thompson copper smelting; Dunn metals; Golden Book metals |
+| P9 Instrumentless verification | 1/3 | 0/3 | 0/4 | 0/3 | 1/4 | 2/2 | 1/3 | 1/3 | 6 | faces: process control (N15), end-use (N18), mass loss (N19), flame/protein/sugar tests (N24), qual/quant curriculum (N20) |
+| P10 Route economics | 1/3 | 1/3 | 3/4 | 2/3 | 4/4 | 0/2 | 3/3 | 1/3 | 15 | exemplars: CuSO4 3-way; N09+N15 cycle; urea-vs-ketazine; Leblanc-vs-Solvay (Dunn); recycling (N21) |
+| P11 Apparatus improvisation | 2/3 | 1/3 | 1/4 | 1/3 | 0/4 | 2/2 | 0/3 | 2/3 | 9 | improvised kilns; oven as furnace; Dunn whole book; Golden Book apparatus-making; contrast: Thompson uses purchased gear |
+| P12 Yield bookkeeping | 1/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 1/3 | 3 | HUNT RESOLVED: N21 states its own 60-80% yield (transcript-level); Dunn stoichiometry project carries book-canon bookkeeping |
+| P13 In-situ redox generation | 1/3 | 0/3 | 1/4 | 0/3 | 1/4 | 0/2 | 0/3 | 0/3 | 3 | promoted REC-1; three faces: dissolved-gas, dissolved-ion, generated-unstable-acid |
 
 ## Dated chunk entries
 
@@ -94,6 +94,17 @@ Clock note: sandbox clock reads 2026-10-15 UTC; session-log chronology follows s
 - **N22** NurdRage "Nitric Acid Concentration and Purification (Azeotropic and Fuming)" — dilute HNO3 -> ~68% azeotrope by fractional distillation -> fuming via drying agents. Moves: **P6 archetype**, P2, P10 (concentrate-vs-make). Feeds Ch 14, 5, 19. Verification: metadata + description-level (procedure from the video description; transcript fetch flagged).
 
 **Sub-chunk census:** P10 3/3 (14/25), P2 3/3 (14/25), P6 1/3 (4/25), P7 1/3 (3/25), P12 1/3 (2/25), P1 1/3 (22/25), P5 1/3 (4/25), P8 1/3 (2/25), P9 1/3 (5/25). P3, P4, P11, P13 zero (P11 miss is a canon contrast datum: Thompson uses proper purchased gear).
+
+**Correction (2026-10-15, dated):** the batch-04a intermediate census (the committed batch-04a.md census line and the B04a-only table state) mis-stated two running totals: P1 was written as 22 at 22 papers (correct intermediate: 20/22) and P2 as 14 (correct: 12/22). The committed batch file stays as-is (extend, never rewrite); the consolidated B04b table above is authoritative: P1 22/25, P2 14/25.
+
+### 2026-10-15 — Batch 04b (book canon II: Dunn + Golden Book + OpenStax), sub-chunk commit
+
+Papers gathered (register-first, URLs + evidence in `papers/batches/batch-04b.md`):
+- **N23** Dunn, *Caveman Chemistry* (2003, ISBN 1-58112-566-6) — metadata re-verified (canon-register flag RESOLVED); complete 28-project list verified from the author's site + two mirrors. The book is our P-index in book form: make everything from nature with improvised apparatus. Moves: P1 (nature face), P2, P3 (Adam metathesis), P4, P5 (Volta/Dow), P6 (alcohol distillation), P7 (Vitruvius lime — book-canon corroboration of N18), P8 (Vulcan metals), P10 (**Leblanc vs Solvay — the historical route-economics exemplar**), P11, P12 (al-Razi stoichiometry). FINDING-B1: Dunn Ch 17 (Gunpowder) — energetics binding line applies: history/hazard context to Ch 27 only, no procedures. Feeds Ch 13, 18-22, 28-33. Verification: content-verified.
+- **N24** Brent, *The Golden Book of Chemistry Experiments* (1960, Western Publishing) — contents-page + topic list verified from scans/mirrors; benchmark-only per charter. Moves: P1, P2, P4, P8 (metals), P9 (flame test + protein/sugar tests), P11 ("Making Apparatus for Experiments"). Feeds Ch 1-3, 7-12, 18, 20-22, 29-33 (ambition model + density benchmark). Verification: content-verified (per-chapter page TOC to pin at next pass).
+- **N25** OpenStax *Chemistry 2e* (2019, CC BY-NC-SA) — the theory canon; 21 chapters verified. Honest zero-firing datum: theory canon, not field practice — its role is the theory-coverage check. **FINDING-B2:** nuclear chemistry (OpenStax ch 21) absent from our 34-chapter map -> propose a Ch 27 hazard/detection section or explicit exclusion (user gate). **FINDING-C:** atomic structure/electronic structure/bonding (OpenStax ch 2, 6-8) have no dedicated home chapter -> propose weaving into Ch 2/3/7 or one new Vol I chapter (user gate).
+
+**Session-5 census (batch 4a+b: N20-N25; corpus now 25 papers):** P1 22/25 (OpenStax the only miss, by design), P10 15/25, P2 14/25, P4 9/25, P11 9/25, P9 6/25, P5 5/25, P6 5/25, P7 4/25, P8 4/25, P13 3/25 (three faces), P12 3/25 (HUNT RESOLVED), P3 3/25 (field-light, curriculum-heavy — honest split). First ANALYSIS.md synthesis written this session (papers/ANALYSIS.md).
 
 ## Candidate patterns (recurrence test: promote on firing across >= 2 batches)
 
