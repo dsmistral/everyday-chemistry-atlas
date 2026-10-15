@@ -29,3 +29,17 @@
 **Corrections.** N14 is NileRed's video (2016-02-18), not NurdRage's — batch-03a's attribution corrected in batch-05a; the chemistry and the CAND-5 honest-miss datum stand. Follow-up 0yvbJ8tE2y8 is ChemEx LK (minor channel), de-prioritized.
 
 **Standing honest gaps.** Transcript-level fetches still deferred (N22, N26-N28, including the "with the SUN" element of N28); N30's article date unpinned; Cody's Lab, Chemical Force, Doug's Lab, Periodic Videos still ungathered; pre-1950 books (*The Boy Chemist*, *Chemical Magic*) not yet audited; NurdRage urea-route hydrazine video (UB7vwIFCnR0) unverified.
+
+## 2026-10-15 — Synthesis III addendum: batch 6 (N32-N35; corpus now 35 papers)
+
+**The vintage layer maps cleanly.** The Boy Chemist (1924) is the improvised-apparatus ancestor: its Chapter I builds the lab from scratch (ring stand, alcohol lamp, Bunsen burner, glass-working) exactly where our Ch 1 sits, its Ch IX activity-series metals treatment is a historical face of P8, and its home-made indicator papers antedate our Ch 22. Swezey's Chemistry Magic (1956) is the demonstration/motivation genre: it consumes prepared chemicals and fires no reagent-network patterns, but contributes two faces the corpus had not shown — chromatography as a home-scale separation (P2) and UV "sleuthing" (P9) — and its atomic-energy chapter is a vintage precedent for the new Ch 29. The register's "*Chemical Magic*" resolves to Swezey's *Chemistry Magic* (community-identified); Ford's Dover book and the older trick books stay follow-ups.
+
+**The field's archives rot.** Cody's Lab's flagship uranium-from-ore video is unobtainable: the original was deleted, and the reupload was removed following a copyright removal request by the author himself (watch-page notice read this session). The archive.org mirrors (NurdRage, NileRed, Extractions&Ire) are not conveniences — they are the only stable citations the field has. The Atlas pins mirror + archive wherever they exist.
+
+**Honest failure is rare and precious.** Extractions&Ire's PET-to-benzene series documents a multi-step route attempt that failed ("that wasn't really from using a PET method") — the clearest field example yet of the failure-documentation habit our P12 teaching wants to instill.
+
+**Corrections.** UB7vwIFCnR0 is N07 (the ketazine video; date pinned 2010-11-11 via archive.org); there is no separate NurdRage urea-route hydrazine video; session 6's correction overreached and is refined in batch-06a (authoritative): the ScienceMadness Hoffmann PDF is a community urea-route write-up citing N07.
+
+**Census (35 papers).** P1 32/35, P10 23/35, P2 20/35, P4 14/35, P9 8/35, P11 10/35, P8 6/35, P6 6/35, P3 5/35, P5 5/35, P7 4/35, P12 3/35, P13 3 firings.
+
+**Standing honest gaps.** N32 full TOC pin; N33 accessible-copy TOC pin; N34 part-1 URL pin + precipitation-reagent evidence; N35 episode 1-2 URL pins; transcript fetches for N22/N26/N28; the remaining seeded channels (Chemical Force, Doug's Lab, Periodic Videos); Ford/Gilbert/Johnson magic-book siblings.
