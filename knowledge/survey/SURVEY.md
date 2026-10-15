@@ -61,7 +61,9 @@ Papers gathered (register-first, URLs + evidence in `papers/batches/batch-02b.md
 - **N12** Turning Plastic Gloves Into Hot Sauce — NileRed (2022-02-26). Artificial hot sauce from nitrile gloves + vanilla-derived ingredients; the genre's theatrical OTC-sourcing exemplar. Moves: P1, P10. Feeds Ch 32, 34 (motivation exemplar). Verification: metadata-verified (X post + reactor video credit + subreddit); chemistry details flagged for transcript-level fetch.
 - **N13** How to Extract Limonene from Orange Peels — NileRed (2015). Steam distillation: peel oil co-distills with water vapor below 100 °C; immiscible oil separates. Moves: P1, P2, P11 + **CAND-6 fired** (carrier/steam distillation). Feeds Ch 5, 31. Corroborated by RSC class experiment (parallel procedure).
 
-**Batch 2 census (a+b):** P1 7/7 (cumulative 13/13); P2 6/7; P10 5/7; P5 2/7; P7 remains 0/14 papers — batch 3 must include a calcination/thermal-decomposition source; P12 weak (1 firing) — prioritize a yield-focused source.
+**Batch 2 census (a+b):** P1 7/7 (cumulative 13/13); P2 6/7; P10 5/7; P5 2/7; P7 remains 0/13 papers — batch 3 must include a calcination/thermal-decomposition source; P12 weak (1 firing) — prioritize a yield-focused source.
+
+**Correction (2026-10-16, dated):** the batch-02b.md census line says "P7 zero across 14 papers" — the correct count is 13 papers (6 in batch 1 + 7 in batch 2). The committed batch file stays as-is (extend, never rewrite); this correction is authoritative.
 
 **Promotion recommendation (pending user approval):** **REC-1: promote CAND-1 to the book P-index as P13 "In-situ redox generation"** (generalized: generate the reactive species in the pot from OTC reagents and oxidize/consume it in solution, never handling bulk material). Faces: dissolved-gas route (SO2 → H2SO4, N01) and dissolved-ion route (iodide → I2, N08). Fired across B01a + B02a (recurrence test passed).
 
@@ -84,5 +86,5 @@ Papers gathered (register-first, URLs + evidence in `papers/batches/batch-02b.md
 - NurdRage sodium original thermite video + improved-process response video (channel attribution to verify).
 - NurdRage "Making 3-Nitrophthalic Acid" (https://www.youtube.com/watch?v=ridu6XIDb4I, attribution to verify) — luminol precursor, first-class paper.
 - Pin YouTube URL for NileRed caffeine-from-coffee video (N11); transcript-level fetch for N12 (gloves→hot sauce chemistry).
-- **P7 hunt (zero firings after 14 papers):** register a calcination/thermal-decomposition source in batch 3 (candidates: Cody's Lab lime/calcination videos; NurdRage thermal-decomposition videos).
+- **P7 hunt (zero firings after 13 papers):** register a calcination/thermal-decomposition source in batch 3 (candidates: Cody's Lab lime/calcination videos; NurdRage thermal-decomposition videos).
 - **P12 hunt:** register a yield-focused source (gold-refining-forum-style stoichiometry threads or a NurdRage "revisited" video with yield numbers).
