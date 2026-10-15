@@ -102,13 +102,12 @@ Status key: `planned` → `in-progress` → `drafted` → `reviewed` → `publis
 | # | Date | Session | State | Outcome |
 |---|------|---------|-------|---------|
 | 1 | 2026-10-15 | Bootstrap | DONE | Topic + PROJECT.md created; P-index v0 (12 patterns); chapter map (34 ch/5 vols after energetics resolution); canon register; backup repo BLOCKED (user creating `everyday-chemistry-atlas`); Phase 1 gate PASSED (scope approved as mapped, no adjustments); survey-first sequencing decided; energetics resolved as Vol III Ch 27 hazard-recognition chapter, synthesis procedures excluded |
-| 2 | 2026-10-15 | Repo mirror bootstrap + Survey batch 1 (NurdRage corpus) | IN PROGRESS | Repo detected; mirror push pending; sibling survey topic to be created; gather sub-chunks (3 papers each, own commits) |
+| 2 | 2026-10-15 | Repo mirror bootstrap + Survey batch 1 (NurdRage corpus) | DONE | Mirror live at dsmistral/everyday-chemistry-atlas (cold-start README, record mirrors, papers/ skeleton, 3 commits); sibling topic `everyday-chem-survey` created (KNOWLEDGE.md + SURVEY.md); batch 1 gathered register-first: 6 NurdRage papers (acid family, sodium, chlorate, luminol), all metadata/content-verified with honest gaps flagged; census: P1 6/6, P5/P7 zero-firing (batch 2 tests both); candidates CAND-1..4 opened, none promotable yet (need >= 2 batches) |
 
 ### Standing to-do
-- [ ] NEXT UNIT (survey-first): first survey gather batch — create sibling Knowledge topic `everyday-chem-survey` + `papers/` corpus (NurdRage corpus first). If the backup repo is not yet created, keep batch records in the sibling topic and mirror to the repo on availability.
+- [ ] NEXT UNIT: survey batch 2 — sub-chunk 2a: NurdRage hydrazine from bleach; iodine from iodide + HCl + H2O2 (CAND-1 recurrence test); copper sulfate three ways; chlorate by electrolysis (P5 test). Sub-chunk 2b: first NileRed entries. Then propose the authoring-start gate (after corpus priority-1 coverage: NurdRage core + Thompson/Dunn/Golden Book audit tables).
 - [ ] Canon-coverage audit tables: Thompson vs Dunn vs Golden Book vs OpenStax, per chapter, before Vol I authoring.
-- [ ] Backup repo (user action IN PROGRESS, decided 2026-10-15): user creates private repo `everyday-chemistry-atlas` and installs the Vibe GitHub app; first push then mirrors this record + survey corpus. GitHub app cannot create repos itself (403 personal, 404 org); `dsmistral/cgt-atlas-backup` belongs to the CGT project and must NOT be reused.
-- [ ] Verify Dunn and Golden Book bibliographic metadata fresh at first survey batch (register-first rule).
+- [ ] Survey deferrals (see everyday-chem-survey): transcript-level fetches; N05/N06 video dates; sequel-video channel attributions; follow-ups register (oxalate + bisulfate nitric-acid variants, sodium thermite originals, luminol precursors as first-class papers).
 - [ ] Reagent-network data model for Ch. 33 (nodes=chemicals, edges=syntheses, edge costs per P10) — design during Vol II.
 
 ### Quality checklist (per chapter, from the skill's gates)
