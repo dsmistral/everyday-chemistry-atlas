@@ -10,7 +10,7 @@ Protocol: one batch per session; batches split into sub-chunks of ~3 papers; eac
 | 2b | N11-N13 (NileRed: caffeine; gloves->hot sauce; limonene) | 3 | DONE |
 | 3a | N14-N17 (NurdRage round 3: hydrazine urea route; electrochemical H2SO4; oxalate HNO3; iodine from H2SO4) | 4 | DONE |
 | 3b | N18-N19 (P7 hunt: Primitive Technology lime cycle + SkillCult; baking-soda calcination) — P7 FIRES; P12 hunt missed again | 4 | DONE |
-| 4a | Book canon: Thompson audit tables (OTC sourcing + lab technique per chapter) + P12 yield-hunt target | 5 | NEXT |
+| 4a | Book canon: Thompson audit table + P12 hunt RESOLVED (N21 yield 60-80%) + azeotropic HNO3 (N20-N22) | 5 | DONE |
 | 4b | Book canon: Dunn + Golden Book audit tables + OpenStax theory-coverage check | 5 | NEXT |
 
 After 4a/4b: the authoring-start proposal (user gate) before any chapter authoring. Follow-ups register lives in the survey record (SURVEY.md); mirror: knowledge/survey/SURVEY.md.

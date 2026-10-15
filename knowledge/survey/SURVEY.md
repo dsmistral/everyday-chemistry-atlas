@@ -4,21 +4,21 @@ Dated per-chunk entries; append, never rewrite. Pattern IDs P1..P12 refer to the
 
 ## Pattern census (firings per batch; a miss is a datum)
 
-| Pattern | B01a | B01b | B02a | B02b | B03a | B03b | Total | Note |
-|---------|------|------|------|------|------|------|-------|------|
-| P1 Read the label (OTC sourcing) | 3/3 | 3/3 | 4/4 | 3/3 | 4/4 | 2/2 | 19 | 19/19 across batches 1-3: load-bearing as designed |
-| P2 Separation train | 0/3 | 1/3 | 3/4 | 3/3 | 2/4 | 0/2 | 9 | filter+sublime (iodine); solvent extraction (caffeine); steam distillation (limonene); crystallization everywhere |
-| P3 Metathesis-precipitation | 0/3 | 1/3 | 0/4 | 0/3 | 1/4 | 0/2 | 2 | KClO3; NEW in B03a: oxalate HNO3 — precipitation drives ACID liberation (CAND-7) |
-| P4 Acid-base liberation | 2/3 | 1/3 | 1/4 | 0/3 | 3/4 | 0/2 | 7 | hydrazine sulfate precipitation; HI displacement (N17) |
-| P5 Electricity as reagent | 0/3 | 0/3 | 2/4 | 0/3 | 1/4 | 0/2 | 3 | CuSO4 electrochemical method; KClO3 cell; electrochemical H2SO4 (N15) |
-| P6 Concentration ladder | 3/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 3 | all from B01a acid family |
-| P7 Thermal decomposition | 0/3 | 0/3 | 0/4 | 0/3 | 0/4 | 2/2 | 2 | FIRES in B03b after 17 misses: lime cycle archetype (N18) + kitchen face NaHCO3->Na2CO3 (N19) |
+| Pattern | B01a | B01b | B02a | B02b | B03a | B03b | B04a | Total | Note |
+|---------|------|------|------|------|------|------|------|-------|------|
+| P1 Read the label (OTC sourcing) | 3/3 | 3/3 | 4/4 | 3/3 | 4/4 | 2/2 | 1/3 | 22 | 19/19 video corpus; +Thompson (BUY branch) in B04a — OpenStax will be the only non-firing source |
+| P2 Separation train | 0/3 | 1/3 | 3/4 | 3/3 | 2/4 | 0/2 | 3/3 | 14 | strong in book canon: Thompson separation curriculum; distillation in both acid papers |
+| P3 Metathesis-precipitation | 0/3 | 1/3 | 0/4 | 0/3 | 1/4 | 0/2 | 0/3 | 2 |  |
+| P4 Acid-base liberation | 2/3 | 1/3 | 1/4 | 0/3 | 3/4 | 0/2 | 0/3 | 7 |  |
+| P5 Electricity as reagent | 0/3 | 0/3 | 2/4 | 0/3 | 1/4 | 0/2 | 1/3 | 4 | Thompson electrolytic H2/O2 |
+| P6 Concentration ladder | 3/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 4 | B04a exemplar: azeotropic HNO3 ladder (dilute -> 68% azeotrope -> fuming via drying agents) |
+| P7 Thermal decomposition | 0/3 | 0/3 | 0/4 | 0/3 | 0/4 | 2/2 | 1/3 | 3 | fires again in the video corpus: Cu(NO3)2 -> HNO3 (N21) |
 | P8 Redox smelting/displacement | 0/3 | 1/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1 | |
-| P9 Instrumentless verification | 1/3 | 0/3 | 0/4 | 0/3 | 1/4 | 2/2 | 4 | under-counted generally; faces: process control (N15), end-use performance (N18), mass loss (N19 — single-source, flag) |
-| P10 Route economics | 1/3 | 1/3 | 3/4 | 2/3 | 4/4 | 0/2 | 11 | CuSO4 3-way exemplar; N09+N15 reversible cycle; urea-vs-ketazine hydrazine comparison |
-| P11 Apparatus improvisation | 2/3 | 1/3 | 1/4 | 1/3 | 0/4 | 2/2 | 7 | chlorate cell; steam-distillation setup; improvised kilns (N18); oven as calcining furnace (N19) |
-| P12 Yield bookkeeping | 1/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1 | hunt MISSED across batches 2-3; stays open with sharper targets (azeotropic-HNO3 post, Thompson yield tables, refining forums) |
-| P13 In-situ redox generation | 1/3 | 0/3 | 1/4 | 0/3 | 1/4 | 0/2 | 3 | promoted from CAND-1 (REC-1); firings N01, N08, N17; three faces: dissolved-gas, dissolved-ion, generated-unstable-acid |
+| P9 Instrumentless verification | 1/3 | 0/3 | 0/4 | 0/3 | 1/4 | 2/2 | 1/3 | 5 | Thompson qual+quant analysis chapters = the verification curriculum |
+| P10 Route economics | 1/3 | 1/3 | 3/4 | 2/3 | 4/4 | 0/2 | 3/3 | 14 | Thompson synthesis routes; N21 recycling; N22 concentrate-vs-make |
+| P11 Apparatus improvisation | 2/3 | 1/3 | 1/4 | 1/3 | 0/4 | 2/2 | 0/3 | 7 | Thompson uses proper purchased gear — honest contrast datum |
+| P12 Yield bookkeeping | 1/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 2 | HUNT RESOLVED: N21 states its own 60-80% yield (transcript-level, flagged) |
+| P13 In-situ redox generation | 1/3 | 0/3 | 1/4 | 0/3 | 1/4 | 0/2 | 0/3 | 3 |  |
 
 ## Dated chunk entries
 
@@ -86,6 +86,15 @@ Papers gathered (register-first, URLs + evidence in `papers/batches/batch-03b.md
 
 **Batch 3 census (a+b, 6 papers):** P1 6/6 (19/19); **P7 2/6 — FIRES at last** (2/19; archetype N18, kitchen face N19); P10 4/6 (11/19); P4 3/6 (7/19); P9 3/6 (4/19); P2 2/6 (9/19); P5 1/6 (3/19); P3 1/6 (2/19 — CAND-7); P11 2/6 (7/19); P13 1/6 (3 firings, three faces); P6 3/19, P8 1/19; **P12 0/6 — hunt missed again; stays open** into the book-canon batches with sharper targets.
 
+### 2026-10-15 — Batch 04a (book canon I: Thompson audit + P12 hunt), sub-chunk commit
+
+Clock note: sandbox clock reads 2026-10-15 UTC; session-log chronology follows session numbers (see PROJECT.md row 5). Papers gathered (register-first, URLs + evidence in `papers/batches/batch-04a.md`):
+- **N20** Thompson, *Illustrated Guide to Home Chemistry Experiments* (O'Reilly 2008, ISBN 9780596514921) — the modern home-lab technique curriculum: 17 hands-on chapters verified from the publisher TOC. Moves: P1 (BUY-branch sourcing), P2, P5 (electrolytic H2/O2), P8 (copper smelting from self-made ore), P9 (qual/quant analysis curriculum), P10. Canon audit table written: anchors our Vol I Ch 1-12 nearly one-to-one; Vol II reagent network beyond his coverage (his model is BUY, ours MAKE) — the Atlas's differentiator. FINDING-A: his Forensic Chemistry chapter is beyond our map (optional Ch 12 section, user gate). Feeds Ch 1-12, 30. Verification: content-verified.
+- **N21** NurdRage "Make Nitric Acid by Thermal Decomposition of Copper Nitrate" (circa 2020-11) — recycle copper nitrate waste to nitric acid by thermal decomposition (exploits residual hydration; basic copper nitrate + HNO3 form directly, then NO2 absorption). Moves: **P7 (third firing — first in the video corpus)**, **P12 — HUNT RESOLVED: the source states its own yield (60-80%, transcript-level, flagged)**, P10 (acid AND copper recovered), P2. Feeds Ch 14, 19, 34, 6. Verification: content-verified (YouTube + filmot transcript + reddit thread).
+- **N22** NurdRage "Nitric Acid Concentration and Purification (Azeotropic and Fuming)" — dilute HNO3 -> ~68% azeotrope by fractional distillation -> fuming via drying agents. Moves: **P6 archetype**, P2, P10 (concentrate-vs-make). Feeds Ch 14, 5, 19. Verification: metadata + description-level (procedure from the video description; transcript fetch flagged).
+
+**Sub-chunk census:** P10 3/3 (14/25), P2 3/3 (14/25), P6 1/3 (4/25), P7 1/3 (3/25), P12 1/3 (2/25), P1 1/3 (22/25), P5 1/3 (4/25), P8 1/3 (2/25), P9 1/3 (5/25). P3, P4, P11, P13 zero (P11 miss is a canon contrast datum: Thompson uses proper purchased gear).
+
 ## Candidate patterns (recurrence test: promote on firing across >= 2 batches)
 
 - **CAND-1 In-situ redox generation.** Generate the reactive species in the pot from OTC reagents and oxidize/consume it in solution, never handling bulk material. Fired: B01a N01 (dissolved-gas: SO2 → H2SO4), B02a N08 (dissolved-ion: iodide → I2). **PROMOTED: user approved REC-1 on 2026-10-16 → book P13.**
@@ -107,7 +116,8 @@ Papers gathered (register-first, URLs + evidence in `papers/batches/batch-03b.md
 - NurdRage "Making 3-Nitrophthalic Acid" (https://www.youtube.com/watch?v=ridu6XIDb4I, attribution to verify) — luminol precursor, first-class paper.
 - Pin YouTube URL for NileRed caffeine-from-coffee video (N11); transcript-level fetch for N12 (gloves→hot sauce chemistry).
 - **P7 hunt: RESOLVED in batch 3b** — N18 (Primitive Technology lime cycle + SkillCult) + N19 (baking-soda calcination) both fire P7. Cody's Lab lime video did not surface in fresh searches; optional corroboration at a later pass.
-- NurdRage "Azeotropic and Fuming Nitric Acid Concentration and Purification" (Patreon, https://www.patreon.com/NurdRage/posts/azeotropic-and-43344027) — P6 face + likely concentration/yield numbers: a P12-hunt target.
+- NurdRage "Azeotropic and Fuming Nitric Acid Concentration and Purification" (https://www.youtube.com/watch?v=88gbfCnrV8o) — GATHERED: N22 (batch 4a); P6 archetype.
+- NurdRage "Efficiently Recover Nitric Acid and Copper Metal From Copper Nitrate Wastes" (https://www.youtube.com/watch?v=l8uQWibpRYk, X post 2020-11-22) — sibling video of N21; gather at next NurdRage pass.
 - ScienceMadness thread "making sulphuric acid from sulphates and oxalic acid" (https://www.sciencemadness.org/whisper/viewthread.php?tid=160390) — possible CAND-7 second face (H2SO4); gather as a paper if it holds up.
 - NileRed hydrazine-from-urea video (https://www.youtube.com/watch?v=0yvbJ8tE2y8) — urea-route variant by the second priority channel (noted in ScienceMadness Wiki); gather at the next NileRed pass.
-- **P12 hunt:** register a yield-focused source (gold-refining-forum-style stoichiometry threads or a NurdRage "revisited" video with yield numbers).
+- **P12 hunt: RESOLVED in batch 4a** — N21 states its own yield (60-80%); Dunn's Stoichiometry project (N23, batch 4b) adds book-canon yield bookkeeping.
