@@ -69,7 +69,7 @@ Papers gathered (register-first, URLs + evidence in `papers/batches/batch-02b.md
 
 ## Candidate patterns (recurrence test: promote on firing across >= 2 batches)
 
-- **CAND-1 In-situ redox generation.** Generate the reactive species in the pot from OTC reagents and oxidize/consume it in solution, never handling bulk material. Fired: B01a N01 (dissolved-gas: SO2 → H2SO4), B02a N08 (dissolved-ion: iodide → I2). **REC-1: promotion to book P-index as P13 recommended, pending user approval.**
+- **CAND-1 In-situ redox generation.** Generate the reactive species in the pot from OTC reagents and oxidize/consume it in solution, never handling bulk material. Fired: B01a N01 (dissolved-gas: SO2 → H2SO4), B02a N08 (dissolved-ion: iodide → I2). **PROMOTED: user approved REC-1 on 2026-10-16 → book P13.**
 - **CAND-2 Disproportionation upgrade.** Heat-driven self-redex converts a weak OTC oxidant into a stronger one (hypochlorite → chlorate). Fired: B01b N05. Watch: further cascades (chlorate → perchlorate references).
 - **CAND-3 Protective medium + selective dissolution.** Isolate a reactive product under a liquid barrier, then separate from slag by selective solvent. Fired: B01b N04. Watch: r/NurdRage ethanol-extraction-of-chlorate advice (community corroboration, not yet a registered paper).
 - **CAND-4 High-boiling solvent at atmospheric pressure.** Fired: B01b N06. Watch: Ch 22 sources (soap/ester syntheses).
