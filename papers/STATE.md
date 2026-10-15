@@ -5,8 +5,8 @@ Protocol: one batch per session; batches split into sub-chunks of ~3 papers; eac
 | Chunk | Papers | Session | Status |
 |-------|--------|---------|--------|
 | 1a | N01-N03 (NurdRage acid family) | 2 | DONE |
-| 1b | N04-N06 (NurdRage: sodium metal; KClO3 from bleach; luminol) | 2 | NEXT (same session, own commit) |
-| 2a | NurdRage: hydrazine from bleach; iodine from iodide + HCl + H2O2; copper sulfate three ways | TBD | NEXT |
+| 1b | N04-N06 (NurdRage: sodium metal; KClO3 from bleach; luminol) | 2 | DONE |
+| 2a | NurdRage: hydrazine from bleach; iodine from iodide + HCl + H2O2; copper sulfate three ways; chlorate by electrolysis (tests P5) | TBD | NEXT |
 | 2b | NileRed first entries (OTC extraction focus) | TBD | NEXT |
 
 Follow-ups register lives in the survey record (SURVEY.md); mirror: knowledge/survey/SURVEY.md.

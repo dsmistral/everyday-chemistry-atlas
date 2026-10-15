@@ -30,6 +30,20 @@ Papers gathered (register-first, URLs + evidence in `papers/batches/batch-01a.md
 
 Verification levels: N01 content-verified (author Instructables mirror + archive.org date); N02 metadata-verified + corroborated; N03 content-verified via author mirror (first-two-routes split flagged for transcript fetch). Zero-firing so far: P5, P7 (single-batch datum, not a verdict).
 
+### 2026-10-15 — Batch 01b (NurdRage: sodium, chlorate, luminol), sub-chunk commit B
+
+Papers gathered (register-first, URLs + evidence in `papers/batches/batch-01b.md`):
+- **N04** Making Sodium Metal (thermite→dioxane approach; menthol/oil refinement), NurdRage (circa 2019-02). 2Mg + 2NaOH → 2MgO + 2Na + H2 below Na's boiling point, in mineral oil with menthol catalyst; Na isolated from MgO slag by phase separation/dioxane. Corroborated: Hackaday (2019-02-26), ScienceMadness wiki "Thermochemical dioxane approach" (named for NurdRage), Chemistry StackExchange recipe. Moves: P1, P8, P11 + **CAND-3 fired**. Feeds Ch 18, 13. Misses: P3, P5, P7.
+- **N05** Make Potassium Chlorate from Bleach, NurdRage (date unverified). Boil NaOCl → 3NaClO → 2NaCl + NaClO3 (heat-driven disproportionation only); KCl (salt substitute) metathesis → KClO3 crystallizes. Corroborated: author Instructables mirror, ThoughtCo (attributes video to NurdRage), Home Scientist blog (equations). Moves: P1, P2, P3 + **CAND-2 fired**. Feeds Ch 15. Misses: P5 (electrolysis variant registered as follow-up), P7, P8, P12.
+- **N06** Luminol Synthesis, NurdRage (date unverified). Multi-step organic route from domestically available chemicals: own-made 3-nitrophthalic acid, hydrazine from OTC hypochlorite+ammonia+gelatin (series predecessor), condensation in glycerin (high-boiler), dithionite reduction. Corroborated: author Instructables mirror, r/OrganicChemistry (hydrazine acetate step). Moves: P1, P4, P10 (full precursor-network chaining) + **CAND-4 fired**. Feeds Ch 22, 34, 24. Misses: P3, P5, P7, P8.
+
+**Batch 1 census (a+b):** P1 6/6 (load-bearing, as designed); P4 3/6, P6 3/6, P11 3/6; P2, P3, P8, P9, P12 each 1; P10 2; **P5, P7 zero-firing across batch 1** — honest datum: no electrolysis or calcination video gathered yet; batch 2 deliberately tests P5 (electrolysis chlorate) and P7 (thermal decomposition candidates).
+
+**Candidate patterns opened in B01b:**
+- **CAND-2 Disproportionation upgrade.** Heat-driven self-redox converts a weak OTC oxidant into a stronger one (hypochlorite → chlorate). Fired: B01b N05. Watch: hypochlorite → chlorate via electrolysis (P5 alternative) and other disproportionation cascades.
+- **CAND-3 Protective medium + selective dissolution/co-distillation.** Isolate a reactive product (molten Na) below its boiling point under a liquid barrier, then separate from slag by selective solvent. Fired: B01b N04.
+- **CAND-4 High-boiling solvent at atmospheric pressure.** Reach dehydration/condensation temperatures without pressure apparatus by switching to a high-boiler (glycerin, glycols). Fired: B01b N06.
+
 ## Candidate patterns (recurrence test: promote on firing across >= 2 batches)
 
 - **CAND-1 In-situ redox generation (dissolved-gas route).** Generate a reactive gas in the pot from OTC reagents and oxidize/consume it in solution rather than handling bulk gas. Fired: B01a N01. Watch: iodine-from-iodide videos (HCl + H2O2) in batch 2.
