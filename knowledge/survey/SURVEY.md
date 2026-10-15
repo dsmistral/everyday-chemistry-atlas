@@ -4,21 +4,21 @@ Dated per-chunk entries; append, never rewrite. Pattern IDs P1..P12 refer to the
 
 ## Pattern census (firings per batch; a miss is a datum)
 
-| Pattern | B01a | B01b | B02a | B02b | B03a | B03b | B04a | B04b | Total | Note |
-|---------|------|------|------|------|------|------|------|------|-------|------|
-| P1 Read the label (OTC sourcing) | 3/3 | 3/3 | 4/4 | 3/3 | 4/4 | 2/2 | 1/3 | 22 | 19/19 video corpus; +Thompson (BUY branch) in B04a — OpenStax will be the only non-firing source |
-| P2 Separation train | 0/3 | 1/3 | 3/4 | 3/3 | 2/4 | 0/2 | 3/3 | 2/3 | 14 | separation is both curriculum (Thompson) and practice (distillation/filtration in most routes) |
-| P3 Metathesis-precipitation | 0/3 | 1/3 | 0/4 | 0/3 | 1/4 | 0/2 | 0/3 | 1/3 | 3 | rare in the video corpus (2/19); carried by book canon (Dunn metathesis project) + the oxalate acid firing — honest split: field-light, curriculum-heavy |
-| P4 Acid-base liberation | 2/3 | 1/3 | 1/4 | 0/3 | 3/4 | 0/2 | 0/3 | 2/3 | 9 | Dunn acid project; Golden Book gas/salt making |
-| P5 Electricity as reagent | 0/3 | 0/3 | 2/4 | 0/3 | 1/4 | 0/2 | 1/3 | 1/3 | 5 | CuSO4 electrochemical; KClO3 cell; electrochemical H2SO4; Thompson electrolysis; Dunn batteries/electrochemicals |
-| P6 Concentration ladder | 3/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 1/3 | 5 | B04a exemplar: azeotropic HNO3 (dilute -> 68% -> fuming); Dunn alcohol distillation |
-| P7 Thermal decomposition | 0/3 | 0/3 | 0/4 | 0/3 | 0/4 | 2/2 | 1/3 | 1/3 | 4 | lime cycle (N18) + baking soda (N19) + copper nitrate -> HNO3 (N21) + Dunn lime project (N23) |
-| P8 Redox smelting/displacement | 0/3 | 1/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 2/3 | 4 | sodium thermite; Thompson copper smelting; Dunn metals; Golden Book metals |
-| P9 Instrumentless verification | 1/3 | 0/3 | 0/4 | 0/3 | 1/4 | 2/2 | 1/3 | 1/3 | 6 | faces: process control (N15), end-use (N18), mass loss (N19), flame/protein/sugar tests (N24), qual/quant curriculum (N20) |
-| P10 Route economics | 1/3 | 1/3 | 3/4 | 2/3 | 4/4 | 0/2 | 3/3 | 1/3 | 15 | exemplars: CuSO4 3-way; N09+N15 cycle; urea-vs-ketazine; Leblanc-vs-Solvay (Dunn); recycling (N21) |
-| P11 Apparatus improvisation | 2/3 | 1/3 | 1/4 | 1/3 | 0/4 | 2/2 | 0/3 | 2/3 | 9 | improvised kilns; oven as furnace; Dunn whole book; Golden Book apparatus-making; contrast: Thompson uses purchased gear |
-| P12 Yield bookkeeping | 1/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 1/3 | 3 | HUNT RESOLVED: N21 states its own 60-80% yield (transcript-level); Dunn stoichiometry project carries book-canon bookkeeping |
-| P13 In-situ redox generation | 1/3 | 0/3 | 1/4 | 0/3 | 1/4 | 0/2 | 0/3 | 0/3 | 3 | promoted REC-1; three faces: dissolved-gas, dissolved-ion, generated-unstable-acid |
+| Pattern | B01a | B01b | B02a | B02b | B03a | B03b | B04a | B04b | B05a | B05b | Total | Note |
+|---------|------|------|------|------|------|------|------|------|------|------|-------|------|
+| P1 Read the label (OTC sourcing) | 3/3 | 3/3 | 4/4 | 3/3 | 4/4 | 2/2 | 1/3 | 2/3 | 3/3 | 3/3 | 28 | 19/19 video corpus; +Thompson (BUY branch) B04a, +Texium/Make:/E&I B05b — OpenStax the only miss, by design. Row fix (session 6, dated): the committed B04b cell (2/3) was dropped by a rendering slip; the running total (22/25 at session 5) was always correct |
+| P2 Separation train | 0/3 | 1/3 | 3/4 | 3/3 | 2/4 | 0/2 | 3/3 | 2/3 | 2/3 | 1/3 | 17 | separation is both curriculum (Thompson) and practice (distillation/filtration in most routes); +oxalate filtration (N28), +Make: purification of technical grades (N30) |
+| P3 Metathesis-precipitation | 0/3 | 1/3 | 0/4 | 0/3 | 1/4 | 0/2 | 0/3 | 1/3 | 1/3 | 1/3 | 5 | was field-light; now two field firings (oxalate HNO3 N16; oxalate H2SO4 N28) + Dunn metathesis + Thompson carbonate hub (N30) — CAND-7 territory |
+| P4 Acid-base liberation | 2/3 | 1/3 | 1/4 | 0/3 | 3/4 | 0/2 | 0/3 | 2/3 | 3/3 | 1/3 | 13 | Dunn acid project; Golden Book gas/salt making; nitrate-family liberation routes (N26 HNO3-by-distillation, N27 bisulfate, N28 weak-acid-pulled-by-precipitate) |
+| P5 Electricity as reagent | 0/3 | 0/3 | 2/4 | 0/3 | 1/4 | 0/2 | 1/3 | 1/3 | 0/3 | 0/3 | 5 | CuSO4 electrochemical; KClO3 cell; electrochemical H2SO4; Thompson electrolysis; Dunn batteries/electrochemicals |
+| P6 Concentration ladder | 3/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 1/3 | 0/3 | 1/3 | 6 | azeotropic HNO3 exemplar (N22); Dunn alcohol distillation; +E&I acid-concentration exemplars listed (N31) |
+| P7 Thermal decomposition | 0/3 | 0/3 | 0/4 | 0/3 | 0/4 | 2/2 | 1/3 | 1/3 | 0/3 | 0/3 | 4 | lime cycle (N18) + baking soda (N19) + copper nitrate -> HNO3 (N21) + Dunn lime project (N23) |
+| P8 Redox smelting/displacement | 0/3 | 1/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 2/3 | 0/3 | 0/3 | 4 | sodium thermite; Thompson copper smelting; Dunn metals; Golden Book metals |
+| P9 Instrumentless verification | 1/3 | 0/3 | 0/4 | 0/3 | 1/4 | 2/2 | 1/3 | 1/3 | 0/3 | 0/3 | 6 | faces: process control (N15), end-use (N18), mass loss (N19), flame/protein/sugar tests (N24), qual/quant curriculum (N20) |
+| P10 Route economics | 1/3 | 1/3 | 3/4 | 2/3 | 4/4 | 0/2 | 3/3 | 1/3 | 3/3 | 3/3 | 21 | exemplars: CuSO4 3-way; N09+N15 cycle; urea-vs-ketazine; Leblanc-vs-Solvay (Dunn); recycling (N21) vs metathesis (N26) A/B; Texium make-or-buy classification (N29); carbonate economics (N30) |
+| P11 Apparatus improvisation | 2/3 | 1/3 | 1/4 | 1/3 | 0/4 | 2/2 | 0/3 | 2/3 | 0/3 | 0/3 | 9 | improvised kilns; oven as furnace; Dunn whole book; Golden Book apparatus-making; contrast: Thompson/Texium use purchased gear |
+| P12 Yield bookkeeping | 1/3 | 0/3 | 0/4 | 0/3 | 0/4 | 0/2 | 1/3 | 1/3 | 0/3 | 0/3 | 3 | HUNT RESOLVED: N21 states its own 60-80% yield (transcript-level); Dunn stoichiometry project carries book-canon bookkeeping |
+| P13 In-situ redox generation | 1/3 | 0/3 | 1/4 | 0/3 | 1/4 | 0/2 | 0/3 | 0/3 | 0/3 | 0/3 | 3 | promoted REC-1; three faces: dissolved-gas, dissolved-ion, generated-unstable-acid |
 
 ## Dated chunk entries
 
@@ -106,6 +106,32 @@ Papers gathered (register-first, URLs + evidence in `papers/batches/batch-04b.md
 
 **Session-5 census (batch 4a+b: N20-N25; corpus now 25 papers):** P1 22/25 (OpenStax the only miss, by design), P10 15/25, P2 14/25, P4 9/25, P11 9/25, P9 6/25, P5 5/25, P6 5/25, P7 4/25, P8 4/25, P13 3/25 (three faces), P12 3/25 (HUNT RESOLVED), P3 3/25 (field-light, curriculum-heavy — honest split). First ANALYSIS.md synthesis written this session (papers/ANALYSIS.md).
 
+### 2026-10-15 — Batch 05a (CAND-7 watch resolution + nitrate-cycle follow-ups), sub-chunk commit
+
+Papers gathered (register-first, URLs + evidence in `papers/batches/batch-05a.md`):
+- **N26** Efficiently Recover Nitric Acid and Copper Metal From Copper Nitrate Wastes, NurdRage 2020-11-22. Waste Cu(NO3)2 + H2SO4 → HNO3 distilled off, CuSO4 stays in the pot; copper metal recovered from the sulfate stream; the author's efficient alternative to N21's thermal-decomposition route. Moves: P1, P4, P2, P10 (the video corpus's first explicit A/B route comparison on the same target, vs N21; closes the Cu cycle with N09/N15). Feeds Ch 15, 19, 36. Verification: content-verified (description + X post + Hackaday; copper-recovery step method flagged for transcript pass).
+- **N27** Make Nitric Acid from Sodium Bisulfate and Sodium Nitrate, NurdRage 2020-08-01. HNO3 from OTC sodium bisulfate (pool pH reducer) + sodium nitrate — no sulfuric-acid precursor needed; wet-vs-dry method variants tried in-video. Moves: P1, P4, P10. Feeds Ch 15, 20. Verification: content-verified (archive.org date + X post + description).
+- **N28** Make SULFURIC acid from WEAK oxalic acid with the SUN, NurdRage (circa 2024-06; ScienceMadness thread on it posted 23-6-2024). Sulfate salt + oxalic acid: the insoluble metal oxalate displaces the equilibrium, leaving H2SO4 in solution behind a filterable precipitate. Video tests FeSO4; **Keras replication (ScienceMadness)**: CuSO4 (6 g in ~20 mL water) + 3.8 g oxalic acid dihydrate at room temperature → immediate light-blue copper(II) oxalate, vacuum-filtered; the video's Fe(II) oxalate filters badly (process-failure datum); theoretical ceiling ~8 M H2SO4. Moves: P1, P3, P4, P2, P10 + **CAND-7 FIRED AGAIN (second batch firing — recurrence test PASSED → REC-2 PROPOSED, user gate)**. Feeds Ch 15, 9, 36. Verification: content-verified (video description + same-week forum replication; transcript fetch deferred; "with the SUN" element flagged).
+
+**Corrections (2026-10-15, dated, authoritative):**
+1. **N14 is NileRed's video** — "Making Hydrazine Sulfate from Urea and Bleach" (2016-02-18, PCovDr4FVNQ): verified via the archive.org NileRed archive listing, IMDb NileRed episode entry, NileRed Patreon companion post, and the watch-page channel. Batch-03a recorded it as NurdRage; the committed batch file stands as-is (extend, never rewrite), this correction governs. N14's chemistry, pattern tagging, and the CAND-5 honest-miss datum are unchanged; the attribution moves to S02. NurdRage's own urea-route hydrazine video (UB7vwIFCnR0, cited in the ScienceMadness member publication on hydrazine sulfate) is registered as a follow-up.
+2. **Follow-up 0yvbJ8tE2y8 identified as ChemEx LK** ("How to make Hydrazine sulfate using urea", minor channel) — NOT NileRed, as the follow-up register assumed. Duplicates N14's chemistry at far lower production value; de-prioritized.
+
+**Sub-chunk census:** P1 3/3 (25/28), P4 3/3 (12/28), P10 3/3 (18/28), P2 2/3 (16/28), P3 1/3 (4/28); CAND-7 second firing; honest zeros: P5, P6, P7, P8, P9, P11, P12, P13 (a batch skewed to acid-route economics).
+
+### 2026-10-15 — Batch 05b (corpus expansion: Texium, Thompson Make:, Extractions&Ire audit), sub-chunk commit
+
+Papers gathered (register-first, URLs + evidence in `papers/batches/batch-05b.md`):
+- **N29** Texium, "Essential Chemicals for the Organic Lab" (2018-03-06) — the make-or-buy classification (green OTC / blue 1–2-step make / purple multistep / orange restricted / red unavailable); the BUY-branch acquisition cost function, which the Atlas's Tech Tree (Ch 36) generalizes into edge costs on the reagent graph. Regional/seasonal availability caveats = the P1 failure face. Moves: P1, P10. Feeds Ch 2, 36. Verification: content-verified (full article read).
+- **N30** Thompson, Make: "Chemicals on the Cheap" (series circa 2009; article date to pin) — alternative venues (drugstore, supermarket, hardware, home-improvement, auto-parts, lawn-and-garden, pottery supply); USP/FCC → practical/technical grades, purifiable by recrystallization/distillation; carbonates as byproduct-clean building blocks (carbonate + acid → salt + water + CO2 only); the CuCO3 metathesis hub (CuSO4 root killer + baking soda → copper acetate/chloride/nitrate); $3 pottery BaCO3 → ~$50 of barium salts. Moves: P1, P3, P4, P2, P10. Feeds Ch 2, 9, 14, 36. Verification: content-verified (full article read).
+- **N31** Extractions&Ire channel audit (archive-listing level) — in-scope fraction (concentrating H2SO4 by distillation, distilling HCl, dichromates from stainless steel, zinc powder, iron oxide, sodium sulfide, sodium ethoxide, PET → sodium terephthalate → benzene series, paracetamol recrystallization) vs excluded energetic fraction (tetrazoles, DDNP, picramate, nitroform — energetics binding line; recognition context for Ch 28 only). Moves: P6 (listing-level), P1 (waste-stream face), P10. Feeds Ch 15, 21, 35, 36. Verification: metadata + archive-listing; individual videos opened as follow-ups.
+
+**Sub-chunk census:** P1 3/3 (28/31), P10 3/3 (21/31), P2 1/3 (17/31), P3 1/3 (5/31), P4 1/3 (13/31), P6 1/3 (6/31); honest zeros: P5, P7, P8, P9, P11, P12, P13 (an expansion batch of BUY-branch/canon-audit sources).
+
+**Session-6 census (batches 5a+5b; corpus now 31 papers):** P1 28/31, P10 21/31, P2 17/31, P4 13/31, P3 5/31, P6 6/31, P11 9/31, P9 6/31, P5 5/31, P7 4/31, P8 4/31, P12 3/31, P13 3 firings.
+
+**REC-2 PROPOSED (2026-10-15):** promote CAND-7 to the book P-index as **P14 "Precipitation-driven acid liberation"** (evidence: fired across batches 3 and 5 — N16 HNO3 face, N28 H2SO4 face + Keras replication; two strong acids, two independent performers, recurrence test passed). **REC-2 APPROVED by the user the same session — CAND-7 is now book P14; see PROJECT.md §3.**
+
 ## Candidate patterns (recurrence test: promote on firing across >= 2 batches)
 
 - **CAND-1 In-situ redox generation.** Generate the reactive species in the pot from OTC reagents and oxidize/consume it in solution, never handling bulk material. Fired: B01a N01 (dissolved-gas: SO2 → H2SO4), B02a N08 (dissolved-ion: iodide → I2). **PROMOTED: user approved REC-1 on 2026-10-16 → book P13.**
@@ -114,13 +140,13 @@ Papers gathered (register-first, URLs + evidence in `papers/batches/batch-04b.md
 - **CAND-4 High-boiling solvent at atmospheric pressure.** Fired: B01b N06. Watch: Ch 22 sources (soap/ester syntheses).
 - **CAND-5 Protective-intermediate staging.** Temporarily mask a reactive species as a stable intermediate to survive harsh reaction conditions, then unmask it. Fired: B02a N07 (hydrazine as ketazine during hypochlorite oxidation). Honest miss: B03a N14 — the urea route needs NO protective intermediate; protection is a route-specific cost (route-economics datum for Ch 19/22).
 - **CAND-6 Carrier (steam) distillation.** Co-distill a high-boiling immiscible liquid with water at ~100 °C to isolate it without pressure/vacuum gear. Fired: B02b N13. Watch: other essential-oil/Ch 31 sources.
-- **CAND-7 Precipitation-driven acid liberation.** Make a strong acid from its OTC salt by metathesis with an acid whose metal-salt byproduct is INSOLUBLE — the precipitation pulls the proton transfer, leaving the free acid in solution; filter off the precipitate. The P3/P4 intersection: acid without distillation or a stronger-acid precursor. Fired: B03a N16 (calcium ammonium nitrate + oxalic acid -> HNO3). Watch: sulphates + oxalic acid for H2SO4 (ScienceMadness thread https://www.sciencemadness.org/whisper/viewthread.php?tid=160390).
+- **CAND-7 Precipitation-driven acid liberation.** Make a strong acid from its OTC salt by metathesis with an acid whose metal-salt byproduct is INSOLUBLE — the precipitation pulls the proton transfer, leaving the free acid in solution; filter off the precipitate. The P3/P4 intersection: acid without distillation or a stronger-acid precursor. Fired: B03a N16 (calcium ammonium nitrate + oxalic acid -> HNO3); **B05a N28 (iron(II) sulfate + oxalic acid -> H2SO4, plus Keras's CuSO4 replication with quantities)**. **Recurrence test PASSED (two batches, two strong acids, two performers) → REC-2 APPROVED by user 2026-10-15 (same session) → PROMOTED to book P14 "Precipitation-driven acid liberation."**
 
 ## Follow-ups register (registered, not yet gathered)
 
-- NurdRage "Make Nitric Acid from Sodium Bisulfate and Sodium Nitrate" (2020-08-01, https://www.youtube.com/watch?v=CqzrTxshOXM) — route-economics comparison, no H2SO4 needed.
+- NurdRage "Make Nitric Acid from Sodium Bisulfate and Sodium Nitrate" (2020-08-01, https://www.youtube.com/watch?v=CqzrTxshOXM) — GATHERED: N27 (batch 5a).
 - NurdRage "Make Nitric Acid without Sulfuric Acid by Oxalate Precipitation" (https://www.youtube.com/watch?v=1x8oXCBjHFY) — GATHERED: N16 (batch 3a); CAND-7 fired.
-- NurdRage "Making Hydrazine Sulfate from Urea and Bleach" (https://www.youtube.com/watch?v=PCovDr4FVNQ) — GATHERED: N14 (batch 3a); CAND-5 honest miss recorded.
+- NurdRage "Making Hydrazine Sulfate from Urea and Bleach" (https://www.youtube.com/watch?v=PCovDr4FVNQ) — GATHERED: N14 (batch 3a; **channel attribution corrected at session 6: NileRed, 2016-02-18**); CAND-5 honest miss recorded.
 - NurdRage "Make Iodine from Sulfuric acid and Alkali Metal Iodide" (2009-03-28, https://www.youtube.com/watch?v=2F_kPXbi2D8) — GATHERED: N17 (batch 3a); P13 third face.
 - NurdRage "make sulfuric acid electrochemically" (copper sulfate electrochemical method, WonderHowTo reference) — network chaining: CuSO4 → H2SO4 regeneration.
 - NurdRage sodium original thermite video + improved-process response video (channel attribution to verify).
@@ -128,7 +154,14 @@ Papers gathered (register-first, URLs + evidence in `papers/batches/batch-04b.md
 - Pin YouTube URL for NileRed caffeine-from-coffee video (N11); transcript-level fetch for N12 (gloves→hot sauce chemistry).
 - **P7 hunt: RESOLVED in batch 3b** — N18 (Primitive Technology lime cycle + SkillCult) + N19 (baking-soda calcination) both fire P7. Cody's Lab lime video did not surface in fresh searches; optional corroboration at a later pass.
 - NurdRage "Azeotropic and Fuming Nitric Acid Concentration and Purification" (https://www.youtube.com/watch?v=88gbfCnrV8o) — GATHERED: N22 (batch 4a); P6 archetype.
-- NurdRage "Efficiently Recover Nitric Acid and Copper Metal From Copper Nitrate Wastes" (https://www.youtube.com/watch?v=l8uQWibpRYk, X post 2020-11-22) — sibling video of N21; gather at next NurdRage pass.
-- ScienceMadness thread "making sulphuric acid from sulphates and oxalic acid" (https://www.sciencemadness.org/whisper/viewthread.php?tid=160390) — possible CAND-7 second face (H2SO4); gather as a paper if it holds up.
-- NileRed hydrazine-from-urea video (https://www.youtube.com/watch?v=0yvbJ8tE2y8) — urea-route variant by the second priority channel (noted in ScienceMadness Wiki); gather at the next NileRed pass.
+- NurdRage "Efficiently Recover Nitric Acid and Copper Metal From Copper Nitrate Wastes" (https://www.youtube.com/watch?v=l8uQWibpRYk, X post 2020-11-22) — GATHERED: N26 (batch 5a); A/B route comparison vs N21.
+- ScienceMadness thread "making sulphuric acid from sulphates and oxalic acid" (https://www.sciencemadness.org/whisper/viewthread.php?tid=160390) — GATHERED inside N28 (batch 5a): confirmed the new NurdRage video and extended it (Keras CuSO4 replication); CAND-7 second firing.
+- NileRed hydrazine-from-urea video (https://www.youtube.com/watch?v=0yvbJ8tE2y8) — RESOLVED (session 6): the video is ChemEx LK (minor channel), NOT NileRed; NileRed's urea+bleach hydrazine is PCovDr4FVNQ = N14 (attribution corrected). De-prioritized.
 - **P12 hunt: RESOLVED in batch 4a** — N21 states its own yield (60-80%); Dunn's Stoichiometry project (N23, batch 4b) adds book-canon yield bookkeeping.
+- NurdRage urea-route hydrazine sulfate video (https://www.youtube.com/watch?v=UB7vwIFCnR0) — cited in the ScienceMadness member publication (hydrazine sulfate via the Hoffmann route, http://www.sciencemadness.org/member_publications/hydrazine_sulfate_ketazine.pdf); verify metadata at the next NurdRage pass; completes the hydrazine route-economics set with N07/N14.
+- NurdRage "Making Anhydrous Oxalic Acid (using a Dean-Stark Apparatus)" (channel attribution to verify; surfaced via GoLectures) — oxalate-series precursor prep; P6 azeotropic-drying face.
+- NurdRage "FAIL - Sulfuric Acid Vacuum Distillation" (Patreon post, https://www.patreon.com/posts/fail-sulfuric-14141458) — failure datum for the P6 ladder.
+- Thompson Make: Parts I-II ("Setting Up a Home Science Lab": equipment, glassware) + "The Home Scientist" video series — gather at the next print/web pass (S11).
+- Extractions&Ire in-scope individual videos (from the N31 audit): PET-to-benzene series; dichromates from stainless steel (2 parts); concentrating sulfuric acid via distillation; distilling hydrochloric acid; making zinc powder; sodium sulfide; sodium ethoxide — gather at a dedicated E&I pass.
+- Pre-1950 home-chem books (*The Boy Chemist*, *Chemical Magic*) — audit at a later batch (print/web corpus).
+- Cody's Lab, Chemical Force, Doug's Lab, Periodic Videos — still ungathered priority channels; minor channels (ChemEx LK, "science thing", etc.) are below the corpus quality bar.

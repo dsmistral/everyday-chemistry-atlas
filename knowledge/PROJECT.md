@@ -8,7 +8,7 @@ Pipeline: `science-book-builder` skill. This file is the working master; the Kno
 - **Premise ("the post-apocalyptic chemist")**: the reader has full access to advanced chemistry knowledge (books/PDFs) and the ordinary materials of the world around them, but NO advanced instruments and NO ready-made specialty chemicals. The book teaches chemistry step by step through experiments on everyday materials and materials synthesized from those; specialty chemicals are bought only when synthesis is genuinely impractical — and then only items of regular, unrestricted retail availability.
 - **Audience**: intelligent adult autodidact (advanced-book reader without advanced lab). Not a kids' book.
 - **Theory**: FULL track — equilibrium, thermodynamics, kinetics woven throughout, not appendices.
-- **Hazard ceiling**: full home-lab (flammables, stronger acids) permitted WITH strict safety protocols; every experiment carries a hazard assessment. Deliberate exclusion (Phase 1, resolved): no step-by-step SYNTHESIS procedures for explosive/energetic materials — but energetic- and toxic-hazard KNOWLEDGE (recognition, avoidance, quenching, neutralization, incident response) is in scope and gets its own chapter (Vol III Ch 27). Everything else is standard educational home chemistry.
+- **Hazard ceiling**: full home-lab (flammables, stronger acids) permitted WITH strict safety protocols; every experiment carries a hazard assessment. Deliberate exclusion (Phase 1, resolved): no step-by-step SYNTHESIS procedures for explosive/energetic materials — but energetic- and toxic-hazard KNOWLEDGE (recognition, avoidance, quenching, neutralization, incident response) is in scope and gets its own chapter (Vol III Ch 27; renumbered Ch 28 at session 6 — same chapter). Everything else is standard educational home chemistry.
 - **Size**: comprehensive atlas, many volumes, full reagent-synthesis network (the "tech tree" of chemicals is a first-class artifact of the book).
 - **Charter**: the book is a distillation and assimilation of the existing everyday-chemistry literature (books, papers, YouTube channels, forums), unified by one voice, one theory track, one verified reagent network.
 
@@ -18,6 +18,8 @@ Pipeline: `science-book-builder` skill. This file is the working master; the Kno
 - 2026-10-15, this paragraph the durable record: **Phase 1 gate PASSED.** User confirmed "none — proceed as mapped": the 5-volume / 34-chapter scope, canon, and exclusions stand as recorded, with no adjustments. Authoring is unblocked; survey-first sequencing governs (survey gather batches begin before any chapter authoring).
 - 2026-10-15, this paragraph the durable record: **Energetics resolution.** User requested maximal energetic-materials knowledge, on the grounds that "not knowing is not a good defence" — recognition and handling knowledge for defensive purposes. Binding resolution: the book gains a dedicated hazard-recognition chapter (Vol III Ch 27: energetic & toxic hazards one may encounter or accidentally create — dangerous household combinations, oxidizer/organic incompatibilities, contaminated-consumer-product hazards — with recognition, avoidance, quenching, neutralization, and incident response) plus hazard notes woven through the oxidizer chapters (15, 17). Step-by-step synthesis procedures for explosive/energetic materials remain excluded from the manuscript; this line is binding on all sessions.
 - 2026-10-16, this paragraph the durable record: **REC-1 APPROVED.** User approved promoting survey candidate CAND-1 into the book P-index as **P13 "In-situ redox generation"** (evidence: fired across survey batches 1-2 — N01 dissolved-gas face, N08 dissolved-ion face; recurrence test passed). P13 entry added to §3 this same day. The survey's first book-bound adoption.
+- 2026-10-15, this paragraph the durable record: **Authoring-start gate outcome (session 6).** User decision: authoring start DEFERRED — more survey batches run before Vol I Ch 1 (survey-first stands until the user calls authoring). The same gate approved three map adjustments, all now reflected in the §4 map: **FINDING-C → new Vol I chapter** — "Atoms, Elements, and the Chemical Bond" inserted as Vol I Ch 3 (the home for OpenStax ch 2, 6–8 content); **FINDING-B2 → full chapter** — "Nuclear Chemistry at Home" added as Vol III Ch 29; **FINDING-A → forensics as an optional section** of "Analysis Without Instruments" (now Ch 13), within the existing hazard/legality ceiling. The map moves 34 → 36 chapters with renumbering throughout; the map was entirely in draft (nothing published), so renumbering extends the draft master plan, not any published chapter. Chapter numbers in earlier dated paragraphs keep their historical meaning; in particular the hazard-recognition chapter (energetics binding line) was Ch 27 and is now Ch 28 — same chapter, new number.
+- 2026-10-15, this paragraph the durable record: **REC-2 APPROVED.** User approved promoting survey candidate CAND-7 into the book P-index as **P14 "Precipitation-driven acid liberation"** (evidence: fired across survey batches 3 and 5 — N16 nitrate face, N28 sulfate face plus the independent Keras replication of N28; two strong acids, two performers, recurrence test passed). P14 entry added to §3 this same day. The survey's second book-bound adoption.
 
 ## 2. Canon Register (audit references + survey corpus)
 
@@ -37,66 +39,69 @@ Pipeline: `science-book-builder` skill. This file is the working master; the Kno
 Load-bearing moves of everyday-chemistry problem-solving. Tag all methods with P-IDs; ◆ exercises diagnose against this index. Prune/promote at chapter reviews; survey batches add usage evidence.
 
 - **P1: Read the label (OTC sourcing).** Shape: need a chemical, have a store. Move: identify consumer products whose active ingredient IS the needed chemical at useful purity/assay (vinegar→acetic acid; baking soda→NaHCO3; drain cleaner→NaOH/H2SO4; battery acid→~35% H2SO4; muriatic acid→HCl; bleach→NaOCl; peroxide→H2O2). When to use: always, before synthesizing. Fails: low assay, additives/surfactants, regional availability. Chapters: 2, all of Vol II.
-- **P2: Separation train.** Shape: wanted substance locked in a mixture. Move: choose the cheapest separation that exploits the largest physical-property difference (settle/decant → filter → evaporate → crystallize/recrystallize → distill). Chapters: 4–6, everywhere.
-- **P3: Metathesis-precipitation route.** Shape: want salt MX, have two soluble OTC salts. Move: pick reactants whose byproduct is insoluble (solubility rules) so the target separates itself: AX + MY → MX(aq) + AY↓. Chapters: 8, all Vol II metal salts.
-- **P4: Acid–base liberation.** Shape: want a gas or free acid/base. Move: carbonate + acid → CO2↑; ammonium salt + base → NH3↑; acid + volatile acid salt → HCl↑. Chapters: 7, 9, 14, 19.
-- **P5: Electricity as reagent.** Shape: need an oxidation/reduction no OTC reagent performs cheaply. Move: electrolysis with chosen electrodes (chlorate from brine; NaOH/H2/Cl2 from salt; metal deposition; CuCl2 cycle). Chapters: 11, 15, 18.
-- **P6: Concentration ladder.** Shape: reagent available only dilute. Move: upgrade in steps chosen by stability (boil battery acid → ~70%; distill with a drying agent → concentrated; fractional freeze; azeotrope-breaking). Chapters: 5, 14, 20.
-- **P7: Thermal decomposition.** Shape: want an oxide/carbonate/element; have a salt or mineral. Move: calcine/pyrolyze (NaHCO3→Na2CO3→Na2O; CaCO3→CaO; CuCO3/Cu(OH)2→CuO). Chapters: 6, 10, 13.
-- **P8: Redox smelting/displacement.** Shape: want a metal. Move: reduce the oxide/ore with carbon or displace with a more active metal (thermite-class reductions only at demonstration scale under the safety charter). Chapters: 10, 18.
-- **P9: Instrumentless verification.** Shape: is this the stuff I think it is? No spectrometer. Move: convergence of cheap orthogonal evidence — flame color, pH, precipitation behavior, melting point, density, characteristic reaction. Chapters: 12, everywhere as "verify before use".
+- **P2: Separation train.** Shape: wanted substance locked in a mixture. Move: choose the cheapest separation that exploits the largest physical-property difference (settle/decant → filter → evaporate → crystallize/recrystallize → distill). Chapters: 5–7, everywhere.
+- **P3: Metathesis-precipitation route.** Shape: want salt MX, have two soluble OTC salts. Move: pick reactants whose byproduct is insoluble (solubility rules) so the target separates itself: AX + MY → MX(aq) + AY↓. Chapters: 9, all Vol II metal salts.
+- **P4: Acid–base liberation.** Shape: want a gas or free acid/base. Move: carbonate + acid → CO2↑; ammonium salt + base → NH3↑; acid + volatile acid salt → HCl↑. Chapters: 8, 10, 15, 20.
+- **P5: Electricity as reagent.** Shape: need an oxidation/reduction no OTC reagent performs cheaply. Move: electrolysis with chosen electrodes (chlorate from brine; NaOH/H2/Cl2 from salt; metal deposition; CuCl2 cycle). Chapters: 12, 16, 19.
+- **P6: Concentration ladder.** Shape: reagent available only dilute. Move: upgrade in steps chosen by stability (boil battery acid → ~70%; distill with a drying agent → concentrated; fractional freeze; azeotrope-breaking). Chapters: 6, 15, 21.
+- **P7: Thermal decomposition.** Shape: want an oxide/carbonate/element; have a salt or mineral. Move: calcine/pyrolyze (NaHCO3→Na2CO3→Na2O; CaCO3→CaO; CuCO3/Cu(OH)2→CuO). Chapters: 7, 11, 14.
+- **P8: Redox smelting/displacement.** Shape: want a metal. Move: reduce the oxide/ore with carbon or displace with a more active metal (thermite-class reductions only at demonstration scale under the safety charter). Chapters: 11, 19.
+- **P9: Instrumentless verification.** Shape: is this the stuff I think it is? No spectrometer. Move: convergence of cheap orthogonal evidence — flame color, pH, precipitation behavior, melting point, density, characteristic reaction. Chapters: 13, everywhere as "verify before use".
 - **P10: Route economics.** Shape: several syntheses reach the target. Move: score routes by (a) starting-material availability, (b) apparatus demand, (c) hazard, (d) yield & separability; prefer routes that produce easy-to-separate byproducts. This is the network's edge-cost function. Chapters: Reagent Network chapters (Vol II–V).
-- **P11: Apparatus improvisation.** Shape: no proper glassware. Move: rebuild the instrument from kitchenware (double-boiler as water bath; kettle+tube still; steel-can furnace; syringe gas collector) with a stated accuracy penalty. Chapters: 1, 5, 11, 12.
-- **P12: Yield bookkeeping.** Shape: did the synthesis work? Move: theoretical vs. actual yield, loss ledger per step (transfer → separation → purification), cumulative route yield across the network. Chapters: 3, 8, network appendix.
-- **P13: In-situ redox generation** (promoted from survey CAND-1 by user-approved REC-1, 2026-10-16). Shape: need a reactive species (gas or dissolved element) that is dangerous or inconvenient to handle in bulk. Move: generate it in the pot from OTC reagents and oxidize/consume it in solution immediately — never handle the bulk species. Faces: dissolved-gas route (metabisulfite + HCl → SO2, oxidized by H2O2 → H2SO4, survey N01); dissolved-ion route (iodide + HCl + H2O2 → I2, survey N08). When to use: whenever bulk-gas handling would otherwise be required. When it fails: the species must accumulate before use — then protective-intermediate staging (survey CAND-5) applies instead. Chapters: 14, 15, 17, 19.
+- **P11: Apparatus improvisation.** Shape: no proper glassware. Move: rebuild the instrument from kitchenware (double-boiler as water bath; kettle+tube still; steel-can furnace; syringe gas collector) with a stated accuracy penalty. Chapters: 1, 6, 12, 13.
+- **P12: Yield bookkeeping.** Shape: did the synthesis work? Move: theoretical vs. actual yield, loss ledger per step (transfer → separation → purification), cumulative route yield across the network. Chapters: 4, 9, network appendix.
+- **P13: In-situ redox generation** (promoted from survey CAND-1 by user-approved REC-1, 2026-10-16). Shape: need a reactive species (gas or dissolved element) that is dangerous or inconvenient to handle in bulk. Move: generate it in the pot from OTC reagents and oxidize/consume it in solution immediately — never handle the bulk species. Faces: dissolved-gas route (metabisulfite + HCl → SO2, oxidized by H2O2 → H2SO4, survey N01); dissolved-ion route (iodide + HCl + H2O2 → I2, survey N08). When to use: whenever bulk-gas handling would otherwise be required. When it fails: the species must accumulate before use — then protective-intermediate staging (survey CAND-5) applies instead. Chapters: 15, 16, 18, 20.
+- **P14: Precipitation-driven acid liberation** (promoted from survey CAND-7 by user-approved REC-2, 2026-10-15). Shape: want a strong acid; have its OTC salt but no stronger-acid precursor. Move: metathesis with a weaker acid whose metal-salt byproduct is INSOLUBLE — the byproduct's precipitation pulls the otherwise-unfavorable proton transfer, leaving the free acid in solution; filter off the precipitate. Faces: nitrate face (calcium ammonium nitrate + oxalic acid → HNO3, survey N16); sulfate face (FeSO4 or CuSO4 + oxalic acid → H2SO4, survey N28 + Keras replication). The P3/P4 intersection: an acid made without distillation and without a stronger-acid precursor. Fails when: the byproduct is not insoluble enough, filters badly (Fe(II) oxalate passes fritted funnels — Cu(II) is the clean choice), or would be attacked by the target acid. Chapters: 9, 15, 36.
 
 ## 4. Chapter Map (draft, master plan) — one chapter = one session
 
 Status key: `planned` → `in-progress` → `drafted` → `reviewed` → `published`.
 
-**Vol I — Foundations of the Home Lab**
+**Vol I — Foundations of the Home Lab** (13 chapters)
 1. The Lab in a Ruined World — safety charter, kitchen glassware, heat sources, the notebook — `planned`
 2. Reading the World as a Chemical Inventory — labels, grades, the OTC map — `planned`
-3. Water and Solutions — concentration, molarity, solubility — `planned`
-4. Separation Train I: Mechanical and Evaporative — filter, decant, evaporate, crystallize — `planned`
-5. Separation Train II: Distillation — build a still; vapor pressure, mixtures, azeotropes — `planned`
-6. Heat, Fire, and Fuels — combustion, thermochemistry, calorimetry — `planned`
-7. The Household pH World — acids and bases; Arrhenius→Brønsted, equilibrium — `planned`
-8. Salts and the Precipitation Network — metathesis, Ksp, solubility rules — `planned`
-9. Gases — generation, collection, recognition; gas laws — `planned`
-10. Redox and Metals — activity series, displacement, corrosion — `planned`
-11. Electrochemistry — electrolysis, cells, Nernst — `planned`
-12. Analysis Without Instruments — the wet qualitative scheme — `planned`
+3. Atoms, Elements, and the Chemical Bond — atomic & electronic structure, ions and charge, ionic/covalent/metallic bonding, molecular architecture from everyday evidence (OpenStax ch 2, 6–8 content; FINDING-C home; added at session-6 gate) — `planned`
+4. Water and Solutions — concentration, molarity, solubility — `planned`
+5. Separation Train I: Mechanical and Evaporative — filter, decant, evaporate, crystallize — `planned`
+6. Separation Train II: Distillation — build a still; vapor pressure, mixtures, azeotropes — `planned`
+7. Heat, Fire, and Fuels — combustion, thermochemistry, calorimetry — `planned`
+8. The Household pH World — acids and bases; Arrhenius→Brønsted, equilibrium — `planned`
+9. Salts and the Precipitation Network — metathesis, Ksp, solubility rules — `planned`
+10. Gases — generation, collection, recognition; gas laws — `planned`
+11. Redox and Metals — activity series, displacement, corrosion — `planned`
+12. Electrochemistry — electrolysis, cells, Nernst — `planned`
+13. Analysis Without Instruments — the wet qualitative scheme; optional Forensic Chemistry section (FINDING-A, session-6 gate) — `planned`
 
 **Vol II — The Reagent Network (core synthesis atlas)**
-13. Alkalis and Carbonates (NaOH, KOH, soda ash, lime) — `planned`
-14. The Mineral Acids (HCl, H2SO4, HNO3 from OTC) — `planned`
-15. Oxidizers of the Household (peroxide, hypochlorite, permanganate, chlorate via electrolysis) — `planned`
-16. Sulfur and Its Compounds — `planned`
-17. The Halogens and Their Salts — `planned`
-18. Metals and Their Compounds (Cu, Fe, Zn, Al, Mg, Sn, Pb, Ag) — `planned`
-19. Nitrogen and Ammonia (ammonia, nitrates, the N cycle at the bench) — `planned`
-20. The Alcohol Family and Organic Solvents — `planned`
-21. Indicators, Dyes, and Pigments — `planned`
-22. Fats, Soaps, and Esters — `planned`
+14. Alkalis and Carbonates (NaOH, KOH, soda ash, lime) — `planned`
+15. The Mineral Acids (HCl, H2SO4, HNO3 from OTC) — `planned`
+16. Oxidizers of the Household (peroxide, hypochlorite, permanganate, chlorate via electrolysis) — `planned`
+17. Sulfur and Its Compounds — `planned`
+18. The Halogens and Their Salts — `planned`
+19. Metals and Their Compounds (Cu, Fe, Zn, Al, Mg, Sn, Pb, Ag) — `planned`
+20. Nitrogen and Ammonia (ammonia, nitrates, the N cycle at the bench) — `planned`
+21. The Alcohol Family and Organic Solvents — `planned`
+22. Indicators, Dyes, and Pigments — `planned`
+23. Fats, Soaps, and Esters — `planned`
 
-**Vol III — Theory Deepened at the Bench**
-23. Equilibrium at the Kitchen Bench (buffers, Ksp in action) — `planned`
-24. Kinetics You Can Watch (clock reactions, temperature, catalysis) — `planned`
-25. Thermochemistry and Calorimetry — `planned`
-26. Electroanalysis (conductivity, plating, electro-titration) — `planned`
-27. Hazard Recognition and Neutralization — energetic & toxic hazards met or accidentally made: dangerous household combinations, oxidizer/organic incompatibilities; avoidance, quenching, neutralization, incident response — `planned`
+**Vol III — Theory Deepened at the Bench** (6 chapters)
+24. Equilibrium at the Kitchen Bench (buffers, Ksp in action) — `planned`
+25. Kinetics You Can Watch (clock reactions, temperature, catalysis) — `planned`
+26. Thermochemistry and Calorimetry — `planned`
+27. Electroanalysis (conductivity, plating, electro-titration) — `planned`
+28. Hazard Recognition and Neutralization — energetic & toxic hazards met or accidentally made: dangerous household combinations, oxidizer/organic incompatibilities; avoidance, quenching, neutralization, incident response (was Ch 27; energetics binding line unchanged) — `planned`
+29. Nuclear Chemistry at Home — radioactivity in everyday objects (K-40 in salt substitute, americium in smoke detectors, uranium glass, thorium lantern mantles), decay and half-life math, detection (FINDING-B2 home; full chapter per session-6 gate) — `planned`
 
 **Vol IV — Projects: Rebuilding Useful Things**
-28. Glass, Ceramics, and Lime — materials chemistry — `planned`
-29. Food Chemistry (fermentation, preservation) — `planned`
-30. Light-Sensitive Chemistry (cyanotype, silver halides) — `planned`
-31. Cleaning-Product Chemistry (surfactants, chelation) — `planned`
-32. Plant and Medicinal Extractions — `planned`
-33. Adhesives, Polymers, and Plastics — `planned`
+30. Glass, Ceramics, and Lime — materials chemistry — `planned`
+31. Food Chemistry (fermentation, preservation) — `planned`
+32. Light-Sensitive Chemistry (cyanotype, silver halides) — `planned`
+33. Cleaning-Product Chemistry (surfactants, chelation) — `planned`
+34. Plant and Medicinal Extractions — `planned`
+35. Adhesives, Polymers, and Plastics — `planned`
 
 **Vol V — The Reagent Network Graph (capstone)**
-34. The Tech Tree — the full dependency graph of syntheses, route economics, and the "what can I build from a supermarket + hardware store" map — `planned`
+36. The Tech Tree — the full dependency graph of syntheses, route economics, and the "what can I build from a supermarket + hardware store" map — `planned`
 
 ## 5. Progress Report
 
@@ -108,11 +113,13 @@ Status key: `planned` → `in-progress` → `drafted` → `reviewed` → `publis
 | 3 | 2026-10-16 | Survey batch 2 (NurdRage 2a + NileRed 2b) | DONE | 7 papers register-first: hydrazine ketazine (CAND-5 protective-intermediate staging), iodine (CAND-1 generalized — recurrence test PASSED), copper sulfate 3 ways (first P5 firings + P10 exemplar), electrolytic KClO3, NileRed caffeine/gloves/limonene (CAND-6 steam distillation). Census after 13 papers: P1 13/13; P5 2/13; P7 0/13 (batch 3 hunts calcination); P12 weak (1). **REC-1 APPROVED same session: CAND-1 → book P13 "In-situ redox generation."** 2 commits + correction logged |
 | 4 | 2026-10-16 | Survey batch 3 (NurdRage 3a + P7 hunt 3b) | DONE | 6 papers register-first: NurdRage round 3 — hydrazine urea route (CAND-5 honest miss: no protective intermediate needed), electrochemical H2SO4 (closes a Cu/CuSO4/H2SO4 cycle with N09), oxalate-precipitation HNO3 (CAND-7 FIRED: precipitation-driven acid liberation, the P3/P4 intersection), iodine-from-H2SO4 (P13 third face: generated-unstable-acid); P7 hunt successful — lime cycle (Primitive Technology + SkillCult, attribution resolved) + baking-soda calcination (ThoughtCo/SciAm). Census after 19 papers: P1 19/19, P7 2/19 (archetype + kitchen face), P10 11/19, P13 3 firings; P12 still 1/19 (hunt continues into book-canon batches). CAND-7 opened (needs a second batch to promote). 3 commits |
 | 5 | 2026-10-15 | Book-canon audit batches (Thompson 4a; Dunn/Golden Book/OpenStax 4b) + P12 hunt | DONE | 6 gathers register-first (N20-N25): Thompson canon audit (anchors Vol I Ch 1-12 nearly one-to-one; his model is BUY, ours MAKE — FINDING-A: forensics beyond map), NurdRage Cu-nitrate recycling (**P12 hunt RESOLVED** — the source states its own 60-80% yield; P7 third firing), azeotropic-HNO3 (P6 archetype: dilute -> 68% azeotrope -> fuming); Dunn (28 projects verified; **Leblanc-vs-Solvay = the historical P10 exemplar**; FINDING-B1: gunpowder chapter constrained by the energetics binding line — Ch 27 knowledge only), Golden Book (ambition benchmark), OpenStax (theory-coverage check; **FINDING-B2: nuclear chemistry absent from the map; FINDING-C: atomic-structure/bonding has no home chapter**). Census after 25 papers: P1 22/25, P10 15/25, P2 14/25, P12 3/25 (resolved), P7 4/25, P13 3 firings/3 faces. First ANALYSIS.md synthesis written (book positioning: Thompson=BUY/technique, Dunn=MAKE/improvised, Golden Book=ambition, OpenStax=theory — the Atlas unifies them as the make-or-buy network). Clock note: sandbox clock reads 2026-10-15 UTC; session-log chronology follows session numbers. Authoring-start proposal presented at session close (user gate). 3 commits |
+| 6 | 2026-10-15 | Authoring-gate decision recording + chapter-map renumber (34→36 ch) + survey batch 5 (CAND-7 watch + corpus expansion) | DONE | Gate outcome recorded as durable paragraph: authoring DEFERRED (more survey batches first); FINDING-C → new Vol I Ch 3 "Atoms, Elements, and the Chemical Bond"; FINDING-B2 → full chapter, new Vol III Ch 29 "Nuclear Chemistry at Home"; FINDING-A → optional forensics section in Ch 13. Chapter map renumbered 34→36; P-index chapter refs updated. Survey batch 5 (6 papers register-first, N26-N31): CAND-7 second firing (oxalate H2SO4, N28, + independent Keras replication) → **REC-2 APPROVED same session: CAND-7 → book P14 "Precipitation-driven acid liberation"**; Cu-nitrate recovery (N26, explicit A/B vs N21), bisulfate HNO3 (N27), Texium make-or-buy classification (N29), Thompson Make: carbonate hub (N30), Extractions&Ire channel audit (N31, in-scope/excluded split). N14 attribution corrected to NileRed; follow-up 0yvbJ8tE2y8 identified as ChemEx LK (de-prioritized). Census after 31 papers: P1 28/31, P10 21/31, P2 17/31, P4 13/31, P3 5/31, P6 6/31. 3 commits |
 
 ### Standing to-do
-- [ ] NEXT UNIT (pending user gate): on approval of the authoring-start proposal — Vol I Ch 1 "The Lab in a Ruined World" (one chapter per session, one canvas per chapter). Gate decisions requested: FINDING-A (forensics -> Ch 12 section?), FINDING-B2 (nuclear chemistry -> Ch 27 section or exclude?), FINDING-C (atomic structure/bonding -> weave into Ch 2/3/7 or new Vol I chapter?).
+- [ ] NEXT UNIT (session 7): survey batch 6 — candidates: pre-1950 home-chem books (*The Boy Chemist*, *Chemical Magic*), Cody's Lab first entry, NurdRage urea-route hydrazine video (UB7vwIFCnR0), Extractions&Ire individual in-scope videos, Thompson Make: Parts I-II (full list in the survey follow-ups register). Survey-first stands until the user calls authoring (session-6 gate).
+- [ ] AUTHORING GATE (session 6, user decision): authoring start DEFERRED — survey batches continue until the user calls authoring. First authoring unit remains Vol I Ch 1 "The Lab in a Ruined World" (one chapter per session, one canvas per chapter). Gate decisions recorded: FINDING-C → new Vol I Ch 3 "Atoms, Elements, and the Chemical Bond"; FINDING-B2 → full chapter, Vol III Ch 29 "Nuclear Chemistry at Home"; FINDING-A → optional forensics section in Ch 13 "Analysis Without Instruments".
 - [x] Canon-coverage audit tables DONE (session 5): Thompson/Dunn/Golden Book/OpenStax audit tables in papers/batches/batch-04a.md + batch-04b.md; coverage findings A, B1, B2, C logged and routed to the authoring gate.
-- [ ] Survey deferrals (see everyday-chem-survey): transcript-level fetches (batches 1-3); N05/N06/N14 video dates; sequel-video channel attributions (sodium thermite originals, luminol precursors); N11 caffeine URL pin; N12 gloves transcript fetch; N15 product-concentration + N17 purification details; CAND-7 watch items (sulphates+oxalic-acid thread, NileRed urea hydrazine); P12 hunt continues.
+- [ ] Survey deferrals (see everyday-chem-survey): transcript-level fetches (batches 1-3, N22, N26-N28 — incl. the "with the SUN" element of N28 and N26's copper-recovery step); N05/N06 video dates (N14 date now verified, 2016-02-18, attribution corrected to NileRed); sequel-video channel attributions (sodium thermite originals, luminol precursors); N11 caffeine URL pin; N12 gloves transcript fetch; N15 product-concentration + N17 purification details; N30 article date pin; NurdRage urea-route hydrazine video (UB7vwIFCnR0) verification. RESOLVED this session: CAND-7 watch items (gathered + promoted P14); P12 hunt (session 5).
 - [ ] Reagent-network data model for Ch. 33 (nodes=chemicals, edges=syntheses, edge costs per P10) — design during Vol II.
 
 ### Quality checklist (per chapter, from the skill's gates)
