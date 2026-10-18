@@ -15,6 +15,7 @@ Bootstrap complete (session 1, 2026-10-15); Phase 1 gate PASSED. Session 2 (2026
 - Authoring pipeline: follow the `science-book-builder` skill (load it each session). One unit = one session = one chapter canvas (canvas skill for format). Chapter canvases live under `/home/user/canvases/`.
 - Survey track: `survey-track.md` in the skill; record lives in the sibling topic `everyday-chem-survey` (KNOWLEDGE.md + SURVEY.md), mirrored in the repo under `papers/` + `knowledge/survey/`. **ALWAYS-SYNC PROTOCOL (user directive, session-18 close): the GitHub repo is the independently resumable main point — ALL repo mirrors, including BOTH KNOWLEDGE.md files, are pushed at EVERY session close; the repo is never left stale.**
 - Session protocol: mark the session-log row IN PROGRESS in PROJECT.md before authoring; update chapter-map status + current-state paragraph here at session close; append, never rewrite.
+- Split-on-trouble amendment (user directive, 2026-10-18; the durable record lives in PROJECT.md's decisions log): any chapter that gives trouble being handled at one go in a session — sandbox memory limits, context exhaustion, tooling friction — is split into two or more session parts; each part extends the same manuscript/canvas (append, never rewrite), closes its own records + ALWAYS-SYNC push, and marks its session-log row as part N of the chapter; the chapter reaches `drafted` only at its final part, and the Phase 3 adversarial review runs on the complete chapter as its own unit.
 
 ## Working title
 
