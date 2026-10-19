@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vol IV · Chapter 33 — Cleaning-Product Chemistry: The Molecule That Holds Dirt in Water</title>
+<style>
+  :root { font-family: Georgia, 'Times New Roman', serif; color: #1a1a1a; }
+  body { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.2rem 4rem; line-height: 1.55; background: #fff; }
+  h1 { font-size: 1.9rem; margin: 2.2rem 0 0.8rem; }
+  h2 { font-size: 1.45rem; margin: 2rem 0 0.6rem; border-bottom: 1px solid #ddd; padding-bottom: 0.25rem; }
+  h3 { font-size: 1.2rem; margin: 1.6rem 0 0.5rem; }
+  h4 { font-size: 1.05rem; margin: 1.3rem 0 0.4rem; }
+  pre, code { font-family: 'Courier New', Courier, monospace; }
+  code { background: #f2f2f2; padding: 0.05em 0.3em; border-radius: 3px; font-size: 0.92em; }
+  pre { white-space: pre; tab-size: 4; break-inside: avoid; page-break-inside: avoid; overflow-x: auto; border: 1px solid #ddd; background: #fafafa; padding: 0.7rem 0.9rem; font-size: 0.85rem; line-height: 1.35; }
+  blockquote { border-left: 3px solid #888; margin: 1rem 0; padding: 0.2rem 1rem; color: #333; }
+  table { border-collapse: collapse; margin: 1rem 0; break-inside: avoid; page-break-inside: avoid; }
+  th, td { border: 1px solid #bbb; padding: 0.35rem 0.6rem; text-align: left; }
+  th { background: #f0f0f0; }
+  hr { border: 0; border-top: 1px solid #ccc; margin: 2rem 0; }
+  .banner { background: #eef6ff; border: 1px solid #bcd6f0; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.9rem; font-family: system-ui, sans-serif; margin-bottom: 1.5rem; }
+  @page { size: A4; margin: 16mm 15mm; }
+  @media print { body { max-width: none; padding: 0; font-size: 10.5pt; } .no-print { display: none; } pre { font-size: 8.8pt; } h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; } }
+</style>
+</head>
+<body>
+<main id="content">
+<p class="banner">The Everyday Chemist's Atlas — Vol IV · Chapter 33 (Projects: Rebuilding Useful Things). HTML reading edition, generated 2026-10-19 from the manuscript master. The Canon-Coverage record and the review apparatus (forward flags, back flags, chapter ledger, revision appendix) remain in the .md master.</p>
+<h1>Chapter 33 — Cleaning-Product Chemistry: The Molecule That Holds Dirt in Water</h1>
+<p><em>A ruined world does not stay dirty because it lacks soap — it stays dirty exactly as long as nobody understands the sink. Every bottle under the kitchen counter is a reaction the household already owns: a molecule that argues with water about grease, a builder that arrests calcium before it can tax the soap, an acid that unbuilds the kettle's stone, an oxidant that kills what the soap cannot touch. This is the chapter where the Atlas reads the cleaning shelf the way it has read every other shelf — as chemistry, weighed, priced, and entered in the ledger.</em></p>
+<p><em>Chapter status: drafted (session 99 — Engine 19's battery clean at run 4; adversarial review scheduled: session 100). Every number on this page was machine-verified before the page was written: Engine 19, the arithmetic-compile evaluator (Lab 33.1), and the cleaning ledgers (Lab 33.2), both executed in-drafting with verbatim outputs. Nothing in this chapter should be read as bench-verified beyond the labels shown; the labels are the contract.</em></p>
+<h2>Lecture 0 — The Sink at Midnight</h2>
+<p>Start with the phenomenon, before any formula. A roasting pan comes out of the oven carrying a film of fat. You run cold water over it: the water beads and sheets off, and the fat does not move — it does not even get <em>wet</em>. You run hot water: a little better, then it re-sets as the pan cools. You add a drop of dish liquid to a bowl of warm water: the fat lifts in sheets, the water touches what it refused to touch before, and the rinse carries everything away.</p>
+<p>Cleaning, it turns out, is not one job. It is three, and they happen in order:</p>
+<ol>
+<li><strong>Wet.</strong> The water must actually touch the greasy surface — it must stop beading. On its own, water is pulled into droplets by its own cohesion (the surface tension that lets a paperclip ride on water, Chapter 5's floating-needle bench), and grease repels it outright.</li>
+<li><strong>Lift.</strong> The grease must come <em>off</em> the surface — not moved around, but detached, either dissolved in something that accepts it or pried loose mechanically.</li>
+<li><strong>Hold.</strong> The lifted grease must stay suspended in the wash water all the way to the drain. If it re-attaches to the pan (or to the sink), you have not cleaned; you have redecorated.</li>
+</ol>
+<p>The pencil-and-paper case, run it yourself: two jars, a spoon of cooking oil, water to the shoulder. Shake the first: the oil breaks into beads, then climbs back into one layer within a minute — the emulsion refuses to persist. To the second, add one flake of soap (Chapter 23's own bench product) before shaking: the liquid goes milky and <em>stays</em> milky — for hours, for days. Nothing was scrubbed. Nothing was heated. One molecule did all three jobs at once.</p>
+<p>How you could have found this: every cook already knows the three variables — heat helps, agitation helps, soap helps — and knows that hot soapy agitation wins fastest. What the cook's knowledge hides is <em>why soap is special</em>: hot water alone wets poorly and holds worse; soap alone is slow; together they compound. The rest of this chapter is the unpacking of that one flake. The chapter's single sentence: <strong>cleaning is the dissolution of the insoluble, performed by building a container around it.</strong> The container has a name, and it is built out of the molecule introduced in the next lecture.</p>
+<h2>Lecture 1 — The Surfactant Ledger</h2>
+<p>The molecule is an <strong>amphiphile</strong> — Greek for &quot;loves both&quot; — and it is the most asymmetric object the household owns. Draw it before naming it: a long <em>squiggle</em> (a hydrocarbon chain, typically 8–18 carbons) joined to a circled <em>head</em> (a charged group). The squiggle's physics: hydrocarbon interacts with water only by breaking water's hydrogen-bonding network, so it is shoved away from water and welcomed by grease, which is made of the same stuff. The head's physics: ionic, it is embraced by water and refused by grease. One molecule, two faces, welded together — and each face does with its own kind what the other cannot.</p>
+<p>At the surface of the wash water the amphiphiles stand in rank: heads in the water, tails in the air — the water's skin becomes half soap, its cohesion broken, its droplets collapsing into sheets. That is job one, <em>wet</em>, done at the molecular border.</p>
+<p>Above a certain concentration (the <strong>critical micelle concentration, CMC</strong> [recognition-only] — the surfactant literature's own constant, quoted here as a name, not a priced number) the tails run out of surface to hide in and do something better: they hide in <em>each other</em>. Fifty to a few hundred molecules gather tails-inward, heads-outward — a <strong>micelle</strong>, a soft container whose interior is grease and whose exterior is water. Grease on a pan is pulled into the interior; the container floats away into the bulk. Jobs two and three, <em>lift</em> and <em>hold</em>, are the same object: the micelle is a solvent for the insoluble.</p>
+<p>Now the head's two families, because the family decides the price of the whole shelf.</p>
+<p><strong>Family one: the carboxylate head — soap.</strong> This is Chapter 23's own bench: fat plus lye, glycerol out, three soap salts out. Sodium stearate C₁₈H₃₅NaO₂ = 306.466 g/mol [pin, Ch 23]; sodium oleate C₁₈H₃₃NaO₂ = 304.450 g/mol [pin, Ch 23]. Soap is the amphiphile the ruined world rebuilds from a pot of fat and a can of lye, and no factory is needed. But the carboxylate head carries a tax, and Chapter 23 printed the tax bill: in hard water the soap trades its sodium for the water's calcium and stops being a soap — sodium stearate becomes calcium stearate Ca(C₁₈H₃₅O₂)₂ = 607.030 g/mol [pin, Ch 23], insoluble, the bathtub ring. Ch 23's own sentence stands: &quot;each liter of wash water converts 0.6124 g of sodium stearate into 0.6065 g of scum [computed] <em>before any cleaning happens</em>&quot; — the hard-water household pays a soap tax and calls it lather failure. Lab 33.2's Ledger B1 extends the tax across the water classes (the USGS convention Chapter 24 priced at its Ksp bench: 0–60 mg/L-as-CaCO₃ soft, 61–120 moderately hard, 121–180 hard, above 180 very hard [convergent]).</p>
+<p><strong>Family two: the sulfonate head — the syndets.</strong> The detergent industry's founding move was not a new surfactant <em>strength</em> but a new surfactant <em>head</em>: the sulfonate group (−SO₃⁻) in place of the carboxylate (−COO⁻). Same amphiphile geometry; different ledger entry. The calcium salts of the sulfonates <em>stay soluble</em> [convergent] — the scum equation never fires, and the tax of Lecture 1 evaporates. Sodium dodecyl sulfate, the laboratory's standard surfactant and the dish liquid's ancestor: C₁₂H₂₅NaO₄S = 288.378 g/mol [computed]. Linear alkylbenzene sulfonate, the workhorse of every powder box: C₁₈H₂₉NaO₃S = 348.477 g/mol [computed] (CAS 25155-30-0; the trade's own datasheet prints 348.48 at two decimals [convergent]).</p>
+<p>The one-paragraph summary of the shelf's first ledger: soap is the rebuildable amphiphile that fails in hard water; syndets are the industrial amphiphiles that do not; and everything else in the bottle exists to fix the water so that even soap could work. That is the next lecture.</p>
+<h2>Lecture 2 — The Builder Window</h2>
+<p>The scum equation can be answered two ways. The syndet answered it by <em>changing the surfactant</em> (Lecture 1). The builder answers it at the source, by <em>removing the calcium before the surfactant ever meets it</em> — and this is the cleaning product's second ingredient, the one the label hides under &quot;builder.&quot;</p>
+<p><strong>Door one: precipitation.</strong> Washing soda — Chapter 14's own bench, the ash-and-lime rebuild — is sodium carbonate: anhydrous Na₂CO₃ = 105.988 g/mol [pin, Ch 14], the decahydrate crystal Na₂CO₃·10H₂O = 286.138 g/mol [pin, Ch 14] (its active-carbonate assay 37.04 %, the trade's &quot;crystal soda&quot; [pin, Ch 14]). Carbonate meets calcium and the two refuse to stay dissolved: E9, the builder's precipitation, CaCl₂ + Na₂CO₃ → CaCO₃↓ + 2 NaCl, mass- and atom-exact (Lab 33.1). The position of that equilibrium is Chapter 24's own constant — Ksp(CaCO₃) = 3.36 × 10⁻⁹ [pin, Ch 24] — a tie so one-sided that the calcium is carried out of solution and into the drain as the same limestone it came from. Per mmol of Ca²⁺ the crystal builder costs 286.138 mg and <em>leaves</em> 100.086 mg of CaCO₃ [computed] — the builder's price includes the ballast of its own ten waters, which is why the box is heavy and the anhydrous ash (105.988 mg per mmol) is the cheaper cargo. Chapter 24 called this &quot;Kf by the box, the softener trade priced&quot; — the flag this chapter now pays.</p>
+<p><strong>Door two: complexation.</strong> Instead of throwing the calcium out of solution, tie it up <em>in</em> solution so tightly that it can no longer find a surfactant. Two ties sit on the household shelf:</p>
+<ul>
+<li><strong>Citrate</strong> — the citric-acid salt of Chapter 8's bench (citric acid C₆H₈O₇ = 192.123 g/mol [pin, Ch 8]; citrate ion C₆H₅O₇⁻ = 189.099 [pin, Ch 24]; trisodium citrate dihydrate Na₃C₆H₅O₇·2H₂O = 294.099 [pin, Ch 24]). Citrate binds calcium in the ratio 3 Ca : 2 citrate — the complex calcium citrate Ca₃(C₆H₅O₇)₂ = 498.432 g/mol [computed], and per mmol of Ca²⁺ the builder dose is 2/3 mmol of the trisodium dihydrate: 196.066 mg [computed]. It is food-grade, cheap, and the reason the modern label reads &quot;sodium citrate.&quot;</li>
+<li><strong>EDTA</strong> — Chapter 24's own chelation constant's carrier (the acid composes at 292.244 g/mol per Ch 24's RA-8; the shelf's powder is disodium EDTA dihydrate Na₂C₁₀H₁₄N₂O₈·2H₂O = 372.238 g/mol [computed]). EDTA is the hexadentate wrap — six donor arms (four carboxylates, two amines) close around one Ca²⁺ in a 1:1 embrace, E8's complexation, and the log K of the CaY²⁻ tie sits near 10.6 [recognition-only] — the same order of one-sidedness Chapter 24 priced for copper. Per mmol of Ca²⁺: 372.238 mg [computed], and unlike the carbonate door this builder <em>stays soluble</em> — the calcium leaves the game without ever leaving the bottle.</li>
+</ul>
+<p><strong>The benched door: the phosphate builder.</strong> For fifty years the industry's builder of choice was sodium tripolyphosphate, STPP, Na₅P₃O₁₀. The Atlas refuses to price it: Lab 33.1's gate prints TABLE REFUSES P — the phosphorus never enters this chapter's element table, making Ch 33 the eighth zero-admission chapter (Ch 32 was the seventh). The refusal is not squeamishness; it is the history itself: STPP built the cleanest wash water of the twentieth century, the wash water carried its phosphate to the river, the river bloomed, and the jurisdictions restricted it [convergent] — the modern citrate builder line is the ban's direct descendant. The Atlas's bench has no use for phosphorus, and the bench's admission table says so in the only language the book trusts: a refusal, printed by the machine.</p>
+<p>The builder window in one sentence: <strong>the builder is a calcium trap — set as a precipitate (carbonate), a soluble cage (citrate, EDTA), or not at all in the phosphate age (refused at the gate)</strong> — and Ledger B2 prices all the open doors at the same 150 mg/L hardness, so the shelf can be read as a price list.</p>
+<h2>Lecture 3 — The pH Windows</h2>
+<p>The amphiphile handles grease; the builder handles water; the third axis of the shelf is pH, and the household keeps one product at every window.</p>
+<p><strong>The acid window: the descale.</strong> The kettle's stone is calcium carbonate, and Chapter 4's own arithmetic dissolves it: E4, CaCO₃ + 2 CH₃COOH → Ca(CH₃COO)₂ + H₂O + CO₂, mass- and atom-exact (Lab 33.1). The reagent is vinegar — 50.30 g/L acetic acid = 0.8376 M (Chapter 4's own molarity pin, reproduced by Lab 33.1's zero-probe; and <em>0.8376, not 0.8377</em> — Chapter 4's review made that last-digit error class famous). Ledger B3 prices the descale: 1.00 g of scale is 9.99141 mmol of CaCO₃ and demands 23.86 mL of vinegar; the 3.00 g kettle takes 71.6 mL. The gentler ladder is citric acid — same acid window, food grade, and its calcium salt is Lecture 2's own complex (the descale and the builder are the same chemistry aimed at different kettles): 3.00 g of scale takes 3.839 g of anhydrous citric acid [computed].</p>
+<p><strong>The alkaline window: lye and the saponification-in-place.</strong> The drain opener's active ingredient is Chapter 14's lye — NaOH = 39.997 g/mol [pin, Ch 14], assayed in the trade as its Na₂O equivalent, 77.48 % [pin, Ch 14] (the carbonate's own assay 58.48 % — the two numbers Chapter 14 printed side by side). Lye's cleaning move is not dissolution but <em>conversion</em>: an oven's baked-on grease is a fat, and fat plus lye is Chapter 23's soap pot, run in place — E5, the olein saponification C₅₇H₁₀₄O₆ + 3 NaOH → glycerol + 3 sodium oleate (304.450 [pin, Ch 23]), mass- and atom-exact (Lab 33.1). The oven cleaner does not remove the grease; it <em>turns the grease into its own soap</em> and lets the rinse do the rest. That is the deepest trick on the whole shelf — the dirt is conscripted as the reagent.</p>
+<p><strong>The oxidant window: bleach, which is not a cleaner.</strong> Sodium hypochlorite NaOCl = 74.442 g/mol [pin, Ch 16] kills microbes and decolors stains; it lifts no grease and builds no micelle. The regular jug is Chapter 16's own priced composition — 1090 g of 5.25 % solution, its available-chlorine assay 5.0006 % via the Cl₂/NaOCl factor 0.95250 [pin, Ch 16, reproduced in Ledger B5] — and the dry &quot;oxygen bleach&quot; is the percarbonate 2Na₂CO₃·3H₂O₂ = 314.018 [pin, Ch 16], 32.50 % active H₂O₂. The two products that share a shelf and never share a job: the surfactant holds dirt in water, the oxidant destroys what cannot be held. Neither substitutes for the other — and the next lecture is what never happens when they meet the wrong neighbors.</p>
+<h2>Lecture 4 — The Fence and the Dechlorinator</h2>
+<p>Chapter 28 drew the hazard fence in its permanent form, and the cleaning shelf is where the fence has the most gates: <strong>bleach never meets acid, and bleach never meets ammonia.</strong> This chapter prices the second gate's chemistry. Ammonia is on the shelf in its own bottle (window cleaners; NH₃ = 17.031 g/mol [pin, Ch 20]); bleach is in the next bottle. If they meet, the hypochlorite accepts the ammonia's spare hydrogen and the ladder's first rung forms: E6, the chloramine step, NH₃ + HOCl → NH₂Cl + H₂O — hypochlorous acid HOCl = 52.460 g/mol [computed], monochloramine NH₂Cl = 51.476 g/mol [pin, Ch 28], mass- and atom-exact (Lab 33.1). The municipal trade <em>uses</em> that rung on purpose at controlled doses [recognition-only]; the household does it by accident at none. And the ladder does not stop where the label would like: push further and the rungs run to nitrogen trichloride NCl₃ = 120.366 g/mol [computed] — the compound that gives the wrong-mix its reportable smell [recognition-only]. The Atlas prices the rungs so the fence is not a rule memorized but a reaction <em>understood</em>: the machine verifies the ladder's arithmetic; the bench never runs it.</p>
+<p><strong>The dechlorinator.</strong> When bleach must be neutralized — an aquarium, a hatchery, a spill — the shelf's answer is the photographer's own salt: sodium thiosulfate, Chapter 17's synthesis bench and Chapter 32's fixer, whose reducing face Ch 32 flagged forward exactly here. The chemistry is E7, the dechlorinator: Na₂S₂O₃ + 4 NaOCl + 2 NaOH → 2 Na₂SO₄ + 4 NaCl + H₂O, mass- and atom-exact, and the stoichiometry is the ledger's whole content — <strong>four</strong> hypochlorites per thiosulfate, the ratio the chapter's must-fail row tests (2-vs-4 refused by the machine, Lab 33.1). Ledger B4 prices the neutralization: the regular jug holds 0.7687 mol NaOCl per liter [pin, Ch 16, reproduced] — a full liter takes 30.383 g of anhydrous Na₂S₂O₃ (158.097 [pin, Ch 32]) or 47.694 g of the pentahydrate (248.172 [pin, Ch 32], the fixer's own hydrate); a 250 mL spill takes 7.596 g anhydrous / 11.923 g pentahydrate [computed]. The hydrate ratio between those two prints — 1.5697 — is Chapter 32's own RA-3(d) number, reproduced by this chapter's zero-probe: the two chapters share a salt down to the last digit. The aquarium trade sells the same arithmetic by the teaspoon [convergent].</p>
+<p><strong>The never-the-drain ledger.</strong> Chapter 32's closing discipline arrives here as a standing rule and gains the chapter's rows: the drain is not a reagent sink. Silver-bearing wastes go to the recovery container (Ch 32); neutralized bleach and descale water go down only <em>after</em> their chemistry has been answered (the bicarbonate rinse, the dechlorinator); heavy-metal solutions do not go down at all. The safety table's last row is the ledger's signature line.</p>
+<h2>Lecture 5 — Reading the Label</h2>
+<p>Take a bottle at random and read it as the Atlas has taught: not as a promise but as a <em>manifest</em>. &quot;Surfactants 5–15 %&quot; — Lecture 1, heads and tails, the micelle. &quot;Sodium carbonate&quot; or &quot;sodium citrate&quot; or &quot;disodium EDTA&quot; — Lecture 2, the builder door, read as a price list (B6). &quot;Sodium hydroxide&quot; — Lecture 3's alkaline window, Ch 14's lye assayed as Na₂O. &quot;Sodium hypochlorite 5 %&quot; — the oxidant window, Ch 16's jug, 5.0006 % available chlorine. &quot;Fragrance&quot; — Chapter 34's chapter, arriving next. The label is P1 (read the label, OTC sourcing) turned inside out: not <em>the store as a reagent catalog</em> but <em>the bottle as a bench manifest</em> — every line an ingredient the Atlas has already priced, every percentage an assay the ledgers already know.</p>
+<p><strong>The ruined-world rebuild, four benches.</strong> The shelf, read backward: soap is fat plus lye (Ch 23's pot — the surfactant that fails in hard water, but the one you can make in a pot); the builder is ash plus lime (Ch 14's soda — the crystal hydrate with its 37.04 % active line); the oxidant is brine plus electricity (Ch 16's electrolysis — the jug at 0.7687 mol/L); the dechlorinator is the fixer salt (Ch 17/32 — the thiosulfate that answers the oxidant). No factory survives the ruin; the four benches do, and the sink gets cleaned anyway. That is the chapter's close: the cleaning shelf was never magic — it was the network, boxed.</p>
+<h2>Lab 33.1 — Engine 19: The Arithmetic-Compile Evaluator (design, honesty record, battery)</h2>
+<p><strong>Design.</strong> A fresh per-chapter drafting engine, sharing zero code with all eighteen prior engines. Where Engine 17 rewrote strings innermost-first and Engine 18 aggregated span-containment, Engine 19 <em>compiles</em>: a formula is never evaluated by walking its own characters — it is compiled once into an exact-integer arithmetic expression in <strong>myria-units (1 myu = 1e-4 g/mol)</strong> (e.g. <code>Na2CO3·10H2O</code> compiles to <code>((2*229900+120110+3*159990)+(10*(2*10080+159990)))</code> — every literal a held-22 mass, every <code>+</code>/<code>*</code> structural), and a <strong>recursive-descent integer evaluator</strong> then runs the compiled expression to a BigInt. Division exists in the expression language only as a <em>gate</em>: a decimal hydrate coefficient like <code>0.5</code> compiles to <code>×5÷10</code>, and the ÷ throws NON-EXACT unless the division is exact — the non-exact hydrate is refused by arithmetic, not by inspection. Compositions enter via a <strong>zero-probe re-pricing table</strong>: each anchor composition is re-derived from its owner's own quoted arithmetic and probed to zero difference <em>at the owner's printed precision</em> before the chapter may cite it. The held-22 element table was re-transcribed independently before any computation (Ch 25's own page, the held twenty plus Mn 54.938, plus Ch 30's Si 28.085 — twenty-two entries, all integral at the myria scale). P is not among them: the STPP row is refused at the gate, and the chapter is the eighth zero-admission chapter.</p>
+<p><strong>Honesty record.</strong> Run 1: SELF 1/8 — three genuine engine defects (the evaluator's unary-plus gap; the hydrate middle-dot entered as ASCII <code>.</code> — a codepoint slip; the rational-literal ordering), plus a harness case mistyped unclosed. Run 2: crashed — the harness spliced hydrate segments raw into the compiled expression (they were never compiled), and a leading-coefficient <code>*2</code> bug appeared. Run 3: the engine core was clean — SELF 7/8, REFUSALS 11/12, PINS 16/18, NEW 5/6, BALANCES 9/9 with the E3 charge ledger and the must-fail CAUGHT — and all five residual fails were harness/display-layer: (a) the coefficient loop's membership test lost its parentheses, so the <code>0.5</code> hydrate printed <code>CHAR .</code> instead of parsing; (b) the same bug broke the non-exact hydrate's refusal path (it must print NON-EXACT, not the parser's complaint); (c)–(e) the display formatter stripped significant trailing zeros — Ca stearate printed <code>607.30</code> for 607.030, Na oleate <code>304.45</code> for 304.450, HOCl <code>52.46</code> for 52.460 — the values exact underneath, the strings wrong; and one B5 harness row hardcoded the 0.9525 factor instead of computing it (same 4 dp, nit logged). Run 4: the repair pass — the coefficient loop parenthesized, the display floor set at three decimals, the fraction computed from the exact factor — battery clean, 57/57. The withdrawals are printed as found, per the house rule.</p>
+<p><strong>Battery (verbatim, the executed run 4):</strong></p>
+<pre><code>ENGINE 19 — THE ARITHMETIC-COMPILE EVALUATOR · RUN 4 (2026-10-18)
+Design: every formula compiles to an exact-integer arithmetic expression in myria-units (1 myu = 1e-4 g/mol); a recursive-descent evaluator runs the compiled expression; division is a gate (non-integral -&gt; NON-EXACT); compositions enter via a zero-probe re-pricing table. Held-22 transcribed from Ch 25’s own page + Ch 30’s Si 28.085. Zero shared code with all eighteen prior engines.
+Run history: run 1 SELF 1/8 (three engine defects: evaluator unary-plus gap; hydrate middle-dot codepoint mistaken for ASCII '.'; rational-literal ordering) + a mistyped unclosed case; run 2 crashed (hydrate segments spliced raw into the compiled expression; leading-coefficient *2 bug); run 3 SELF 7/8, REFUSALS 11/12, PINS 16/18, NEW 5/6, BALANCES 9/9 + must-fail CAUGHT (five harness/display-layer fails: the 0.5 coefficient loop precedence, the non-exact hydrate refusal path, three trailing-zero displays). Run 4 = the post-repair rerun.
+
+SELF-TEST:
+  H2O = 18.015 ✓
+  CO2 = 44.009 ✓
+  NaCl = 58.443 ✓
+  NaOH = 39.997 ✓
+  CaCO3 = 100.086 ✓
+  CaSO4·0.5H2O = 145.1415 ✓
+  HCl = 36.461 ✓
+  C3H8O3 = 92.094 ✓
+
+REFUSALS:
+  Na5P3O10 -&gt; REFUSES (TABLE REFUSES P) ✓
+  K2CrO4 -&gt; REFUSES (TABLE REFUSES Cr) ✓
+  CoCl2 -&gt; REFUSES (TABLE REFUSES Co) ✓
+  NiCl2 -&gt; REFUSES (TABLE REFUSES Ni) ✓
+  LiOH -&gt; REFUSES (TABLE REFUSES Li) ✓
+  NaF -&gt; REFUSES (TABLE REFUSES F) ✓
+  AuCl3 -&gt; REFUSES (TABLE REFUSES Au) ✓
+  (empty) -&gt; REFUSES (EMPTY) ✓
+  (NaOCl -&gt; REFUSES (UNCLOSED) ✓
+  Na0Cl -&gt; REFUSES (ZERO-SUB) ✓
+  NaCl· -&gt; REFUSES (DOT) ✓
+  CaCl2·0.35H2O -&gt; REFUSES (NON-EXACT) ✓
+  NOTE: Na5P3O10 = STPP, the phosphate builder — benched at the gate; the eighth zero-admission chapter.
+
+PINS (anchor chapters’ own prints):
+  C18H35NaO2 = 306.466 [Ch 23] ✓
+  Ca(C18H35O2)2 = 607.030 [Ch 23] ✓
+  C18H33NaO2 = 304.450 [Ch 23] ✓
+  C6H5O7 = 189.099 [Ch 24] ✓
+  Na3C6H5O7·2H2O = 294.099 [Ch 24] ✓
+  C10H16N2O8 = 292.244 [Ch 24 RA-8] ✓
+  Na2CO3 = 105.988 [Ch 14] ✓
+  Na2CO3·10H2O = 286.138 [Ch 14] ✓
+  NaOH = 39.997 [Ch 14] ✓
+  CaCO3 = 100.086 [Ch 14] ✓
+  Ca(C2H3O2)2 = 158.166 [Ch 21] ✓
+  NaOCl = 74.442 [Ch 16] ✓
+  Cl2 = 70.906 [Ch 16] ✓
+  2Na2CO3·3H2O2 = 314.018 [Ch 16] ✓
+  NH2Cl = 51.476 [Ch 28] ✓
+  NH3 = 17.031 [Ch 20] ✓
+  C6H8O7 = 192.123 [Ch 8] ✓
+  C3H8O = 60.096 [Ch 21] ✓
+
+NEW (first prints for this chapter):
+  SDS C12H25NaO4S = 288.378 ✓
+  LAS C18H29NaO3S = 348.477 ✓
+  disodium EDTA dihydrate Na2C10H14N2O8·2H2O = 372.238 ✓
+  hypochlorous acid HOCl = 52.460 ✓
+  nitrogen trichloride NCl3 = 120.366 ✓
+  calcium citrate Ca3(C6H5O7)2 = 498.432 ✓
+
+BALANCES (mass closure in myu + atom maps):
+  E1 stearin -&gt; glycerol + 3 soap (Ch 23’s own reaction) ✓ 10114920 = 10114920 myu · C 57/57 H 113/113 Na 3/3 O 9/9
+  E2 the scum equation ✓ 7239160 = 7239160 myu · C 36/36 Ca 1/1 Cl 2/2 H 70/70 Na 2/2 O 4/4
+  E4 vinegar descale ✓ 2201900 = 2201900 myu · C 5/5 Ca 1/1 H 8/8 O 7/7
+  E5 olein saponification-in-place ✓ 10054440 = 10054440 myu · C 57/57 H 107/107 Na 3/3 O 9/9
+  E6 chloramine step (Ch 28’s ladder) ✓ 694910 = 694910 myu · Cl 1/1 H 4/4 N 1/1 O 1/1
+  E7 the dechlorinator ✓ 5358590 = 5358590 myu · Cl 4/4 H 2/2 Na 8/8 O 9/9 S 2/2
+  E8 EDTA complexation ✓ 4471920 = 4471920 myu · C 10/10 Ca 1/1 Cl 2/2 H 14/14 N 2/2 Na 2/2 O 8/8
+  E9 the builder’s precipitation ✓ 2169720 = 2169720 myu · C 1/1 Ca 1/1 Cl 2/2 Na 2/2 O 3/3
+  E3 charge ledger Ca²⁺ + CO₃²⁻ -&gt; CaCO₃ · 0 = 0 ✓
+  MUST-FAIL (2-vs-4 dechlorinator stoichiometry) -&gt; LHS 3069810 ≠ RHS 4189730 ✓ CAUGHT
+
+RE-PRICING ZERO-PROBES (round(derived) === anchor print):
+  vinegar 50.30 g/L as molarity (Ch 4’s own pin) -&gt; 0.8376 ✓ = 0.8376
+  regular jug: 1090 g × 5.25 % as mol NaOCl/L (Ch 16’s own pin) -&gt; 0.7687 ✓ = 0.7687
+  thiosulfate hydrate ratio (Ch 32 RA-3d’s own print) -&gt; 1.5697 ✓ = 1.5697
+
+EXERCISE FINALS:
+  Ex 33.1 (35 L at 100 mg/L): soap 21.4342 g, scum 21.2278 g
+  Ex 33.2 (20 L at 120 mg/L): crystal 6.861 g
+  Ex 33.3 (3.00 g kettle scale): vinegar 71.6 mL, citric acid 3.839 g
+  Ex 33.4 (250 mL bleach spill): anhydrous 7.596 g / pentahydrate 11.923 g
+  Ex 33.5 (60 L at 180 mg/L): crystal 30.876 g, citrate 21.157 g, EDTA 40.167 g, CaCO3 out 10.800 g
+
+VERDICT: 57/57 checks pass.</code></pre>
+<p><em>Gates: all counts exact; no spot totals. The balance rows close independently of the compiled masses (the atom-map walk and the mass evaluator share no code), so a mass slip cannot hide behind an atom map or vice versa.</em></p>
+<h2>Lab 33.2 — The Cleaning Ledgers (executed, verbatim)</h2>
+<p>The chapter's own arithmetic, run as exact BigInt rationals over Engine 19's prices, printed verbatim from the run-4 execution:</p>
+<pre><code>LEDGER B1 — THE SCUM TAX (hardness as mg/L CaCO₃):
+  60 mg/L -&gt; soap 0.3674 g/L, scum 0.3639 g/L
+  100 mg/L -&gt; soap 0.6124 g/L, scum 0.6065 g/L
+  120 mg/L -&gt; soap 0.7349 g/L, scum 0.7278 g/L
+  180 mg/L -&gt; soap 1.1023 g/L, scum 1.0917 g/L
+  350 mg/L -&gt; soap 2.1434 g/L, scum 2.1228 g/L
+LEDGER B2 — BUILDER DEMAND AT 150 mg/L (g/L of builder for 1:1 stoichiometry):
+  crystal soda Na2CO3·10H2O: 0.4288 g/L
+  anhydrous soda ash Na2CO3: 0.1588 g/L
+  trisodium citrate dihydrate (2/3 per Ca, the Ca₃(Cit)₂ complex): 0.2938 g/L
+  disodium EDTA dihydrate (1:1): 0.5579 g/L
+LEDGER B3 — DESCALING (vinegar 50.30 g/L):
+  1.00 g scale = 9.99141 mmol CaCO₃ -&gt; vinegar 23.86 mL
+  3.00 g kettle -&gt; vinegar 71.6 mL
+LEDGER B4 — THE DECHLORINATOR (1 L regular jug):
+  0.7687 mol NaOCl -&gt; thiosulfate 0.192180 mol
+  anhydrous Na2S2O3: 30.383 g · pentahydrate Na2S2O3·5H2O: 47.694 g
+  250 mL spill -&gt; 0.048045 mol thiosulfate · anhydrous 7.596 g / pentahydrate 11.923 g
+LEDGER B5 — THE FRACTION BATTERY (joins from the anchor chapters):
+  available-chlorine factor Cl₂/NaOCl: 0.95250
+  5.25 % × factor = 5.0006 % available chlorine (run 3’s harness hardcoded 0.9525 here — same 4 dp, nit logged; run 4 computes from the exact factor)
+  percarbonate 2Na2CO3·3H2O2 active H2O2: 32.50 %
+  crystal soda active Na2CO3: 37.04 %
+  soda ash assay as Na2O: 58.48 %
+  lye assay as Na2O: 77.48 %
+  borax %B: 11.34 %
+LEDGER B6 — PER mmol Ca²⁺ (mg of builder; the builder’s own price list):
+  crystal 286.138 -&gt; leaves 100.086 mg CaCO₃ · ash 105.988 · citrate 196.066 · EDTA 372.238 (stays soluble — no precipitate)</code></pre>
+<p><em>Readings off the ledgers:</em> B1's 100 mg/L row <em>is</em> Ch 23's own printed pair (0.6124/0.6065), reproduced by a different engine on a different day — the scum tax is now a two-chapter datum. B2 says the anhydrous ash is the cheapest builder per gram delivered (0.1588 g/L vs the crystal's 0.4288) but B6 explains why the box still sells crystal: the decahydrate is stable on the shelf, dosable by the spoon, and its ballast is water, not hazard. B4's pentahydrate number is the one the aquarium instructions mean by &quot;one gram per 10 gallons&quot; scaled up [recognition-only]. And B5's factor row is the whole reason &quot;5.25 % bleach&quot; and &quot;5 % available chlorine&quot; are different sentences — the 0.95250 is the exchange rate between them, Ch 16's own arithmetic re-derived.</p>
+<h2>Exercises</h2>
+<p><strong>Ex 33.1 (●○○).</strong> A washing session uses 35 L of 100 mg/L-as-CaCO₃ water with true soap. (a) How much sodium stearate is consumed by the scum trade before any cleaning? (b) How much scum forms? <em>Hint: the scum tax, Ledger B1.</em> <strong>Worked, two ways:</strong> (a) The count: 35 L × 0.999141 mmol Ca²⁺/L = 34.969926 mmol Ca²⁺; two soap per calcium → 69.939852 mmol × 306.466 g/mol = 21.4342 g (P-IDs: the scum equation E2; P12's loss ledger — this is a loss before yield is even defined). The second way: the per-liter rate — Ledger B1's 100 mg/L row prints 0.6124 g/L (itself Ch 23's own pair, reproduced by another engine), and 35 × 0.6124 = 21.4340 g; the count's exact 21.4342 g is the same number carrying the row's own rounding forward — a one-digit rounding lesson, not a disagreement (P9: the reproduced row is the instrument). (b) Same two ways: 34.969926 mmol × 607.030 = 21.2278 g, or 35 × 0.6065 = 21.2275 g at the row's precision — count and row agree to the row's own last digit (B1 and Lab 33.2 print the row).</p>
+<p><strong>Ex 33.2 (●○○).</strong> A laundry load holds 20 L of 120 mg/L water. What mass of washing-soda crystal (the decahydrate) answers the hardness by the precipitation door, in the stoichiometric minimum? <em>Hint: E9 is 1:1; price it at B6's per-mmol rate.</em> <strong>Worked, two ways:</strong> The count: 20 L × 1.198968 mmol/L = 23.9794 mmol Ca²⁺; 1:1 → 23.9794 mmol crystal × 286.138 g/mol = 6.861 g (P3's metathesis logic applied to water, not salts; P10's route economics — Lecture 2's price list). The second way: B6's per-mmol rate — 286.138 mg per mmol Ca²⁺, times 23.9794 mmol = 6861 mg = 6.861 g (the price list <em>is</em> the method; Lab 33.2 prints the row).</p>
+<p><strong>Ex 33.3 (●●○).</strong> A kettle carries 3.00 g of limescale. Descale it two ways: (a) with Chapter 4's vinegar (50.30 g/L), (b) with Chapter 8's citric acid, the anhydrous powder. State the stoichiometric minimum for each and one practical reason the citric route is gentler. <em>Hints: E4 counts the acid; the citric ladder runs 2 H₃Cit per 3 CaCO₃ (Lecture 3); the complex is Lecture 2's own calcium citrate.</em> <strong>Worked, two ways:</strong> (a) 3.00 g = 29.9742 mmol CaCO₃; E4 demands 2 acetic per carbonate → 59.9484 mmol × 60.052 g/mol = 3.600 g acetic acid; at 50.30 g/L that is 71.6 mL of vinegar (P-IDs: P4's acid–carbonate liberation — here run backward, the acid <em>dissolving</em> the carbonate; B3's per-gram rate 23.86 mL/g × 3 = 71.6 mL, the second way). (b) 2/3 × 29.9742 mmol = 19.9828 mmol citric × 192.123 g/mol = 3.839 g (Lab 33.2 prints the row). Gentler: the citric route's product is the soluble calcium citrate complex of Lecture 2 (498.432 — the builder's own tie), not a drive of free acid; and citric acid is a solid you can dose exactly, while vinegar's 5 % is already most of the bottle.</p>
+<p><strong>Ex 33.4 (●●○).</strong> A 250 mL bleach spill (the regular jug's 0.7687 mol/L) must be neutralized before disposal. Price the dechlorinator two ways: anhydrous sodium thiosulfate, and the fixer's pentahydrate. Then say which hydrate the aquarium instructions assume, and why. <em>Hints: E7's 4:1 ledger; the hydrate ratio is a two-chapter number.</em> <strong>Worked, two ways:</strong> The count: 250 mL × 0.7687 mol/L = 0.19218 mol NaOCl; ÷ 4 → 0.048045 mol thiosulfate; anhydrous × 158.097 = 7.596 g, pentahydrate × 248.172 = 11.923 g (P-IDs: E7's stoichiometric ledger — the must-fail row exists because this 4:1 is the one number nobody guesses; P12 at the disposal line). The second way: the hydrate conversion — 7.596 g anhydrous × (248.172/158.097) = 7.596 × 1.5697 = 11.923 g, the ratio Chapter 32's RA-3(d) printed and this chapter's zero-probe reproduced (the hydrate axis checks the salt axis). The instructions assume the pentahydrate — it is the stable, weighable shelf crystal (the fixer's own), and dosing the anhydrous mass of a pentahydrate recipe under-doses by the water you forgot.</p>
+<p><strong>Ex 33.5 (●●● — the summit).</strong> A 60 L laundry tub of very hard water (180 mg/L-as-CaCO₃, the USGS class boundary) must be builder-dosed to stoichiometric answer. (a) Price the calcium: how many mmol must be answered? (b) Price all three open builder doors — crystal soda, trisodium citrate dihydrate, disodium EDTA dihydrate — in grams each. (c) What mass of CaCO₃ does the carbonate door take out of the water, and what does the EDTA door take out? (d) Rank the three doors by mass and explain why mass ranking is <em>not</em> cost ranking. <em>Hints: B6's price list is the tool; the doors differ in what leaves the water.</em> <strong>Worked:</strong> (a) 60 L × 1.798453 mmol/L = 107.907 mmol Ca²⁺ (the 180 mg/L row of B1's ladder, run at 60 L instead of 1 L — the tax and the demand are the same arithmetic). (b) Crystal: 107.907 × 286.138 mg = 30.876 g. Citrate (2/3 per Ca): 107.907 × 196.066 mg = 21.157 g. EDTA (1:1): 107.907 × 372.238 mg = 40.167 g. (Lab 33.2 prints all three finals.) (c) The carbonate door precipitates its own mass in calcium: 107.907 × 100.086 mg = 10.800 g of CaCO₃ leave the water as the same stone the kettle grew (E9; the atom map is Lab 33.1's). The EDTA door removes <em>nothing</em> — the calcium stays in solution, tied in the 1:1 wrap (E8), which is exactly why EDTA serves where a precipitate would stain or scale (P10's route economics: the doors' outputs, not their prices, pick the route). (d) By mass: citrate &lt; crystal &lt; EDTA; but cost per answer is inverted in the real world — citrate and EDTA are the specialty prices, crystal soda is the penny box, and the ranking the shelf actually uses is (availability × assay × hazard), P10's four-term score, not the single-column mass.</p>
+<p><strong>Ex 33.6 (◆ — pattern-unknown; no hints this time).</strong> Two bottles share a cabinet. Bottle A: <em>sodium hypochlorite 5 %, sodium hydroxide, sodium chloride, fragrance.</em> Bottle B: <em>surfactants 5–15 %, sodium citrate, disodium EDTA, ammonium hydroxide, fragrance.</em> Diagnose: (a) which named ingredient does which of the chapter's jobs, and which named ingredient in B is not a cleaner at all; (b) exactly what happens if A meets B, naming the reaction and its product — and which chapter's fence is the reason the cabinet, not the label, is the safety device; (c) the one number on label A this chapter's Ledger B5 already knows it means. <em>(Answer withheld until the review session, per the Ch 32 pattern — the worked answer appears at the chapter's close in the reviewer's copy only.)</em></p>
+<p><strong>Ex 33.7 (◐ — open exploration).</strong> Map your own cleaning shelf. For every bottle: the job (wet/lift/hold — builder — pH window — oxidant), the active ingredient from the label, and the chapter of this book that owns its chemistry; then draw the never-meet pairs as a fence diagram. No worked answer: the census is yours, and the arithmetic of Ex 33.5's price list is the tool if you want to cost your own wash. (P-IDs: P1's label reading as the whole method; P9's convergence — three labels claiming the same job are three prices, and the ledger sorts them.)</p>
+<h2>Safety Assessment (the chapter's experiments)</h2>
+<table>
+<thead><tr><th>#</th><th>Activity</th><th>Principal hazards</th><th>Minimum PPE</th><th>Failure modes</th><th>Quench / response</th><th>Disposal route</th><th>Scale ceiling</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Lye-based cleaner / drain opener (L3)</td><td>NaOH: caustic to skin/eyes; exothermic on dilution</td><td>Nitrile gloves, goggles, long sleeves</td><td>Splashes; adding water to solid lye (spatter); using the sink for other tasks mid-treatment</td><td>Flush 15 min with water; eye contact → medical attention</td><td>Used solution rinsed generously; never follow with acid products until fully flushed</td><td>Household quantities per label; never more</td></tr>
+<tr><td>2</td><td>Acid descalers — vinegar, citric (L3)</td><td>Eye irritation from splashes/spray; pressure if a descaled kettle is sealed</td><td>Goggles; gloves for prolonged handling</td><td>Sealed-vessel CO₂ build-up (E4 makes gas!); boiling dry</td><td>Open vessels only; rinse eyes 15 min</td><td>Spent descale water is food-grade chemistry — down the drain after the fizzing stops</td><td>Kettle scale, ≤ a few g</td></tr>
+<tr><td>3</td><td>Bleach handling (L3/L4)</td><td>Oxidizer; corrosive at strength; chlorine liberation if acidified</td><td>Gloves, goggles; ventilate</td><td>Container confusion with clear liquids; splashes on fabric</td><td>Rinse 15 min; fresh air for fumes</td><td>Only as bleach, at label dilution — never mixed before the drain</td><td>Label dilution only</td></tr>
+<tr><td>4</td><td>Ammonia-containing cleaners (L4)</td><td>Irritant vapor; the fence's second gate</td><td>Gloves, goggles; ventilate</td><td>Any contact with bleach or bleach-rinsed surfaces</td><td>Fresh air; rinse; fumes → move away and ventilate</td><td>Per label; never near bleach disposal</td><td>Label dilution only</td></tr>
+<tr><td>5</td><td><strong>THE MIXING FENCE — absolute (L4)</strong></td><td><strong>Bleach + acid → Cl₂; bleach + ammonia → the chloramine ladder (E6, priced: NH₂Cl, and NCl₃ beyond); lye + acid → heat</strong></td><td><strong>The cabinet is the device: never mix products, never re-use a container, rinse between products</strong></td><td>&quot;Boosting&quot; a slow cleaner with another; spray-bottle transfer mistakes</td><td>Stop, ventilate, leave the room for fumes; poison control for symptoms — do not improvise chemistry on a mixing event</td><td>Nothing mixed ever goes anywhere until answered per its own row</td><td>No exception exists</td></tr>
+<tr><td>6</td><td>Solvent cleaners — isopropanol class (L5)</td><td>Flammable; vapor; defatting to skin</td><td>Away from flame; ventilate; gloves</td><td>Ignition by stove/spark; vapor build-up in closed rooms</td><td>For fire: smother, evacuate; standard burn first-aid</td><td>Per label; rag absorbed solvents air-dried outdoors, never binned wet</td><td>Small volumes, ≤ 100 mL on the bench</td></tr>
+<tr><td>7</td><td>Dechlorinator use (L4, Ex 33.4)</td><td>Thiosulfate: low hazard; the hazard is the bleach it answers</td><td>Gloves, goggles; ventilate</td><td>Under-dosing (anhydrous mass for a pentahydrate recipe — Ex 33.4's own lesson); assuming neutralized without testing</td><td>Add per the 4:1 ledger, wait, rinse</td><td>Neutralized, confirmed-dilute solution may go to the drain with plenty of water</td><td>Per spill arithmetic (B4)</td></tr>
+<tr><td>8</td><td>Never-the-drain ledger (L4/L5)</td><td>Reagent-grade waste in household plumbing</td><td>The ledger is the PPE</td><td>Silver-bearing fixer (Ch 32's container); heavy-metal solutions; unmixed-product disposal</td><td>The ledger answers: neutralize (row 7), precipitate (Ex 33.5's carbonate door), or keep (the recovery container)</td><td>Each waste to its own row: recovery container, heavy-metal disposal, or fully-answered dilution</td><td>The drain receives nothing unanswered</td></tr>
+</tbody>
+</table>
+<hr>
+<p class="banner no-print">HTML edition of the reviewed manuscript — the labels are the contract. Canon-Coverage and everything after it live in the .md master only.</p>
+</main>
+</body>
+</html>

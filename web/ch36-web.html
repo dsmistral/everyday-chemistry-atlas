@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vol V · Chapter 36 — The Tech Tree: Which Shelf Feeds Which</title>
+<style>
+  :root { font-family: Georgia, 'Times New Roman', serif; color: #1a1a1a; }
+  body { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.2rem 4rem; line-height: 1.55; background: #fff; }
+  h1 { font-size: 1.9rem; margin: 2.2rem 0 0.8rem; }
+  h2 { font-size: 1.45rem; margin: 2rem 0 0.6rem; border-bottom: 1px solid #ddd; padding-bottom: 0.25rem; }
+  h3 { font-size: 1.2rem; margin: 1.6rem 0 0.5rem; }
+  h4 { font-size: 1.05rem; margin: 1.3rem 0 0.4rem; }
+  pre, code { font-family: 'Courier New', Courier, monospace; }
+  code { background: #f2f2f2; padding: 0.05em 0.3em; border-radius: 3px; font-size: 0.92em; }
+  pre { white-space: pre; tab-size: 4; break-inside: avoid; page-break-inside: avoid; overflow-x: auto; border: 1px solid #ddd; background: #fafafa; padding: 0.7rem 0.9rem; font-size: 0.85rem; line-height: 1.35; }
+  blockquote { border-left: 3px solid #888; margin: 1rem 0; padding: 0.2rem 1rem; color: #333; }
+  table { border-collapse: collapse; margin: 1rem 0; break-inside: avoid; page-break-inside: avoid; }
+  th, td { border: 1px solid #bbb; padding: 0.35rem 0.6rem; text-align: left; }
+  th { background: #f0f0f0; }
+  hr { border: 0; border-top: 1px solid #ccc; margin: 2rem 0; }
+  .banner { background: #eef6ff; border: 1px solid #bcd6f0; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.9rem; font-family: system-ui, sans-serif; margin-bottom: 1.5rem; }
+  @page { size: A4; margin: 16mm 15mm; }
+  @media print { body { max-width: none; padding: 0; font-size: 10.5pt; } .no-print { display: none; } pre { font-size: 8.8pt; } h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; } }
+</style>
+</head>
+<body>
+<main id="content">
+<p class="banner">The Everyday Chemist's Atlas — Vol V · Chapter 36 (The Reagent Network Graph (capstone)). HTML reading edition, generated 2026-10-19 from the manuscript master. The Canon-Coverage record and the review apparatus (forward flags, back flags, chapter ledger, revision appendix) remain in the .md master.</p>
+<h1>Vol V · Chapter 36 — The Tech Tree: Which Shelf Feeds Which</h1>
+<p><em>Every reagent on the home shelf was once another reagent. Vinegar was sugar; the sugar was CO2 and water and sunlight nobody had to pay for; the drain cleaner in the bottle next to it is the vinegar's own salt, run in reverse. This chapter — the capstone of Volume V, and the last chapter of the Atlas — stops adding nodes and instead reads the whole book at once: thirty-five chapters of kitchen chemistry, redrawn as a single graph of feeds and products. Which shelf feeds which. Where the trunk is. What breaks if one bottle goes empty. The Tech Tree.</em></p>
+<p><strong>Chapter status: drafted 2026-10-19 (session 105, parts 1–2); reviewed 2026-10-19 (session 106) — PASS WITH CORRECTIONS, RF-1..RF-4, the Revision Appendix appended below and binding where it disagrees. Engine 25 (drafting) run 4 verified 60/60; Engine 26 (review) run 4 verified 64/64. Zero new masses printed (session-100 line).</strong></p>
+<hr>
+<h2>Lecture 0 — The one-page map</h2>
+<p>Draw it yourself; it costs one sheet and a pencil.</p>
+<p>Across the top of the page, write the trunk: <strong>C6H12O6 -&gt; C2H5OH -&gt; CH3COOH -&gt; CH3COONa</strong>, with <strong>CO2</strong> hanging off the first arrow and <strong>NaOH</strong> feeding the last. Under the trunk, on the left, add the Haber-fed loop: <strong>CO2 + 2 NH3 -&gt; CO(NH2)2</strong> (with water on the product side), and its reverse edge — read the corridor both ways, because the tree is not a one-way street. On the right, add the seam node: <strong>CH3COONa.3H2O</strong>, the trihydrate, wired between the salt and the water bottle. In the lower right corner, add the binder wing's gateway: <strong>C4H6O2 + NaOH -&gt; C2H4O + CH3COONa</strong> — vinyl acetate walked straight into the trunk's hub. In the lower left, the polymer pair: <strong>C6H7NO2 — C6H10O5</strong>, connected to each other and to nothing else. And floating alone, the acetone island: <strong>C3H6O</strong>, pinned since Chapter 21, edgeless on this map — no certified route in this chapter's battery touches it.</p>
+<p>That is the whole map: <strong>fifteen nodes, twelve certified edges, three components</strong> — the trunk, the polymer pair, and the acetone island. Every node's mass was pinned in an earlier chapter; every edge is certified by a balance row in this chapter's battery (Lab 36.1, rows E1–E8). The one edge the map refuses to draw is the slipped one: row E9 is a deliberately wrong fermentation written to prove the gate still bites — it is caught, and excluded.</p>
+<p>The point of drawing it by hand is the point of the whole Atlas: the map is a supermarket receipt turned sideways. Nothing on it is exotic. The tree is what the kitchen already knew.</p>
+<h2>Lecture 1 — Nodes, edges, depth</h2>
+<p>The vocabulary is small. A <strong>node</strong> is a species with a held mass — fifteen of them on this map. An <strong>edge</strong> is a certified feed: a balance row that turns some set of nodes into some other set. <strong>Depth</strong> is the longest chain of edges from any raw input to any final product; on this map the trunk is the deep path, and it is four nodes long (glucose -&gt; ethanol -&gt; acetic acid -&gt; sodium acetate), with the seam and the binder wing hanging off its ends.</p>
+<p>The Atlas has drawn pieces of this graph before, and this chapter owes both of them an ancestor credit. Chapter 20 drew the <strong>B6 cycle map</strong> — the first time the book closed a loop instead of a line. Chapter 21 drew the <strong>network map</strong> — twenty-two ethanol appearances reconciled into one node that many routes pass through. What those chapters drew as local sketches, this chapter draws as the whole book. The P-index labels ride along as edge annotations: each edge carries the pattern number of the route it instantiates (P10 for the economics reading, P12 for the cumulative-yield reading, P14 and P15 for the network placements — Lecture 2).</p>
+<p>One reading rule, borrowed from the review chapters: the map is only as good as its certifications. An edge exists on this map if and only if a balance row in this chapter's battery certifies it at displayed precision, and a node exists if and only if its mass is pinned in a prior chapter's page. Nothing else gets drawn. That is why the acetone island is an island — the pin survives, but no route in this battery certifies an edge for it, so no edge is drawn. Honest maps leave islands visible.</p>
+<h2>Lecture 2 — The trunk: routes, pins, and the two P-index homes</h2>
+<p>The trunk carries the Atlas's oldest traffic.</p>
+<p>The <strong>acid route</strong> runs glucose -&gt; ethanol -&gt; acetic acid. Its two certification rows here are E2 (the ethanol fermentation: C6H12O6 -&gt; 2 C2H5OH + 2 CO2, mass identity 1801560 = 1801560) and E5 (the direct acetic fermentation: C6H12O6 -&gt; 3 CH3COOH — the same total, 1801560, because three acetic acids carry exactly the atoms of one glucose; this is the vinegar-from-sugar shortcut that anaerobic bacteria take without stopping at ethanol).</p>
+<p>The <strong>alkali and salt routes</strong> meet at the hub. E1 is the neutralization that Chapter 4 first walked: NaOH + CH3COOH -&gt; CH3COONa + H2O, mass identity 1000490 = 1000490. E8 is the trihydrate seam Chapter 24 pinned: the salt plus three waters, 1360790 = 820340 + 540450. And E6 is the binder wing's gateway: C4H6O2 + NaOH -&gt; C2H4O + CH3COONa, identity 1260870 = 1260870 — vinyl acetate saponified by the drain cleaner into the vinegar salt and acetaldehyde (whose formula C2H4O is also, by atom count, the PVA repeat Chapter 35 pinned at 44.053; the tree reuses the mass, not the name).</p>
+<p>The <strong>fertilizer loop</strong> hangs off the trunk's CO2: E3 and E7 are the urea corridor and its reverse, 780710 = 780710 both ways. And the <strong>polymer pair</strong> C6H7NO2 — C6H10O5 stands alone in its own component, certified by E4, the addition-polymer row: two of Chapter 25's 125.127 repeat units joining a lattice that contributes no mass of its own — the placeholder is composed by the harness, never parsed, a lesson the engine learned the hard way (Lab 36.1).</p>
+<p>Every node on the map is a pin, and every pin has a home chapter. The full pin ledger, as the battery re-derives it: 60.052 acetic acid (Ch 4); 17.031 ammonia, 44.009 CO2, 60.056 urea (Ch 20); 46.069 ethanol, 180.156 glucose, 58.080 acetone (Ch 21); 39.997 NaOH, 82.034 sodium acetate, 136.079 the trihydrate (Ch 24); 125.127 C6H7NO2, 162.141 C6H10O5 (Ch 25); 86.090 vinyl acetate, 44.053 the C2H4O repeat (Ch 35). Fourteen pins, zero new masses, by design: the capstone re-cites the canon; it does not extend it.</p>
+<p>Two P-index placements close the trunk lecture. <strong>P14's network home is the acid node</strong>: the network-graph pattern that Chapter 21 first drew lives, in this map, at CH3COOH — the one species that glucose, ethanol, and sodium acetate all route through (and its articulation status below is the proof). <strong>P15's home is the gap-crossing edge</strong>: the hydrazine patent lineage the survey recorded (N07 -&gt; N53 -&gt; N52) is honored here as the map's reminder that some edges cross gaps the kitchen cannot walk — the tree records where the household route ends and the industrial one begins. [convergent]</p>
+<h2>Lecture 3 — Route economics: criteria, cumulative yields, and the time axis</h2>
+<p><strong>The four criteria (P10).</strong> To judge a route you need four numbers, not one: the yield, the cost of the feeds, the number of steps, and the waste per pass. The Leblanc-versus-Solvay history is the canonical example — the Leblanc route turned salt and sulfuric acid into soda ash through two dirty steps at a cost that only made sense while the by-product hydrochloric and sulfur waste could be dumped for free; the Solvay route replaced it not by being chemically more elegant but by winning on the same four criteria — cheaper feeds, fewer steps, cleaner waste [convergent]. The Atlas's version of the same judgment runs on the trunk: the vinegar corridor (B1) costs one alkali addition and wastes one water; the fertilizer loop (B3) costs two industrial gases the kitchen cannot make; the binder gateway (E6) costs the drain cleaner to buy back a salt.</p>
+<p><strong>Cumulative yields (P12).</strong> A route is only as good as the product of its step yields. If fermentation passes 0.98 and the work-up passes 0.95, the route delivers 0.98 x 0.95 = 0.9310 — and the salt branch, run in the other order (work-up first, 0.95, then fermentation, 0.98), delivers 0.95 x 0.98 = the same 0.9310. That is row B4, and it is exact: both routes converge at displayed precision with no rounding gap, which is the session-104 discipline in its cleanest form — convergence claims are evaluated at displayed precision, and here the claim is exact. The engine then applies the factor honestly: the theoretical 6.830247 g of sodium acetate from the B1 corridor lands as 6.830247 x 0.9310 = 6.358960 g (B5), and the same factor walks the fermentation and fertilizer corridors down from their theoretical figures (X5).</p>
+<p><strong>The time axis.</strong> A tree that only knows feeds and products is missing the axis Chapter 25 flagged on its way out: <em>which reagents keep, which decay, and which to date on the label.</em> The pins stand as Chapter 25 printed them [convergent to Ch 25's page]: bleach at 0.97 monthly retention is 0.97^12 = 0.6938 over a year — a first-order decay with k = 0.030459 per month and a half-life of 22.76 months; the peroxide class decays at 0.5–2% per year — half-lives of 34.7 to 138.6 years. Read on the tree, the time axis says: the trunk nodes are keepers (salts and sugars do not decay on the kitchen scale), and the leaf nodes that carry reactive shelf space are the ones to date. The tree's edges have yields; its nodes have clocks.</p>
+<h2>Lecture 4 — The branches and wings</h2>
+<p>The map's edges were certified this chapter, but the branches were built by the volume chapters, and each one's forward flag is honored here as recorded at that chapter's close.</p>
+<ul>
+<li><strong>The food bench (Ch 31)</strong> is the tree's oldest node — the pantry's stake in the graph, the trunk's glucose end. Its flag, as recorded at its close, points forward into the capstone's depth reading: the kitchen's first chemistry was digestion, and the tree's root is food.</li>
+<li><strong>The photochemistry branch (Ch 32)</strong> hangs off the trunk's acid node — the light-driven routes the Atlas walked with vinegar and salt as the photon-catching bench. Its flag is honored as recorded at its close.</li>
+<li><strong>The sink loop (Ch 33)</strong> closes the tree's first cycle — what goes down the drain re-enters the map at the water node, and the water node's edges (E1's product side, E8's seam) are certified here. Its flag is honored as recorded at its close.</li>
+<li><strong>The garden wing (Ch 34)</strong> roots at the fertilizer loop — the urea corridor of B3 is the wing's trunk-side anchor, and the Haber-fed gases are the tree's one genuinely industrial edge. Its flag is honored as recorded at its close.</li>
+<li><strong>The binder wing (Ch 35)</strong> attaches through the gateway edge E6, and its own five adhesives edges were recorded at its close: <em>flour -&gt; starch -&gt; paste -&gt; paper; hide -&gt; gelatin -&gt; joint; petro -&gt; monomer -&gt; reactive shelf; sap -&gt; latex -&gt; solvent cement; sand -&gt; silicone -&gt; seal.</em> On this map those five are the wing's internal lattice — the capstone certifies only their trunk-facing gateway (E6) and re-cites the rest as recorded.</li>
+</ul>
+<p><strong>An honest bookkeeping note, carried to the review:</strong> the Chapter 31–34 forward flags were NOT re-grepped in this session (the fetch budget went to the census chapters); they stand here exactly as recorded at each chapter's close. The session-106 review is directed to re-grep them against the four chapters' own pages before the Vol V close.</p>
+<h2>Lecture 5 — Reading the tree</h2>
+<p><strong>Bootstrap order.</strong> If you had to rebuild the kitchen shelf from nothing, the tree tells you the order: water and a heat source first (no edges needed); then the trunk from the top down — sugar, then fermentation's ethanol, then the acid, then the salt — because each node's route is certified by a balance whose feeds are already on the shelf. The fertilizer loop and the polymer pair are not bootstrap items: their feeds (industrial gases, refined monomers) are exactly the nodes the tree marks as <em>not kitchen-walkable</em>. The tree draws the kitchen's competence boundary as a graph property, which is the whole point of a capstone.</p>
+<p><strong>Articulation points — the keystones.</strong> The engine computes them (B6): <strong>CH3COOH, CH3COONa, CH3COONa.3H2O, CO2, CO(NH2)2, C6H12O6, and C4H6O2</strong> — the seven nodes whose removal splits the map. They are the species that front a side-branch: lose the acetic acid bottle and the ethanol and salt sides of the trunk stop talking; lose the salt and the alkali route, the seam, and the binder gateway all detach at once. Chemically, the keystones are the book's cast: the acid, its salt, its hydrate, the exhaust gas, the fertilizer, the sugar, and the monomer. The graph says what thirty-five chapters said one at a time: this is a small kit, and it has a hub.</p>
+<p><strong>Failure modes.</strong> A tree fails three ways: a keystone goes empty (the articulation reading above), an edge's yield quietly degrades (the cumulative reading of Lecture 3 — 0.9310 is a promise that assumes both steps hold), or a node decays off the shelf (the time axis of Chapter 25 — the bleach that is 69.38% of what the label promised). Every kitchen failure the Atlas has ever recorded is one of those three, and the tree is the only diagram that shows all of them on one page.</p>
+<p><strong>The charter fence.</strong> The tree refuses energetics-class nodes, absolutely and forever: no oxidizer-fuel pairs, no energetic mixtures, no nitrates walking in as &quot;just another salt.&quot; The gate refusal of R1 — phosphorus, P, refused at the gate, this chapter being the eleventh zero-admission chapter — is the fence drawn as a parser behavior. The capstone's job is to see the whole tree; the fence is what keeps the tree worth seeing.</p>
+<hr>
+<h2>Lab 36.1 — Engine 25: the call-stack descent evaluator</h2>
+<p><strong>Design.</strong> Engine 25 is a recursive-descent parser that goes DIRECT TO MASS. Every grammar production — formula, group, element — returns an atom-count map on the way up the call stack; the stack itself is the only structure the engine ever builds. No parse tree is materialized, no memoization, no registers, no RPN: evaluation is a single descent. Atom counts are BigInt; masses live in myu (1 myu = 1e-4 u) on the held-22 table; ledger grams are exact BigInt rationals rounded once at display (6 decimal places); a single integrality gate checks total mass on every balance row. The grammar: a formula is one or more groups; a group is an element with an optional count, or a parenthesized formula with an optional multiplier; a side is terms joined by '+', each with an optional leading coefficient. The gate refuses unknown symbols (against held-22), lowercase leads, unterminated and empty groups, zero counts, and trailing junk.</p>
+<p><strong>Lineage.</strong> Chapter 25's review engine was a recursive-descent TREE parser — it built a tree and then walked it. Engine 25 shares zero code with all twenty-four prior chapter engines, and with that one in particular it shares only the descent idea: this engine never builds the tree, because the whole point of the capstone is that the tree is the book, not the parse.</p>
+<p><strong>Run history (honest, all runs recorded).</strong></p>
+<ul>
+<li><strong>Run 1 (2026-10-19, the session's first build): 59/60.</strong> Two harness-side defects. (a) Row E4's composition check tried to parse the lowercase placeholder 'network' as a formula; the gate refused it at char 'n' — correctly — but the harness marked the row failed even though the mass identity 2502540 = 2502540 held. (b) The mmol display carried an extra divisor of 100: the 5.00 g vinegar corridor printed 0.832612 mmol where the corridor is 83.2612 mmol (the same slip scaled B2 and B3). Every gram figure and every closure was correct in run 1; both defects were display- and harness-side only.</li>
+<li><strong>Run 2 (the rebuilt engine, same design): 52/60.</strong> The rebuild fixed the E4 and mmol defects, but printed the ledger gram figures at the raw 1e6 carrying scale (B1 showed 3330197.162459 g where the corridor is 3.330197 g). All mass identities, balances, and closures were exact; the failures were display-scale assertions doing exactly their job.</li>
+<li><strong>Run 3: 59/60.</strong> Display scale repaired (grams = carried value / 1e6). One residual failure: B2's mmol regression constant had been hand-transcribed into the session record as 555.0728; the engine computed 555.0745, and the engine was right — 100 g / 180.156 g/mol = 0.5550745 mol = 555.0745 mmol (run 1's raw print, 5.550745, agrees). The transcription error was in the session handoff, not the chemistry; the constant was corrected.</li>
+<li><strong>Run 4: 60/60.</strong> The battery below is run 4's output, verbatim.</li>
+</ul>
+<pre><code>ENGINE 25 - RUN 4 - the call-stack descent evaluator - 2026-10-19
+held-22 house canon | masses in myu (1 myu = 1e-4 u) | ledger grams exact rational, displayed 6 dp
+
+SELF (8)
+S1 PASS H2O = 180150 myu (18.015 u)
+S2 PASS NaOH = 399970 myu (39.997 u)
+S3 PASS CH3COOH = 600520 myu (60.052 u)
+S4 PASS C2H5OH = 460690 myu (46.069 u)
+S5 PASS CO2 = 440090 myu (44.009 u)
+S6 PASS C6H12O6 = 1801560 myu (180.156 u)
+S7 PASS CO(NH2)2 = 600560 myu (60.056 u)
+S8 PASS CH3COONa = 820340 myu (82.034 u)
+
+REFUSALS (13) - the gate
+R1 PASS P - REFUSED: symbol P at the gate (the eleventh zero-admission chapter)
+R2 PASS F - REFUSED: symbol F at the gate (not in held-22)
+R3 PASS He - REFUSED: symbol He at the gate (not in held-22)
+R4 PASS Ne - REFUSED: symbol Ne at the gate (not in held-22)
+R5 PASS Li - REFUSED: symbol Li at the gate (not in held-22)
+R6 PASS Cr - REFUSED: symbol Cr at the gate (not in held-22)
+R7 PASS Sn - REFUSED: symbol Sn at the gate (not in held-22)
+R8 PASS Hg - REFUSED: symbol Hg at the gate (not in held-22)
+R9 PASS U - REFUSED: symbol U at the gate (not in held-22)
+R10 PASS network - REFUSED: char 'n' (the E4 lesson: lattice placeholders are composed harness-side, never parsed)
+R11 PASS h2o - REFUSED: char 'h' (lowercase lead)
+R12 PASS (H2O - REFUSED: unterminated group (unterminated group)
+R13 PASS () - REFUSED: empty group () (empty group)
+
+PINS (14) - prior chapters masses, reused as-is; zero new this chapter
+P1 PASS CH3COOH = 600520 myu (60.052 u) pinned Ch 4
+P2 PASS NH3 = 170310 myu (17.031 u) pinned Ch 20
+P3 PASS CO2 = 440090 myu (44.009 u) pinned Ch 20
+P4 PASS CO(NH2)2 = 600560 myu (60.056 u) pinned Ch 20
+P5 PASS C2H5OH = 460690 myu (46.069 u) pinned Ch 21
+P6 PASS C6H12O6 = 1801560 myu (180.156 u) pinned Ch 21
+P7 PASS C3H6O = 580800 myu (58.080 u) pinned Ch 21
+P8 PASS NaOH = 399970 myu (39.997 u) pinned Ch 24
+P9 PASS CH3COONa = 820340 myu (82.034 u) pinned Ch 24
+P10 PASS CH3COONa + 3 H2O = 1360790 myu (136.079 u) pinned Ch 24
+P11 PASS C6H7NO2 = 1251270 myu (125.127 u) pinned Ch 25
+P12 PASS C6H10O5 = 1621410 myu (162.141 u) pinned Ch 25
+P13 PASS C4H6O2 = 860900 myu (86.090 u) pinned Ch 35
+P14 PASS C2H4O = 440530 myu (44.053 u) pinned Ch 35
+
+NEW (0)
+N0 PASS - no new compositions printed this chapter (session-100 line: Ch 36 prints zero new masses by design)
+ISO (0)
+I0 PASS - no isotope rows (held-22 house canon; the Ag 107.897 seam stays held - standing deferral)
+
+BALANCES (9) - atom maps equal + single integrality gate on total mass
+E1 PASS NaOH + CH3COOH -&gt; CH3COONa + H2O | 1000490 = 1000490
+E2 PASS C6H12O6 -&gt; 2 C2H5OH + 2 CO2 | 1801560 = 1801560
+E3 PASS CO2 + 2 NH3 -&gt; CO(NH2)2 + H2O | 780710 = 780710
+E4 PASS 2 C6H7NO2 + [lattice] -&gt; [lattice](C6H7NO2)2 | 2502540 = 2502540 (placeholder composed harness-side, zero mass)
+E5 PASS C6H12O6 -&gt; 3 CH3COOH | 1801560 = 1801560
+E6 PASS C4H6O2 + NaOH -&gt; C2H4O + CH3COONa | 1260870 = 1260870
+E7 PASS CO(NH2)2 + H2O -&gt; CO2 + 2 NH3 (the corridor read in reverse) | 780710 = 780710
+E8 PASS CH3COONa + 3 H2O -&gt; the trihydrate seam | 1360790 = 1360790
+E9 PASS CAUGHT C6H12O6 -&gt; 2 C2H5OH + CO2 + H2O | gap 259940 myu (must-fail row: the gate caught the coefficient slip - H2O where CO2 belongs; the correct row is E2)
+
+PROBES (3)
+PB1 PASS (((H2O)2)3) = 1080900 myu (deep nesting; 6 x H2O exact)
+PB2 PASS K4(Fe(CN)6) = 3683450 myu (a nested group inside a group)
+PB3 PASS leading coefficient + inner whitespace: 2 C6H7NO2 = 2502540 myu
+
+LEDGERS (6) - exact rationals, displayed 6 dp; closures exact
+B1 PASS vinegar corridor: 5.00 g CH3COOH = 83.2612 mmol; NaOH 3.330197 g; -&gt; CH3COONa 6.830247 g + H2O 1.499950 g; closure 8.330197 = 8.330197 (exact)
+B2 PASS fermentation corridor: 100.00 g C6H12O6 = 555.0745 mmol; -&gt; C2H5OH 51.143453 g + CO2 48.856547 g; closure 100.000000 = 100.000000 (exact)
+B3 PASS urea corridor: 10.00 g CO(NH2)2 = 166.5113 mmol + H2O 2.999700 g in; -&gt; 2 NH3 5.671706 g + CO2 7.327994 g; closure 12.999700 = 12.999700 (exact)
+B4 PASS cumulative route yields: acid route 0.98 x 0.95 = 0.9310; salt route 0.95 x 0.98 = 0.9310; both routes exact - convergence holds at displayed precision (session-104 line)
+B5 PASS applied corridor: NaOAc theoretical 6.830247 g x 0.9310 -&gt; 6.358960 g
+B6 PASS map audit: 15 nodes, 12 certified edges (E1-E8; E9 slipped edge caught and excluded), 3 components (the trunk, the polymer pair C6H7NO2-C6H10O5, the acetone island); articulation points: CH3COOH, CH3COONa, CH3COONa.3H2O, CO2, CO(NH2)2, C6H12O6, C4H6O2; 0 unpinned node masses
+
+X-ROWS (5) - cross-chapter checks
+X1 PASS Ch 4 pin 60.052: 600520 myu re-derived; 5.00 g = 83.2612 mmol (the B1 entry)
+X2 PASS Ch 21 RA-9 basis: 2 x 46.069 / 180.156 -&gt; 51.143453 g per 100 g (the B2 row, exact match at displayed precision)
+X3 PASS Ch 20 pins: the urea corridor re-derives 600560 / 440090 / 170310 myu (the B3 rows)
+X4 PASS Ch 24 seam: 1360790 - 820340 = 540450 = 3 x 180150; the NaOH pin 399970 held in E1 and E6
+X5 PASS cumulative 0.9310 applied: C2H5OH 51.143453 -&gt; 47.614555 g; NH3 5.671706 -&gt; 5.280358 g
+
+RUN 4 SUMMARY: 60/60 PASS</code></pre>
+<h2>Lab 36.2 — The route ledgers, corridor by corridor</h2>
+<p><strong>B1 — the vinegar corridor.</strong> Start where Chapter 4 started: 5.00 g of acetic acid is 83.2612 mmol (the engine re-derives the pin mass 600520 myu and the millimoles in one descent). Neutralizing it takes 3.330197 g of NaOH and delivers 6.830247 g of sodium acetate plus 1.499950 g of water. The closure is exact on both sides at 8.330197 g — and exact it must be, because the closure IS balance row E1: the atoms that go in are the atoms that come out, and the ledger merely weighs them twice.</p>
+<p><strong>B2 — the fermentation corridor.</strong> 100.00 g of glucose is 555.0745 mmol. Fermented per E2, it yields 51.143453 g of ethanol and 48.856547 g of CO2, closing exactly at 100.000000 g. The ethanol figure is the theoretical yield — the mass-basis ceiling that Chapter 21's review appendix recorded as 2 x 46.069 / 180.156, and that the industrial fermentation literature carries as the theoretical 0.51 g of ethanol per g of glucose [convergent]. Real fermentations land below it — glycerol and cells take their cut — which is precisely why the distinction between the theoretical and the applied ledger exists.</p>
+<p><strong>B3 — the urea corridor.</strong> The tree's industrial edge: 10.00 g of urea is 166.5113 mmol; hydrolyzed per E7's reverse (2 NH3 + CO2 side), it consumes 2.999700 g of water and splits into 5.671706 g of ammonia and 7.327994 g of CO2, closing exactly at 12.999700 g. The corridor is the kitchen's read-only window onto the Haber-fed world: the kitchen can run the arithmetic but cannot make the feeds — industrial urea is the NH3 + CO2 reaction run under heat and pressure at world scale [convergent].</p>
+<p><strong>B4/B5 — the cumulative reading.</strong> Row B4 proves the product rule on the trunk: 0.98 x 0.95 and 0.95 x 0.98 both land exactly on 0.9310 — the two branches of the trunk commute, and their convergence is exact at displayed precision (the session-104 line, in its cleanest form). Row B5 then applies the factor to the B1 corridor's theoretical output: 6.830247 g becomes 6.358960 g of what actually lands. The gap between those two figures — 0.471287 g — is the price of two imperfect steps, and printing both is the difference between a recipe and a route.</p>
+<p><strong>B6 — the map audit.</strong> The engine walks the chapter's own map: fifteen nodes, each mass re-derived and matched to its pin; twelve certified edges, each endpoint checked; three components counted; and the articulation set computed by removal — the seven keystones of Lecture 5. The one slipped edge (E9) is excluded by construction: the audit counts only edges the gate passed. Zero unpinned node masses: the capstone invented nothing.</p>
+<hr>
+<h2>Exercises</h2>
+<p><strong>36.1 (●○○).</strong> You neutralize 5.00 g of acetic acid with solid NaOH. How much NaOH does the corridor call for, and how much sodium acetate do you expect? (All figures are battery rows — check yourself against B1.)</p>
+<p><strong>36.2 (●○○).</strong> The B1 corridor's inputs weigh 8.330197 g in total. Show that the outputs weigh the same, and explain why the closure is exact rather than approximate.</p>
+<p><strong>36.3 (●●○).</strong> The trunk's two steps pass 0.98 and 0.95. (a) Compute the cumulative route yield in both orders and state whether the routes converge. (b) The B1 corridor's theoretical sodium acetate output is 6.830247 g; apply the cumulative yield and give the landed mass. (Check against B4 and B5.)</p>
+<p><strong>36.4 (●●○).</strong> Hydrolyze 10.00 g of urea. Give the water consumed, the ammonia and CO2 delivered, and the closure. Which balance row certifies the reverse direction of this corridor, and what is its mass identity? (Check against B3, E7, and E3.)</p>
+<p><strong>36.5 (●●● — summit).</strong> Walk the whole trunk. From 100.00 g of glucose: (a) give the theoretical ethanol delivered and the CO2 by mass, with the closure; (b) apply the cumulative route yield 0.9310 to the ethanol and to the ammonia from a parallel 10.00 g urea corridor, and give both landed masses; (c) state the one node every branch of the trunk passes through, and prove it from the battery (which row computes the articulation set?). Every figure you print must be a battery row — this is the capstone: the summit walks the tree without inventing a single mass.</p>
+<p><strong>36.6 (◆ — answer withheld).</strong> A second vinegar corridor is run with the salt branch's work-up step applied twice in succession (0.95 x 0.95 instead of a single 0.95, fermentation still 0.98). Compute the cumulative yield and the landed sodium acetate from the B1 theoretical figure. Compare your cumulative yield with B4's and say what the comparison shows about multiplying step yields. (The answer is withheld until the session-106 review; your figures must derive from battery rows by the session-102 rule.)</p>
+<p><strong>36.7 (◐ — open).</strong> Chapter 25's time axis gave the decay class of two shelf species (bleach, peroxide). Build the same ledger for your own kitchen: choose three reagents you actually own, find or estimate a decay constant for each from label dates or repeated measurements, and place each on the tree — keeper, dater, or leaver. There is no worked answer; the tree's clocks are yours to wind.</p>
+<h2>Safety</h2>
+<table>
+<thead><tr><th>#</th><th>Hazard</th><th>Rule</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Acetic acid (vinegar, glacial)</td><td>Household vinegar is safe; never concentrate or distill it to glacial strength — the burns and vapors are not kitchen-class.</td></tr>
+<tr><td>2</td><td>Sodium hydroxide (drain cleaner)</td><td>Caustic on skin and eyes; add flakes to water, never water to flakes; gloves and eye protection always.</td></tr>
+<tr><td>3</td><td>Ethanol</td><td>Flammable; no ignition sources; the fermentation corridor's CO2 venting needs a loose cover, never a sealed vessel.</td></tr>
+<tr><td>4</td><td>Ammonia</td><td>Corrosive vapor; the urea corridor's reverse is an arithmetic exercise — never run it sealed or at scale indoors.</td></tr>
+<tr><td>5</td><td>CO2 accumulation</td><td>Fermentation and hydrolysis both vent gas; ventilate, and never seal a vessel that produces gas.</td></tr>
+<tr><td>6</td><td>Adhesive and polymer class (Ch 35's wing)</td><td>Solvent cements and reactive monomers are for the wing's own bench rules; the tree cites their gateway but re-reads their chapter before any handling.</td></tr>
+<tr><td>7</td><td>The charter fence — ABSOLUTE</td><td>The tree refuses energetics-class nodes: no oxidizer-fuel pairs, no energetic mixtures, no nitrates posing as salts. The capstone's map never authorizes what the fence forbids.</td></tr>
+<tr><td>8</td><td>Waste</td><td>Neutralize alkali waste with vinegar before disposal; salts down the sink with running water; nothing reactive goes to storage unlabeled or undated.</td></tr>
+</tbody>
+</table>
+<hr>
+<p class="banner no-print">HTML edition of the reviewed manuscript — the labels are the contract. Canon-Coverage and everything after it live in the .md master only.</p>
+</main>
+</body>
+</html>
