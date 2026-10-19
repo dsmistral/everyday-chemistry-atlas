@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vol I · Chapter 3 — Atoms, Elements, and the Chemical Bond</title>
+<style>
+  :root { font-family: Georgia, 'Times New Roman', serif; color: #1a1a1a; }
+  body { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.2rem 4rem; line-height: 1.55; background: #fff; }
+  h1 { font-size: 1.9rem; margin: 2.2rem 0 0.8rem; }
+  h2 { font-size: 1.45rem; margin: 2rem 0 0.6rem; border-bottom: 1px solid #ddd; padding-bottom: 0.25rem; }
+  h3 { font-size: 1.2rem; margin: 1.6rem 0 0.5rem; }
+  h4 { font-size: 1.05rem; margin: 1.3rem 0 0.4rem; }
+  pre, code { font-family: 'Courier New', Courier, monospace; }
+  code { background: #f2f2f2; padding: 0.05em 0.3em; border-radius: 3px; font-size: 0.92em; }
+  pre { white-space: pre; tab-size: 4; break-inside: avoid; page-break-inside: avoid; overflow-x: auto; border: 1px solid #ddd; background: #fafafa; padding: 0.7rem 0.9rem; font-size: 0.85rem; line-height: 1.35; }
+  blockquote { border-left: 3px solid #888; margin: 1rem 0; padding: 0.2rem 1rem; color: #333; }
+  table { border-collapse: collapse; margin: 1rem 0; break-inside: avoid; page-break-inside: avoid; }
+  th, td { border: 1px solid #bbb; padding: 0.35rem 0.6rem; text-align: left; }
+  th { background: #f0f0f0; }
+  hr { border: 0; border-top: 1px solid #ccc; margin: 2rem 0; }
+  .banner { background: #eef6ff; border: 1px solid #bcd6f0; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.9rem; font-family: system-ui, sans-serif; margin-bottom: 1.5rem; }
+  @page { size: A4; margin: 16mm 15mm; }
+  @media print { body { max-width: none; padding: 0; font-size: 10.5pt; } .no-print { display: none; } pre { font-size: 8.8pt; } h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; } }
+</style>
+</head>
+<body>
+<main id="content">
+<p class="banner">The Everyday Chemist's Atlas — Vol I · Chapter 3 (Foundations of the Home Lab). HTML reading edition, generated 2026-10-19 from the manuscript master. The Canon-Coverage record and the review apparatus (forward flags, back flags, chapter ledger, revision appendix) remain in the .md master.</p>
+<h1>Vol I · Chapter 3 — Atoms, Elements, and the Chemical Bond</h1>
+<p>Chapter 1 built the lab; Chapter 2 filled the shelves and taught you to read every label. This chapter answers the question the labels were quietly asking: <strong>what are these chemicals made of, and why do they behave so differently from each other?</strong> Salt dissolves and conducts; sugar dissolves and does not; copper conducts cold with nothing dissolved at all; the copper sulfate of the root-killer bottle carries five water molecules inside its crystal; a lithium strip fizzes on water while a copper wire shrugs it off. Every one of those facts is a fact about atoms, charge, and the bonds between them.</p>
+<p>This is the FINDING-C chapter (added at the session-6 gate as the home for OpenStax chapters 2, 6–8): atoms, molecules, and ions; electronic structure and the periodic table; chemical bonding and molecular geometry. The Atlas treats it the only way the premise allows — as an evidence chain you can rebuild from your own kitchen, with every composition claim machine-verified in the labs, and with the corpus's own practitioners (the zinc plater, the lithium teardown, the cesium isolation, the charcoal makers) supplying the phenomena the theory has to explain.</p>
+<hr>
+<h2>Lecture 0 — The sorter (pencil and paper, before any theory)</h2>
+<p>Before you own a single formula, run this test. Take a battery (any 1.5–9 V dry cell), an LED or a small flashlight bulb, and two short wires. Make the simplest circuit: battery → wire → LED → wire → back to the battery. The LED will not light, because you have no easy path. Now break the circuit at one point and dip the two free wire ends into a glass of water. Add a teaspoon of table salt to one glass and a teaspoon of sugar to another, and record what happens. Then touch the bare wires to: a copper wire, dry salt, dry sugar.</p>
+<p>Copy this table into the notebook and fill it in from the tests (the filled-in version below is what every reader finds, and you should treat your own run as the datum — the lecture claims nothing your LED did not show):</p>
+<table>
+<thead><tr><th>Sample</th><th>Conducts dry/solid?</th><th>Conducts dissolved?</th></tr></thead>
+<tbody>
+<tr><td>Copper wire</td><td>yes</td><td>—</td></tr>
+<tr><td>Table salt (NaCl)</td><td>no</td><td>yes</td></tr>
+<tr><td>Sugar (sucrose)</td><td>no</td><td>no</td></tr>
+<tr><td>Distilled water</td><td>(barely — below this LED's threshold)</td><td>—</td></tr>
+</tbody>
+</table>
+<p>Three materials, three completely different behaviors — and the table <strong>sorts the household world into exactly three classes</strong>: things that conduct cold and solid (the metals), things that conduct only when dissolved or melted (the ionic class), and things that never conduct (the molecular class). This 2 × 2 sorter is the whole chapter in one experiment. Everything that follows — atoms, ions, the bond, the electron sea — exists in this book because it is the shortest honest explanation of this pencil-and-paper result. (Low-voltage batteries only; the Charter forbids mains electricity anywhere near solutions — the safety table at the chapter's end.)</p>
+<p>One more observation while you have the glasses out: both white crystals vanish into water. Both came out of the ground or the factory as clean, dry crystals with sharp shapes. Crystals — sharp edges, flat faces — are the second phenomenon: whatever these powders are made of, the pieces of them stack. That is a clue about the <em>architecture</em>, and Lecture 5 returns to it.</p>
+<hr>
+<h2>Lecture 1 — Composition never varies (the first evidence for atoms)</h2>
+<p>Chapter 2 computed the copper content of the root-killer bottle as 25.45% and the nitrogen content of the fertilizer bag as 21.20%. Neither number depended on the bottle, the bag, or the batch. Take salt from your shaker, from a restaurant, from a lab supplier, from the Dead Sea: every sample of sodium chloride is 39.34% sodium and 60.66% chlorine by mass [computed, Lab 3.1 — the same number to four figures for every sample ever analyzed]. Water is always 11.19% hydrogen; rust is always 69.94% iron when it is Fe2O3. This constancy is called the <strong>law of definite proportions</strong>, and it is the first hard evidence that matter comes in counted pieces.</p>
+<p><strong>How you could have found this yourself.</strong> Dalton did not start from a microscope. He started from exactly the arithmetic above — and from its companion law. When two elements form more than one compound, the masses are not arbitrary: the same pair of partners appears in <strong>small whole-number ratios</strong>. Carbon's two oxides hold oxygen in the ratio exactly 2.00000 : 1 [computed, Lab 3.1]. Iron's three oxides hold iron-per-oxygen in the ratios 3/2 and 4/3 as clean fractions — 1.5000 and 1.3333 to four figures [computed]. Nitrogen's oxides: 1 : 2 : 4, exact [computed]. Counted pieces explain this instantly: if oxygen comes in identical units, then &quot;one oxygen unit per carbon unit&quot; and &quot;two oxygen units per carbon unit&quot; <em>must</em> give a 2:1 mass ratio, and no other ratios are available. Uncut stuff would give continuous ratios. The ratios are cut. That is the whole inference, and it is the reason this chapter exists before any discussion of what is inside the pieces.</p>
+<p>The pieces are <strong>atoms</strong>; each element's atoms come in one characteristic mass (the <strong>atomic mass</strong>, tabulated in the Lab 3.1 element table); and the counting unit that Chapter 1 used without justification — the mole, 6.022 × 10²³ particles, with molar masses in grams per mole — is now earned: a molar mass is just the atom's characteristic mass scaled up to countable numbers. Every recipe, every yield ledger, and every price-per-mole from Chapter 2 was atom-arithmetic all along.</p>
+<p>The composition checks also close a loop from Chapter 2: the aspirin tablet that anchored the corpus's quantitative colorimetry (N74) is C9H8O4, 180.159 g/mol, 60.00% carbon [computed, Lab 3.1] — the molar mass is the molecular architecture written as a count: 9 carbons, 8 hydrogens, 4 oxygens.</p>
+<hr>
+<h2>Lecture 2 — Inside the atom (the evidence ladder)</h2>
+<p>Three rungs, each one a phenomenon you have already met in this book's corpus.</p>
+<p><strong>Rung 1: electricity cuts matter countably.</strong> Pass current through water (safely, small, at a Chapter 10 bench) and the water comes apart into two gases in a fixed 2:1 volume ratio — hydrogen twice the volume of oxygen, always [convergent]. Read backwards: two volume-units of hydrogen per one of oxygen at equal conditions means two particles per one — water is H2O and not HO2 or H2O2, and the current is doing the counting. The corpus's own plating episode (N76) shows the same cut working forward: a zinc bath carries Zn2+ ions to a metal cathode, and metal zinc grows on the electrode as the current supplies electrons — <code>Zn(2+) + 2 e(-) -&gt; Zn</code>. Charge moves matter in whole pieces. <strong>Charge-bearing atoms are called ions</strong>, and their existence is rung 2's subject.</p>
+<p><strong>Rung 2: the pieces have parts.</strong> Electricity not only moves matter, it <em>is</em> matter on the move: cathode rays bend in magnets and hit screens (every old TV was this experiment running at scale), and the deflection says the ray is a stream of particles far lighter than any atom — the <strong>electron</strong>, and its charge-to-mass behavior marks it as a piece <em>of</em> atoms, present in all of them [single-source historical: J. J. Thomson, 1897; formal-track citation]. The opposite piece arrives by the same method: gold foil shot at by alpha particles shows almost all of them pass through untouched, but a tiny fraction bounce straight back — so the atom's positive charge and nearly all its mass live in a tiny dense core, the <strong>nucleus</strong> [single-source historical: Rutherford, 1911; formal-track]. The picture that survives: a nucleus (positive <strong>protons</strong>, neutral <strong>neutrons</strong> — the mass) surrounded by electrons (the volume, the chemistry).</p>
+<p><strong>Rung 3: same element, different mass — isotopes.</strong> The mass spectrometer (a refined version of rung 2's deflection) finds that an element's atoms come in a small family of masses: chlorine's are 34.969 and 36.966, in the fixed abundances 75.78% and 24.22%. The <strong>atomic masses in tables are abundance-weighted averages</strong>, and the averages are reproducible from the isotope data — chlorine 35.453, boron 10.811, copper 63.546 [computed, Lab 3.1, all three matching the table values]. That copper number is the same 63.546 that Chapter 2's root-killer arithmetic was built on: the isotope average is where the label arithmetic bottoms out. (Why abundances are fixed is a geochemistry question — the Atlas flags it and moves on.)</p>
+<p>Now the Lecture 0 sorter has its charge carriers: salt conducts dissolved because dissolving frees <strong>ions</strong> — mobile charge-bearing atoms; dry salt does not conduct because the ions are locked in a crystal lattice, fixed in place; sugar never conducts because it never makes ions at all. The copper wire conducts cold because its charge carriers are not ions but electrons that never lock in place. The classes of Lecture 0 are the classes of charge availability — and the next lecture shows why different atoms make different charge choices.</p>
+<hr>
+<h2>Lecture 3 — The periodic table as a map you can rebuild</h2>
+<p>The masses in the Lab 3.1 element table look random: H 1.008, B 10.81, C 12.011, Na 22.990, Mg 24.305, Al 26.982… Sort the elements by mass and lay them in a row, and something extraordinary appears — but only if you start the row over at the right places. Start a new row so that similar-behaving elements line up in columns, and the row lengths come out as 2, 8, 8, 18, 18, 32 [convergent — the observed period lengths]: the <strong>periodic table</strong>. The row lengths are not numerology; they are the filling pattern of the electron shells, and the columns collect elements with the same <em>outer</em> electron count — which, by the argument of Lectures 4–5, means the same bonding behavior.</p>
+<p>The Atlas uses the observed filling order as its working fact and flags the deeper machinery honestly: <em>why</em> the shells fill in this order is quantum mechanics (orbitals, quantum numbers, energies) — a <strong>flagged sketch</strong> in this book, named as missing and deferred to the formal track (OpenStax ch. 6 owns the derivation; the Atlas uses its result). This is the verification ladder doing its job: nothing in this chapter pretends the sketch is a proof.</p>
+<p>What the columns predict, the corpus has already performed:</p>
+<ul>
+<li><strong>The left edge — Group 1, one outer electron, surrendered eagerly.</strong> The corpus's lithium teardown (N100) is the gentle end: a strip cut from a battery, stored under mineral oil, floats on water (density 0.534 g/cm³), fizzes, and turns the water alkaline — the dead-cell pieces showed the water-reactivity test directly. The cesium isolation (N105) is the violent end: cesium melts at 28.5 °C — it would melt in a closed hand — and the isolation keeps it under mineral oil for exactly the Group 1 reason. The column is a reactivity crescendo: reactivity grows going down the column, and the <em>same</em> two products (alkaline water, hydrogen gas) announce every member.</li>
+<li><strong>The right edge, second column in — Group 17, the halogens, one electron short.</strong> Chlorine (N77's generator episode), bromine (N62's isolation), iodine (N61's tincture and fuming): all molecular diatomic pairs (Cl2, Br2, I2), all colored (green-yellow gas, red-brown liquid, violet vapor), all volatile, all aggressive electron-takers. The column's shared hunger for one electron is what a <em>strong oxidizer</em> means — and the Charter's known-dangerous-combinations list is, read properly, a periodic-table statement: the dangerous pairings are almost always &quot;strong electron-taker from the right side, against electron-giver or fuel from the left side.&quot;</li>
+<li><strong>The middle block — the metals.</strong> Everything the corpus's element-isolation series worked (N79 chromium, N80 antimony, N81 vanadium, N98 cobalt — all pulled from pottery-oxide precursors and finished in the arc furnace) shares one bonding class: the metallic bond, a shared pool of delocalized electrons. Metals conduct cold (the Lecture 0 sorter's first row), shine, and deform without shattering — the electron sea glues the nuclei without locking them.</li>
+</ul>
+<p>The table also carries the <strong>trends</strong> the map is famous for: atoms get smaller going rightward along a row (more charge pulling the same shells) and larger going down a column (more shells); the energy needed to pull an electron off climbs rightward and upward [convergent]. These trends are the working day of Chapter 11's redox reasoning and Volume II's displacement routes; here they are recorded as the table's built-in compass, with the corpus's activity-series behavior as their preview.</p>
+<hr>
+<h2>Lecture 4 — The bond as electron bookkeeping (three classes, one ledger)</h2>
+<p>Now the sorter's explanation, done as bookkeeping. Every atom's outer shell wants to be filled (the octet of Lectures 2–3's filling pattern; a duet for hydrogen). There are exactly three ways to arrange that, and they are the three classes of Lecture 0:</p>
+<p><strong>Transfer — the ionic bond.</strong> Sodium (one outer electron, desperate to lose it) meets chlorine (one short, hungry). The electron moves entirely: Na → Na+ and Cl → Cl−, and the oppositely charged ions stack into the crystal lattice of Lecture 0's second observation. The bookkeeping is exact — sodium's electron count becomes neon's, chlorine's becomes argon's [computed: the Lab 3.2 ledger, Na-Cl as the transfer case] — and the measure of the transfer is the <strong>electronegativity difference</strong>: Δχ = 3.16 − 0.93 = 2.23 for Na–Cl, far past the working ionic threshold [computed, Lab 3.2]. Ionic solids: hard, brittle, high-melting (the ions hold each other in all directions), non-conducting as solids (ions locked), conducting when molten or dissolved (ions free). That is salt, all five facts from one bookkeeping choice.</p>
+<p><strong>Sharing — the covalent bond.</strong> Two oxygens at Δχ = 0 share two electron pairs between them (O2, the Lab 3.2 ledger); two nitrogens share three (N2). The atoms do not transfer; they pool, each contributing to a filled shell in the <em>molecule</em>. Molecules are the architecture class: iodine's violet vapor (N61's fuming chamber worked because I2 molecules leave the solid by sublimation — molecule-to-molecule forces are weak, even when the inside-the-molecule bond is strong). Sucrose is the household's big molecule: C12H22O11, 342.297 g/mol, an architecture of 45 atoms whose internal bonds (C–H nonpolar 0.35; C–O polar 0.89; O–H polar 1.24 [computed, Lab 3.2]) never make ions — hence sugar water, the LED, and silence.</p>
+<p><strong>Pooling — the metallic bond.</strong> In a metal the outer electrons are shared with the <em>whole crystal</em>: a lattice of positive ions in a delocalized sea. Nothing is locked to anything, so the electrons drift at the slightest push — conduction cold, the lecture's first sorter row — and the layers slide (metals bend; the arc-furnace beads of the corpus's isolation episodes N79/N98 are the sea letting nuclei rearrange without breaking the class).</p>
+<p>The three classes are really one <strong>Δχ ledger</strong> (Lab 3.2's classifier): Δχ ≥ 1.7, transfer-dominant; 0.4–1.7, polar sharing; under 0.4, even sharing. The thresholds are working conventions, not walls [convergent — the boundaries are fuzzy in the literature; the ledger is a classifier, not a law]. What the ledger adds over the sorter: it predicts, from the table alone, which side of the sorter an unknown will land on — and it is the working tool of Volume II, where every synthesis route is a set of bond trades.</p>
+<p><strong>The hydrates, reread.</strong> Chapter 2 priced copper sulfate pentahydrate against the anhydrous salt; this chapter can finally say what the difference <em>is</em>: CuSO4·5H2O is an ionic lattice (Cu2+ and SO42−) with five water molecules built into the crystal architecture per copper — Lab 3.1's atom count Cu1 S1 O9 H20... no: <strong>Cu1 S1 O9 H10</strong> [computed, Lab 3.1] — the composition <em>is</em> the architecture written as a count. Alum, the session-28 formula, is the same story at twelve waters: KAl(SO4)2·12H2O = K1 Al1 S2 O20 H24, 474.372 g/mol [computed]. And gypsum drywall (N64's route from drywall to plaster) is CaSO4·2H2O — Ca1 S1 O6 H4, and <strong>20.93% of drywall mass is water molecules locked in the lattice</strong> [computed, Lab 3.1]; the plaster-maker's trade (Exercise 3.4) is driving most of that water out.</p>
+<p>One piece of forward bookkeeping: the <strong>oxidation number</strong> — the charge an atom <em>would</em> have if every bond were a transfer. NaCl: Na is +1, Cl is −1. CO2: carbon +4, oxygen −2. It is pure ledger, bookable from the electronegativity table, and it is the currency of every redox equation in Chapters 11 and 16 — recorded here so the counting habit starts now.</p>
+<hr>
+<h2>Lecture 5 — Molecular architecture (shape decides behavior)</h2>
+<p>Fill the ledger and you can <strong>draw</strong> molecules. The Lewis structure is the ledger on paper: total the valence electrons (group numbers), connect the skeleton, complete the octets, and check two invariants — the electron ledger (valence count equals electrons used) and the formal-charge ledger (formal charges sum to the ion's net charge). Lab 3.2 machine-checks both invariants across ten species, from H2O (8 valence, 8 used, FC sum 0) to SO42− (32 valence, 32 used, FC sum −2) — and flags the one place where the honest label is <em>hypervalence</em>: sulfur's 12 electron count in sulfate is a row-3 expanded octet, stated as such rather than waved at.</p>
+<p>Shape comes from the <strong>electron domains</strong> — each bond or lone pair is a domain, domains spread to maximize their mutual angles (VSEPR), and the Lab 3.2 map takes the domain count to the shape name: CO2 (2 domains, 0 lone pairs) linear; water (2 bonds, 2 lone pairs) bent at 104.5°; ammonia (3, 1) trigonal pyramidal; methane (4, 0) tetrahedral [convergent — the standard shapes and angles]. One honesty note from the lab: the shape-name map is <em>many-to-one</em> — &quot;bent&quot; covers both AX2E and AX2E2 — so a shape name without its domain count is not the datum; the notebook entry records both.</p>
+<p>Shape + bond polarity = <strong>molecular polarity</strong>, and molecular polarity runs the household:</p>
+<ul>
+<li>Water is a bent molecule with two polar O–H bonds that do not cancel — water is a strongly polar molecule. CO2 is linear and symmetric: its two polar C=O bonds point exactly opposite and cancel — CO2 is nonpolar <em>despite</em> polar bonds. The cancellation is geometric, and it is why &quot;does it have polar bonds?&quot; and &quot;is it polar?&quot; are different questions.</li>
+<li><strong>Like dissolves like.</strong> Salt dissolves in water because both are ionic/polar — water molecules crowd the ions and pull the lattice apart (the Lecture 0 glass). Sugar dissolves because its molecule is studded with polar O–H groups that water can embrace, even though the molecule stays whole. Grease does not dissolve in water — nonpolar against polar — and needs a nonpolar solvent or a soap (Ch 5's separation train is polarity engineering, every step).</li>
+<li><strong>Molecules keep their architecture in the melt; lattices do not have one.</strong> Sugar at ~186 °C does not melt so much as <em>reorganize</em> — caramelization is the sucrose molecule's own chemistry running away (browning, smell, then char). Salt sits inert to 801 °C, because there is no molecule to reorganize — only the lattice, which holds until the ions themselves let go [convergent]. (Kitchen ovens top out near 250–300 °C: the oven test discriminates the classes exactly as Exercise 3.5 uses it, without ever approaching salt's melt.)</li>
+</ul>
+<p>And the same atoms can build different architectures: <strong>carbon's three faces</strong>. Charcoal, graphite, diamond — identical atoms, different bonding architectures. The corpus's charcoal cluster is the household proof set: the two-barrel retort and the mound method (N85, N88) make microcrystalline, near-graphitic carbon; steam activation (N96) rebuilds the <em>surface</em> architecture and measures the difference with iodine numbers — control 2, heat-only 30, steam-activated 92.5, commercial 89 mg/g [single-source corpus, N96] — architecture you can buy by the number. The bonding chapter's last word is that &quot;what is it made of&quot; is never the whole question; &quot;how is it built&quot; is the other half, and it is the half chemistry lives on.</p>
+<p><strong>The honest close (flagged sketch).</strong> Why does carbon make four <em>equivalent</em> bonds when its Lewis ledger shows only the count, not the equivalence? The full answer — hybrid orbitals, then molecular orbital theory — needs wave mechanics and is deferred to the formal track (OpenStax ch. 8 owns it). What this chapter's sketch states and what it is missing: named missing — the wave description that predicts both the equivalence of methane's four bonds and the observed 109.5°; standing in — the VSEPR domain model, which reproduces the shapes without the waves. When a later chapter (the organic chemistry of Vol II) needs the deeper machinery, it will be introduced at the bench, labeled, and not smuggled in as if derived here.</p>
+<hr>
+<h2>Computational Lab 3.1 — the composition &amp; isotope engine (executed this session; outputs verbatim)</h2>
+<p>Purpose: one parser computes, for any census formula, the explicit atom-count composition, the molar mass, and the mass percentages — the session-28 lesson standing: the parser's <em>every</em> syntax feature (parenthesized groups and hydrate dots) is exercised in the battery, with compositions written out atom by atom. The engine's inverse (percentages back to atom counts) is verified as an exact recovery over the whole battery. The isotope engine reproduces the table's average atomic masses from abundance data.</p>
+<pre><code>Element table (g/mol): H 1.008, B 10.81, C 12.011, N 14.007, O 15.999, Na 22.990,
+  Mg 24.305, Al 26.982, S 32.06, Cl 35.45, K 39.098, Ca 40.078, Fe 55.845, Cu 63.546
+
+Parser composition cross-checks (explicit atom counts; BOTH syntax features exercised:
+parenthesized groups and hydrate dots):
+  NaCl               = Na Cl            M = 58.440 g/mol
+  CaCO3              = Ca C O3          M = 100.086 g/mol
+  NaHCO3             = Na H C O3         M = 84.006 g/mol
+  CuSO4·5H2O         = Cu S O9 H10      M = 249.677 g/mol
+  MgSO4·7H2O         = Mg S O11 H14      M = 246.466 g/mol
+  Na2B4O7·10H2O      = Na2 B4 O17 H20   M = 381.363 g/mol
+  (NH4)2SO4          = N2 H8 S O4       M = 132.134 g/mol
+  CaSO4·2H2O         = Ca S O6 H4       M = 172.164 g/mol
+  C12H22O11          = C12 H22 O11      M = 342.297 g/mol
+  Fe2O3              = Fe2 O3           M = 159.687 g/mol
+  KAl(SO4)2·12H2O    = K Al S2 O20 H24  M = 474.372 g/mol
+  C9H8O4             = C9 H8 O4         M = 180.159 g/mol
+  CO                 = C O              M = 28.010 g/mol
+  CO2                = C O2             M = 44.009 g/mol
+  FeO                = Fe O              M = 71.844 g/mol
+  Fe3O4              = Fe3 O4           M = 231.531 g/mol
+  N2O                = N2 O              M = 44.013 g/mol
+  NO                 = N O              M = 30.006 g/mol
+  NO2                = N O2              M = 46.005 g/mol
+
+Percent composition, selected census compounds (law of definite proportions):
+  NaCl:             Na 39.34% Cl 60.66%   (sum 100.00%)
+  CuSO4·5H2O:       Cu 25.45% S 12.84% O 57.67% H 4.04%   (sum 100.00%)   &lt;- Ch2 25.45% Cu re-derived from K1 S1 O9 H10
+  CaSO4·2H2O:       Ca 23.28% S 18.62% O 55.76% H 2.34%   (sum 100.00%)   &lt;- water of crystallization = 20.93% of drywall
+  Fe2O3 (rust):    Fe 69.94% O 30.06%   (sum 100.00%)
+  C12H22O11:       C 42.11% H 6.48% O 51.41%   (sum 100.00%)   &lt;- sucrose, a molecular compound
+  C9H8O4 (aspirin): C 60.00% H 4.48% O 35.52%   (sum 100.00%)   &lt;- the N74 standard: 180.159 g/mol
+
+Definite-proportions invariance, machine check: mass fraction of each element in
+  every battery formula over sample sizes 1 mg, 1 g, 100 g, 1 kg, 10 kg:
+  max deviation of element mass fraction across all samples: 1.11e-16 (exactly 0 expected)
+
+Law of multiple proportions, machine check (fixed element, ratio of partner masses):
+  C oxides:  O per C: CO 1.3320, CO2 2.6641 -&gt; ratio 2.00000 (expected 2.00000)
+  Fe oxides: Fe per O: FeO 3.4905, Fe2O3 2.3270, Fe3O4 2.6179
+             ratios: Fe2O3/FeO = 1.5000 (3/2), Fe3O4/FeO = 1.3333 (4/3)
+  N oxides:  O per N: N2O 0.5711, NO 1.1422, NO2 2.2844
+             ratios to N2O: 2.00000, 4.00000 (1 : 2 : 4 expected)
+
+Isotope bookkeeping (weighted average vs the standard weights used above):
+  Cl: 34.969 @ 75.78% + 36.966 @ 24.22% -&gt; 35.453  (table 35.45)  PASS
+  B: 10.013 @ 19.9% + 11.009 @ 80.1% -&gt; 10.811  (table 10.81)  PASS
+  Cu: 62.929 @ 69.15% + 64.928 @ 30.85% -&gt; 63.546  (table 63.546)  PASS
+
+Composition inversion (percent -&gt; primitive atom counts; tolerance 0.01):
+  method: per-gram moles m_e = %e / A_e; ratios r_e = m_e / min(m); smallest k
+  in 1..120 with |k*r_e - round(k*r_e)| &lt;= tol for all e gives primitive counts
+  NaCl               -&gt; Na1 Cl1               exact match
+  CaCO3              -&gt; Ca1 C1 O3             exact match
+  NaHCO3             -&gt; Na1 H1 C1 O3          exact match
+  CuSO4·5H2O         -&gt; Cu1 S1 O9 H10         exact match
+  MgSO4·7H2O         -&gt; Mg1 S1 O11 H14        exact match
+  Na2B4O7·10H2O      -&gt; Na2 B4 O17 H20        exact match
+  (NH4)2SO4          -&gt; N2 H8 S1 O4            exact match
+  CaSO4·2H2O         -&gt; Ca1 S1 O6 H4           exact match
+  C12H22O11          -&gt; C12 H22 O11           exact match
+  Fe2O3              -&gt; Fe2 O3                exact match
+  KAl(SO4)2·12H2O    -&gt; K1 Al1 S2 O20 H24     exact match
+  C9H8O4             -&gt; C9 H8 O4               exact match
+  CO                 -&gt; C1 O1                 exact match
+  CO2                -&gt; C1 O2                 exact match
+  FeO                -&gt; Fe1 O1                exact match
+  Fe3O4              -&gt; Fe3 O4                exact match
+  N2O                -&gt; N2 O1                 exact match
+  NO                 -&gt; N1 O1                 exact match
+  NO2                -&gt; N1 O2                 exact match
+  inversion: ALL 19 formulas recovered exactly (forward map percent &lt;-&gt; counts is a bijection on this battery)</code></pre>
+<p>The battery's own lesson set: (1) the composition cross-check covers both parser features — the alum line K1 Al1 S2 O20 H24 at 474.372 g/mol is the session-28 corrected value re-derived, not copied; (2) the multiple-proportions ratios land on exact small integers from table-grade masses, which is Dalton's evidence running on household compounds; (3) the inversion runs the composition map <em>backwards</em> — percentages alone recover the atom counts, which is the working method of Exercise 3.6's unknown-oxide analysis and of every &quot;elemental analysis&quot; in Volume II.</p>
+<hr>
+<h2>Computational Lab 3.2 — the valence &amp; bond bookkeeping engine (executed this session; outputs verbatim)</h2>
+<p>Purpose: the Lewis ledger as a machine-checked invariant. For each species in the battery: the total valence count must equal the electrons used (ledger conservation), the formal charges must sum to the net charge (charge conservation), and every atom must reach its octet or duet — with any exception flagged and named (hypervalence), never waved at. The bond-type classifier runs the electronegativity ledger, and the VSEPR map is checked over its whole standard domain, collisions included.</p>
+<pre><code>Valence groups (main-group column): H 1, B 3, C 4, N 5, O 6, Na 1, Mg 2, Al 3, S 6,
+  Cl 7, K 1, Ca 2.   Electronegativity (Pauling chi): H 2.20, B 2.04, C 2.55, N 3.04,
+  O 3.44, Na 0.93, Mg 1.31, Al 1.61, S 2.58, Cl 3.16, K 0.82, Ca 1.00
+
+Lewis ledger battery. Per species: total valence = sum(groups) - charge;
+  used = 2 x (sum of bond orders) + 2 x (lone pairs); ledger demands valence == used.
+  Formal charge per atom: FC = group - loneElectrons - sharedPairs (= sum of bond orders at that atom).
+  Bookkeeping check: sum of formal charges == net charge.
+  H2O      valence  8  used  8  LEDGER OK   FC sum 0 == charge 0 OK
+  NH3      valence  8  used  8  LEDGER OK   FC sum 0 == charge 0 OK
+  CH4      valence  8  used  8  LEDGER OK   FC sum 0 == charge 0 OK
+  CO2      valence 16  used 16  LEDGER OK   FC sum 0 == charge 0 OK
+  O2       valence 12  used 12  LEDGER OK   FC sum 0 == charge 0 OK
+  N2       valence 10  used 10  LEDGER OK   FC sum 0 == charge 0 OK
+  CH3COOH  valence 24  used 24  LEDGER OK   FC sum 0 == charge 0 OK
+  CO3^2-   valence 24  used 24  LEDGER OK   FC sum -2 == charge -2 OK
+  SO4^2-   valence 32  used 32  LEDGER OK   FC sum -2 == charge -2 OK
+  NH4+     valence  8  used  8  LEDGER OK   FC sum +1 == charge +1 OK
+
+Octet/duet audit (loneElectrons + 2*sharedPairs per atom):
+  H2O      all atoms satisfied
+  NH3      all atoms satisfied
+  CH4      all atoms satisfied
+  CO2      all atoms satisfied
+  O2       all atoms satisfied
+  N2       all atoms satisfied
+  CH3COOH  all atoms satisfied
+  CO3^2-   all atoms satisfied
+  SO4^2-   S0 has 12 electrons (row-3 hypervalence)
+  NH4+     all atoms satisfied
+
+Bond-type classifier (dchi thresholds: &gt;=1.7 ionic-dominant, 0.4-1.7 polar, &lt;0.4 nonpolar):
+  Na-Cl dchi = 2.23  -&gt; ionic
+  K-Cl  dchi = 2.34  -&gt; ionic
+  Ca-O  dchi = 2.44  -&gt; ionic
+  C-H   dchi = 0.35  -&gt; nonpolar covalent
+  O-H   dchi = 1.24  -&gt; polar covalent
+  N-H   dchi = 0.84  -&gt; polar covalent
+  C-O   dchi = 0.89  -&gt; polar covalent
+  C-C   dchi = 0.00  -&gt; nonpolar covalent
+  S-O   dchi = 0.86  -&gt; polar covalent
+  H-H   dchi = 0.00  -&gt; nonpolar covalent
+
+Sorter cross-check (Lecture 0 verdicts, predicted from the two tables above):
+  NaCl  : Na-Cl dchi 2.23 ionic -&gt; ions when molten/dissolved -&gt; conducts, and only then
+  sucrose: C-H 0.35 + C-O 0.89 + O-H 1.24 all covalent -&gt; neutral molecules -&gt; never conducts
+  Cu metal: delocalized electron sea -&gt; conducts as a cold solid
+
+VSEPR forward map over the standard domain (b bonds, p lone pairs on the central atom):
+  (2,0) linear; (2,1) bent; (2,2) bent; (2,3) linear; (3,0) trigonal planar; (3,1) trigonal pyramidal; (3,2) T-shaped; (4,0) tetrahedral; (4,1) seesaw; (4,2) square planar; (5,0) trigonal bipyramidal; (5,1) square pyramidal; (6,0) octahedral
+  13 entries; function is consistent; NOT injective — collisions: linear &lt;- (2,0) (2,3); bent &lt;- (2,1) (2,2)
+  (shape name alone does not recover (b,p); the bond count and steric number are part of the data)
+
+Battery summary: ledger OK x 10 | FC-sum==charge OK x 10 | octet/duet satisfied everywhere except the
+  flagged row-3 hypervalence of S in SO4^2- (12 electrons — the expanded-octet honesty label)</code></pre>
+<p>The lab's own lesson set: the two conservation invariants (electrons and charge) are the machine-checked spine of Lewis bookkeeping — a structure that violates either one is not &quot;almost right,&quot; it is wrong, and the engine rejects it (the drafting session's own first run <em>did</em> get the formal-charge formula wrong and was caught by exactly this check; the error never reached the page). The hypervalence flag is the honesty label doing its job: sulfate's expanded octet is stated, not hidden. The VSEPR collision note is the same discipline on the map side: shape names are many-to-one, so the notebook entry carries the domain counts with the name.</p>
+<hr>
+<h2>Exercises</h2>
+<p>Graded ●○○ (routine) / ●●○ (needs assembly) / ●●● (chapter summit); ◆ = diagnose the tool yourself (no hints); ◐ = open-ended. Every exercise worked at least two ways, each way tagged with its P-ID.</p>
+<p><strong>3.1 ●○○ — The sorter, predicted.</strong> Before touching them, predict — from the classes and the Δχ ledger — the solid and dissolved conductivity of: (a) copper wire; (b) dry table salt; (c) dry sugar; (d) salt water; (e) sugar water; (f) molten salt (thought experiment only — see the safety table). <em>Hint: which two classes have mobile charge carriers, and what unlocks them?</em> <strong>Answer:</strong> (a) conducts — metallic, the electron sea needs no unlocking; (b) no — ions present but lattice-locked; (c) no — neutral molecules, no carriers exist at any temperature; (d) yes — dissolution frees the lattice's ions; (e) no — dissolution frees molecules, which carry no charge; (f) yes — melting frees the ions (the thought experiment ends at 801 °C; the bench test does not exist in this book). <em>Second way:</em> the bond classifier [computed, Lab 3.2]: Na–Cl Δχ 2.23 (ionic → ions on melt/dissolve), sucrose's C–H/C–O/O–H all covalent (molecules forever), Cu in the metallic pool. Ways: the Lecture 0 class table (P9 — cheap orthogonal evidence) and the Lecture 4 ledger (P1's table-reading feeding the classifier).</p>
+<p><strong>3.2 ●○○ — Copper's atomic weight, both directions.</strong> (a) Copper's isotopes are 62.929 @ 69.15% and 64.928 @ 30.85%. Compute the abundance-weighted average and say which Chapter 2 number you just rebuilt. (b) Invert: knowing only the table's 63.546 and the two isotope masses, solve for the lighter isotope's abundance. <em>Hint: weighted average; then the same equation solved for the weight.</em> <strong>Answer:</strong> (a) 0.6915 × 62.929 + 0.3085 × 64.928 = 63.5457 → 63.546 g/mol [computed] — the mass base of root-killer's 25.45% Cu and of every copper yield ledger since. (b) x × 62.929 + (1 − x) × 64.928 = 63.546 → x = (64.928 − 63.546)/(64.928 − 62.929) = 69.13% [computed], against the published 69.15% — agreement to the rounding of the inputs. Ways: forward weighted average (P12's ledger) and algebraic inversion (the same ledger run backwards — the P12 habit of checking a computation by running its inverse).</p>
+<p><strong>3.3 ●●○ — The potter's black oxide.</strong> A pottery-aisle pigment (the corpus's metal-oxide aisle, N79's aisle) is declared only &quot;iron oxide.&quot; The retail candidates: FeO, Fe2O3, Fe3O4. (a) Compute %Fe for each [Lab 3.1's compositions]. (b) A 2.00 g sample yields 1.447 g of iron on analysis — which oxide is it? Name a bench property that confirms it in seconds. (c) What law are these three compounds demonstrating, and what does Lab 3.1 compute for it? <em>Hints: %Fe runs on molar mass; only one of the three is a magnet.</em> <strong>Answer:</strong> (a) FeO 77.73%, Fe2O3 69.94%, Fe3O4 72.36% [computed]. (b) 1.447/2.00 = 72.36% → Fe3O4, magnetite; the bench property is the magnet — magnetite is the only strongly magnetic iron oxide, a P9 discrimination that needs no analysis at all (second way). (c) The law of multiple proportions: the same element pair in small whole-number ratios — Lab 3.1's Fe2O3/FeO = 1.5000 (3/2) and Fe3O4/FeO = 1.3333 (4/3) [computed]. Ways: composition arithmetic (P1/P12) and the physical-property discrimination (P9).</p>
+<p><strong>3.4 ●●○ — The drywall → plaster bookkeeping (N64's route).</strong> Gypsum drywall is CaSO4·2H2O; plaster of Paris is CaSO4·½H2O. For 1.000 kg of gypsum heated to plaster: (a) write both atom-count compositions and molar masses; (b) compute the grams of plaster and of steam driven off; (c) verify (b) a second way via mass fractions. <em>Hints: how many waters leave per formula unit? What is the mass fraction of water in each solid?</em> <strong>Answer:</strong> (a) gypsum Ca1 S1 O6 H4, 172.164 g/mol (20.93% crystallization water [computed, Lab 3.1]); plaster Ca1 S1 O4½ H1, 145.142 g/mol (6.21% water) — the half-water is a bookkeeping unit, not half a molecule: the crystal organizes around half the water per calcium. (b) 1000/172.164 = 5.8084 mol → 5.8084 × 145.142 = 843.0 g plaster, and 1000 − 843.0 = 157.0 g steam [computed]. (c) Mass-loss fraction = (2 − ½) × 18.015/172.164 = 27.0225/172.164 = 15.70% → 157.0 g ✓ — same answer, no mole counting needed. The N64 datum (the plaster set's 2-minute window) is this water coming back: setting <em>is</em> re-hydrating (Chapter 5's TLC-plate route runs on it). Ways: the mole ledger (P12) and the fraction route (P7's thermal decomposition priced by P1's label arithmetic).</p>
+<p><strong>3.5 ●●● — The unlabeled white powders (the chapter's summit).</strong> Two identical jars have lost their labels; one held table salt, one sugar. Tasting is forbidden. Design three instrumentless discriminations, each backed by the bonding class that makes it work, and say which you would run first and why. <em>Hints: the sorter glass; the kitchen oven's ceiling; what color does a crowded sodium flame make?</em> <strong>Answer:</strong> (1) <strong>Conductivity</strong> — the Lecture 0 sorter: a level teaspoon in water, battery + LED; salt lights it, sugar does not (ionic → freed ions; molecular → no carriers). Run this first: zero hazard, zero consumables, binary verdict. (2) <strong>The oven line</strong> — 200–250 °C: sugar caramelizes then chars (its <em>molecules</em> reorganize from ~186 °C; browning and smell are the signature), salt is unchanged (its 801 °C lattice melt is unreachable and must stay that way — molten salt spatters; the discrimination works without approaching it). (3) <strong>The flame</strong> — a few grains at a gas flame's edge: salt drives the intense sodium yellow (so intense it is also the cross-contamination warning of flame-test culture), sugar chars with a blue-orange flame and no persistent yellow. Molar bookkeeping for the notebook entry, two ways: 4.00 g is 0.0684 mol NaCl but 0.0117 mol sucrose [computed] — a 5.8× particle-count gap that Chapter 4's solution work and colligative readings will cash in. Ways: the three discriminations are P9 convergence (three orthogonal observations, one verdict); the class reasoning behind each is Lecture 4's ledger (P1's chemicals, P12's bookkeeping).</p>
+<p><strong>3.6 ◆ — The oil-jar metal (no hints; diagnose the tools, then decide).</strong> A soft, silvery metal is stored under mineral oil. A rice-grain sliver floats on water, skates the surface, and fizzes; the water turns slowly alkaline; the bare metal tarnishes within minutes in air. Analysis of the pure oxide: 74.19% metal, 25.81% oxygen. Identify the element; place its column; predict the water behavior of its two column-neighbors; explain the oil.</p>
+<p><strong>Worked answer (diagnosis first).</strong> The tools this exercises: Lab 3.1's composition inversion (percentages → atom counts), the periodic table's column logic (Lecture 3), and P9's convergence habit. The inversion: per-gram moles of oxygen = 0.2581/15.999 = 0.01613; of metal = 0.7419/A(M). For a Group-1 oxide M2O the mole ratio must be 2.000, so A(M) = 0.7419/(2 × 0.01613) = 22.99 → <strong>sodium</strong> [computed]; the check: Na2O is 61.98 g/mol and 74.19% Na ✓. The column: Group 1 — the floating (density 0.97), the fizzing (H2 from water), the alkaline turn (NaOH forming, Chapter 8's preview) are all the column signature. The neighbors: lithium above (Li2O is 46.45% Li [computed]) reacts more gently — the corpus's battery-lithium teardown showed exactly this class of behavior at the gentle end, with the mineral-oil storage datum (N100); potassium below (K2O 83.02% K) reacts violently with a lilac flame; cesium, the column's floor, is the extreme case the corpus's isolation episode kept under oil throughout (N105). The oil: it blocks air and water — the same reactions, kinetically paused; storage under oil is not a quirk of the jar, it is the column's only safe address. Ways: composition inversion (P12 run backwards) and column reasoning (P9's convergence over four independent observations).</p>
+<p><strong>3.7 ◐ — The census, mapped to the table (open-ended).</strong> Take Chapter 2's census table and a printed periodic table (the wallet card or any printed wall version — the premise's paper technology). Place every element of every declared compound on the table. (a) Which columns and blocks own an ordinary house? (b) Find the deserts — elements with zero census entries — and notice they cluster (the noble gases except a balloon, the middle transition rows, most of the heavy end). (c) Pick one desert element your Volume II work will actually need (a plausible list: manganese, barium, strontium) and score its make-or-buy routes P10-style from what the map tells you about its neighbors. No single answer; the deliverable is the annotated table, and Chapter 4 turns the census into solution arithmetic.</p>
+<hr>
+<h2>Chapter safety assessment (the Charter, applied to this chapter's own activities)</h2>
+<table>
+<thead><tr><th>Activity</th><th>Hazards</th><th>Minimum PPE</th><th>Failure modes</th><th>Quench/response</th><th>Disposal</th></tr></thead>
+<tbody>
+<tr><td>The conductivity sorter (1.5–9 V battery, LED, salt/sugar solutions)</td><td>Battery short/heating; spill on notebook</td><td>None chemical; dry hands</td><td>Leads shorted; LED popped (no consequence)</td><td>Disconnect; dry the page</td><td>Dilute salt/sugar down the sink</td></tr>
+<tr><td>Oven discrimination (sugar vs salt, 200–250 °C)</td><td>Charring smoke; caramel burns (sticky, &gt;100 °C); CO from smoldering</td><td>Oven mitts; ventilation</td><td>Sugar ignites in the oven</td><td>Lid the pan, kill the heat; never water on a grease/char fire</td><td>Cooled char to trash</td></tr>
+<tr><td>Flame test (few grains, flame edge or steel spatula tip)</td><td>Burns; the sodium cross-contamination habit; CuSO4 dust if the root-killer bottle is misused</td><td>Splash goggles; nothing loose</td><td>Grains scatter; spatola tip hot</td><td>Douse the tip; sweep the grains</td><td>Trace amounts; root killer stays capped and off the flame</td></tr>
+<tr><td>Alkali-metal water behavior (Li–Cs)</td><td>Violent reaction, ignition, spatter</td><td>NOT a bench activity this chapter — the Charter restricts Group 1 beyond demonstration scale; observe via the corpus episodes (N100, N105)</td><td>Attempting &quot;bigger piece&quot; extrapolation</td><td>The episodes' own rules on record (N100's charge-state discard; oil storage)</td><td>The corpus's rule: never into the sink</td></tr>
+<tr><td>Halogen handling (Cl2, Br2, I2)</td><td>Irritant, corrosive vapor</td><td>NONE this chapter — cited as column evidence only; generation and handling live in Ch 10/16 under the Charter</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>Battery teardown (the lithium datum)</td><td>Charged-cell shorting, fire</td><td>NOT this chapter's bench activity — Ch 19 owns the teardown; N100's outside + charge-state rules recorded there</td><td>—</td><td>—</td><td>—</td></tr>
+</tbody>
+</table>
+<p>Scale ceiling: all bench activities are single-teaspoon, low-voltage, oven-temperature. The 801 °C lattice melt and every Group 1 water test beyond lithium-battery-observation are outside this book's bench — they are cited as phenomena, not performed as procedures.</p>
+<hr>
+<p class="banner no-print">HTML edition of the reviewed manuscript — the labels are the contract. Canon-Coverage and everything after it live in the .md master only.</p>
+</main>
+</body>
+</html>

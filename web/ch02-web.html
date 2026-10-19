@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vol I · Chapter 2 — Reading the World as a Chemical Inventory</title>
+<style>
+  :root { font-family: Georgia, 'Times New Roman', serif; color: #1a1a1a; }
+  body { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.2rem 4rem; line-height: 1.55; background: #fff; }
+  h1 { font-size: 1.9rem; margin: 2.2rem 0 0.8rem; }
+  h2 { font-size: 1.45rem; margin: 2rem 0 0.6rem; border-bottom: 1px solid #ddd; padding-bottom: 0.25rem; }
+  h3 { font-size: 1.2rem; margin: 1.6rem 0 0.5rem; }
+  h4 { font-size: 1.05rem; margin: 1.3rem 0 0.4rem; }
+  pre, code { font-family: 'Courier New', Courier, monospace; }
+  code { background: #f2f2f2; padding: 0.05em 0.3em; border-radius: 3px; font-size: 0.92em; }
+  pre { white-space: pre; tab-size: 4; break-inside: avoid; page-break-inside: avoid; overflow-x: auto; border: 1px solid #ddd; background: #fafafa; padding: 0.7rem 0.9rem; font-size: 0.85rem; line-height: 1.35; }
+  blockquote { border-left: 3px solid #888; margin: 1rem 0; padding: 0.2rem 1rem; color: #333; }
+  table { border-collapse: collapse; margin: 1rem 0; break-inside: avoid; page-break-inside: avoid; }
+  th, td { border: 1px solid #bbb; padding: 0.35rem 0.6rem; text-align: left; }
+  th { background: #f0f0f0; }
+  hr { border: 0; border-top: 1px solid #ccc; margin: 2rem 0; }
+  .banner { background: #eef6ff; border: 1px solid #bcd6f0; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.9rem; font-family: system-ui, sans-serif; margin-bottom: 1.5rem; }
+  @page { size: A4; margin: 16mm 15mm; }
+  @media print { body { max-width: none; padding: 0; font-size: 10.5pt; } .no-print { display: none; } pre { font-size: 8.8pt; } h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; } }
+</style>
+</head>
+<body>
+<main id="content">
+<p class="banner">The Everyday Chemist's Atlas — Vol I · Chapter 2 (Foundations of the Home Lab). HTML reading edition, generated 2026-10-19 from the manuscript master. The Canon-Coverage record and the review apparatus (forward flags, back flags, chapter ledger, revision appendix) remain in the .md master.</p>
+<h1>Vol I · Chapter 2 — Reading the World as a Chemical Inventory</h1>
+<p>Chapter 1 built the lab and the notebook. This chapter fills the shelves. The premise of the Atlas — a chemist with full access to knowledge but no access to a chemical supplier — meets its first test not at the bench but at the store: the ordinary world is already a warehouse, if you can read its labels. This is the full working chapter of <strong>P1: Read the label</strong> (the P-index's first move, seeded in Chapter 1's Lecture 0), and of <strong>P10: Route economics</strong> — the make-or-buy decision that will govern every synthesis in Volumes II through V.</p>
+<p>Two commitments recorded at Chapter 1's review (RA-5) are honored here in full: the improvised balance (Lecture 5) and the make-or-buy scoring method with worked examples (Lecture 4 + Lab 2.2).</p>
+<hr>
+<h2>Lecture 0 — The census (pencil and paper, before any chemistry)</h2>
+<p>Before you own a single piece of apparatus, do this: take your notebook (Chapter 1's six-line entry template) and walk your home top to bottom. Every bottle, box, and canister that declares a chemical composition gets one line. Do not interpret yet — copy what the label says, exactly.</p>
+<p>A typical census starts like this:</p>
+<table>
+<thead><tr><th>Item (as labeled)</th><th>Declared active</th><th>Declared strength</th><th>Found in</th></tr></thead>
+<tbody>
+<tr><td>Distilled white vinegar</td><td>&quot;diluted with water to 5% acidity&quot;</td><td>5%</td><td>kitchen</td></tr>
+<tr><td>Baking soda</td><td>&quot;sodium bicarbonate&quot;</td><td>100% (USP)</td><td>kitchen</td></tr>
+<tr><td>Table salt</td><td>&quot;sodium chloride&quot;; iodine 45 mcg/g; anti-caking</td><td>~99%</td><td>kitchen</td></tr>
+<tr><td>Bleach</td><td>&quot;sodium hypochlorite 6%; other ingredients 94%&quot;</td><td>6%</td><td>laundry</td></tr>
+<tr><td>Hydrogen peroxide</td><td>&quot;hydrogen peroxide 3%; stabilized&quot;</td><td>3%</td><td>medicine cabinet</td></tr>
+<tr><td>Rubbing alcohol</td><td>&quot;isopropyl alcohol 70% by volume&quot;</td><td>70% v/v</td><td>medicine cabinet</td></tr>
+<tr><td>Epsom salt</td><td>&quot;magnesium sulfate USP&quot;</td><td>100%</td><td>bath</td></tr>
+<tr><td>Root killer</td><td>&quot;copper sulfate pentahydrate 99.0%&quot;</td><td>99%</td><td>garden shed</td></tr>
+<tr><td>Muriatic acid</td><td>&quot;hydrochloric acid 31.45%&quot;</td><td>31.45%</td><td>garage</td></tr>
+<tr><td>Drain opener (A)</td><td>&quot;sodium hydroxide …%&quot;</td><td>varies</td><td>garage</td></tr>
+<tr><td>Borax</td><td>&quot;sodium tetraborate&quot;</td><td>100%</td><td>laundry</td></tr>
+<tr><td>Aspirin tablets</td><td>&quot;aspirin 325 mg&quot;</td><td>per tablet</td><td>medicine cabinet</td></tr>
+</tbody>
+</table>
+<p>Twenty minutes of walking yields twenty-five to forty distinct pure compounds at useful assay [convergent — the census experience is the corpus's near-universal opener; the N49 episode is built entirely on it]. The discovery cycle starts with this <strong>Encounter</strong>: the world is denser with chemistry than it looks. The two questions this chapter teaches you to answer, for every line of the census: <strong>what is the active ingredient, really</strong> (Lectures 1–2), and <strong>how much of it am I actually holding</strong> (Lab 2.1)? The third question — <strong>should I buy it or make it</strong> — is the chapter's summit (Lecture 4).</p>
+<hr>
+<h2>Lecture 1 — The label is a data structure</h2>
+<p>A consumer label is not prose; it is a record with fields. Learn the fields once and every label reads the same way.</p>
+<p><strong>Field 1: the product name.</strong> Chemistry-free marketing. &quot;Rooto&quot; tells you nothing; &quot;drain cleaner&quot; tells you the use, not the contents. Two bottles called &quot;drain opener&quot; can share a shelf while containing completely different chemicals — sulfuric acid in one (N57's Rooto), sodium hypochlorite or lye in another. <strong>Never buy by product name; buy by declared active ingredient.</strong> This is not pedantry: the Charter's known-dangerous combinations from Chapter 1 are mostly made by people who bought by name and mixed by guesswork.</p>
+<p><strong>Field 2: the active ingredient(s).</strong> The declared chemical, ideally with its CAS registry number — the unique identifier that disambiguates every &quot;copper sulfate,&quot; &quot;tartar,&quot; or &quot;lime&quot; you will meet. When a label says sodium tetraborate without saying <em>decahydrate</em>, you are holding Na2B4O7·10H2O in practice (borax is always the decahydrate at retail); the hydrate is part of the identity (Lecture 2 returns to this).</p>
+<p><strong>Field 3: the strength (assay), with its convention.</strong> The trap that costs the most errors, because &quot;percent&quot; hides four different meanings:</p>
+<ul>
+<li><strong>w/w</strong> (weight in total weight): the muriatic label's 31.45% HCl is 31.45 g per 100 g of <em>solution</em>.</li>
+<li><strong>w/v</strong> (weight in total volume): the bleach label's &quot;6% sodium hypochlorite&quot; is 6 g per 100 mL; vinegar's &quot;5% acidity&quot; is 5 g acetic acid per 100 mL.</li>
+<li><strong>v/v</strong>: alcohol &quot;70% by volume.&quot;</li>
+<li><strong>ppm</strong>: the trace regime.</li>
+</ul>
+<p>For dilute water solutions the conventions nearly coincide (density near 1). They diverge exactly where it matters most: concentrated acids. Read 32% HCl as w/w and you have 10.18 M; read the same number as w/v and you compute 8.78 M — a 16% error from one convention [computed, Lab 2.1]. Concentrated-acid labels in the United States are w/w; assume nothing, look for the words &quot;by weight&quot; or the SDS.</p>
+<p><strong>Field 4: the other/inert ingredients.</strong> Sometimes inert means inert (water). Sometimes it hides function: surfactants and thickeners in drain openers, stabilizers in peroxide, iodide-boosters in tincture iodine, anti-caking silicates in salt, dyes everywhere. The impurity taxonomy in Lecture 2 tells you when to care. A first-pass rule that never misleads: <strong>if the inert ingredients are named and few, the product is usually workable; if they are unnamed and many, assume the product is a formulation, not a reagent.</strong></p>
+<p><strong>Field 5: the safety block.</strong> The GHS pictograms and signal words are themselves chemical data: the corrosion pictogram on muriatic acid is telling you the assay is real. Chapter 28 will teach you to read this block as a working document; for now, one binding habit: <strong>the safety block is part of the census line.</strong> Copy it into the notebook entry.</p>
+<p><strong>The fertilizer trap — a worked example of field-drift.</strong> Fertilizer labels do not declare compounds at all; they declare <em>elemental</em> N-P-K. A bag marked 21-0-0 is ammonium sulfate — and the check is a one-line computation: (NH4)2SO4 is 132.13 g/mol, carrying 2 N = 28.014 g, so the nitrogen fraction is 28.014/132.13 = 21.2% [computed, Lab 2.1]. The bag's &quot;21&quot; is not a coincidence; it is the compound's elemental nitrogen, rounded. The same trap runs on copper products: some root-killer labels state <em>elemental copper</em> content; CuSO4·5H2O is only 25.45% copper by mass [computed], so a &quot;25% Cu&quot; label is the <em>same</em> near-pure pentahydrate as a &quot;99% copper sulfate pentahydrate&quot; label — different numbers, identical bottle (Exercise 2.3 makes you convert between them both ways).</p>
+<p><strong>The borax datum — a convergent check.</strong> Chapter 13's boron test will need a boron standard. The borax box says nothing about boron at all, but the arithmetic is fixed: borax decahydrate (Na2B4O7·10H2O, 381.36 g/mol) carries 4 B = 43.24 g, hence 11.34% B by mass [computed]. The corpus's own colorimetry episode quotes 11.34% for exactly this reason (N72) — two independent routes, one number. When your computed value and a practitioner's quoted value agree to four figures, that is the P9 convergence habit working on a purchase.</p>
+<p><strong>The era and region fields.</strong> Labels drift by decade and by country. The Golden Book's 1960 sourcing assumes a drugstore that sells silver nitrate off the shelf; the 2010 corpus still finds gentian violet at Walgreens (N67), but the EU of the 2020s has pulled consumer sulfuric acid from the map entirely (N84; N51's Germany parallel). <strong>Every aisle map in this chapter is dated and regional — re-census when you move, and treat &quot;not available here&quot; as a P10 input, not a dead end.</strong> Chapter 15 will route around the EU hole with the make-routes.</p>
+<hr>
+<h2>Lecture 2 — Grades: what purity buys you</h2>
+<p>Retail products carry no ACS-grade certificates, but the grade ladder is still worth knowing, because it calibrates what you are <em>not</em> paying for:</p>
+<ul>
+<li><strong>Technical / industrial</strong> — the bulk trade grade. Your drain opener, your muriatic acid, your borax. Assay declared, impurities unspecified.</li>
+<li><strong>FCC</strong> (Food Chemicals Codex) — food-grade: your baking soda, table salt. Constrains toxic impurities (heavy metals especially), says nothing about trace organics.</li>
+<li><strong>USP / NF</strong> — pharmaceutical purity. Epsom salt bottles say &quot;USP.&quot; Aspirin tablets are assayed to the milligram — the 325-mg tablet is a standard, not an approximation (N74 built a quantitative colorimetry ladder on exactly that).</li>
+<li><strong>ACS / Reagent</strong> — the analytical grades. Almost nothing at retail; the specialty vendors of the N29 list live here.</li>
+</ul>
+<p><strong>The impurity taxonomy</strong> — decide which class you are facing before you decide whether it matters:</p>
+<ol>
+<li><strong>Declared functional additives</strong> (surfactants, thickeners, dyes, fragrances). The most common and the most separable-or-avoidable: buy the variant without them (there usually is one), or route around them in the separation train (Vol I Ch 5).</li>
+<li><strong>Manufacturing residues</strong> (iron in muriatic acid — the yellow tint N83's distiller filtered out; organics in drain-opener acid — what N82's distiller was removing for electroplating work).</li>
+<li><strong>Water</strong>, in two disguises: free water (which Lab 2.1's assays just subtract) and <strong>water of crystallization</strong> — the hydrate trap. CuSO4·5H2O is a different compound from CuSO4 for bookkeeping purposes: the pentahydrate is 63.9% anhydrous salt by mass, so &quot;99% copper sulfate&quot; on a label <em>always</em> means the hydrate unless it says anhydrous basis, and any recipe in moles must specify which. The corpus's flagship yield case (N58) worked its loss ledger through exactly this: 100.35 g of pentahydrate is 0.4019 mol, not 0.629 mol.</li>
+<li><strong>Structural/isomeric trace impurities</strong> — matters in organic work (Vol II Ch 21+), nearly never in the inorganic aisles.</li>
+</ol>
+<p><strong>The decision line: pay for purity only when the experiment invoices you for it.</strong> The corpus gives the two poles. Thompson titrated retail drain opener and found it running at 18.4 M — 98%-grade sulfuric acid wearing a plumber's label (N57) — then saved the sodium sulfate byproduct and got on with the work: purity needed, purity verified, no more. At the other pole, a distiller re-distills that same retail acid at 540 °C because electroplating grades cannot tolerate the organic residues (N82): the experiment demanded the next rung. This pairing — <em>assay what you bought</em> (P9), <em>upgrade only on demand</em> (P6) — is the grade chapter in one line, and it is why the Atlas's mineral-acid chapter (15) will show you all three: buy, verify, upgrade.</p>
+<p>Note the verification culture: Thompson did not trust the Rooto label's number; he titrated it, then cross-checked titration against a gravimetric method (N57) — two ways, the Chapter 1 rule, applied to a purchase. Adopt this: <strong>the label is a claim until your notebook has verified it.</strong></p>
+<hr>
+<h2>Lecture 3 — The OTC map (aisle by aisle)</h2>
+<p>The census generalizes into a map. Each row: the aisle, the compounds, the label checks, and the corpus performers who worked that aisle. (US-typical; your region will differ — Lecture 1's closing point.)</p>
+<p><strong>Grocery.</strong> Vinegar (5% acetic acid, 0.833 M [computed]); baking soda (NaHCO3, often FCC/USP-grade — the corpus's carbonate-hub chemical, N30/N59); table salt (NaCl; anti-caking silicates are a filtration exercise or a brand-choice, Ch 5); sugar (sucrose — Ch 7's calorimetry and the acid-dehydration demos); cream of tartar (KHC4H4O6 — a soluble potassium salt hiding in the spice aisle, metathesis feedstock for Ch 9); corn starch; borax (Na2B4O7·10H2O — the laundry aisle).</p>
+<p><strong>Hardware.</strong> Muriatic acid, 31.45% w/w HCl ≈ 10.0 M — &quot;the cheapest mineral acid you can buy&quot; (N83, said of the Australian bottle; the US gallon runs the same order); lye-based drain openers (NaOH — <strong>read the label: the same shelf holds bleach-based and acid-based openers, and you must never let them meet</strong> — Charter rule 5); sulfuric drain openers (N57's Rooto at $8/qt, 18.4 M by titration); acetone; denatured alcohol; mineral spirits; TSP or its phosphate-free substitutes (<strong>check which you actually bought</strong> — the substitution era made the name lie); steel wool (iron, Ch 11).</p>
+<p><strong>Pharmacy.</strong> 3% hydrogen peroxide (&quot;stabilized&quot; — the stabilizer is a few tens of ppm, negligible); isopropyl alcohol 70% or 91%; iodine tincture (N61's fingerprinting fuming chamber started from the drugstore tincture); epsom salt, MgSO4·7H2O, USP (N86's drying-agent episode is the hydrate economy's best demo — Lecture 5 and Exercise 2.6 return to it); aspirin 325 mg (a calibrated standard — N74's quantitative colorimetry was anchored on three of them); gentian violet 1% (N67); bismuth subsalicylate (N73's Pepto-Bismol substitution — a wet-chemistry bismuth source verified by a working analyst).</p>
+<p><strong>Garden.</strong> Root killer: copper sulfate pentahydrate, ~99% (N59's bottle-fed synthesis — the carbonate-hub precursor; note the episode's own solubility bookkeeping, the 219,000-L datum, a reminder that this aisle is also the waterway-poisoning aisle — disposal discipline is part of the purchase); ammonium sulfate 21-0-0 (Lecture 1's trap, in the bag); garden lime (limestone: CaCO3 — Ch 7's calcination face; &quot;fast-acting&quot; lime is sometimes quicklime/hydrated lime — check which); dusting sulfur (Ch 17); bone meal; alum (KAl(SO4)2·12H2O — the potash alum of Ch 9's crystal chapter and of Lab 1.1's cautionary tale: 474.37 g/mol, RA-1).</p>
+<p><strong>Pool &amp; spa.</strong> TCCA trichlor pucks (N77's chlorine generator — the organic-bound, high-test chlorine face; treat as the oxidizer it is, Ch 16/28); sodium bisulfate, &quot;pH down&quot; (a dry acid — Ch 8); sodium carbonate, &quot;pH up&quot;; sodium bromide (N62's bromine episode bought it at spa strength).</p>
+<p><strong>Automotive.</strong> Battery acid: ~35% H2SO4, sometimes given away with a core exchange (N57's whole episode exists because this aisle's price skyrocketed in the 2010s — a region-and-era datum); antifreeze (ethylene glycol — toxic, Ch 28's sweet-poison face); brake cleaner (acetone-family solvents — read for the actual carrier).</p>
+<p><strong>Craft, pottery &amp; hobby.</strong> The metal-oxide aisle: V2O5, Cr2O3, Sb2O3, cobalt pigments (the corpus's element-isolation series bought every one of these at pottery suppliers — N70, N79, N80, N81, N98, with Seattle Pottery Supply recurring by name); oxalic acid (wood bleach — the P14 acid route's key reagent, N84); plaster of Paris (N64's TLC-plate episode routes drywall to gypsum to plaster); zinc from batteries and roofing strip (N76, N100); solder (tin — N103's source episode).</p>
+<p><strong>The map has holes — by law.</strong> The EU consumer-acid restriction (N84's Netherlands, N51's Germany) means the hardware row of the map simply does not exist there; the same chemist routes to the pharmacy and garden rows and to Volume II's make-routes. A hole in the map is a routing problem, not a wall: exactly the input P10 was built to score.</p>
+<hr>
+<h2>Lecture 4 — Make or buy: the scoring method (P10, worked)</h2>
+<p>The premise's own rule is the starting point: <em>specialty chemicals are bought only when synthesis is genuinely impractical — and then only items of regular, unrestricted retail availability.</em> The working question, every single time you need a chemical: <strong>which route wins?</strong> The corpus's history gives the answer a scorecard shape (P10 in the P-index). Score each route on four criteria, each 1 to 5, higher is better:</p>
+<ul>
+<li><strong>A — starting-material availability</strong> (5: on a retail shelf; 1: specialty-only)</li>
+<li><strong>D — low apparatus demand</strong> (5: a jar; 1: a 540 °C still)</li>
+<li><strong>H — low hazard</strong> (5: nothing to it; 1: the route is the hazard)</li>
+<li><strong>Y — yield and separability</strong> (5: the product separates itself; 1: dilute, slow, gummy)</li>
+</ul>
+<p>Total score = wA·A + wD·D + wH·H + wY·Y, with weights chosen by <em>you</em>, because weights are your priorities (the Ruined-World scenario zeroes the retail branch and re-prices everything). Before scoring, normalize the one number that makes unlike packages comparable: <strong>price per mole.</strong></p>
+<p><strong>Price per mole — the normalizer.</strong> Lab 2.1 computes the corpus's headline numbers [computed]: Rooto at $8.00/quart titrated at 18.38 M holds 17.39 mol of H2SO4 — <strong>$0.46 per mole</strong>. Muriatic at ~$8.00/gallon and 10.0 M holds 37.85 mol of HCl — <strong>$0.21 per mole</strong> (per mole of H+ they are near-twins: $0.23 vs $0.21, since sulfuric is diprotonic). Charcoal at $6 per 12 lb is $0.013 per mole of carbon — the cheapest carbon you will ever price. Activated carbon at $6 per 9 oz is $0.28 per mole. Epsom salt at $3/lb, dehydrated, is $13.54 per kg of anhydrous MgSO4 versus $25 per kg for the bought anhydrous — a 1.85× gap that Exercise 2.6 makes you think about carefully, because the raw gap is not the verdict.</p>
+<p><strong>Worked case 1 — sulfuric acid, five routes.</strong> This is Lab 2.2's full engine; the outcome: under equal weights the buy route (R1) scores 18 and dominates; a 2,401-combination weight sweep shows R1 winning 97.1% of all weight profiles, with the in-pot metabisulfite route (R4) taking 41 profiles (when hazard dominates) and the 540 °C distillation route (R5) rising to second place only under purity-first weighting. <strong>The verdict is robust: where retail sulfuric exists, buy it; the make-routes exist for the EU hole and the Ruined World.</strong> (Lab 2.2, executed below, shows all of this.)</p>
+<p><strong>Worked case 2 — the $45 vs $2 reversal.</strong> Ammonium metavanadate: $45 from the specialty chemical vendors, or ~$2 of pottery-aisle V2O5 plus the V2O5→NaVO3→NH4VO3 conversion performed at the bench (N70). Here <em>both</em> price and availability point the same way — make — and the episode doubles as a purity lesson: its maker caught and corrected his own solubility number mid-video (the corpus's second in-video self-correction; the honest-notebook culture of Ch 1 is not optional equipment). [single-source corpus]</p>
+<p><strong>Worked case 3 — when the make-route wins on quality, not price.</strong> Cody's charcoal verdict: the $6 bag answers the <em>price</em> question, but homemade retort charcoal wins the <em>quality</em> axis — cleaner-burning, &quot;a third of the way to activated&quot; (N85). And its successor episode closed the loop with numbers: steam-activated homemade carbon measured an iodine number of 92.5 mg/g against the commercial product's 89 — commercial parity, at ~2 kWh per 2 oz, so buy unless the making is the point (N96). <strong>Read the axes: price per mole is one criterion, not the verdict; the verdict is the weighted sum.</strong></p>
+<p><strong>The corpus's own classifiers.</strong> Texium's stocking list (N29) is the buy-philosophy canon: some chemicals are simply not worth making at any price — the Atlas accepts this and adds the premise's discipline (regular retail only, no specialty orders in the buyer's world). Thompson's carbonate hub (N30) is the same lesson in the inorganic aisle: buy the baking soda, make from it. <strong>The standing order of operations for every Volume II target: P1 first (is it on a shelf?), then P10 (score the routes), then synthesize — and log the verdict in the notebook, because route-economics decisions are data too.</strong></p>
+<hr>
+<h2>Lecture 5 — The improvised balance (the Chapter 2 commitment)</h2>
+<p>Molar bookkeeping needs grams; grams need a balance; and in the Ruined World there is no balance. The chapter's P11 lecture delivers one.</p>
+<p><strong>The beam.</strong> A rigid straight edge — a ruler, a hacksaw blank, a straightened coat hanger — balanced at its center on a fulcrum (a knife edge, a nail, the rim of a bowl works at this accuracy class). Two identical pans hang from thread at equal marks (count the marks; you are calibrating arm symmetry, not trusting it).</p>
+<p><strong>The two-sided habit, carried over from arithmetic.</strong> Weigh by <em>substitution</em>, not by one-sided comparison: place the object on the left pan and tare to balance; then swap sides and re-balance. If the beam disagrees with itself, the arms are unequal — halve the discrepancy and move on, or mark the true center. This is the same discipline as Chapter 1's two-ways rule, applied to an instrument.</p>
+<p><strong>Calibration masses, two ways.</strong></p>
+<ol>
+<li><strong>Coins.</strong> A US nickel is 5.000 g by mint specification; a post-1982 penny is 2.500 g [convergent — US Mint specifications; readers elsewhere: your mint publishes the same table]. Five nickels = 25.00 g, a check mass anyone can reproduce. Coin sets give 2.5/5/10/… steps.</li>
+<li><strong>Water.</strong> A measured milliliter is a gram at everyday precision (Chapter 1's Case B used 0.998 g/mL at room temperature — the difference is below this instrument's noise). A kitchen measuring cup plus a drop-counted pipette (Chapter 1's N63 calibration) gives any mass in the awkward gaps: 36.27 g ≈ 100 mL.</li>
+</ol>
+<p><strong>The tare, the drift check, the honest penalty.</strong> Always weigh by difference (container+sample, then container) — the double-weighing also cancels zero drift. Re-zero before every session; drafts and a sticky pan edge are this instrument's real error sources. The honest accuracy statement: a carefully built beam balance reads to roughly ±0.1 g in the 1–100 g range [convergent at the level of the corpus's own gravimetric episodes — N63's pipette calibration is the accuracy culture's ancestor]. A $10–25 digital jeweler's scale reads to 0.01 g, and the corpus's verdict on balances was blunt: this is the BUY branch — the improvised balance is the Ruined-World fallback and the accuracy-homework, not the daily driver (N63's balance datum).</p>
+<p>The recursion is worth one look before you leave the lecture: Thompson calibrated a pipette <em>with</em> a balance (N63); you calibrate a balance <em>with</em> water. Every instrument in this book is checked against some other instrument, and the chain bottoms out in definitions — a liter, a gram — that you can rebuild from a kitchen tap. That is what &quot;instrumentless&quot; actually means: not <em>no instruments</em>, but <em>no unverified instruments</em>.</p>
+<hr>
+<h2>Computational Lab 2.1 — the label-arithmetic engine (executed this session; outputs verbatim)</h2>
+<p>Purpose: one function converts any census line — price, package size, declared assay, convention, molar mass — into the three numbers that matter: grams of active, moles of active, price per mole of active. The engine's inverse (molarity back to w/w via density) is verified as an exhaustive round-trip.</p>
+<pre><code>Element table (g/mol): H 1.008, B 10.81, C 12.011, N 14.007, O 15.999, Na 22.990,
+                       Mg 24.305, S 32.06, Cl 35.45, Cu 63.546
+Molar masses (g/mol), computed:
+  HCl 36.458        H2SO4 98.072       CH3COOH 60.052     NaOCl 74.439
+  CuSO4·5H2O 249.677        CuSO4 (anhydrous) 159.602
+  Na2B4O7·10H2O 381.363     (NH4)2SO4 132.134
+  MgSO4 (anhydrous) 120.361        MgSO4·7H2O 246.466
+
+Percent checks (computed vs the labels/corpus):
+  borax decahydrate, %B: 4×10.81/381.363 = 11.34%   — matches N72's quoted 11.34%   PASS
+  ammonium sulfate, %N:  28.014/132.134 = 21.20%    — explains the 21-0-0 bag      PASS
+  CuSO4·5H2O, %Cu:       63.546/249.677 = 25.45%   — the elemental-label trap      PASS
+  epsom salt anhydrous fraction: 120.361/246.466 = 48.83%                          PASS
+  pentahydrate/anhydrous mass ratio: 249.677/159.602 = 1.5654                      PASS
+
+Convention round-trip bijection, w/w &lt;-&gt; molarity via density (HCl):
+  densities 0.80-2.00 g/mL step 0.01 (121) x assays 1-98% step 1 (98)
+  cases: 11,858   round-trip max abs error: 2.84e-14     PASS (exhaustive over grid)
+
+The w/w-vs-w/v caution, computed:
+  32% HCl read as w/w (rho = 1.16 g/mL): 1000×1.16×0.32/36.458 = 10.18 M
+  32% HCl read as w/v:                  320 g/L / 36.458   =  8.78 M
+  -&gt; a 16% error from misreading one convention. Muriatic's 31.45% w/w at rho 1.16
+     gives 10.00 M — the label number is 20 degrees Baume in disguise.
+
+Corpus cases (label arithmetic on the aisles):
+  Rooto drain opener (N57): titration ladder 18.75 / 18.4 / 18 M -&gt; mean 18.38 M
+    1 US quart = 0.946 L -&gt; 0.946 × 18.38 = 17.39 mol H2SO4 per bottle
+    at $8.00/qt:  $0.46 per mol H2SO4  ($0.23 per mol H+ — it is diprotonic)
+  Muriatic (N83-class, 32% w/w, rho 1.16): 10.18 M
+    1 US gallon = 3.785 L -&gt; 38.5 mol HCl per gallon; at ~$8.00: $0.21 per mol
+  Vinegar, 5% w/v: 50 g/L / 60.052 = 0.833 M acetic acid
+  Borax -&gt; a 1000 ppm-B standard needs 1/0.1134 = 8.82 g borax per liter  (N72)</code></pre>
+<hr>
+<h2>Computational Lab 2.2 — the make-or-buy scoring engine (executed this session; outputs verbatim)</h2>
+<p>The Lecture 4 case 1, run for real. Routes for H2SO4, scored A/D/H/Y (1–5, higher better):</p>
+<pre><code>Route                                                    A   D   H   Y
+R1 buy (Rooto $8/qt, 18.4 M titrated)                    5   5   3   5
+R2 concentrate battery acid (P6)                         4   2   2   3
+R3 oxalic/CuSO4 metathesis, filter + boil (P14)          4   3   3   2
+R4 metabisulfite + H2O2 in-pot oxidation (P13)           4   3   4   2
+R5 distill to the 98% azeotrope, 540 C rig (P6)          3   1   2   5
+
+Equal weights (1,1,1,1):
+  R1 = 18 &gt; R4 = 13 &gt; R3 = 12 &gt; R2 = R5 = 11
+
+Weight-space sweep, wA,wD,wH,wY in {0, 0.5, ..., 3} each: 7^4 = 2,401 combos
+  R1 wins 2,331 (97.1%)     R4 wins 41 (hazard-dominated profiles)
+  ties 29
+  Purity-first profile (wA 1, wD 0.5, wH 1, wY 3):
+    R1 = 25.5 &gt; R5 = 20.5   — the distillation route rises only when purity
+    is the purchase and its apparatus cost is discounted; it never takes #1,
+    because R1 buys the same 98%-grade assay off the shelf.
+
+Verdict (robust): where retail sulfuric acid exists, buy it and titrate it (N57).
+The make-routes are the answer to the map's holes: R3/R4 are the EU face (N84),
+R2/R5 the assay-upgrade face, and all four the Ruined-World face.
+
+The N70 reversal, scored: ammonium metavanadate
+  buy lab-grade:  price $45, availability 2 (specialty vendor)
+  make from pottery V2O5: price ~$2, availability 4 (pottery aisle, N70)
+  make wins on BOTH axes — the buy default is a default, not a law.
+
+Price-per-mole recap [computed]: Rooto $0.46/mol · muriatic $0.21/mol ·
+  charcoal $0.013/mol C · activated carbon $0.28/mol C ·
+  epsom-dehydrated MgSO4 $13.54/kg vs bought anhydrous $25/kg (1.85x)</code></pre>
+<hr>
+<h2>Exercises</h2>
+<p>Graded ●○○ (routine) / ●●○ (needs assembly) / ●●● (chapter summit); ◆ = diagnose the tool yourself (no hints); ◐ = open-ended. Every exercise worked at least two ways, each way tagged with its P-ID.</p>
+<p><strong>2.1 ●○○ — The bleach bottle.</strong> A label reads &quot;sodium hypochlorite 6%. Other ingredients: 94%. Yield: 500 mL.&quot; (a) How many grams of NaOCl are in the bottle? (b) How many moles? <em>Hint: what convention is &quot;6%&quot; here?</em> <strong>Answer:</strong> (a) 6% w/v means 6 g per 100 mL → 30.0 g. <em>Second way:</em> 0.06 g/mL × 500 mL = 30 g — the proportion view. (b) 30.0 g ÷ 74.44 g/mol = 0.403 mol. Ways: direct proportion (P1 arithmetic) and unit-track (Lab 2.1's engine, P1). Both run through the same field: the convention call.</p>
+<p><strong>2.2 ●○○ — The 21-0-0 bag.</strong> A garden fertilizer declares 21-0-0 and nothing else chemical. (a) What compound is it? (b) Verify the 21. (c) Where does the other 78.8% of the mass live? <em>Hint: elemental vs compound labeling.</em> <strong>Answer:</strong> (a) Ammonium sulfate — the only common retail solid whose N content rounds to 21 (sodium nitrate is 16.5% N; urea 46.6%). (b) 2×14.007 ÷ 132.134 = 21.20% [computed]. <em>Second way:</em> mass bookkeeping per mole: 28.014 g N in 132.13 g of salt. (c) 24.3% S and 54.5% O — the sulfate; the percentages sum to 100, a self-check (P12's ledger habit, P1's label habit).</p>
+<p><strong>2.3 ●●○ — The hydrate trap, both directions.</strong> Two one-pound root-killer brands sit at the same price. Brand A: &quot;copper sulfate pentahydrate 99.0%.&quot; Brand B: &quot;copper sulfate 99.0% (anhydrous basis).&quot; Which bottle holds more moles of copper, and by what factor? <em>Hint: one of these labels is telling you the assay basis, not the bottle contents.</em> <strong>Answer:</strong> B. Route 1 (moles): A: 453.6 g × 0.99 ÷ 249.68 = 1.798 mol; B: 453.6 g × 0.99 ÷ 159.60 = 2.814 mol. Factor 1.565. Route 2 (mass fraction): the pentahydrate is 63.9% anhydrous salt, so per equal mass A delivers 0.639× the anhydrous copper sulfate B does: 1/0.639 = 1.565 — same answer, no moles needed. (Both ways: P1 + the hydrate arithmetic of Lecture 2; the factor is the 1.5654 multiplier from Lab 2.1.) <em>The follow-on worth a notebook line:</em> if you buy B and later weigh out &quot;copper sulfate pentahydrate&quot; quantities using B's bottle, every downstream yield is off by more than half — the loss ledger starts at the shelf.</p>
+<p><strong>2.4 ●●○ — Acids by the proton.</strong> Using corpus prices (Rooto $8.00/qt at 18.38 M; muriatic ~$8.00/gal at 10.0 M), compare the two acids per mole of H+ and say which is cheaper per proton delivered. Then: why might the answer <em>not</em> decide which bottle you buy? <em>Hint: diprotic.</em> <strong>Answer:</strong> Rooto: 17.39 mol H2SO4 × 2 = 34.8 mol H+ → $0.23/mol H+; muriatic: 37.85 mol H+ → $0.21/mol H+. Muriatic is marginally cheaper per proton. <em>Second way:</em> price per liter normalized to normality: 36.76 eq/L at $8.45/L vs 10.0 eq/L at $2.11/L → $0.23 vs $0.21 per equivalent (P10 + P1). But the purchase decision is not price-per-proton alone: sulfuric is non-volatile (concentrates by boiling — Ch 15), viscous and heat-generating on dilution; hydrochloric is volatile (loses HCl on heating — the 20% azeotrope cap, N83) but gentler on metals. The task decides (P10's whole point).</p>
+<p><strong>2.5 ●●● — Plan the carbonate synthesis purchase (the N58/N59 run, scaled).</strong> You want 25.0 g of CuCO3 precipitate (green copper carbonate — Chapter 9's hub product). Starting from root killer (99% CuSO4·5H2O) and baking soda (100% NaHCO3): (a) compute the grams of each to buy with a 10% handling allowance; (b) verify your bicarbonate number two ways, including against the corpus pair's own masses (100.35 g CuSO4·5H2O with 67.99 g NaHCO3); (c) cost the run. <em>Hints: which reagent is 2:1 in the equation? What does the corpus pair's ratio tell you?</em> <strong>Answer:</strong> (a) 25.0 g ÷ 123.55 g/mol = 0.2024 mol CuSO4·5H2O needed → 50.6 g; ×1.1 allowance → 56 g bought. The reaction CuSO4 + 2 NaHCO3 → CuCO3↓ + Na2SO4 + CO2↑ + H2O needs 0.4048 mol NaHCO3 → 34.0 g; ×1.1 → 37.4 g. (b) <em>Second way:</em> scale the corpus pair's own ratio: 67.99 × (50.6/100.35) = 34.3 g — which exceeds the stoichiometric 34.0 g by 0.7%: the corpus pair ran a deliberate slight bicarbonate excess (to drive the CO2 off and guard the yield) — your two ways disagree by exactly the source's excess, and now you know why [computed against the N59 numbers]. (c) Root killer, ~1 lb (~$15), covers eight such runs (amortized ~$1.9); a baking-soda box (~$1) covers thirteen (~$0.08): the run costs about $2 in consumed reagents — the N58 episode's whole point: the specialty-vendor price of copper carbonate is the out-of-pocket of two retail bottles (P1 + P12 + P10 in one purchase order).</p>
+<p><strong>2.6 ◆ — The drying job (no hints; diagnose the tools, then decide).</strong> A procedure needs 50 g of anhydrous magnesium sulfate. Your pharmacy sells Epsom salt, MgSO4·7H2O, USP, 100%, $3.00/lb. A hobby catalog sells &quot;anhydrous MgSO4, 97%, $22.00 per 2-lb bag.&quot; Your oven holds 250 °C. What do you do?</p>
+<p><strong>Worked answer (diagnosis first, then the numbers).</strong> The tools this diagnoses: P7 (thermal decomposition — the hydrate gives up its water on heating) and P1 (the label arithmetic: what the Epsom bottle actually holds), scored by P10. The Epsom bottle: 453.6 g of heptahydrate × 48.83% anhydrous fraction = 221.5 g of anhydrous MgSO4 per pound — you need only a quarter-pound, and $3 buys four runs' worth. The catalog: 907.2 g × 0.97 = 880 g at $22.00. Per kilogram of anhydrous: $13.54 (epsom-dehydrated) vs $25.02 (bought) — dehydrate wins 1.85× on price. But the second way to score it: the oven route's real costs are the rungs (110 °C to ~250 °C, held &quot;until it appears dry&quot; — the corpus's own ladder, N86), the hours, the dissolve-itself hazard if you rush it, and a yield below 100% (loss ledger). At $22/bag, making wins clearly; at a $5 sale price, buying wins. The general tool you have extracted: <em>hydrate-bearing retail products are pre-paid anhydrous salts with water attached — price them on the anhydrous basis before you pay the catalog's premium</em> (P1+P7 under P10).</p>
+<p><strong>2.7 ◐ — The full census (open-ended).</strong> Walk your home and record 25 census lines in the notebook template. Then: (a) mark the three items you would acquire FIRST under the Ruined-World override (no specialty retail at all — only what an ordinary household plus a hardware store yields); (b) mark every line whose map position is region-restricted (which aisles disappear in the EU?); (c) find one label whose &quot;active ingredient&quot; claim you cannot yet verify — that line is Chapter 13's work order. There is no single answer; the deliverable is the census table itself, which Vol I Ch 4 will turn into solution arithmetic.</p>
+<hr>
+<h2>Chapter safety assessment (the Charter, applied to this chapter's own activities)</h2>
+<table>
+<thead><tr><th>Activity</th><th>Hazards</th><th>Minimum PPE</th><th>Failure modes</th><th>Quench/response</th><th>Disposal</th></tr></thead>
+<tbody>
+<tr><td>Store trips; carrying retail chemicals</td><td>Spills in transit; incompatible bottles adjacent (bleach + acid openers)</td><td>Closed shoes; gloves for acid/lye bottles</td><td>Bottle breakage in a bag</td><td>Baking-soda spill tray; water rinse for skin contact; never combine unknowns</td><td>Per product label</td></tr>
+<tr><td>Reading/handling muriatic &amp; sulfuric openers at home</td><td>Fuming (HCl); exothermic wetting (H2SO4)</td><td>Splash goggles + nitrile gloves; outdoors or ventilated</td><td>Cap failure; splash</td><td>15-min water flush (eyes); spill onto bicarbonate, not the reverse</td><td>Capped return; neutralized solids</td></tr>
+<tr><td>Coin/water balance calibration</td><td>None chemical; sharp beam edges</td><td>—</td><td>Cut from edge; water spill on notebook</td><td>Band-aid; dry the page</td><td>—</td></tr>
+<tr><td>The Epsom oven rung (if attempted; Ch 7 owns it)</td><td>Hot pan; the dissolve-itself clump (N86)</td><td>Oven mitts</td><td>Raising temp too fast</td><td>Break/flip the wet layer; heat slowly</td><td>Cooled product to labeled jar</td></tr>
+<tr><td>Storing the census chemicals together</td><td>The Charter's rule-5 combinations silently co-located (bleach + muriatic + drain openers)</td><td>—</td><td>Shelf topple; vapor mixing in a closed cabinet</td><td>Separate acids from hypochlorite/oxidizers by a full shelf; ventilate the cabinet</td><td>—</td></tr>
+</tbody>
+</table>
+<p>Scale ceiling: all activities are single-bottle, retail-scale. Do not decant bulk acid into food containers — labeling is safety infrastructure.</p>
+<hr>
+<p class="banner no-print">HTML edition of the reviewed manuscript — the labels are the contract. Canon-Coverage and everything after it live in the .md master only.</p>
+</main>
+</body>
+</html>
