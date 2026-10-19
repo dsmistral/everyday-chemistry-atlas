@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vol III · Chapter 26 — Thermochemistry and Calorimetry: The Meter That Asks How Much, Not How Fast</title>
+<style>
+  :root { font-family: Georgia, 'Times New Roman', serif; color: #1a1a1a; }
+  body { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.2rem 4rem; line-height: 1.55; background: #fff; }
+  h1 { font-size: 1.9rem; margin: 2.2rem 0 0.8rem; }
+  h2 { font-size: 1.45rem; margin: 2rem 0 0.6rem; border-bottom: 1px solid #ddd; padding-bottom: 0.25rem; }
+  h3 { font-size: 1.2rem; margin: 1.6rem 0 0.5rem; }
+  h4 { font-size: 1.05rem; margin: 1.3rem 0 0.4rem; }
+  pre, code { font-family: 'Courier New', Courier, monospace; }
+  code { background: #f2f2f2; padding: 0.05em 0.3em; border-radius: 3px; font-size: 0.92em; }
+  pre { white-space: pre; tab-size: 4; break-inside: avoid; page-break-inside: avoid; overflow-x: auto; border: 1px solid #ddd; background: #fafafa; padding: 0.7rem 0.9rem; font-size: 0.85rem; line-height: 1.35; }
+  blockquote { border-left: 3px solid #888; margin: 1rem 0; padding: 0.2rem 1rem; color: #333; }
+  table { border-collapse: collapse; margin: 1rem 0; break-inside: avoid; page-break-inside: avoid; }
+  th, td { border: 1px solid #bbb; padding: 0.35rem 0.6rem; text-align: left; }
+  th { background: #f0f0f0; }
+  hr { border: 0; border-top: 1px solid #ccc; margin: 2rem 0; }
+  .banner { background: #eef6ff; border: 1px solid #bcd6f0; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.9rem; font-family: system-ui, sans-serif; margin-bottom: 1.5rem; }
+  @page { size: A4; margin: 16mm 15mm; }
+  @media print { body { max-width: none; padding: 0; font-size: 10.5pt; } .no-print { display: none; } pre { font-size: 8.8pt; } h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; } }
+</style>
+</head>
+<body>
+<main id="content">
+<p class="banner">The Everyday Chemist's Atlas — Vol III · Chapter 26 (Theory Deepened at the Bench). HTML reading edition, generated 2026-10-19 from the manuscript master. The Canon-Coverage record and the review apparatus (forward flags, back flags, chapter ledger, revision appendix) remain in the .md master.</p>
+<h1>Vol III · Chapter 26 — Thermochemistry and Calorimetry: The Meter That Asks How Much, Not How Fast</h1>
+<h2>Lecture 0 — The House Is Already a Calorimeter</h2>
+<p>Chapter 25 built the meter that asks <em>how fast</em>. This chapter builds the meter that asks <em>how much</em>. Stand in the kitchen and take the heat census, and you find that the house has been running a thermodynamics bench all along, unpaid and unpriced.</p>
+<p>The kettle is a calorimeter with a heating element in it: a litre of water going from 20 to 100 °C is <strong>334.7 kJ</strong> of heat, delivered in about three minutes — the electric meter outside is reading this chapter's ledger in real time. The fridge is a heat pump: it <em>moves</em> the kitchen's heat into the kitchen, and pays for the move — every joule it extracts from the milk reappears at the coils behind, plus the work of the pump itself. The shower drain carries the day's heat to the sewer at a litre a second and nobody counts it. The instant cold pack in the first-aid drawer does not make cold — <em>nothing makes cold</em> — it spends <strong>25.7 kJ/mol</strong> of ammonium-nitrate dissolution heat <em>from the water</em>, and the water's thermometer pays. The iron-powder hand warmer in the coat pocket runs the rust reaction of Chapter 25's slowest clock at powder speed, and the same reaction that takes two years under the sink drip yields <strong>7.378 kJ per gram of iron</strong> when the surface area and the salt and the air are arranged for it. The reusable hot pack is a <em>supercooled liquid waiting for an excuse</em>: sodium acetate trihydrate, melted and cooled, crystallizes on a click and pays <strong>19.7 kJ/mol</strong> for the excuse. The candle on the shelf holds about <strong>41.5 kJ per gram</strong> of paraffin, and every gram of it demands <strong>12.55 litres of air</strong> to burn — the O₂ ledger of Chapter 10, repriced. The food label counts Calories — kilocalories, 4184 J each — and the peanut in the bowl is a fat-rich fuel whose bench heat is the classic student lab. The compost bin runs slow exothermic oxidation on the yard's own ledger, warm in the middle in January. Even the Epsom salt in the bath jar takes a few kilojoules <em>in</em> to dissolve — the water pays a degree you can feel at the wrist if the bag is big enough.</p>
+<p>Every item on this census has two numbers, and the two numbers are the chapter: <em>a rate</em> (Chapter 25's meter) and <em>a quantity</em> (this chapter's meter). The rust patch and the hand warmer are the same reaction with different speeds and the <em>same</em> heat per mole. The candle unlit and lit are the same quantity with a trillion-fold different rate. <strong>Kinetics asks how fast; thermochemistry asks how much — and the house has been paying the second meter since long before it owned the first.</strong></p>
+<h3>The binding lines, stated up front</h3>
+<p>Nine standing lines govern this bench, six inherited, one central, two new at this chapter's own faces:</p>
+<ol>
+<li><strong>The Ch 8 tasting rule, restated at the heat bench.</strong> The calorimeter pots look like lemonade, salt water, and weak tea, and none of them is ever tasted; reaction pots are not food pots, and the food items that <em>enter</em> the bench (the peanut, the sugar) leave it as fuel ash, never as food.</li>
+<li><strong>The Ch 6 flame line — now the bench's central line.</strong> This chapter burns things on purpose: candle wax, ethanol in a spirit burner, a peanut on a needle. All open-flame work runs at one dedicated station, never unattended, never over solvents or peroxide or the acid bench, hair tied, and the burner is <em>lit at the match, never the match at the burner's mouth over the fuel</em>.</li>
+<li><strong>The Ch 10 pressure line.</strong> Nothing latched with gas coming: the fizz pots make CO₂ briskly (E11), the peroxide demonstrations make O₂ if they are ever borrowed from Chapter 25's bench — every vessel open.</li>
+<li><strong>The Ch 16/20 never-combination.</strong> The neutralization pots are acid pots; the bleach jug never shares their surface, not even wiped. An acidified hypochlorite residue is the chlorine door, and it stays shut at this bench exactly as at every other.</li>
+<li><strong>The Ch 9/13 toxic-metal fence.</strong> Nothing in this chapter needs it — but the line stands: no heavy-metal species at the heat bench, and the thermometer the bench prefers is the electronic kind, because the mercury kind is a spill waiting for a drop.</li>
+<li><strong>The Ch 10/25 peroxide discipline.</strong> The 3% drugstore bottle is the only peroxide this bench ever mentions, and it mentions it only by citation: the decomposition's −211.1 kJ belongs to Chapter 25's ledgers, re-read here as <em>a quantity</em> on a kinetics page.</li>
+<li><strong>NEW — the oxidizer line.</strong> Ammonium nitrate is the cold pack's own salt and it is an <em>oxidizer</em>: never ground, never heated dry, never stored near fuel, never bought in bulk, and the bench dose is one pack's single-use sachet of <strong>10.0 g at most</strong> (Ledger B3's design). The cold-pack class is a garden fertilizer <em>away</em> from a hazard class, and the line exists because the distance is real.</li>
+<li><strong>NEW — the caustic line.</strong> Lye and quicklime burn by <em>heat</em> as well as by base: sodium hydroxide's dissolution releases 44.5 kJ/mol and calcium oxide's slaking 64.8 — so the solid goes <em>into</em> the water, slowly, never water onto the solid, gloves and glasses throughout, and the slaking pot (Ledger B6) is a ceramic or borosilicate vessel, because a thin glass one has met boiling water's nephew and lost.</li>
+<li><strong>The bench/food separation.</strong> The peanut calorimeter is the exception that proves the rule: the peanut crosses to the bench and <em>never comes back</em>; the kitchen's own sugar jar sends a teaspoon only if the jar never returns.</li>
+</ol>
+<p><strong>The element discipline: zero admissions.</strong> Every species this chapter prices composes on the held twenty plus manganese (Ch 12's pin, re-admitted at Chapter 25) — twenty-one elements, and the composition battery in Lab 26.1 requests no twenty-second. This is the first chapter since the held table froze that admits nothing: thermochemistry is the <em>pricing</em> of reactions, not the discovery of species.</p>
+<h2>Lecture 1 — The Cup and the Meter: q = mcΔT</h2>
+<p>The instrument that prices the whole chapter costs nothing: <strong>a coffee cup, a lid, a thermometer, and a stirrer.</strong> Its law is one line — <strong>q = mcΔT</strong> — the heat is the mass times the specific heat times the temperature change, and the specific heat of water is the bench's golden constant: <strong>c = 4.184 J/(g·°C)</strong> [canon, OpenStax 2e Table 5.1]. A degree on 100 g of water is 418.4 J; the cup's whole job is to make that arithmetic honest.</p>
+<p>The metals price differently — aluminum <strong>0.897</strong>, iron <strong>0.449</strong>, copper <strong>0.385</strong> J/(g·°C)<strong> [canon, same table] — and the difference is the first lesson the cup teaches: drop 40.0 g of aluminum at 95.0 °C into 150 g of water at 20.0 °C and the equilibrium is </strong>24.06 °C**, not the 57.5 °C a naive equal-masses guess would give — the water's <em>heat capacity per gram</em> is 4.7 times the metal's, so the metal's heat barely moves the water [computed, the engine's Ex-check 26.2]. The pan is hot because aluminum is <em>cheap to heat</em>, and the water is slow to warm because water is <em>expensive to heat</em> — the two facts are the same table read in both directions.</p>
+<p><strong>Calibration — pricing the cup itself.</strong> The cup absorbs heat too, and the honest bench <em>measures</em> its take instead of ignoring it. The design: mix 100.0 g of hot water at 60.0 °C with 100.0 g of cold at 20.0 °C. The ideal mix is 40.0 °C; the real one reads 39.0 °C. The hot water lost <strong>8786.4 J</strong>, the cold water gained <strong>7949.6 J</strong>, and the difference — <strong>836.8 J</strong> — is the cup's take for its own 19.0 °C rise: a water-equivalent of <strong>10.53 g</strong> [computed, Ledger B1]. From then on, every ledger adds the cup as ten and a half grams of water. That is the whole instrument, and it is <em>self-priced</em>.</p>
+<p><strong>The honest seam — Newton's cooling extrapolation.</strong> A real cup leaks heat to the room while it measures, and the leak is fastest when the pot is furthest from room temperature. The bench's correction is the graph, not the gadget: start the clock before the reactants meet, plot temperature against time through the mixing and past the peak, and extrapolate the cooling <em>tail</em> back to the mixing instant — the corrected peak is where the leak is refunded. This chapter's designs quote <em>ledger values</em> (the arithmetic the meter would read with zero leak); the Newton correction is named honestly as the bench's own missing face, and the review holds the seam (Sources, flagged sketch 2).</p>
+<p><strong>The kettle chain — the meter on the wall.</strong> 1.000 L from 20 to 100 °C is 1000 × 4.184 × 80.0 = <strong>334,720 J = 334.7 kJ</strong> [computed]. A 2200 W element delivering 80% to the water pushes 1760 W, and the kettle chain runs <strong>190.2 s — 3.17 minutes</strong>, which is the time your own kettle takes, and now you know why [computed, B1]. Every lecture that follows is this one line of arithmetic with a different <em>q</em> — the chapter has no other machinery.</p>
+<p><strong>The fridge and the drain — the meters that move.</strong> Two more wall-meter readings close the lecture. The fridge is the census's trap item: it never <em>makes</em> cold, it <em>moves</em> the kitchen's heat into the kitchen and pays only the move's tax — the coils behind deliver more heat than the motor consumes, a quantity statement named here at recognition level (the coefficient of performance, the classroom's next rung) and deliberately not derived [the named-not-derived discipline again]. And the shower drain: an 80-litre shower raised from 20 to 40 °C carries <strong>80 × 4.184 × 20 = 6694 kJ = 1.86 kWh</strong> to the sewer [computed, a design at the class's own 80 L] — the single largest heat number a household throws away daily, twenty times the kettle litre's <strong>0.0930 kWh</strong> [computed]. Water heating, not lighting, is where the home's heat budget actually lives — the census's quiet headline.</p>
+<h2>Lecture 2 — The Benches That Move the Thermometer Without Fire</h2>
+<p>The kitchen's two great thermometer-moving benches need no flame at all, and both are on this chapter's ledger: <strong>mixing</strong> (acid and base) and <strong>dissolving</strong> (salt and water).</p>
+<p><strong>The neutralization core.</strong> One reaction prices the whole bench: <strong>H⁺ + OH⁻ → H₂O, ΔH = −57.1 kJ/mol</strong> (E9) [convergent, the classroom band −57 to −58]. Every strong acid with every strong base pays the same figure, because the <em>reaction is the same reaction</em> — the spectator ions just watch. The molecular face the bench actually runs is vinegar's cousin: HCl + NaOH → NaCl + H₂O, same −57.1.</p>
+<p><strong>The weak-acid discount.</strong> Vinegar is acetic acid, and acetic acid pays less: <strong>CH₃COOH + NaOH → CH₃COONa + H₂O, ΔH = −55.4 kJ/mol</strong> (E10) [convergent]. The missing 1.7 kJ is the deprotonation face — the acid must <em>pay to hand over</em> its proton before the water can form — and the cup can see a gap that small: the two designs (B2a/B2b) read <strong>+5.02 °C</strong> against <strong>+5.17 °C</strong> on identical 50/50 mL pots, and the 0.15 °C difference <em>is</em> the weak acid's signature, visible in a coffee cup [computed]. This is thermochemistry's quiet strength: a paper cup resolves kilojoules per mole.</p>
+<p><strong>The fizz, honestly colder than the ledger.</strong> Vinegar and baking soda — Chapter 10's gas generator, the balloon-filling pair — is <em>endothermic</em>: <strong>CH₃COOH + NaHCO₃ → CH₃COONa + CO₂ + H₂O, ΔH ≈ +11.8 kJ/mol</strong> (E11) [single-source, the classroom print; the deeper literature's own spread is named in Sources]. The design: 200 g of vinegar with 14.06 g of soda takes up <strong>1975 J</strong>, and the ledger predicts <strong>−2.10 °C</strong> [computed, B2c]. The bench class observes roughly <strong>−4 °C</strong> — and the gap is not an error, it is <em>unpriced faces</em>: the CO₂ expanding out of solution does work, evaporation rides the fizz's spray, and the dissolved CO₂ has its own endothermic take. The chapter prints the gap as found, because a meter that hides its missing faces is not a meter (flagged sketch 3).</p>
+<p><strong>The dissolution bench — five salts, five signatures.</strong> Dissolving is chemistry too, and its heats are the cupboard's own map:</p>
+<ul>
+<li><strong>Sodium hydroxide (lye, Ch 14's own reagent): −44.5 kJ/mol</strong> (E12) [convergent]. The drain cleaner warms because the lattice pays. Caustic by heat <em>and</em> by base — binding line 8 exists at this row.</li>
+<li><strong>Calcium chloride (road salt, Ch 15): −81.3 kJ/mol</strong> (E14) [convergent]. The most exothermic common dissolution on the shelf — the design's 2.50 g in 50 g water reads <strong>+6.94 °C</strong> [computed, B3], and the sidewalk's ice-melting is this row read outdoors: the salt melts the ice <em>and</em> the melt pays the bill back into the pavement.</li>
+<li><strong>Ammonium nitrate (the cold pack): +25.7 kJ/mol</strong> (E13) [convergent]. The pack's 10.0 g takes <strong>3.211 kJ</strong> from 50 g of water and the thermometer drops <strong>10.88 °C</strong> [computed, B3] — the ankle pays for the bruise's chemistry.</li>
+<li><strong>Epsom salt (the bath jar): +10 to +20 kJ/mol</strong> (E15) [convergent band, printed honestly with its spread — the AP-class print sits at +20, the NBS-derived figure near +12]. The design's 10.0 g reads between <strong>−1.37 °C and −2.75 °C</strong> depending on where in the band the truth sits [computed, B3]. The chapter does not launder the band; it prices the band.</li>
+<li><strong>Table salt: +3.88 kJ/mol</strong> (E16) [convergent] — nearly nothing, the honest zero of the bench: 5.00 g reads <strong>−1.21 °C</strong>, at the edge of the cup's resolution [computed, B3].</li>
+</ul>
+<p>Five salts, one lesson: <strong>the dissolution heat is the lattice's bill or the water's bill, and each solid files its own.</strong> No flame lit, and the thermometer moved five different ways.</p>
+<h2>Lecture 3 — The Fuel Bench: What a Gram Is Worth</h2>
+<p>Fire is the house's oldest calorimeter, and the kitchen's fuels are a ladder of <em>prices per gram</em> — the arithmetic every nutrition label and every camping-stove discussion secretly runs.</p>
+<p><strong>The combustion ledger.</strong> The E-block's eight combustion rows price the shelf [ΔH values convergent; kJ/g computed at the engine's masses]:</p>
+<table>
+<thead><tr><th>fuel</th><th>reaction</th><th>ΔH (kJ/mol)</th><th>per gram</th></tr></thead>
+<tbody>
+<tr><td>hydrogen</td><td>2 H₂ + O₂ → 2 H₂O (E7)</td><td>−571.6</td><td><strong>283.53 kJ/g</strong></td></tr>
+<tr><td>methane (the gas stove)</td><td>CH₄ + 2 O₂ → CO₂ + 2 H₂O (E1)</td><td>−890 [class 890–890.8]</td><td><strong>55.48 kJ/g</strong> (the class's 55.6 sits at the band's top)</td></tr>
+<tr><td>octane (the petrol class)</td><td>the hydrocarbon ladder's far end</td><td>—</td><td><strong>47.8 kJ/g</strong> [convergent class]</td></tr>
+<tr><td>paraffin (the candle)</td><td>C₂₅H₅₂ + 38 O₂ → 25 CO₂ + 26 H₂O (E5)</td><td>−14,637 [computed: the 41.5 kJ/g pin × 352.691]</td><td><strong>41.5 kJ/g</strong> [convergent pin]</td></tr>
+<tr><td>carbon (the charcoal class)</td><td>C + O₂ → CO₂ (E6)</td><td>−393.5</td><td><strong>32.76 kJ/g</strong></td></tr>
+<tr><td>ethanol (the spirit burner)</td><td>C₂H₅OH + 3 O₂ → 2 CO₂ + 3 H₂O (E2)</td><td>−1367</td><td><strong>29.67 kJ/g</strong></td></tr>
+<tr><td>sucrose (the sugar bowl)</td><td>C₁₂H₂₂O₁₁ + 12 O₂ → 12 CO₂ + 11 H₂O (E4)</td><td>−5644</td><td><strong>16.49 kJ/g</strong></td></tr>
+<tr><td>glucose (the body's own fuel)</td><td>C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O (E3)</td><td>−2803</td><td><strong>15.56 kJ/g</strong></td></tr>
+</tbody>
+</table>
+<p>Two lessons live in the ladder. First, <em>per mole and per gram are different sports</em>: hydrogen is a mediocre per-mole fuel (−285.8) and a spectacular per-gram one (283.53), because it is the lightest thing there is — the rocket engineer's whole reason, priced at the kitchen bench. Second, the ladder's <em>per-gram</em> order (methane &gt; octane &gt; wax &gt; charcoal &gt; ethanol &gt; sugar &gt; glucose) is roughly a hydrogen-content order — the more hydrogen per gram, the hotter the gram — and the candle sits <em>above</em> charcoal for exactly that reason.</p>
+<p><strong>Rust, the cold flame.</strong> The eighth row is the bench's quietest: <strong>4 Fe + 3 O₂ → 2 Fe₂O₃, ΔH = −1648 kJ per 2 mol (−824.2/mol)</strong> (E8) [convergent] — per gram of iron, <strong>7.378 kJ</strong> [computed]. The hand warmer in the coat pocket is this row at powder speed: 10 g of iron dust holds <strong>73.8 kJ</strong> of slow fire [computed], and the packet's salt-and-vermiculite packaging is nothing but a kinetics arrangement — Chapter 25's rust clock, re-read as a <em>quantity</em>. One reaction, two chapters, two meters.</p>
+<p><strong>The candle calorimeter — and its honest capture fraction.</strong> The design: 1.00 g of candle wax under a tin-can chimney, heating 200 g of water in the calibrated cup. The released pin is 41.5 kJ; the measured rise of <strong>+15.0 °C</strong> in the 210.5-g water-equivalent captures <strong>13.21 kJ — 31.84%</strong> [computed, Ledger B4], squarely in the teaching class's 30–40%. The other two-thirds are <em>named faces, not losses to hide</em>: the nitrogen in the 12.55 L of air the gram demands [computed — 2.636 L of O₂ at the 24.465 L/mol pin, Chapter 10's own V_m], heated on its way through; unburned wax vapor; radiation the water never saw. The calorimeter's honesty is a <em>capture fraction</em>, stated, not a pretended totality.</p>
+<p><strong>The food bench — the label is a combustion ledger.</strong> The nutrition label's Calorie is the kilocalorie, 4184 J, and the Atwater factors are combustion arithmetic averaged over digestion [convergent]: <strong>protein 4, carbohydrate 4, fat 9, alcohol 7 kcal/g</strong>. The bench's own joins: sucrose burns at 16.49 kJ/g = <strong>3.941 kcal/g</strong>, within 1.5% of the rounded 4 the label prints [computed, B5] — the factor <em>is</em> the bomb calorimeter's number, averaged and rounded. And the peanut lab: a 0.500 g peanut under the same chimney raises 200 g of water <strong>+14.0 °C</strong>, delivering <strong>23.43 kJ/g = 5.60 kcal/g</strong> crude, <strong>5.89 with the cup correction</strong> [computed, B5] — fat-dominant, sitting between the carbohydrate's 4 and the fat's 9 exactly as its composition says it must. The peanut that made the measurement is ash, and never food again (binding line 9).</p>
+<p><strong>The ladder read as history.</strong> The per-gram ladder is also the household's energy history, told in advance: the woodpile's kilojoules-per-gram sit in the sugar row's own class (photosynthesis's polymers, dried); the coal cellar sat higher up the carbon axis; the gas main near the ladder's top; and the hydrogen row — 283.53 kJ/g — is the history the cylinders and fuel cells are still negotiating. Chapter 36's tech-tree time axis will walk this ladder rung by rung with dates attached; this chapter's contribution is the pricing the walk will quote. The kettle litre priced at the ethanol burner's 40% capture — <strong>28.20 g of spirit fuel</strong> [computed] — is the camping stove's arithmetic, the woodpile's arithmetic, and the gas ring's arithmetic, one line each: q = mcΔT knows no century.</p>
+<h2>Lecture 4 — Hess's Law and the Two Heights</h2>
+<p><strong>The route never matters; the sum always does.</strong> If you dissolve solid sodium hydroxide in water (−44.5, E12) and then neutralize the solution with acid (−57.1, E9), you arrive where the direct route arrives: NaOH(s) into acid, <strong>ΔH = −101.6 kJ/mol</strong> (E17) [computed route sum]. The design verifies it on the bench: 1.00 g of lye into 50.0 mL of 1.00 M acid reads <strong>+9.87 °C</strong> on the calibrated cup [computed, B6], and the measured class sits at −101 to −105 — the route sum inside the cup's own honest noise. This is Hess's law — ΔH is a <em>state function</em>, the altitude difference, indifferent to the path — and it is the reason the tables work at all: enthalpies can be <em>bookkept</em> like money, summed along any route, and the books always close to the same balance.</p>
+<p><strong>Slaking — the exotherm your grandmother knew.</strong> Quicklime into water: <strong>CaO + H₂O → Ca(OH)₂, ΔH = −64.8 kJ/mol</strong> (E18) [convergent, the sources' own spread −63.7 to −64.8 printed as a bracket, not laundered]. The design's 5.60 g into 100 g of water reads <strong>+13.32 °C</strong> [computed, B6] — the historic lime-water slaking that warmed mortar through freezing nights, priced in a coffee cup. The caustic line (binding 8) lives at this row: the solid goes into the water, slowly.</p>
+<p><strong>The reusable hot pack — crystallization priced.</strong> Sodium acetate trihydrate, melted at its gentle transition and cooled <em>below</em> its freezing point without solidifying (a supercooled liquid — Chapter 5's own town), crystallizes on a click and pays <strong>ΔH = −19.7 kJ/mol</strong> (E19) [convergent] — the pack's iron click is a nucleation event, and the heat it releases is the <em>quantity</em> this chapter meters. The pack is &quot;recharged&quot; by re-melting: the same joules carried forward, over and over, a heat battery in the plainest sense — and a ◆ exercise's worth of eventual failure (Exercise 26.6).</p>
+<p><strong>THE TWO HEIGHTS — the forward flag paid.</strong> Chapter 25 ended with the promise: every reaction owns <em>a barrier</em> (Eₐ, the hill the rate must climb) <em>and a drop</em> (ΔH, the heat the fall releases) — and they are <em>independent numbers</em>. This chapter is where the second height gets its own meter:</p>
+<ul>
+<li>The <strong>candle unlit</strong> owns a drop of 41.5 kJ per gram and a barrier so tall that the wax sits on the shelf for years at 20 °C — thermodynamically eager, kinetically asleep, <em>the rust patch's lesson wearing wax's clothes</em>.</li>
+<li>The <strong>hand warmer lit and the rust patch asleep</strong> are the <em>same drop</em> (−824.2/mol) at two different barrier arrangements — Chapter 25's four catalyst ladders moved the rate and never the ΔG; here is the other half: surface area and salt and water move the rate and never the ΔH. Rate is negotiable; the drop is not.</li>
+<li>The <strong>hydrogen row's two faces</strong>: ΔH° = −285.8 kJ/mol is the heat the flame releases; ΔG° = −237.2 kJ/mol is the <em>work</em> the same reaction can deliver — a fuel cell's ceiling — and the <strong>48.6 kJ difference, 17.0% of the heat</strong>, is the work term [convergent values; the distinction named, not derived — flagged sketch 1]. Chapter 12's electrolysis line runs the same seam in reverse: work <em>in</em> can split water at a voltage the heat ledger cannot explain, the overpotential being the toll. Three meters now hang at the bench — ΔG the spontaneity meter (Ch 24's position), ΔH the heat meter (this chapter), K the position's own number — and the fuel cell's promise is that the drop and the deliverable need not coincide.</li>
+</ul>
+<h2>Lecture 5 — The Network and the Flags Paid</h2>
+<p>The chapter's benches re-price the Atlas's earlier chapters as <em>quantities</em>, and the joins run both directions:</p>
+<ul>
+<li><strong>Chapter 10 (the gas benches):</strong> the candle's gram demanding 12.55 L of air is the O₂ ledger at fuel scale — the pop-bottle's 108 mL burp (10 mL of 3% peroxide) re-read as a <em>price</em>: the candle burns its gram on the O₂ that 47 bottle-burps would deliver [computed]. The V_m pin (24.465 L/mol) is the same instrument at both scales.</li>
+<li><strong>Chapter 12 (the battery):</strong> the cell's energy is priced by the same meters — ΔG the deliverable, ΔH the heat — and the battery is never a source (Ch 25's line stands); the overpotential toll is named here as the work/heat seam's electrochemical face.</li>
+<li><strong>Chapter 14 (lye):</strong> the drain cleaner's warm flask was a footnote there; here it is E12, −44.5 kJ/mol, priced on the dissolution bench — and the Hess ladder (E17) is lye's own route through an acid pot.</li>
+<li><strong>Chapter 15 (road salt):</strong> calcium chloride melting sidewalk ice is E14 read outdoors — the −81.3 kJ/mol is the <em>pavement's</em> heat bill, part of why brine works below water's freezing point; the other road salt, magnesium chloride (M = 95.211), carries its own exotherm at recognition level.</li>
+<li><strong>Chapter 16 (the bleach jug):</strong> the jug's slow decay is exothermic — but at its rate (Chapter 25's 0.97¹² = 0.6938 per year), the heat is <em>thermodynamically real and kinetically invisible</em>: released over months into the shelf, the two heights again, and the reason the jug never warms your hand.</li>
+<li><strong>Chapters 23–24 (the ester clock and the position meter):</strong> ΔG's K and ΔH's q are different meters for the same reaction — the esterification's position was Ch 24's business; its enthalpy would be this chapter's, and the clock's slowness was the barrier, not the drop.</li>
+<li><strong>Chapter 25 (the founding neighbor):</strong> paid in full — the two heights (Lecture 4), the rust join (E8), the peroxide decomposition's −211.1 kJ re-quoted as a <em>quantity</em> on a kinetics page, the glow stick as a heat page's endotherm at recognition level.</li>
+</ul>
+<p><strong>The flags forward:</strong> Chapter 28's recognition course inherits the Atwater bench — the nutrition label read as a combustion ledger, and &quot;calories from fat&quot; as a mass-fraction problem; Chapter 30's dark-bottle line inherits the hot pack's recharge discipline — heat batteries that vent and degrade; Chapter 36's tech-tree time axis inherits the fuel ladder — the household's energy history told in kJ per gram, from the woodpile to the gas main. The chapter prices; the Atlas spends.</p>
+<h2>Lab 26.1 — The Fresh Engine: An Outermost-First Divide-and-Conquer Compositor (Outputs Verbatim)</h2>
+<p>The chapter's drafting engine is <strong>new for this chapter and shares zero code with all four prior engines</strong> — not Chapter 24's drafter (a flat left-to-right loop over a stack of Maps), not Chapter 24's skeptic (innermost-group string rewriting), not Chapter 25's drafter (an event-emitting state machine with retro-fixup), not Chapter 25's skeptic (a recursive-descent grammar tree).</p>
+<p><strong>The design.</strong> The compositor prices a formula by <em>splitting it at its outermost boundaries</em>, recursively, with a memo cache keyed by the exact substring:</p>
+<ol>
+<li><strong>Top level first:</strong> the charge annotation is stripped (<code>^2-</code>, trailing signs), and the body is split at <em>depth-zero</em> hydrate dots — <code>KAl(SO4)2·12H2O</code> splits before the compositor ever looks inside a bracket.</li>
+<li><strong>The outermost group:</strong> each dot-free segment is divided at its <em>first</em> top-level bracket group into three pieces — the run before the group, the group's <em>inner content</em>, and the run after its multiplier — and the three pieces are priced separately and recombined (<code>Fe4[Fe(CN)6]3</code> never scans an innermost pair; it splits at the <code>[</code>, recurses into <code>Fe(CN)6</code>, which splits at its own <code>(</code>).</li>
+<li><strong>Memo by substring:</strong> every subformula — group contents included — is cached by its exact string, so a repeated motif is priced once (the caches report below: 60 species masses, 34 atom-maps, 54 leaf runs).</li>
+<li><strong>The leaf:</strong> a bare element run, priced straight off the held table, behind a <em>consumption gate</em> that refuses any character the table cannot price.</li>
+<li><strong>The exactness trick:</strong> the held table is stored in <strong>integer milli-units</strong> (every mass ×1000), so the entire balance ledger runs on integers — every mass closure is exact <em>by construction</em>, no floating point anywhere in the accounting.</li>
+</ol>
+<p>The atom census mirrors the same divide-and-conquer with its own memo cache. Zero gate refusals occurred: every one of the chapter's 53 species composes on the held twenty (plus manganese, Ch 12's re-admitted pin) — <strong>the first chapter of the Atlas to admit no new element.</strong></p>
+<p><strong>The honesty record, printed as found.</strong></p>
+<ul>
+<li><strong>SELF-TEST 6/6 ON RUN 1</strong> — the six standing rows passed on the first execution, and again on run 2. No gate-trips, no repairs in the compositor itself.</li>
+<li><strong>THE BATTERY CAUGHT THE MACHINE ITSELF — the session's honest event.</strong> The composition battery's run 1 read 51/53: the copper row refused to match the author's hand pin of 63.546, and the mismatch traced to <strong>a typo in the engine's own element table</strong> — the milli-entry <code>63446</code> typed where copper's <code>63546</code> belongs. The hand pin — the held-table value, verified against Chapters 24 and 25's printed tables — was <em>right</em>, and the machine was <em>wrong</em>. The pin caught the compositor; the repair was made; run 2 read the row clean. The chapter records the event because the audit's architecture is bidirectional by design: <strong>the machine checks the author, and the standing pins check the machine.</strong></li>
+<li><strong>ONE author hand-pin slip, caught by the machine:</strong> MgCl₂ hand-pinned 95.210; the machine's <strong>95.211</strong> (24.305 + 2 × 35.453) stands. The corrected figure appears in the chapter's rows.</li>
+<li><strong>The ledger and cross-pin blocks below are the run-1 outputs; no copper species appears in either</strong> (the E-block and the pin list touch no Cu compound), so the repair changes nothing in them — stated, not assumed.</li>
+</ul>
+<pre><code>=== SELF-TEST (run 2, after the Cu table repair) ===
+H2O                engine 18.015  expected 18.015  OK
+KAl(SO4)2·12H2O    engine 474.372  expected 474.372  OK
+Fe4[Fe(CN)6]3      engine 859.239  expected 859.239  OK
+CaSO4·0.5H2O       engine 145.142  expected 145.142  OK
+Na2S2O3·5H2O       engine 248.172  expected 248.172  OK
+SO4^2-             engine 96.056  expected 96.056  OK
+SELF-TEST 6/6
+
+=== COMPOSITION BATTERY (run 2, hand-pin vs machine) ===
+H2O                machine   18.015  hand   18.015  OK
+CO2                machine   44.009  hand   44.009  OK
+O2                 machine   31.998  hand   31.998  OK
+H2                 machine    2.016  hand    2.016  OK
+CH4                machine   16.043  hand   16.043  OK
+C2H5OH             machine   46.069  hand   46.069  OK
+C6H12O6            machine  180.156  hand  180.156  OK
+C12H22O11          machine  342.297  hand  342.297  OK
+C25H52             machine  352.691  hand  352.691  OK
+Fe2O3              machine  159.687  hand  159.687  OK
+HCl                machine   36.461  hand   36.461  OK
+NaOH               machine   39.997  hand   39.997  OK
+NaCl               machine   58.443  hand   58.443  OK
+CH3COOH            machine   60.052  hand   60.052  OK
+CH3COONa           machine   82.034  hand   82.034  OK
+NaHCO3             machine   84.006  hand   84.006  OK
+NH4NO3             machine   80.043  hand   80.043  OK
+NH4^+              machine   18.039  hand   18.039  OK
+NO3^-              machine   62.004  hand   62.004  OK
+CaCl2              machine  110.984  hand  110.984  OK
+Ca^2+              machine   40.078  hand   40.078  OK
+Cl^-               machine   35.453  hand   35.453  OK
+MgSO4·7H2O         machine  246.466  hand  246.466  OK
+Mg^2+              machine   24.305  hand   24.305  OK
+SO4^2-             machine   96.056  hand   96.056  OK
+Na^+               machine   22.990  hand   22.990  OK
+OH^-               machine   17.007  hand   17.007  OK
+CaO                machine   56.077  hand   56.077  OK
+Ca(OH)2            machine   74.092  hand   74.092  OK
+CH3COONa·3H2O      machine  136.079  hand  136.079  OK
+CH3COO^-           machine   59.044  hand   59.044  OK
+Fe                 machine   55.845  hand   55.845  OK
+C                  machine   12.011  hand   12.011  OK
+KAl(SO4)2·12H2O    machine  474.372  hand  474.372  OK
+CaCO3              machine  100.086  hand  100.086  OK
+NaOCl              machine   74.442  hand   74.442  OK
+H2O2               machine   34.014  hand   34.014  OK
+KI                 machine  166.002  hand  166.002  OK
+KIO3               machine  213.999  hand  213.999  OK
+I2                 machine  253.808  hand  253.808  OK
+Na2S2O3·5H2O       machine  248.172  hand  248.172  OK
+Na2S2O5            machine  190.095  hand  190.095  OK
+SO2                machine   64.058  hand   64.058  OK
+MnO2               machine   86.936  hand   86.936  OK
+C6H8O7             machine  192.123  hand  192.123  OK
+C6H8O6             machine  176.124  hand  176.124  OK
+N2                 machine   28.014  hand   28.014  OK
+Al                 machine   26.982  hand   26.982  OK
+Zn                 machine   65.380  hand   65.380  OK
+Cu                 machine   63.546  hand   63.546  OK
+MgCl2              machine   95.211  hand   95.210  SLIP
+CaSO4·0.5H2O       machine  145.142  hand  145.142  OK
+C8H18              machine  114.232  hand  114.232  OK
+COMPOSITIONS 52/53  SLIPS CAUGHT: MgCl2 hand 95.210 -&gt; machine 95.211
+
+=== BALANCE LEDGER E1-E20 (atoms / charge / exact integer mass closure) ===
+E1  CH4 + 2 O2                     -&gt; CO2 + 2 H2O                        atoms OK | charge 0=0 OK | mass L 80.039 R 80.039 EXACT
+E2  C2H5OH + 3 O2                  -&gt; 2 CO2 + 3 H2O                      atoms OK | charge 0=0 OK | mass L 142.063 R 142.063 EXACT
+E3  C6H12O6 + 6 O2                 -&gt; 6 CO2 + 6 H2O                      atoms OK | charge 0=0 OK | mass L 372.144 R 372.144 EXACT
+E4  C12H22O11 + 12 O2              -&gt; 12 CO2 + 11 H2O                    atoms OK | charge 0=0 OK | mass L 726.273 R 726.273 EXACT
+E5  C25H52 + 38 O2                 -&gt; 25 CO2 + 26 H2O                    atoms OK | charge 0=0 OK | mass L 1568.615 R 1568.615 EXACT
+E6  C + O2                         -&gt; CO2                                atoms OK | charge 0=0 OK | mass L 44.009 R 44.009 EXACT
+E7  2 H2 + O2                      -&gt; 2 H2O                              atoms OK | charge 0=0 OK | mass L 36.030 R 36.030 EXACT
+E8  4 Fe + 3 O2                    -&gt; 2 Fe2O3                            atoms OK | charge 0=0 OK | mass L 319.374 R 319.374 EXACT
+E9  H+ + OH-                       -&gt; H2O                                atoms OK | charge 0=0 OK | mass L 18.015 R 18.015 EXACT
+E10 CH3COOH + NaOH                 -&gt; CH3COONa + H2O                     atoms OK | charge 0=0 OK | mass L 100.049 R 100.049 EXACT
+E11 CH3COOH + NaHCO3               -&gt; CH3COONa + CO2 + H2O               atoms OK | charge 0=0 OK | mass L 144.058 R 144.058 EXACT
+E12 NaOH                           -&gt; Na^+ + OH-                         atoms OK | charge 0=0 OK | mass L 39.997 R 39.997 EXACT
+E13 NH4NO3                         -&gt; NH4^+ + NO3^-                      atoms OK | charge 0=0 OK | mass L 80.043 R 80.043 EXACT
+E14 CaCl2                          -&gt; Ca^2+ + 2 Cl^-                     atoms OK | charge 0=0 OK | mass L 110.984 R 110.984 EXACT
+E15 MgSO4·7H2O                     -&gt; Mg^2+ + SO4^2- + 7 H2O             atoms OK | charge 0=0 OK | mass L 246.466 R 246.466 EXACT
+E16 NaCl                           -&gt; Na^+ + Cl^-                        atoms OK | charge 0=0 OK | mass L 58.443 R 58.443 EXACT
+E17 NaOH + H+                      -&gt; Na^+ + H2O                         atoms OK | charge 1=1 OK | mass L 41.005 R 41.005 EXACT
+E18 CaO + H2O                      -&gt; Ca(OH)2                            atoms OK | charge 0=0 OK | mass L 74.092 R 74.092 EXACT
+E19 Na^+ + CH3COO^- + 3 H2O        -&gt; CH3COONa·3H2O                      atoms OK | charge 0=0 OK | mass L 136.079 R 136.079 EXACT
+E20 H2 + 0.5 O2                    -&gt; H2O                                atoms OK | charge 0=0 OK | mass L 18.015 R 18.015 EXACT
+BALANCES 20/20 | CHARGES 20/20 | CLOSURES EXACT 20/20
+
+=== CROSS-PIN AUDIT (26 anchors into the prior chapters) ===
+H2O                pin   18.015  machine   18.015  (Ch13/14/23/24/25)  OK
+HCl                pin   36.461  machine   36.461  (Ch12/15/16)  OK
+NaOH               pin   39.997  machine   39.997  (Ch12/14/15)  OK
+NaCl               pin   58.443  machine   58.443  (Ch12/13/14/15)  OK
+NaHCO3             pin   84.006  machine   84.006  (Ch13/14/15)  OK
+CO2                pin   44.009  machine   44.009  (Ch10/13/14/15)  OK
+H2O2               pin   34.014  machine   34.014  (Ch10/13/25)  OK
+NaOCl              pin   74.442  machine   74.442  (Ch16/25)  OK
+CH3COOH            pin   60.052  machine   60.052  (Ch13/25)  OK
+C6H12O6            pin  180.156  machine  180.156  (Ch10)  OK
+C2H5OH             pin   46.069  machine   46.069  (Ch23/24/25)  OK
+C12H22O11          pin  342.297  machine  342.297  (Ch3/4/5)  OK
+CaCO3              pin  100.086  machine  100.086  (Ch8/13/14/15)  OK
+CaCl2              pin  110.984  machine  110.984  (Ch13/14/15/16/20)  OK
+CaO                pin   56.077  machine   56.077  (Ch14/21)  OK
+MgSO4·7H2O         pin  246.466  machine  246.466  (Ch13/15/17/19)  OK
+Fe2O3              pin  159.687  machine  159.687  (Ch11/12/24)  OK
+KI                 pin  166.002  machine  166.002  (Ch25)  OK
+KIO3               pin  213.999  machine  213.999  (Ch18/25)  OK
+I2                 pin  253.808  machine  253.808  (Ch25)  OK
+Na2S2O3·5H2O       pin  248.172  machine  248.172  (Ch4/25)  OK
+Na2S2O5            pin  190.095  machine  190.095  (Ch17/25)  OK
+SO2                pin   64.058  machine   64.058  (Ch25)  OK
+MnO2               pin   86.936  machine   86.936  (Ch12/25)  OK
+C6H8O7             pin  192.123  machine  192.123  (Ch13/25)  OK
+KAl(SO4)2·12H2O    pin  474.372  machine  474.372  (Ch8/17/20/25)  OK
+CROSS-PINS 26/26
+MEMO CACHES: species 60 masses, 34 atom-maps, 54 leaf runs</code></pre>
+<p><strong>The battery's verdict:</strong> compositions 52/53 (one hand-slip caught, corrected); balances 20/20 with <strong>20/20 exact integer closures</strong> — the milli-unit arithmetic's own signature; the charge ledger exact on all eight ionic rows (E9, E12–E17, E19); cross-pins 26/26 against fifteen prior chapters' anchors; zero gate refusals; zero new elements.</p>
+<h2>Lab 26.2 — The Thermochemistry Ledgers B1–B6 (Outputs Verbatim, Every Number Machine-Checked)</h2>
+<p>The chapter's six ledgers were computed in-drafting at the calibrated cup's own water-equivalent (10.53 g, Ledger B1) — every ΔT below is a <em>design</em> value: the arithmetic a zero-leak cup would read, labeled as designs, not bench measurements (flagged sketch 3).</p>
+<pre><code>=== B-LEDGERS ===
+B1 CALIBRATION
+  hot lost 8786.4 J; cold gained 7949.6 J; cup take 836.8 J -&gt; cup equivalent 10.53 g water
+  kettle chain 1.000 L 20-&gt;100 C: q = 334720.0 J = 334.7 kJ; at 2200 W x 80% = 1760 W -&gt; 190.2 s = 3.17 min
+B2 NEUTRALIZATION
+  (a) 50.0 mL vinegar (0.8376 M) + 50.0 mL 1.00 M NaOH: n = 0.04188 mol; q = n x 55.4 = 2320.2 J; C = 462.4 J/C; dT = +5.02 C
+  (b) 50.0 mL 0.8376 M HCl + 50.0 mL 1.00 M NaOH: q = n x 57.1 = 2391.3 J; dT = +5.17 C
+  (c) fizz: 200 g vinegar (0.16752 mol HAc) + 14.06 g NaHCO3 (n = 0.16737 mol, limiting); q_abs = n x 11.8 = 1975.0 J; C = 939.7 J/C; dT_ledger = -2.10 C (bench class ~-4 C: the named missing faces)
+B3 DISSOLUTION
+  NH4NO3      10.00 g -&gt; n = 0.124933 mol; q = 3210.8 J; dT = -10.88 C
+  CaCl2       2.50 g -&gt; n = 0.022526 mol; q = -1831.3 J; dT = +6.94 C
+  NaOH        1.00 g -&gt; n = 0.025002 mol; q = -1112.6 J; dT = +4.32 C
+  NaCl        5.00 g -&gt; n = 0.085553 mol; q = 331.9 J; dT = -1.21 C
+  Epsom band: n = 0.040574 mol; at +10: -1.37 C; at +15: -2.06 C; at +20: -2.75 C
+B4 FUEL
+  1.00 g C25H52 = 2.8353 mmol; O2 demand 107.743 mmol = 3.45 g = 2.636 L O2 -&gt; 12.55 L air
+  capture: 200 g water + cup (880.8 J/C) x +15.0 C = 13212.6 J captured; released pin 41.5 kJ/g -&gt; capture 31.84 %
+B5 FOOD
+  sucrose: 5644/342.297 = 16.489 kJ/g = 3.941 kcal/g vs Atwater 4 (gap -1.48 %)
+  peanut crude: 200 g x 4.184 x 14.0 C = 11715.2 J from 0.500 g -&gt; 23.43 kJ/g = 5.60 kcal/g; with cup: 5.89 kcal/g
+B6 HESS
+  route ladder: -44.5 + -57.1 = -101.6 kJ/mol
+  direct design: 1.00 g NaOH (n = 0.025002) into 50.0 mL 1.00 M HCl: q = 2540.2 J; C = 257.4 J/C; dT = +9.87 C
+  slaking: 5.60 g CaO (n = 0.099863) into 100 g water: q = 6471.1 J; C = 485.9 J/C; dT = +13.32 C</code></pre>
+<p>The ledgers' reading order is the chapter's own: <strong>B1</strong> builds the instrument (the cup prices itself at 10.53 g; the kettle chain anchors it to the wall meter at 3.17 min); <strong>B2</strong> runs the neutralization pair (the weak acid's 0.15 °C discount) and the fizz's honest gap (−2.10 ledger vs −4 bench); <strong>B3</strong> files the five dissolution signatures (the cold pack's −10.88 °C to table salt's −1.21 °C); <strong>B4</strong> prices the candle (31.84% capture on a 12.55 L air demand); <strong>B5</strong> joins the food label to the bomb calorimeter (sucrose's −1.48% from Atwater's 4); <strong>B6</strong> closes Hess's loop (route sum −101.6; the slaking pot's +13.32 °C).</p>
+<h2>Exercises</h2>
+<p><strong>26.1 ●○○ — The kettle's arithmetic.</strong> (a) The heat needed to take 1.50 L of water from 22.0 °C to 100.0 °C; (b) the time at a 2200 W element that delivers 80% to the water; (c) why the real kettle disagrees with the sticker's &quot;boils in 4 minutes.&quot; <em>Hints: q = mcΔT; the kettle chain of Ledger B1.</em> <strong>Answer:</strong> (a) 1500 × 4.184 × 78.0 = <strong>489,528 J ≈ 489.5 kJ</strong>; (b) 489528/1760 = <strong>278.1 s ≈ 4.64 min</strong>; (c) the 80% is the design's own assumption — limescale, the starting water's real temperature, and the element's age all move the capture, and the sticker quotes the best day. <em>Ways: the direct chain; the per-litre 334.7 kJ × 1.5 × (22 °C correction) shortcut.</em></p>
+<p><strong>26.2 ●○○ — The spoon test.</strong> A 40.0 g aluminum spoon at 95.0 °C goes into 150 g of water at 20.0 °C. (a) The equilibrium temperature; (b) the same spoon in copper's place, and why the answer barely moves. <em>Hints: the specific-heat table is the whole problem; heat lost = heat gained.</em> <strong>Answer:</strong> (a) <strong>24.06 °C</strong> — the aluminum face 2545.5 J exactly equals the water face; (b) copper's 0.385 vs aluminum's 0.897 moves the metal's heat budget, but water's 4.184 dwarfs both — the water's mass is the meter, the metal's identity a small correction. <em>The lesson: the bath wins because of its heat capacity, not its temperature.</em></p>
+<p><strong>26.3 ●●○ — The calibrated cup meets the strong pot.</strong> 50.0 mL of 1.00 M HCl and 50.0 mL of 1.00 M NaOH, both at 21.0 °C, meet in the calibrated cup (water-equivalent 10.53 g). (a) The predicted ΔT; (b) the bench reads +5.90 °C — the apparent ΔH; (c) name the missing faces. <em>Hints: E9's −57.1; the cup is water too; the Newton tail.</em> <strong>Answer:</strong> (a) q = 0.0500 × 57,100 = 2855 J over 462.4 J/°C → <strong>+6.17 °C</strong>; (b) 110.5 g × 4.184 × 5.90/0.0500 = <strong>54.6 kJ/mol</strong> apparent, vs −57.1 true; (c) the <strong>4.4% loss</strong> is the cup's lag (it never fully catches the spike), evaporation at the peak, and the truncated cooling tail — the Newton extrapolation exists to refund exactly these, and the refund is partial at best. The meter's honesty is quoting both numbers.</p>
+<p><strong>26.4 ●●○ — The camp stove's honest capture.</strong> A spirit burner holds 5.00 g of ethanol. (a) The fuel's total heat; (b) at 40% capture to the pot, the water brought from 20 °C to 100 °C; (c) the grams needed for one 250 mL cup. <em>Hints: the kJ/g ladder; the kettle chain per litre.</em> <strong>Answer:</strong> (a) 5.00 × 29.67 = <strong>148.3 kJ</strong>; (b) 59.3 kJ to the pot → 59,320/334,720 = <strong>0.177 L</strong>; (c) 83,680 J ÷ (0.40 × 29,670 J/g) = <strong>7.05 g</strong> — a cup of tea costs a third of the burner. <em>Ways: per gram × capture × the 334.7 kJ/L chain.</em></p>
+<p><strong>26.5 ●●● — The summit: one cup of tea, five meters.</strong> Price the identical 250 mL from 20 to 100 °C — q = 83,680 J, which is <strong>exactly 20.00 kcal</strong> (the design's own elegance) — on five routes: the electric kettle (80% capture), the gas ring (methane 55.48 kJ/g, 40%), the candle (wax 41.5 kJ/g, 31.84%), the camp stove (ethanol 29.67 kJ/g, 40%), and the peanut route (23.43 kJ/g bench, 30%). Rank the grams and explain the rank's logic. <em>Hints: Exercise 26.4's chain, five times; the capture fractions are the ledgers' own.</em> <strong>Answer:</strong> electric <strong>104.6 kJ = 0.029 kWh</strong> from the wall; methane <strong>3.77 g</strong>; wax <strong>6.34 g</strong>; ethanol <strong>7.05 g</strong>; peanut <strong>11.90 g</strong>. The rank is the kJ/g ladder <em>corrupted by capture</em> — and the peanut's &quot;inefficiency&quot; is partly its own water and ash: the food label's Atwater 9 assumes the body's meter, not the chimney's. The summit's moral: the <em>drop</em> is the fuel's own; the <em>capture</em> is the instrument's — the two chapters in one sentence.</p>
+<p><strong>26.6 ◆ — The hand warmer that dies (pattern unknown; no worked solution).</strong> The reusable sodium-acetate pack is recharged a hundred times, and on paper every cycle carries the same −19.7 kJ/mol. Yet every real pack eventually turns cloudy, then dead — it will not hold the supercool, or it will not crystallize on the click. Write the mechanism the ledger cannot see. *No worked solution: the pointer is that the ledger prices the crystallization and the bench prices the nucleation — a pack that clicks on demand is managing a supercooled liquid's <em>surface</em> story, and wear particles, each recharge's small evaporative loss, and the trihydrate's own stoichiometry drift are all candidates. The answer sketch belongs to the review.*</p>
+<p><strong>26.7 ◐ — The dwelling's heat census (observational).</strong> Walk the house and file twelve items on the heat census: for each, the sign (exo/endo/moves), and <em>where the heat actually comes from or goes</em>. <em>Answer key, ledger-filed:</em> the kettle (exo — the meter's joules into the water); the fridge (moves — it never &quot;makes cold&quot;; the coils pay indoors, the wall pays the move); the cold pack (endo — the water's own heat, spent); the iron hand warmer (exo — rust at powder speed, E8); the reusable hot pack (exo — crystallization, E19); the candle (exo — 41.5 kJ/g, 31.84% captured at the design); the compost bin (exo — slow oxidation, the yard's own ledger); the Epsom bath (endo — slight, the band honest); the gas ring (exo — capture 40%, the 60% the room receives as warmth); the drain (the house's yesterday-heat leaving by the litre-second); the freezer (moves — the meter pays); and the trap entry, the hot pan on the stove (transfer, not a sign — conduction is the movement of heat, not its making). <em>The census's whole lesson is binding line 1 of thermodynamics: distinguish making from moving.</em></p>
+<h2>The Safety Table (binding)</h2>
+<table>
+<thead><tr><th>#</th><th>hazard</th><th>the line</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><strong>The flame station</strong></td><td>All combustion — candle, spirit burner, peanut — at one dedicated station, never unattended, never over peroxide, acid, or solvent benches, hair tied; the burner is lit at the match held <em>to its mouth from below</em>, never the match lit above the fuel. The Ch 6 flame line, central for this chapter.</td></tr>
+<tr><td>2</td><td><strong>NH₄NO₃, the cold pack</strong></td><td>An oxidizer: never ground, never heated dry, never near fuel or the flame station, never bought in bulk; bench dose = one single-use sachet's 10.0 g at most (B3's design). The pack is cut open over the pot, not the bin.</td></tr>
+<tr><td>3</td><td><strong>Caustics — NaOH, CaO</strong></td><td>Lye dissolves at −44.5 kJ/mol and quicklime slakes at −64.8: the solid goes <em>into</em> the water, slowly, gloves and glasses throughout; the slaking pot is ceramic or borosilicate (B6's +13.3 °C design reaches near-scald); Ch 14's drain-cleaner discipline governs.</td></tr>
+<tr><td>4</td><td><strong>Peroxide (by citation only)</strong></td><td>The 3% drugstore bottle appears here only as Chapter 25's quoted ledger (−211.1 kJ per 2 mol); no peroxide demonstration is run at this bench, and the 12% developer stays on the cosmetics shelf.</td></tr>
+<tr><td>5</td><td><strong>The never-combination</strong></td><td>The neutralization pots are acid pots; the bleach jug never shares their surface, not even wiped — the Ch 16/20 chlorine door stays shut at the heat bench exactly as everywhere.</td></tr>
+<tr><td>6</td><td><strong>The fizz pots (pressure line)</strong></td><td>Vinegar-and-soda designs make CO₂ briskly (E11): open vessels only, nothing latched, nothing capped &quot;to see&quot; — Ch 10's line at the coffee-cup scale.</td></tr>
+<tr><td>7</td><td><strong>Scald discipline</strong></td><td>The kettle chain (100 °C), the slaking pot (+13 °C on the design, near-boiling at scale-up), and hot-water calibration mixes all burn: gloves for hot vessels, no carry-while-pouring, the thermometer stirred in, never snapped on the rim.</td></tr>
+<tr><td>8</td><td><strong>The thermometer</strong></td><td>Electronic probe preferred; the mercury thermometer is a spill looking for a tile floor — if one is in the drawer, it stays there, and a break is a Chapter 9 disposal event, not a sweep-and-toss.</td></tr>
+<tr><td>9</td><td><strong>Bench/food separation</strong></td><td>The peanut and the sugar that cross to the bench never return as food (the standing rule); the cold pack's contents are never re-used; the calorimeter pot is a reaction pot — the Ch 8 tasting rule governs every pot on this bench.</td></tr>
+</tbody>
+</table>
+<hr>
+<p class="banner no-print">HTML edition of the reviewed manuscript — the labels are the contract. Canon-Coverage and everything after it live in the .md master only.</p>
+</main>
+</body>
+</html>
