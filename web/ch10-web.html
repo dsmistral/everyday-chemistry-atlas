@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vol I · Chapter 10 — Gases: Generation, Collection, Recognition; the Gas Laws</title>
+<style>
+  :root { font-family: Georgia, 'Times New Roman', serif; color: #1a1a1a; }
+  body { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.2rem 4rem; line-height: 1.55; background: #fff; }
+  h1 { font-size: 1.9rem; margin: 2.2rem 0 0.8rem; }
+  h2 { font-size: 1.45rem; margin: 2rem 0 0.6rem; border-bottom: 1px solid #ddd; padding-bottom: 0.25rem; }
+  h3 { font-size: 1.2rem; margin: 1.6rem 0 0.5rem; }
+  h4 { font-size: 1.05rem; margin: 1.3rem 0 0.4rem; }
+  pre, code { font-family: 'Courier New', Courier, monospace; }
+  code { background: #f2f2f2; padding: 0.05em 0.3em; border-radius: 3px; font-size: 0.92em; }
+  pre { white-space: pre; tab-size: 4; break-inside: avoid; page-break-inside: avoid; overflow-x: auto; border: 1px solid #ddd; background: #fafafa; padding: 0.7rem 0.9rem; font-size: 0.85rem; line-height: 1.35; }
+  blockquote { border-left: 3px solid #888; margin: 1rem 0; padding: 0.2rem 1rem; color: #333; }
+  table { border-collapse: collapse; margin: 1rem 0; break-inside: avoid; page-break-inside: avoid; }
+  th, td { border: 1px solid #bbb; padding: 0.35rem 0.6rem; text-align: left; }
+  th { background: #f0f0f0; }
+  hr { border: 0; border-top: 1px solid #ccc; margin: 2rem 0; }
+  .banner { background: #eef6ff; border: 1px solid #bcd6f0; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.9rem; font-family: system-ui, sans-serif; margin-bottom: 1.5rem; }
+  @page { size: A4; margin: 16mm 15mm; }
+  @media print { body { max-width: none; padding: 0; font-size: 10.5pt; } .no-print { display: none; } pre { font-size: 8.8pt; } h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; } }
+</style>
+</head>
+<body>
+<main id="content">
+<p class="banner">The Everyday Chemist's Atlas — Vol I · Chapter 10 (Foundations of the Home Lab). HTML reading edition, generated 2026-10-19 from the manuscript master. The Canon-Coverage record and the review apparatus (forward flags, back flags, chapter ledger, revision appendix) remain in the .md master.</p>
+<h1>Vol I · Chapter 10 — Gases: Generation, Collection, Recognition; the Gas Laws</h1>
+<p>Every chapter so far has treated gases as a rumor — Chapter 4 priced the CO₂ of a descale, Chapter 6 distilled on a cushion of vapor, Chapter 8 released 4.08 liters of CO₂ at a fizz and never asked where a liter of gas <em>comes from</em>, Chapter 9 let a gas escape the ledger entirely (&quot;the cloud took 94.8% of the magnesium&quot; — and the other product, the gas, flew away unweighed). This chapter stops the escape. <strong>A gas is the one reagent the home lab makes better than it buys: no bottle, no label, no grade — one reaction away, in unlimited quantity, and it fills its own container for you.</strong> The premise's ruined-world reading is strongest here: compressed-gas cylinders are the first thing a supply chain loses, but bread dough rises, drains hiss, pond weed bubbles, and a sealed soda bottle still holds three atmospheres of dissolved gas — the household is already a gas factory; the lab's job is to catch, name, and price what it makes. The corpus supplies the practitioners: the dry-ice store-and-recover episode (N104), the chlorine generator whose <em>explicit do-not-attempt disclaimer</em> is itself a teaching datum (N77), the electrolysis bath whose hydrogen current is priced as a competing loss (N76), the lithium episode whose water-drop cascade is a hydrogen lecture in one gesture (N100), the retort videos whose off-gas flares are a flammable-gas handling lesson performed at bonfire scale (N91/N93), the activated-carbon episode where a gas meets a surface and gets caught by adsorption instead of chemistry (N96), and the carbonate hub's own foam-and-hiss eruption (N59) — the Chapter 9 flagship re-read as a gas-generation event. The chapter's four questions, asked in the order the bench needs them: <strong>how do you make a gas at home, how do you catch it, how do you know which one it is, and what law governs the space it takes up?</strong></p>
+<hr>
+<h2>Lecture 0 — The house is already a gas factory</h2>
+<p>Start the census before the theory, because the inventory is astonishing. In one week an ordinary house generates: <strong>carbon dioxide</strong> from the bread starter, the rising dough, the beer bottle, the drain cleaner's fizz, the aquarium filter, the compost bucket, and every human breath (about 0.5 L of pure CO₂ per hour at rest, exhaled into a room that holds it at a mere 0.04%); <strong>water vapor</strong> from every kettle, shower, and simmering pot — Chapter 6's whole subject, now re-read as the house's most plentiful gas; <strong>hydrogen</strong> from the battery being charged (the garage charger's fizz is electrolysis — the N76 face at household scale, the same current that plates zinc also liberates hydrogen, which is why the charger's manual says <em>ventilated area only</em>); <strong>oxygen</strong> from the aquarium's bubbler and the houseplant's daytime ledger; <strong>methane</strong> from the septic system and the swampy corner of the yard; and, when things go wrong, <strong>carbon monoxide</strong> from the badly drafted heater — Chapter 7's silent datum, the one gas the house makes that can kill you without a smell.</p>
+<p>The census teaches the chapter's first lesson before any equation: <strong>gases are made by reactions, not bought by the gram</strong> — and the reactions are already running. The lab's job is to run them in a jar, on purpose, at a known scale. The second lesson follows immediately: <strong>you cannot pour a gas the way you pour a liquid, so the whole skill of gas work is plumbing</strong> — the gas leaves its generator whether you are ready or not, and an uncaught gas is simply lost reagent. Chapter 5's separation train was about catching what refuses to dissolve; this chapter's train is about catching what refuses to <em>stay put</em>. The third lesson is the payoff: a gas carries its own <strong>ruler</strong>. A mole of any gas at room temperature and one atmosphere takes up the same volume — the 24.5-liter room of Chapter 8's pin — so a gas can be <em>measured with a graduated cylinder instead of a balance</em>. That is the instrumentless theme of the whole Atlas at its purest: the volume is the mass, the barometer is the scale.</p>
+<hr>
+<h2>Lecture 1 — The gas laws, rebuilt from the kitchen</h2>
+<p>The gas laws are usually taught as four separate equations. At the bench they are one sentence: <strong>the space a gas takes up is set by three knobs — how hard you squeeze it (P), how hot it is (T), and how much of it there is (n) — and every gas, no matter its chemistry, obeys the same knob-settings.</strong> Turn the sentence into arithmetic and you have the ideal gas law:</p>
+<pre><code>P V = n R T        R = 0.082057 L·atm/(mol·K)</code></pre>
+<p>R is the conversion rate between the mole-currency and the liter-atmosphere currency, and its value is the same for every gas — that is Avogadro's discovery priced as a constant. The three classic laws are the same equation with two knobs frozen:</p>
+<p><strong>Boyle</strong> (T, n fixed): squeezing works — the pond pitcher. Push an inverted 2.00-L pitcher of air 3.00 m down in water and the water column above you weighs 29.4 kPa — a quarter of an atmosphere on top of the one you already carry: P₂ = 1.2905 atm, so V₂ = 2.00/1.2905 = <strong>1.55 L</strong>. The trapped air squeezed to 77.5% of its room volume; that is why a diving bell needs a pump and why the pond bubble wobbles as it rises (it is <em>expanding</em> the whole way up — same law, arrow reversed).</p>
+<p><strong>Charles</strong> (P, n fixed): heat works — the freezer balloon. A 2.00-L party balloon at 25 °C goes into a −18 °C freezer and comes out 2.00 × 255.15/298.15 = <strong>1.71 L</strong>, a 14.4% shrink, no gas lost. The tire-pressure cousin runs the same law at constant <em>volume</em>: a tire at 35 psig overnight (25 °C → 15 °C) drops to 33.3 psig — <strong>the 1.7-psi morning swing</strong>, and the mechanic's rule of thumb &quot;a few psi per ten degrees&quot; is just Charles with a gauge on it.</p>
+<p><strong>Avogadro</strong> (P, T fixed): counting works — the room. One mole of <em>any</em> gas at room temperature (25 °C, 1 atm) takes up</p>
+<pre><code>V_m = RT/P = 0.082057 × 298.15 = 24.465 L/mol  — the book's working pin 24.5 L/mol</code></pre>
+<p>and at STP (0 °C, 1 atm) exactly 22.414 L — the number on every reference table [convergent]. Weigh out 1.000 g of four different gases and let them expand at RTP: hydrogen takes <strong>12.14 L</strong>, oxygen <strong>0.765 L</strong>, carbon dioxide <strong>0.556 L</strong>, methane <strong>1.525 L</strong> — the same moles-per-liter exchange rate for all of them. The working pin of 24.5 is the chapter's honest rounding: full precision 24.465, the two significant figures 24.5 — and every prior chapter's gas figure (Ch 8's 4.08 L of CO₂, Ch 9's 9.85 L) was priced on the working pin. This chapter prints both, and the cross-check below shows the pin costs at most half a percent.</p>
+<p>The pressure cooker re-pins Chapter 6 from the gas-law side: at 15 psig (1536 mmHg absolute) water boils at 121 °C — Charles and vapor pressure shaking hands. And the barometric correction the collection bench will need is already in your pocket: 1 atm = 760 mmHg = 101.325 kPa = 14.70 psi — the four gauges of the same squeeze.</p>
+<p>What makes all of this work — why the knob-model holds for hydrogen and for carbon dioxide equally — is the kinetic picture: a gas is a crowd of molecules in free flight, pressure is their drumming on the walls, temperature is their average speed of flight (H₂ molecules at RTP average 1921 m/s — faster than a rifle bullet; O₂ 482 m/s; CO₂ 411 m/s — the speed <em>is</em> the temperature, the mass only sets how many trips each molecule makes). The full kinetic treatment and the model's honest seams (real gases, van der Waals corrections, the near-boiling failures) are named at the end of Lecture 5 with the [ideal model] tag the battery carries.</p>
+<hr>
+<h2>Lecture 2 — Making the house gases: the generation roster</h2>
+<p>A gas recipe is three decisions: the <em>reaction</em> (what chemistry pushes molecules into the air), the <em>scale</em> (a pop-bottle burp or a balloon-fill), and the <em>price</em> (how many grams of household reagent per liter of gas). Every equation below is gated by the atom-balance ledger in Lab 10.2, and every price is the per-gram yield from the same lab. The roster, priced at RTP (24.465 L/mol):</p>
+<p><strong>Carbon dioxide — the workhorse, three ways.</strong></p>
+<ol>
+<li><em>Vinegar + baking soda</em> (the Chapter 8/9 chain, now read as a gas generator): NaHCO₃ + CH₃COOH → CH₃COONa + H₂O + CO₂. Price: <strong>0.291 L of CO₂ per gram of soda</strong> (1.00 g → 0.011904 mol). The balloon-fill chain: a 1.50-L balloon wants n = 0.061311 mol → <strong>5.15 g of soda + 73 mL of 5% vinegar</strong> (the 0.8376-M pin). This is N59's foam-and-hiss eruption at party scale — the Chapter 9 flagship, re-read: the <em>gas</em> was the eruption's engine all along, and the cloud-in-the-filter was just the solid that stayed behind.</li>
+<li><em>Yeast + sugar</em>: C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ — the bread-and-brew equation, the only gas recipe the house runs <em>daily</em>. Price: <strong>0.272 L of CO₂ per gram of sugar</strong> (0.011101 mol), with 0.512 g of ethanol made beside it — the thrift ledger's friendliest entry (the gas is free; the drink is the byproduct). The honest seam: real fermentation is slower and partial; the pricing stands, the kinetics belong to Chapter 24's world.</li>
+<li><em>Dry ice</em>: solid CO₂ at −78.5 °C [convergent], subliming straight to the gas at 1 atm — no reaction at all, only a phase. Price: <strong>0.556 L per gram</strong> — the densest gas-stocking form the house ever sees. N104's store-and-recover episode (the stocking in the chest freezer, the recover-and-reuse rationale) is the corpus's gas-logistics face: a gas you buy by the pound and keep like a perishable, because at room temperature it insists on becoming 550 times its own volume.</li>
+<li><em>The calcination footnote</em> (N19, Chapter 8's datum): 2 NaHCO₃ → Na₂CO₃ + H₂O + CO₂ — baked soda loses <strong>36.9% of its mass</strong> as gas and steam, which is why it cannot be oven-dried to constant mass and why the kitchen's &quot;baking soda&quot; hardens in the box: it is quietly calcining at the top of the pile. Price: half the acid route, <strong>0.146 L/g</strong>.</li>
+</ol>
+<p><strong>Oxygen — the relighter, two ways.</strong></p>
+<ol>
+<li><em>Peroxide decomposition</em>: 2 H₂O₂ → 2 H₂O + O₂. Pure peroxide prices at <strong>0.360 L O₂ per gram</strong>, but the bench meets it at 3% w/w: 10 mL of the drugstore bottle holds 0.300 g → <strong>108 mL of O₂</strong> — the pop-bottle burp scale. The 12% hair developer runs the same chain at 4× (432 mL per 10 mL). A pinch of manganese dioxide (the dead battery's black paste, rinsed) or even baker's yeast catalyzes the release from a fizz to a rush; the catalyst is unspent — Chapter 33's network datum, re-used for free.</li>
+<li><em>Bleach + peroxide</em>: NaOCl + H₂O₂ → NaCl + H₂O + O₂ — two cleaning products meeting to make the burner-friendly gas, <strong>0.329 L per gram of NaOCl</strong>. The two never-combination rules still own the shelf: bleach never meets <em>acid</em> (that route makes chlorine — the never-generate list below), and peroxide never meets the drain opener; but bleach + peroxide is the <em>oxygen</em> handoff, safe at sink scale with the ventilation rule.</li>
+</ol>
+<p><strong>Hydrogen — the lightest, one safe way, one never.</strong></p>
+<ol>
+<li><em>Metal + acid</em>: Zn + 2 HCl → ZnCl₂ + H₂ — galvanized nail or zinc washers into diluted muriatic. Price: <strong>0.374 L H₂ per gram of zinc</strong> (0.015295 mol). Hydrogen is the only common gas meaningfully <em>lighter</em> than air (0.0824 g/L vs air's 1.184 — the lift chain: a balloon of it lifts 1.10 g per liter), which makes it collect itself: point the generator's outlet <em>up</em> and the gas obligingly rises into the bag. It also pops at a flame — the recognition test — and this is the chapter's scale rule: the pop test runs at match-head scale, at the <em>mouth of the test tube</em>, never at the generator, never over a full bag (the energetics binding line — hydrogen–oxygen <em>mixtures</em> are recognition-knowledge only; Chapter 28 owns the hazard side).</li>
+<li><em>Electrolysis</em> (N76's face): the zinc-plating bath runs 4 volts between its electrodes and a second, unwanted chemistry competes for the current — hydrogen evolution at the cathode. The episode's <em>H₂-current control</em> is the corpus pricing that current-thief as a real cost; the same fizz at the garage charger is the same chemistry. Electrolysis as a <em>generator</em> works (it is the oxygen-maker of every aquarium bubbler's cousin), but at household current it prices poorly against the zinc route — the make-or-buy verdict Chapter 2 taught, applied to a gas.</li>
+<li><em>The lithium cascade</em> (N100, knowledge-only): 2 Li + 2 H₂O → 2 LiOH + H₂ — the episode's water-drop-on-lithium gesture is this chapter's most spectacular per-gram datum: <strong>1.76 L of hydrogen per gram of metal</strong>, nearly five times the zinc price (the reactivity-series arithmetic of Chapter 11 explaining the gap before Chapter 11 is read). It is printed as <em>knowledge, not bench</em>: the lithium datum stays in the register's frame — dump-battery teardown, mineral-oil storage, the water-drop done on camera at a scale the home lab does not repeat.</li>
+</ol>
+<p><strong>The never-generate list</strong> — gases the house <em>can</em> make and the bench never does, each for a reason the book states once and holds absolutely:</p>
+<ul>
+<li><strong>Chlorine</strong> (bleach + acid — Chapter 8's never-combination absolute; N77's generator episode is cited <em>as its own warning label</em>: the transcript's explicit do-not-attempt, the pool-puck chemistry, the drain-cleaner drying train — all of it knowledge-only, and the recognition datum is the yellow-green color and the smell you must never lean into to check).</li>
+<li><strong>Carbon monoxide</strong> (Chapter 7's gap datum: the badly-drafted flame's product; the detector is the only correct response, never a test).</li>
+<li><strong>Hydrogen sulfide</strong> (the drain's rotten-egg gas — recognized by smell at trace, lethal by <em>nose-blindness</em> one whiff too many; never generated, never tested).</li>
+<li><strong>The energetics line</strong> (hydrogen–oxygen mixtures and anything like them: recognition-knowledge to Chapter 28, excluded at the bench in all sessions — the binding charter, restated in its gases chapter).</li>
+</ul>
+<p>The roster's prices deserve one more read before moving on: <strong>the cheapest gases at the house scale are the ones whose reagents are food</strong> — a dollar of sugar makes 270 liters of CO₂ on paper (and the yeast gives the ethanol back), a dollar of baking soda about 100 L with vinegar doing the pushing. The expensive gas is the one you cannot make safely at all, which is why the blanket-drill pricing of Exercise 10.5 ends with a make-or-buy verdict the Chapter 2 scoring engine would recognize.</p>
+<hr>
+<h2>Lecture 3 — Collection: catching a ghost</h2>
+<p>A liquid sits in its jar; a gas leaves. The entire craft of collection is giving the leaving gas somewhere to go, and there are exactly four somewheres at household scale, each with its own physics:</p>
+<p><strong>Water displacement — the inverted bottle.</strong> Fill a bottle with water, invert it in a basin of water, run the generator's outlet under the rim: every bubble rises into the bottle and the water level <em>is</em> the gas volume, readable on the bottle's own graduation marks — a gas measured with a kitchen tool, the instrumentless theme again. The method's price: the gas arrives <strong>wet</strong>. Water evaporates into the collected space until its vapor joins the mix at its own equilibrium pressure — 23.76 mmHg at 25 °C [convergent] — and the correction is one subtraction:</p>
+<pre><code>P_dry = P_barometric − P_H2O(T)        e.g. 745.0 − 23.76 = 721.2 mmHg = 0.949 atm</code></pre>
+<p>The worked case prices the penalty: 5.00 g of zinc makes 0.076476 mol of H₂ = 1.871 L dry at RTP, but collected over water at a 745-mmHg day it occupies <strong>1.972 L</strong> wet — a 5.4% volume surcharge that is nothing but water vapor's share (the wet-to-dry ratio 1/0.949 = 1.054). Two honesty notes live in the method itself: gases that <em>dissolve</em> in water (CO₂ partly — the soda's whole trick; NH₃ greedily — 700 volumes per volume of water at room temperature, so <em>never</em> collect ammonia over water) come out light, and hot gas straight from a generator must cool to bath temperature before its volume means anything.</p>
+<p><strong>Downward delivery — the pour.</strong> Carbon dioxide is 1.52× heavier than air (1.799 vs 1.184 g/L at RTP): it pours like an invisible liquid, down a ramp, into a jar held lower, filling it from the bottom as the air leaves the top. Hold a lit candle at the jar's rim and it snuffs when the invisible surface passes it — the extinguishing <em>is</em> the recognition (Lecture 4). The jar of CO₂ sits on the bench as stable as a jar of water; this is the one gas whose collection needs no water, no bag — only the patience to pour something you cannot see.</p>
+<p><strong>Upward delivery — the rise.</strong> Hydrogen (0.0824 g/L) and ammonia (0.696 g/L) collect at the <em>top</em> of an inverted jar, like helium in a party balloon that collects itself. The same density arithmetic that prices the pour prices the rise: a gas lighter than air climbs, and the generator's outlet points up into the waiting bag.</p>
+<p><strong>The bag and the balloon — the flexible vessel.</strong> A party balloon or a food-storage bag on the generator's outlet is the household gasometer: it accepts any volume, its pressure stays at one atmosphere (that is its charm and its limit), and its fill-state is legible at a glance. N77's drying-train face teaches the professional upgrade the same episode shows <em>and</em> disclaims: generate → drain-cleaner sulfuric-acid drying bottle → collect — the corpus's own train, priced as knowledge (the never-latch rule below applies to every vessel in it).</p>
+<p><strong>The vessel rule, restated from Chapter 4 and held absolutely:</strong> every gas vessel in this book is open, vented, or elastic — <strong>never latched, never sealed, never rigid-and-closed</strong>. A gas generator builds pressure without limit; a latched vessel is a bomb with a chemistry set on top. The dry-ice stocking and the N104 freezer box vent; the balloon stretches; the displacement bottle is open at its mouth to the basin. Chapter 6's never-sealed still and Chapter 8's never-latched fizz are the same single rule, and this chapter is its home.</p>
+<hr>
+<h2>Lecture 4 — Recognition: the gas detective</h2>
+<p>Chapter 13 will build the wet qualitative scheme for ions; gases get their scheme now, because a gas announces itself by four honest signals, and the bench kit is a candle, a splint, a match, and a jar of limewater.</p>
+<p><strong>The flame answers.</strong> Three gases, three behaviors at a flame:</p>
+<ul>
+<li><strong>Oxygen</strong> relights a <em>glowing</em> splint — the ember that bursts back to flame because the air around it suddenly holds five times the oxygen concentration. (This is also oxygen's safety row: enrichment makes everything burn fiercely — the Chapter 7 charcoal asterisk, priced.)</li>
+<li><strong>Hydrogen pops</strong> at a <em>burning</em> splint — a sharp bark as the H₂ burns in air at the tube's mouth. The scale rule from Lecture 2 governs: match-head volume, at the mouth, never the generator, never the bag.</li>
+<li><strong>CO₂ snuffs</strong> a burning splint dead — it smothers flame better than air pours it (no fuel, and it blankets the ember). Ammonia and most other &quot;inert-ish&quot; gases also snuff; the flame test alone never convicts, it only <em>narrows</em> — recognition is always a two-test case, Chapter 13's rule learned early.</li>
+</ul>
+<p><strong>The limewater answer.</strong> Bubble the unknown into limewater — saturated calcium hydroxide, 1.73 g/L at 20 °C [convergent] — and CO₂ clouds it milk-white: Ca(OH)₂ + CO₂ → CaCO₃ + H₂O. The cloud is Chapter 9 living in this chapter: a precipitation with a gas as its missing partner, and the Ksp arithmetic prices why the cloud is so <em>unconditional</em>: limewater carries [Ca²⁺] ≈ 0.0233 M, and CaCO₃'s Ksp (3.36 × 10⁻⁹, the Chapter 4 battery's constant) means the carbonate concentration needed to cloud it is Ksp/[Ca²⁺] = <strong>1.44 × 10⁻⁷ M</strong> — a whisper of carbonate saturates it. The honest seam is the same one Chapter 9 flagged: bubbling CO₂ into water makes carbonic <em>acid</em> first, and how much of that shows up as free CO₃²⁻ is a coupled Ka–Ksp question that belongs to Chapter 24; the <em>recognition verdict</em> needs no seam-walking, because the precipitation is observed, and the cloud's chemistry is Chapter 9's to own.</p>
+<p><strong>The density answer.</strong> The pour-down-ramp (CO₂, 1.52× air) and the self-collecting rise (H₂ at 0.0824 g/L — the balloon that fights gravity) are recognition by scale: the balance-vs-the-atmosphere, no reagents, the P9 instrumentless face. Even the party balloon participates: a helium balloon deflates in a day or two while an air balloon lasts a week — helium effuses through the same latex pores <strong>2.69× faster</strong> than air's nitrogen (Graham's law: rate ∝ 1/√M; the He/N₂ ratio √(28.014/4.003) = 2.65, He/air 2.69), and hydrogen, if you had it in a balloon, would outrun oxygen's escape rate by the famous <strong>4:1</strong> (√(31.998/2.016) = 3.98). Effusion is recognition's quiet cousin: identity by <em>speed of leaving</em>.</p>
+<p><strong>The adsorption answer (N96).</strong> The activated-carbon episode is this chapter's capture-without-chemistry face: a gas meets a prepared surface and sticks — the iodine number's 92.5 mg/g was the Chapter 7 datum; here the same surface is the <em>general</em> principle that vapors can be pulled from air by nothing but surface. The retort videos' off-gas flares (N91/N93) are the opposite face — a flammable gas mixture <em>deliberately ignited at the vent</em>, the safe handling of a gas you cannot keep: flare it, never store it. Both faces bookend the collection lecture's lesson: catch it, vent it, or burn it at the exit — the one thing you never do is <em>latch it</em>.</p>
+<p>The full scheme as a decision tree:</p>
+<pre><code>                 ┌─ relights the glowing splint ──────────────── OXYGEN
+   the gas ──────┼─ pops at the burning splint (mouth, match-head) ─ HYDROGEN
+   (candle jar) ├─ snuffs + clouds limewater ──────────────── CARBON DIOXIDE
+                 ├─ snuffs + turns red litmus blue ─────────── AMMONIA
+                 ├─ snuffs, no cloud, pours down-ramp ───────── CO₂ (dry check) or N₂
+                 └─ snuffs, nothing else …─────────────────── a Chapter 13 handoff
+    KNOWLEDGE-ONLY rows (never bench-tested): yellow-green + choking = chlorine (N77);
+    odorless + a CO detector's alarm = carbon monoxide (Ch 7); rotten egg = hydrogen sulfide.</code></pre>
+<p>The knowledge-only rows carry the chapter's most serious discipline: <strong>the nose is not an instrument for these gases</strong> — chlorine's smell is a warning you were already too close, CO has none at all, and H₂S deadens the very receptor it rings. The detector, the label, and the never-generate list are the bench's only correct tools there.</p>
+<hr>
+<h2>Lecture 5 — The gas laws in the ledger: stoichiometry with a 24.5-liter room</h2>
+<p>Now the payoff lecture, where the generation prices of Lecture 2 meet the law of Lecture 1 and the whole book's gas figures close their loop.</p>
+<p><strong>The volume shortcut.</strong> Because a mole of gas takes 24.5 L at RTP, the stoichiometry of gases skips the molar mass entirely for volume questions: the ledger's gram-route and liter-route must agree, and the engine checks them against each other. The balloon-fill chain, both ways: 1.50 L at RTP is 1.50/24.465 = 0.061311 mol of CO₂ → × 84.006 = <strong>5.15 g of soda</strong> (gram route); or 1.50 L / 0.291 L-per-gram = 5.15 g (liter route from the yield table). The two routes agreeing is the P12 cross-check culture applied to a gas.</p>
+<p><strong>The honest cost of the working pin.</strong> This chapter's cross-checks price the 24.5-vs-24.465 choice on the book's own printed figures: Chapter 8's 7.334 g of CO₂ is 0.166648 mol = <strong>4.077 L at full precision, 4.083 L at the working pin</strong> (printed 4.08 — the pin rounds to the printed digit); Chapter 9's 17.69 g is 0.401963 mol = <strong>9.834 L precise, 9.848 L at the pin</strong> (printed 9.847 — one more honesty note: Chapter 9's ledger carried its own unrounded 0.401919 mol, whose × 24.5 gives the printed 9.847 exactly; the 0.401963 re-derived here starts from Chapter 9's <em>rounded</em> 17.69 g, and the 4-mmol gap between the two is pure operand rounding — no verdict anywhere moves). The working pin costs half a percent; the book prints both numbers here so every future chapter can inherit the honest pair.</p>
+<p><strong>The hiss chain.</strong> The sealed soda bottle is the household's own compressed-gas cylinder: a 2.00-L bottle with a 60.0-mL headspace held at 2.50 atm absolute (the stated working assumption — a well-carbonated pop) carries n = PV/RT = 0.006131 mol of CO₂ in that headspace alone = 0.270 g, gas that <em>wanted</em> 0.150 L at one atmosphere — two and a half times the room it was given. Open the cap and the hiss is 0.27 g of reagent gas escaping at the speed of decompression; the same bottle latched shut and left in a hot car is Charles's law against the vessel rule — the never-latch line priced in grams per square centimeter.</p>
+<p><strong>The kinetic sketch, and the model's seams.</strong> The speeds of Lecture 1 (H₂ 1921 m/s, O₂ 482, CO₂ 411 at RTP) are the kinetic-molecular picture: temperature <em>is</em> the flight energy, pressure is the drumming, and the gas laws are its bookkeeping. The picture's honest seams, named in the battery's tag as everywhere else: the model carries <strong>[ideal model: point molecules, no attractions]</strong> — and it bends exactly where gases get cold or crowded (real-gas behavior, van der Waals' corrections, the near-liquefaction failures). Water vapor bends it most at household scale (it is never far from condensing — Chapter 6's whole subject), which is one more reason the wet-gas correction of Lecture 3 is not a formality. The chapter's verdicts all live comfortably inside the model's honest range: room temperature, near one atmosphere, far from condensation — the same regime the reference tables price.</p>
+<p><strong>The blanket drill — the ledger's summit.</strong> The chapter's capstone chain prices a real bench question end to end: <em>to blanket a 40.0-L trough with CO₂ for the pour-down candle demo</em> needs n = 40.0/24.465 = 1.635 mol — and the three routes of Lecture 2 price it: <strong>137 g of baking soda + 1.95 L of vinegar</strong> (the acid route, at the 0.8376-M pin), <strong>72 g of dry ice</strong> (no liquid byproduct, the N104 face), or <strong>147 g of sugar through the yeast</strong> (0.272 L/g, with 37.7 g of ethanol as the byproduct — and the honest kinetic note that the yeast route is the slow one). Exercise 10.5 hands the reader the drill with the make-or-buy question attached, and the Chapter 2 scoring engine would recognize the shape: the winner depends on the axis you weight — speed, dryness, or thrift.</p>
+<hr>
+<h2>Lab 10.1 — The gas-law engine</h2>
+<p>Executed in-drafting on a fresh element table and a fresh character-level recursive-descent parser; both parser syntax features (parenthesized groups, hydrate-dot coefficients) exercised per the session-28 lesson; every composition cross-checked before any number reached the page. Outputs verbatim:</p>
+<pre><code>PARSER BATTERY (fresh table, fresh recursive-descent parser; parens + hydrate-dot both exercised;
+  first draft threw on the dot-coefficient (12H2O) — caught at the sanity gate before any number reached the page)
+  H2                 H2               M =     2.016  OK (pin 2.016)  — the lightest
+  O2                 O2               M =    31.998  OK (pin 31.998)  — the splint relighter
+  N2                 N2               M =    28.014  OK (pin 28.014)  — four-fifths of air
+  CO2                C1O2             M =    44.009  OK (pin 44.009)  — the pourer
+  NH3                N1H3             M =    17.031  OK (pin 17.031)  — lighter than air
+  H2O                H2O1             M =    18.015  OK (pin 18.015)  — the vapor
+  CH4                C1H4             M =    16.043  OK (pin 16.043)  — Ch 7 pin
+  C2H5OH             C2H6O1           M =    46.069  OK (pin 46.069)  — Ch 6 pin
+  Cl2                Cl2              M =    70.906  OK (pin 70.906)  — never-generate (knowledge-only)
+  He                 He1              M =     4.003  OK (pin 4.0026)  — the party balloon
+  Ca(OH)2            Ca1O2H2          M =    74.092  OK (pin 74.092)  — limewater (parens)
+  CaCO3              Ca1C1O3          M =   100.086  OK (pin 100.087)  — the cloud
+  NaHCO3             Na1H1C1O3        M =    84.006  OK (pin 84.006)  — Ch 9 pin
+  C6H12O6            C6H12O6          M =   180.156  OK (pin 180.156)  — the yeast route
+  Zn                 Zn1              M =    65.380  OK (pin 65.38)  — the acid partner
+  NaOCl              Na1O1Cl1         M =    74.442  OK (pin 74.442)  — the bleach oxidizer
+  CaSO4·2H2O         Ca1S1O6H4        M =   172.164  OK (pin 172.164)  — Ch 5 pin (hydrate dot)
+  CuSO4·5H2O         Cu1S1O9H10       M =   249.677  OK (pin 249.677)  — Ch 9 pin (hydrate dot)
+  KAl(SO4)2·12H2O    K1Al1S2O20H24    M =   474.372  OK (pin 474.372)  — session-28 pin (both features)
+  19/19 composition cross-checks OK  (the fresh table's first Cl at 35.450 gave Cl2 70.900 —
+  repinned to the Ch 3 isotope average 35.453 -&gt; 70.906 / NaOCl 74.442 before the page)
+  air (78.09 N2 / 20.95 O2 / 0.93 Ar / 0.04 CO2 [convergent])  M = 28.969 g/mol -&gt; the 28.96 pin
+
+MOLAR VOLUME: Vm(RTP) = 24.4653 L/mol -&gt; working pin 24.5; Vm(STP) = 22.4139 -&gt; 22.414 [convergent]
+
+DENSITY CHAINS rho = PM/(RT) at RTP (g/L):
+  air  M  28.969 -&gt; rho = 1.1841 g/L
+  O2   M  31.998 -&gt; rho = 1.3079 g/L
+  N2   M  28.014 -&gt; rho = 1.1451 g/L
+  CO2  M  44.009 -&gt; rho = 1.7988 g/L
+  NH3  M  17.031 -&gt; rho = 0.6961 g/L
+  H2   M   2.016 -&gt; rho = 0.0824 g/L
+  He   M   4.003 -&gt; rho = 0.1636 g/L
+  lift: air - H2 = 1.1017 g/L; air - He = 1.0205 g/L; CO2/air = 1.519x
+
+THE FOUR-LAW ROUND-TRIPS (each verified by round-trip to &lt;= 1e-12):
+  Boyle  : pond pitcher 2.00 L air pushed 3.00 m down (P2 = 1.2905 atm) -&gt; V2 = 1.5498 L (22.5% squeezed); round-trip OK
+  Charles: 2.00 L balloon 25 C -&gt; freezer -18 C (255.15 K) -&gt; V2 = 1.7116 L (14.4% shrink); round-trip OK
+  Tire   : 35 psig (49.7 psia) 25 C -&gt; 15 C: P2 = 48.033 psia = 33.33 psig — the 1.67-psi morning swing
+  Avogadro: 1.000 g at RTP -&gt; H2 12.136 L | O2 0.765 L | CO2 0.556 L | CH4 1.525 L (same n, same V per mol)
+
+COLLECTION OVER WATER (25 C; P_H2O = 23.76 mmHg [convergent]):
+  P_dry = 745.0 - 23.76 = 721.24 mmHg = 0.94900 atm
+  case: 5.00 g Zn -&gt; 0.076476 mol H2; wet V = 1.9716 L vs dry 1.8710 L (wet penalty 5.1%)
+
+KINETIC BATTERY u_rms = sqrt(3RT/M) at RTP (m/s):
+  H2  u_rms = 1920.7 m/s
+  He  u_rms = 1363.1 m/s
+  N2  u_rms =  515.2 m/s
+  O2  u_rms =  482.1 m/s
+  CO2 u_rms =  411.1 m/s
+  Graham: rate(H2)/rate(O2) = sqrt(M_O2/M_H2) = 3.9840 (the 4:1 pin); He/air = 2.6903; He/N2 = 2.6456
+
+THE HISS CHAIN (2.00-L bottle, 60.0 mL headspace @ 2.50 atm abs — the stated working assumption):
+  n = PV/RT = 0.006131 mol -&gt; 0.2698 g CO2 in the hiss = 0.150 L at 1 atm (the headspace was 150 mL-atm
+  of gas wanting 2.5x its room)
+  (the engine's first pass printed the pond pitcher's water-column pressure as &quot;29 Pa&quot; — a x1000 slip
+  to kPa, caught by the unit gate before the page; the chain's P2 = 1.2905 atm and V2 = 1.5498 L stand)
+
+SANITY GATES: all values finite OK; 19/19 compositions OK; round-trips &lt;= 1e-12 OK</code></pre>
+<hr>
+<h2>Lab 10.2 — The generation &amp; recognition engine</h2>
+<p>The same session, same table, same parser; every generation equation gated by the atom-balance ledger before any price is printed; the yield ledger and every exercise chain machine-derived. Outputs verbatim:</p>
+<pre><code>ATOM-BALANCE LEDGER (every generation equation gated; 10/10 balanced):
+  OK  NaHCO3 + CH3COOH -&gt; CH3COONa + H2O + CO2     — vinegar + soda (the kitchen CO2)
+  OK  C6H12O6 -&gt; 2 C2H5OH + 2 CO2                  — yeast fermentation (bread/brew)
+  OK  2 H2O2 -&gt; 2 H2O + O2                          — peroxide decomposition (the O2 route)
+  OK  Zn + 2 HCl -&gt; ZnCl2 + H2                      — metal + acid (the H2 route)
+  OK  NaOCl + H2O2 -&gt; NaCl + H2O + O2              — bleach + peroxide (the wet O2 route)
+  OK  2 NaHCO3 -&gt; Na2CO3 + H2O + CO2               — thermal calcination (N19)
+  OK  Ca(OH)2 + CO2 -&gt; CaCO3 + H2O                 — limewater recognition (the cloud)
+  OK  2 Li + 2 H2O -&gt; 2 LiOH + H2                  — lithium + water (N100, knowledge-only)
+  OK  2 H2 + O2 -&gt; 2 H2O                           — the recognition-line equation (energetics binding line)
+  OK  CaCO3 + 2 CH3COOH -&gt; Ca(CH3COO)2 + H2O + CO2 — the descale re-pin (Ch 4)
+
+PER-GRAM YIELD LEDGER at RTP (V_m = 24.465 L/mol; the working pin 24.5 L/mol beside where a book pin is re-verified):
+  NaHCO3 (acid route, 1 mol CO2/mol)           1.00 g -&gt; 0.011904 mol -&gt; 0.2912 L CO2 at RTP
+  glucose (yeast, 2 mol CO2/mol)               1.00 g -&gt; 0.011101 mol -&gt; 0.2716 L CO2 at RTP
+  H2O2 pure (0.5 mol O2/mol)                   1.00 g -&gt; 0.014700 mol -&gt; 0.3596 L O2 at RTP
+  Zn (1 mol H2/mol)                            1.00 g -&gt; 0.015295 mol -&gt; 0.3742 L H2 at RTP
+  NaOCl (1 mol O2/mol)                         1.00 g -&gt; 0.013433 mol -&gt; 0.3286 L O2 at RTP
+  Li (0.5 mol H2/mol; knowledge-only)           1.00 g -&gt; 0.072046 mol -&gt; 1.7626 L H2 at RTP
+  dry ice CO2(s) (N104)                        1.00 g -&gt; 0.022723 mol -&gt; 0.5559 L CO2 at RTP
+  NaHCO3 calcined (0.5 mol CO2/mol; N19)       1.00 g -&gt; 0.005952 mol -&gt; 0.1456 L CO2 at RTP
+
+THE HOUSEHOLD BOTTLE CHAINS:
+  10.0 mL of 3% H2O2 (w/w, ~1 g/mL): 0.300 g -&gt; 0.1079 L O2 (108 mL — the bottle-burp scale)
+  10.0 mL of 12% developer: 1.20 g -&gt; 0.4316 L O2 (432 mL — the same burp four times over)
+  balloon-fill: a 1.50-L balloon needs n = 1.50/24.465 = 0.061311 mol CO2 -&gt; NaHCO3 5.151 g
+    + vinegar demand 3.682 g HAc = at the 0.8376-M pin, 73.2 mL of 5% vinegar
+  N19 calcination loss: 2 NaHCO3 -&gt; Na2CO3 + H2O + CO2 leaves 36.9% of the starting mass as gas+steam
+    (the cannot-oven-dry datum, Ch 8 Ex 8.3(b) re-pin)
+
+THE CROSS-CHAPTER RE-PINS (the 24.5 working pin vs the precise 24.465):
+  Ch 8: 7.334 g CO2 = 0.166648 mol -&gt; 4.077 L precise | 4.083 L at the working pin (Ch 8 printed 4.08)
+  Ch 9: 17.69 g CO2 = 0.401963 mol -&gt; 9.834 L precise | 9.848 L at the working pin (Ch 9 printed 9.847;
+    Ch 9's own unrounded 0.401919 mol x 24.5 = 9.847 exactly — the 4-mmol gap is operand rounding, no verdict moves)
+
+LIMEWATER CHAIN (recognition priced):
+  Ca(OH)2 1.73 g/L @ 20 C [convergent] -&gt; 0.023349 M; the cloud threshold: [CO3^2-] &gt; Ksp/[Ca2+]
+    = 3.36e-9/0.02335 = 1.439e-7 M
+    (the coupled Ka-Ksp treatment — the carbonate speciation at pH ~6 — flagged forward to Ch 24, as Ch 9 flagged it)
+
+SANITY GATES: all-finite OK; atom-balance 10/10 OK; round-trips OK; [speculative] nowhere</code></pre>
+<hr>
+<h2>Exercises</h2>
+<p>Difficulty: ●○○ one route, ●●○ two routes joined, ●●● the chapter's summit, ◆ pattern-hunt (no hints), ◐ open exploration. Every exercise solvable at least two ways, via the chapter's named methods.</p>
+<p><strong>10.1 ●○○ — The pond pitcher.</strong> An empty 2.00-L pitcher, mouth down, is pushed to 3.00 m depth in a pond (water density 1000 kg/m³). (a) The pressure on the trapped air, in atm; (b) the trapped volume; (c) the percentage squeezed. <em>Hints: Boyle; the water column ρgh; the four-gauge set of Lecture 1.</em> <strong>Answer:</strong> (a) P₂ = 1 + ρgh/P_atm = 1 + 29,430 Pa/101,325 Pa = 1 + 0.2905 = <strong>1.2905 atm</strong> (the column adds 29.43 kPa — a 2.9-psi squeeze); (b) V₂ = P₁V₁/P₂ = 2.00/1.2905 = <strong>1.550 L</strong>; (c) <strong>22.5% squeezed</strong>. Ways: the Boyle route direct; the bubble route — the same bubble rising doubles its volume by 10 m of ascent, the same law with the arrow reversed.</p>
+<p><strong>10.2 ●○○ — The freezer balloon.</strong> A 2.00-L balloon at 25 °C is put in a −18 °C freezer overnight. (a) The morning volume; (b) what returns to the warm room; (c) the morning tire-pressure cousin, 35 psig at 25 °C parked at 15 °C. <em>Hints: Charles; absolute temperatures; the tire runs at constant V.</em> <strong>Answer:</strong> (a) V₂ = 2.00 × 255.15/298.15 = <strong>1.712 L</strong>; (b) it returns to 2.00 L — nothing was lost, only cooled (the test that Charles is reversible: warm it back and the volume returns); (c) P₂ = 49.7 × 288.15/298.15 = 48.03 psia = <strong>33.3 psig — the 1.67-psi morning swing</strong>. Ways: Charles direct; the per-ten-degrees rule of thumb priced (1.67 psi per 10 °C at this pressure) — the mechanic's rule and the law agreeing.</p>
+<p><strong>10.3 ●●○ — The peroxide bottle.</strong> (a) The O₂ from 10.0 mL of 3% w/w peroxide (~1 g/mL), fully decomposed at RTP; (b) the same volume of 12% hair developer; (c) the ratio, and why it is exactly that number. <em>Hints: the yield ledger's H₂O₂ row; w/w from Chapter 4; the stoichiometric halving 2 H₂O₂ → O₂.</em> <strong>Answer:</strong> (a) 10.0 g × 0.0300 = 0.300 g H₂O₂ → 0.300/34.014 = 0.008820 mol → ÷2 = 0.004410 mol O₂ × 24.465 = <strong>0.108 L (108 mL)</strong>; (b) 1.20 g → <strong>0.432 L</strong>; (c) ratio <strong>4.00</strong> — the concentrations' ratio (12/3), exactly, because every other factor cancels (same bottle, same reaction, same V_m) — the w/w lesson and the gas law holding hands. Ways: the mass route through moles; the yield-table liter route (0.360 L/g × the H₂O₂ mass).</p>
+<p><strong>10.4 ●●○ — Hydrogen over water.</strong> 5.00 g of zinc into excess diluted muriatic; the H₂ collected over water at 25 °C on a 745-mmHg day. (a) The dry volume at RTP; (b) the wet volume read at the bottle's marks; (c) the wet penalty and its source. <em>Hints: the yield ledger; the vapor-pressure correction; why the penalty is a ratio, not a coincidence.</em> <strong>Answer:</strong> (a) n = 5.00/65.38 = 0.076476 mol → × 24.465 = <strong>1.871 L dry</strong>; (b) P_dry = 745.0 − 23.76 = 721.2 mmHg = 0.949 atm → V_wet = nRT/P_dry = <strong>1.972 L</strong>; (c) the penalty is 5.4% = 1/0.949 − 1 — <em>nothing but the water vapor's share</em>, which is why the correction never depends on the gas. Ways: correct the pressure then compute; compute the dry volume then scale by the wet-to-dry ratio 1.054.</p>
+<p><strong>10.5 ●●● — The blanket drill (the summit).</strong> For the pour-down candle demo you need to blanket a 40.0-L trough with CO₂ at RTP. Price all three routes: (a) vinegar + soda (the 0.8376-M vinegar pin); (b) dry ice; (c) yeast + sugar, with its byproduct and its honest kinetic caveat. (d) The make-or-buy verdict: which route wins on speed, which on dryness, which on thrift. <em>Hints: n from the volume; the yield ledger's three CO₂ rows; Chapter 2's scoring-engine shape.</em> <strong>Answer:</strong> n = 40.0/24.465 = <strong>1.635 mol</strong>. (a) NaHCO₃ 1.635 × 84.006 = <strong>137.3 g</strong>, vinegar 1.635/0.8376 = <strong>1.95 L</strong> of the 5% pin; (b) dry ice 1.635 × 44.009 = <strong>72.0 g</strong> (the N104 face — no liquid byproduct); (c) sugar 1.635/2 × 180.156 = <strong>147.3 g</strong> (the stoichiometric halving) with 1.635/2 × 46.069 = <strong>37.7 g of ethanol</strong> beside — and the caveat printed with it: real fermentation is slow and partial; the <em>pricing</em> stands, the kinetics do not (the routes agree on paper, not on the clock); (d) speed: dry ice (sublimation is instant); dryness: dry ice again (no vinegar mist); thrift: the yeast route by a wide margin (sugar is the cheapest per liter and pays an ethanol dividend) — and the demo's actual winner is the one whose axis you weight, exactly the Chapter 2 engine's verdict shape. Ways: gram-route and liter-route (each route's grams check against the yield table's L/g), the P10 end-use-holds-the-pen read.</p>
+<p><strong>10.6 ◆ — The unknown gas.</strong> An unlabeled lecture bottle yields this dossier: a 0.400-g sample fills a 222-mL gas bag at RTP; a burning splint in it goes out; the gas pours down a ramp and snuffs a candle at the ramp's foot; bubbled into limewater, the limewater clouds. Identify the gas, and prove the identification two ways. <em>(No hints — this is the pattern-hunt.)</em> <strong>Answer:</strong> <strong>carbon dioxide.</strong> Route 1 (the density/mole route): M = mV_m/V = 0.400 × 24.465/0.222 = <strong>44.0 g/mol</strong> — the molar mass printed in the parser battery as CO₂'s; Route 2 (the recognition tree): snuffs (not O₂, not H₂), pours downward (heavier than air — not H₂/NH₃), clouds limewater (the CaCO₃ precipitation — CO₂'s signature, Lecture 4's tree closed). The two routes agree: the ledger and the bench saying the same name — the P12 cross-check culture with a gas in the dock.</p>
+<p><strong>10.7 ◐ — The household gas census.</strong> For one week, log every gas your household makes or meets: the bread, the drains, the charger, the radiator's air vent, the aquarium, the soda bottle, the compost, the septic vent, the furnace. For each: the generation route (which of Lecture 2's reactions, or which combustion/biology), the recognition test you would <em>never actually run</em> (the knowledge-only rows count here — which of your gases must be recognized by label or detector alone?), and one gas-safety rule the census taught you. Close with the chapter's own question: which household gas is the most dangerous, and what single property makes it so? <em>(Open exploration; no printed answer beyond the census's honest close: the deadliest house gas is the one with no smell, no color, and no test — carbon monoxide, Chapter 7's datum — which is why its only bench tool is the detector, the never-generate list's quietest row.)</em></p>
+<hr>
+<h2>Chapter safety assessment (the Charter, applied to this chapter's own activities)</h2>
+<table>
+<thead><tr><th>#</th><th>Activity (this chapter)</th><th>Hazards</th><th>Governing rules</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>CO₂ generation (vinegar+soda, yeast, dry ice)</td><td>Asphyxiant at concentration; the pour demo in closed rooms</td><td>Ventilated room; the trough-and-candle is a <em>demo</em>, never a room-purge; never the cellar trick on people; below the detector and above the flame, CO₂ asks only for open windows</td></tr>
+<tr><td>2</td><td>H₂ generation (Zn + dilute muriatic)</td><td>Flammable; the pop test near a generator</td><td>Match-head scale at the <em>tube mouth only</em>; no flame near the generator; open/elastic vessels only; H₂–O₂ <em>mixtures</em> recognition-knowledge only (the energetics binding line; Ch 28 owns the hazard)</td></tr>
+<tr><td>3</td><td>O₂ generation (peroxide; bleach+peroxide)</td><td>Oxygen enrichment — everything burns fiercely</td><td>Never near fuels, oils, or grease; the charcoal asterisk (Ch 7); enrichment ends before the flame begins — work at arm's length, small scale</td></tr>
+<tr><td>4</td><td>The never-generate list (Cl₂, CO, H₂S)</td><td>Toxic/lethal gases</td><td>Bleach + acid <strong>absolute</strong> (Ch 8's never-combination; N77 cited as its own warning label); CO is a detector's job, never a test (Ch 7); H₂S never generated — the nose is not an instrument for any of the three</td></tr>
+<tr><td>5</td><td>Dry ice (N104)</td><td>−78.5 °C frostburn; expansion in sealed vessels</td><td>Gloves or a towel; never in a latched or rigid-sealed container (a soda-bottle dry-ice bomb is the vessel rule's most common household violation); vented freezer storage per the episode's own face</td></tr>
+<tr><td>6</td><td>Collection apparatus (displacement, bags, balloons)</td><td>Pressurized/latched vessels; suck-back into the generator</td><td>The Chapter 4 never-latch rule, restated: open, vented, or elastic — never sealed-rigid; water displacement needs the basin reservoir so suck-back has somewhere harmless to come <em>from</em></td></tr>
+<tr><td>7</td><td>Reagents at the bench (muriatic, peroxide, bleach, drain cleaner)</td><td>Corrosives; the shelf's never-combinations</td><td>Ch 4/8 rules re-pinned: acid into water; the bleach–acid and peroxide–drain-opener absolutes; muriatic handled at the dilute working strength only</td></tr>
+<tr><td>8</td><td>The bench/food line + the never-taste rule</td><td>Fermentation products vs bench gases</td><td>Bread and brew are food context; the bench's gases are never tasted, never smelled at the vessel mouth — the pop test's bark is as close as the face gets (the Ch 9 RA-1 rule, held here in its gases chapter)</td></tr>
+</tbody>
+</table>
+<hr>
+<p class="banner no-print">HTML edition of the reviewed manuscript — the labels are the contract. Canon-Coverage and everything after it live in the .md master only.</p>
+</main>
+</body>
+</html>
