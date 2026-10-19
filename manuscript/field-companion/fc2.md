@@ -8,7 +8,7 @@ type: "text/markdown"
 
 *The Field Companion's first chapter taught the oldest reaction; this one teaches the oldest use of it. A fire that nobody can see is heat; a fire that searchers can see is rescue — and the difference between the two is not luck or size but three numbers the eye works by: contrast, motion, and scale. This chapter reads the signal problem as chemistry of an honest kind: the mirror that redirects a kilowatt it never made, the smoke that is a chemical choice (white droplets or black carbon, chosen by what the fuel is and how starved the flame), the sound that fades by an exact law the meter can price, and the lamp that is a fuel-metering device with a wick for a valve. The fence holds as it held for thirty-six chapters and one field chapter: the trade's signal devices — the smoke grenade, the flare, the white phosphorus, the tracer, the firework — are recognized, never synthesized (P18), and the refusal itself is taught as a skill. What remains is the kit a ruined world actually owns: the sun, a mirror, three fires, and a candle whose chemistry the book has already priced.*
 
-**Chapter status: drafted 2026-10-19 (session 113, parts 1–2). Engine 29 (the parallel-rounds rewriter, fresh build, zero code shared with Engines 1–28) run history printed in full in Lab FC2.1: runs 1–4 the first build (two real engine defects found and fixed at run 3, one display artifact at run 4), runs 5–6 the first post-compaction re-execution (comparator-side harness defects, the core clean), run 7 the second post-compaction rebuild 55/56 — one wrong *expectation*, the machine right (the S2 story, printed, not smoothed) — and run 8, the repair, verified **56/56 CLEAN**; the frozen run-8 battery block is the chapter's record. Verification labels per the binding ladder: [computed] for every battery figure, [convergent] for web-verified datums, [register] for the canon register, [flagged model] for stated models, [speculative] nowhere. The session-100 line observed at authoring time: the one NEW composition (N1, dodecane 170.340) was grepped against every prior chapter's page — local ch03–ch30 and the nine pages held only at the repo (ch01, ch02, ch31–ch36, FC1, fetched at HEAD) — before this page froze.**
+**Chapter status: drafted 2026-10-19 (session 113, parts 1–2). Engine 29 (the parallel-rounds rewriter, fresh build, zero code shared with Engines 1–28) run history printed in full in Lab FC2.1: runs 1–4 the first build (two real engine defects found and fixed at run 3, one display artifact at run 4), runs 5–6 the first post-compaction re-execution (comparator-side harness defects, the core clean), run 7 the second post-compaction rebuild 55/56 — one wrong *expectation*, the machine right (the S2 story, printed, not smoothed) — and run 8, the repair, verified **56/56 CLEAN**; the frozen run-8 battery block is the chapter's record. Verification labels per the binding ladder: [computed] for every battery figure, [convergent] for web-verified datums, [register] for the canon register, [flagged model] for stated models, [speculative] nowhere. The session-100 line observed at authoring time: the one NEW composition (N1, dodecane 170.340) was grepped against every prior chapter's page — local ch03–ch30 and the nine pages held only at the repo (ch01, ch02, ch31–ch36, FC1, fetched at HEAD) — before this page froze. Adversarially reviewed 2026-10-19 (session 114) — VERDICT: PASS (Revision Appendix below): Engine 30 (the stack-descent fixed-scale verifier, fresh build, zero code shared with Engines 1–29) reproduced the frozen run-8 battery independently, run 1 56/56 CLEAN; all fifteen pin anchors re-grepped exact; N1 re-proven NEW at the review HEAD.**
 
 ---
 
@@ -232,3 +232,43 @@ Solve before reading the labs again; every worked figure below is a battery row 
 ---
 
 *Chapter status: drafted 2026-10-19 (session 113, parts 1–2). The frozen run-8 battery block in Lab FC2.1 is the verification record; the labels are the contract; the fence (P18) held at every gate.*
+
+---
+
+## Revision Appendix (session 114 — the adversarial review)
+
+**The review engine.** Engine 30, the stack-descent fixed-scale verifier — a fresh build sharing zero code with all twenty-nine prior engines: formulas parsed by an explicit frame stack walked left-to-right (zero regex, zero parallel rounds — the inverse strategy to Engine 29's simultaneous innermost-group rewriter; a closing bracket with the wrong opener is the same UNCLOSED/UNMATCHED refusal); arithmetic as exact decimal fixed-scale mantissas (m·10⁻ˢ, BigInt, trailing-zero-normalized) with Stein binary-GCD exact rationals for the derived rows (no LCM scaling, no prime products, no digit-wise long division); dimension rows recomputed as signed vectors over {M, L, T, cd} printed in canonical DORDER; the P18 restricted-name gate fired FIRST in compose — R2 re-proves the run-3 lesson from the outside ('white phosphorus' dies as P18, not as BAD CHAR 'w'); the {C, H, O} table re-transcribed independently from the recorded spec.
+
+**Honest run history.** Run 1 verified **56/56 PASS — CLEAN**, first run, no defects in either engine. The target battery was already machine-clean at authoring, so the review's finding is the independent reproduction: a second machine with a different arithmetic architecture confirms all 56 rows exactly — including the two honesty anchors. S2: Engine 30 computes H = 1.008 g/mol from the table on its own; the run-7 hand expectation (10.080, a 10× slip) remains what it was — the machine vindicated twice. B8: the one-H₂O-short must-fail recomputes to a gap of exactly 180150 myu (18.015 g). The run-1 block is frozen verbatim in the durable record (fc2-engine30-record.md, mirrored at engine-records/fc2-engine30.md, pushed at commit 431f2568).
+
+**The greps (the session-112 binding line, honored).** All fifteen pin anchors re-grepped in their named chapters' masters this session, every count exact:
+
+| Anchor | Named chapter | Re-grep hits | Verdict |
+| --- | --- | --- | --- |
+| H2O 18.015 | Ch 4 | 1 | verified |
+| O2 31.998 | Ch 10 | 4 | verified |
+| CO2 44.009 | Ch 20 | 6 | verified |
+| C2H6O 46.069 | Ch 21 | 22 | verified |
+| C3H8O 60.096 | Ch 21 | 3 | verified |
+| C3H6O 58.080 | Ch 21 | 5 | verified |
+| C3H8O3 92.094 | Ch 23 | 7 | verified |
+| C25H52 352.691 | Ch 23 | 2 | verified |
+| C46H92O2 677.240 | Ch 23 | 3 | verified |
+| C57H104O6 885.453 | Ch 23 | 9 | verified |
+| C57H110O6 891.501 | Ch 23 | 3 | verified |
+| C18H36O2 284.484 | Ch 23 | 6 | verified |
+| C18H34O2 282.468 | Ch 23 | 3 | verified |
+| C2H2O4·2H2O 126.064 | Ch 15 | 3 | verified |
+| C6H10O5 162.141 | Ch 25 | 1 | verified |
+
+**N1 re-proven at the review HEAD.** The zero-hit claim was re-verified at 431f2568: ch01, ch02, ch31–ch36 fetched and grepped in-sandbox (0 hits for 170.3, C12H26, C₁₂H₂₆, dodecane — case-insensitive, all four patterns), fc1 fetched, and the local ch03–ch30 masters re-grepped (0 hits). The dodecane composition (C12H26, 170.340 g/mol) stands NEW.
+
+**The frozen block, byte-verified.** The record's run-8 battery block and this chapter's Lab FC2.1 block are byte-identical (58-line extracts, md5-matched) — the chapter prints exactly what the engine ran.
+
+**Web spot-checks.** 683 lm/W and kerosene ~46 MJ/kg re-confirmed this session [convergent]. The remaining [convergent] labels were verified fresh in the authoring session with their sources printed in the canon-coverage section, and stand as dated there.
+
+**Ex FC2.6 — the withheld worked answer, delivered (◆).** The fire is not failing — it is signaling on the wrong channel. Wet leaves on a hot base make the **white-smoke class** (Lecture 3): a droplet aerosol — steam the flame could not keep hot, plus fine ash and tars — that scatters all wavelengths and reads pale. Against bright sky the pale column is nearly invisible, exactly as Lecture 3 states: its contrast against the sky behind it sits under the eye's ~2 % Weber band [convergent], and Lecture 1's arithmetic is the one quantity the plume cannot fix by growing — taller is not more contrastive. The aircraft's two passes are the visibility census's honest zero. Prescribe, in order: (1) *change the plume's class, not its size* — build the signal fire's charge as a fuel-rich column (the carbon story: a hot dry base fed green or resinous material) so the flame stacks vapor-phase carbon into the black plume (B7's model closure prices the fuel-rich end at 780.670 myu EXACT), which reads against bright sky precisely where the white column vanished; (2) *spend the other two terms of trade* — scale and motion (Lecture 1): lay the ground-to-air V of Lecture 4's symbol chemistry (charred-log dark stroke against split white wood), sized generously for the aircraft's slant viewing angle and kept still — a fixed mark for a moving eye — and if the aircraft returns once more, the mirror flash is the one channel that out-contrasts sky glare (Lecture 2's heliograph; L5's cone, 4.63 m at a kilometer); (3) *meter the spend* — the channel plan's honest core: smoke spends fuel and attention, so a signal fire is visibility purchased per hour, built to be read, not merely to exist. (This answer prints no new figures; every quantity it cites is a battery row already recomputed by Engine 30 — B7, L5 — or a [convergent] datum labeled to its source.)
+
+**Withdrawn objections.** None. No review objection was raised and withdrawn.
+
+**Verdict: PASS.** The chapter's engine core — all 56 battery rows, the six refusals, the eight balances with their must-fail, the photometric chain, the dimension walks — reproduces exactly under an independent arithmetic architecture; the fifteen pin anchors match their named chapters to the digit; the one NEW composition is re-proven at a fresh HEAD; the withheld answer is delivered without a new figure. [speculative] appears nowhere; the fence (P18) held at every gate, from the outside as well as in. Chapter status: drafted (session 113) → **reviewed** (session 114).
