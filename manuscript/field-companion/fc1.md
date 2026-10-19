@@ -8,7 +8,7 @@ type: "text/markdown"
 
 *Of every chemical reaction the ruined world's chemist must own, fire was the first one anybody owned. It is also the most misunderstood: a flame is not a thing that fuel does, it is a gas that fuel becomes — every solid and every liquid must first turn itself into vapor before it can burn, and every skill in this chapter is a way of paying that transformation's bill. This is the Field Companion's first chapter: ignition taught as chemistry (a threshold, not a trick), fuel taught as arithmetic (megajoules per kilogram, honestly banded), and the fire lay taught as engineering (P17 — the same energy, released at the rate you choose). The Charter fence holds here exactly as it held for thirty-six chapters: energetics, propellants, ammunition, and poisons are excluded absolutely, and the refusal itself is taught as content (P18). What remains is the oldest reaction, done safely, at the bench and at the fire ring.*
 
-**Chapter status: drafted 2026-10-19 (session 111); adversarial review scheduled: session 112. Engine 27 (the unit-lattice engine) run 1 verified 39/44 — five harness-side defects, the engine core clean on every row; run 2 (the repair pass) verified 44/44 CLEAN. Verification labels per the binding ladder: [computed] for every battery figure, [convergent] for web-verified datums, [register] for the canon register, [flagged model] for stated models, [speculative] nowhere.**
+**Chapter status: drafted 2026-10-19 (session 111); adversarially reviewed 2026-10-19 (session 112) — PASS WITH CORRECTIONS, RA-1…RA-6 (Revision Appendix below). Engine 27 (the unit-lattice engine) run 1 verified 39/44 — five harness-side defects, the engine core clean on every row; run 2 (the repair pass) verified 44/44 CLEAN; the review engine (Engine 28, the prime-product review engine, fresh build, zero code shared with Engines 1–27) re-derived the whole battery independently — run 1 61/63, two harness-side counting defects, the engine core clean; run 2 63/63 CLEAN. Verification labels per the binding ladder: [computed] for every battery figure, [convergent] for web-verified datums, [register] for the canon register, [flagged model] for stated models, [speculative] nowhere.**
 
 ---
 
@@ -84,7 +84,7 @@ For the ledger, the reaction's outcome is bookkept as a **formal ash model** [fl
 
 Read that label carefully, because it is the honesty line of this lecture: the *bookkeeping closure* is exact — every C, H, O, K, and Mn atom accounted, both sides 4,977.460 g to the ten-thousandth of a gram (Lab FC1.1's row X4 proves the closure as raw integers, no rounding) — but the *real* reaction is messier than the model: an actual demonstration's residue is a mixture of manganese oxides in several oxidation states, carbonates, and carbonized organics, and the gases include carbon monoxide from incomplete oxidation. The formal model exists so the demonstration can be priced and checked at the bench tier; it does not claim the mechanism. When the ash model's row was deliberately drafted one CO2 short, the gate caught a gap of exactly **44.009 g** [computed, B5] — the mass of one CO2, which is the arithmetic of *why* the ledger can be trusted to catch what the hand slips.
 
-MnO2 enters the book here as a **NEW-candidate composition, 86.936 g/mol** [computed, N1] — claimed new at this page pending the zero-hit grep of every prior chapter's master, which is owed to the session-112 review (the in-sandbox page-text grep is unavailable per the session-107 tooling record; the session-108 saved-JSON pipeline is the candidate method; the honest label stands until the review discharges it).
+MnO2 enters this chapter as a **reused pin, 86.936 g/mol** [computed, P9] — the session-112 grep discharged the new-composition debt *against* the claim: the mass was first priced in Ch 12 (the alkaline cathode's own pin), re-used recognition-only in Ch 16/18/19, and cross-referenced in Ch 25/26. The N1 row therefore converts to a pin per the session-100 line's pre-printed correction protocol (RA-4); the battery blocks below keep the candidate label verbatim as the honest history of the claim's life.
 
 **The tier, and its boundary.** This reaction appears in this book at one scale only: **gram-scale demonstration, outdoors or in a fume hood, on a non-combustible surface** (a steel lid or a brick), no confining vessel ever (the spent mass and any steam must vent freely; the Charter's never-sealed rule), full eye and hand protection, nothing added to the pile (no fuels, no powders, no "improvements"), and the residue allowed to cool completely before disposal. Never scale up: the induction period that is a curiosity at one gram becomes, at larger charge, a self-accelerating oxidation you cannot stop — this is Lecture 1's autoignition lesson wearing a lab coat. And the boundary past this tier is P18, absolute: the oxidizer shelf above the demonstration tier (Ch 16's fence), any energetic mixture, any propellant or pyrotechnic composition — recognized, never made (the safety table's row 8).
 
@@ -238,7 +238,7 @@ PR1  power's dimension from the lattice (kg*m2/s, /T twice)            M^1·L^2�
 RUN 2 VERDICT: 44/44 PASS — CLEAN
 ```
 
-**How to read the battery.** T1–S6 are the transcription discipline (the ×100 checksum guards dropped-digit slips; the dual tables are proven identical before use). P1–P8 are regression pins — eight compositions whose masses earlier chapters own, re-derived from this engine's own tables, the chapter claiming nothing on loan. N1 is the one new mass, honestly labeled a candidate pending its grep. B1–B5 price the "air debt" of each fuel (the oxygen it must borrow to burn) and close the formal-ash model, with B5 a deliberately wrong row proving the gate still bites. R1–R6 are the refusal battery — the admission gate and the P18 gate, refusals printed as content. L1–L6 are the kettle arithmetic of the exercises (c_p 4,184 J/kg·K and latent heat 2,256 J/g, Ch 4's and Ch 6's own figures, reused as pins). F1–F5 and PR1 are the ignition-distance model of Lab FC1.2. X1–X5 are the cross-checks. The π of the flux rows is carried as the exact rational 355/113, labeled on the page — the engine keeps even its transcendental concessions honest.
+**How to read the battery.** T1–S6 are the transcription discipline (the ×100 checksum guards dropped-digit slips; the dual tables are proven identical before use). P1–P8 are regression pins — eight compositions whose masses earlier chapters own, re-derived from this engine's own tables, the chapter claiming nothing on loan. N1 was the one candidate mass, honestly labeled pending its grep; the session-112 grep discharged the debt against the claim and the row converts to a reused pin (Ch 12) — RA-4. B1–B5 price the "air debt" of each fuel (the oxygen it must borrow to burn) and close the formal-ash model, with B5 a deliberately wrong row proving the gate still bites. R1–R6 are the refusal battery — the admission gate and the P18 gate, refusals printed as content. L1–L6 are the kettle arithmetic of the exercises (c_p 4,184 J/kg·K and latent heat 2,256 J/g — Ch 7's and Ch 6/7's own figures respectively, reused as pins; the c_p attribution corrected by RA-5, the latent-heat precision by RA-6). F1–F5 and PR1 are the ignition-distance model of Lab FC1.2. X1–X5 are the cross-checks. The π of the flux rows is carried as the exact rational 355/113, labeled on the page — the engine keeps even its transcendental concessions honest.
 
 ## Lab FC1.2 — The ignition-distance table, and one model's honesty
 
@@ -258,15 +258,15 @@ The literature anchors the bands [convergent]: a flare-exposure study's pain cas
 
 Solve before reading the answers already printed in the labs; every worked figure below is a battery row (session-102 line). Grades: ● light, ●●● summit, ◆ worked answer withheld until the session-112 Revision Appendix, ◐ open.
 
-**FC1.1 — The kettle's ledger (●○○).** One liter of water (1.000 kg) starts at 20 °C in a pot over an open fire. (a) How much heat brings it to 100 °C? (b) How much heat boils it all away? (c) The total? *Answers:* (a) 4,184 J/kg·K × 80 K = **334,720 J**; (b) **2,256,000 J** (2,256 J/g, Ch 6's own figure); (c) **2,590,720 J** (L1–L3). *Ways:* the band arithmetic per row, or the engine's exact rationals re-added — L3 is the proof that both routes close identically. [computed]
+**FC1.1 — The kettle's ledger (●○○).** One liter of water (1.000 kg) starts at 20 °C in a pot over an open fire. (a) How much heat brings it to 100 °C? (b) How much heat boils it all away? (c) The total? *Answers:* (a) 4,184 J/kg·K × 80 K = **334,720 J**; (b) **2,256,000 J** (2,256 J/g, Ch 6/7's pin — Ch 6 states 2.26 MJ/kg, the exact 2,256 J/g form is Ch 7's RA-1-corrected pin; RA-6); (c) **2,590,720 J** (L1–L3). *Ways:* the band arithmetic per row, or the engine's exact rationals re-added — L3 is the proof that both routes close identically. [computed]
 
 **FC1.2 — Air debts (●○○).** (a) A mole of methane plus the oxygen it must borrow from the air to burn completely — CH4 + 2 O2 → CO2 + 2 H2O — has what total charge? (b) Expressed as moles of *air* per mole of methane (air is 21% O2 by volume — the same convention Ch 7's combustion table used, its one exception to weighing everything it burns)? (c) And for a mole of char (carbon): C + O2 → CO2, what charge? *Answers:* (a) **80.039 g** (B2); (b) **9.524 mol air** (X2); (c) **44.009 g** (B3). *Ways:* per-species masses summed, or the whole-side total from the balance row — the same number both ways is what "closes" means. [computed]
 
-**FC1.3 — The firewood budget (●●○).** The same kettle (2,590,720 J delivered to the pot) over two fires: seasoned wood at 16 MJ/kg burned at 5% pot-capture efficiency, and oven-dry wood at 20 MJ/kg burned at 10%. (a) The fuel price of each. (b) Which input — energy density or efficiency — moved the price more? *Answers:* (a) **3,238.400 g** and **1,295.360 g** (L4, L5). (b) The 25% gain in fuel quality bought a 22% price cut (efficiency held); the doubled efficiency bought 60% — *efficiency dominates*, which is why the fire lay (heat under the pot, windbreak, platform) is worth more than the woodpile's pedigree. *Ways:* the direct rows L4/L5, or the ratio chain from L3 — the same figures both ways. The efficiency assumptions are [flagged model] inputs, stated as such. [computed]
+**FC1.3 — The firewood budget (●●○).** The same kettle (2,590,720 J delivered to the pot) over two fires: seasoned wood at 16 MJ/kg burned at 5% pot-capture efficiency, and oven-dry wood at 20 MJ/kg burned at 10%. (a) The fuel price of each. (b) Which input — energy density or efficiency — moved the price more? *Answers:* (a) **3,238.400 g** and **1,295.360 g** (L4, L5). (b) The 25% gain in fuel quality bought exactly a **20% price cut** (3,238.400 → 2,590.720 g, efficiency held — the review battery's RD1); doubling efficiency alone bought exactly **50%** (→ 1,619.200 g at 16 MJ/kg — RD2); the two together cut the price 60% (→ 1,295.360 g, L5) — *efficiency dominates*, which is why the fire lay (heat under the pot, windbreak, platform) is worth more than the woodpile's pedigree. (Percentages corrected by the session-112 review, RA-1; every figure battery-derived.) *Ways:* the direct rows L4/L5, or the ratio chain from L3 — the same figures both ways. The efficiency assumptions are [flagged model] inputs, stated as such. [computed]
 
 **FC1.4 — Charcoal, and the must-fail that guards it (●●○).** (a) The same kettle over charcoal at 30 MJ/kg, 10% efficiency: the fuel price? (b) A drafted ash-model ledger, closing test run, comes up exactly 44.009 g short — what does the gate's arithmetic tell you the drafter did? *Answers:* (a) **863.573 g** (L6). (b) One CO2 vanished from the product side — the gap *is* one CO2's mass, the same 44.009 g that B5 catches by design (the must-fail row is the gate's proof-of-work: a ledger that cannot catch a deliberate one-molecule slip cannot be trusted with an accidental one). *Ways:* (a) the L6 rational 25,907,200/30,000,000 kg read straight, or L3 ÷ (30,000 J/g × 0.10). [computed]
 
-**FC1.5 — The wet-day summit (●●●).** The rain has been falling for two days and your fuel is rain-wet wood at the table's 8 MJ/kg; the fire is a wind-battered open cook-fire managing 3% capture. (a) The fuel price of the kettle? (b) Compare all four fuels' prices for this one kettle and locate where the loss actually lives — moisture, efficiency, or energy density. *Answer (a):* **10,794.667 g — about 10.795 kg of rain-wet wood to boil one liter of water** (X5). (b) The full ladder: 1,295.360 g (dry wood, good fire) → 3,238.400 g (seasoned, careless fire) → 863.573 g (charcoal, good fire) → 10,794.667 g (wet wood, bad fire): the 8× spread from best to worst is owned *mostly* by moisture-plus-efficiency, not by the fuels' intrinsic energy (16 vs 20 MJ/kg never exceeds a 25% swing); **the discipline, not the woodpile, is the expensive variable** — which is Lecture 5's split-wood and feather-stick technique priced in kilograms. *Ways:* X5 direct, or L6's 863.573 g scaled by (30/8) × (0.10/0.03) = 12.5 — the same 10,794.667 g both ways at displayed precision. [computed]
+**FC1.5 — The wet-day summit (●●●).** The rain has been falling for two days and your fuel is rain-wet wood at the table's 8 MJ/kg; the fire is a wind-battered open cook-fire managing 3% capture. (a) The fuel price of the kettle? (b) Compare all four fuels' prices for this one kettle and locate where the loss actually lives — moisture, efficiency, or energy density. *Answer (a):* **10,794.667 g — about 10.795 kg of rain-wet wood to boil one liter of water** (X5). (b) The full ladder: 1,295.360 g (dry wood, good fire) → 3,238.400 g (seasoned, careless fire) → 863.573 g (charcoal, good fire) → 10,794.667 g (wet wood, bad fire): the 8× spread from best to worst is owned *mostly* by moisture-plus-efficiency, not by the fuels' intrinsic energy (16 vs 20 MJ/kg never exceeds a 25% swing); **the discipline, not the woodpile, is the expensive variable** — which is Lecture 5's split-wood and feather-stick technique priced in kilograms. *Ways:* X5 direct, or L6's 863.573 g scaled by (30/8) × (0.10/0.03) = 12.5 — the same 10,794.667 g both ways *through the unrounded rational only*: the displayed 863.573 scaled by 12.5 gives 10,794.663, and the session-104 line rests the claim on the exact value, not the displayed one (RA-2; the review battery's RX6). [computed]
 
 **FC1.6 — The fire that will not light (◆).** A competent practitioner, dry spruce kindling, a ferrocerium rod throwing excellent sparks, char cloth that takes a spark and then dies — three times in a row, the ember forms and the tinder bundle goes out. Diagnose the failure and prescribe the fix. *The worked answer is withheld until the session-112 Revision Appendix* (this exercise prints no figures); form your own answer from Lectures 2 and 5 before the review delivers its.
 
@@ -291,7 +291,7 @@ Solve before reading the answers already printed in the labs; every worked figur
 
 - **The fire tetrahedron** and the triangle-to-tetrahedron history: [register] — the fire-science entry of the session-110 canon register (URL verified at the bootstrap).
 - **Paper's ignition temperature, 233 °C / 451 °F**: [convergent] — the commonly cited figure, within the measured range, per the classic compilations (the "ignition temperature of paper" pages of hypertextbook and ftloscience).
-- **Wood heating values**: [convergent] — seasoned 15–19 MJ/kg, oven-dry 18.5–19 MJ/kg, wet wood losing up to half; the model inputs 16/20/8 MJ/kg sit inside the bands and are labeled as model inputs, not measurements.
+- **Wood heating values**: [convergent] — seasoned 15–19 MJ/kg, oven-dry 18.5–19 MJ/kg, wet wood losing up to half; the model inputs sit honestly against the bands — 16 mid-band (seasoned 15–19), 20 the conventional round planning figure at/just above the oven-dry band top (18.5–19), 8 half of 16 per the wet-loss datum (RA-3) — and are labeled as model inputs, not measurements.
 - **Charcoal ~30 MJ/kg**: [convergent] — the standard lump-charcoal figure.
 - **KMnO4 + glycerin demonstration behavior and crystal-size dependence**: [convergent] — university demonstration sheets (chem.washington.edu; colorado.edu), demonstration tier only.
 - **The pain band and tolerance times**: [convergent] — the flare-exposure literature (~3.16 kW/m² case; the burn-tolerance review) anchors the 2.5 kW/m² model band and the falling exposure times.
@@ -308,8 +308,8 @@ Solve before reading the answers already printed in the labs; every worked figur
 
 ## Back flags
 
-- **Ch 4** — water: the c_p pin (4,184 J/kg·K) and H2O (18.015), the kettle arithmetic's foundation.
-- **Ch 6** — distillation: the latent-heat pin (2.256 MJ/kg, i.e. 2,256 J/g) reused as L2.
+- **Ch 4** — water: the composition pin H2O (18.015), the kettle arithmetic's foundation; the c_p pin (4,184 J/kg·K) lives in Ch 7, whose calorimetry owns it (attribution corrected, RA-5).
+- **Ch 6** — distillation: the latent-heat datum (2.26 MJ/kg) reused as L2; the exact 2,256 J/g form is Ch 7's pin (RA-6).
 - **Ch 7** — Heat, Fire, and Fuels: the ancestor chapter; the combustion meter's MJ/kg convention, CH4 (16.043), and the air-debt exception (X2's 21% v/v air) are its rulings, honored here.
 - **Ch 13** — Analysis Without Instruments: KMnO4 (158.032) pinned at the analyst's bench; the permanganate's discipline re-referenced at the demonstration tier.
 - **Ch 14** — Alkalis and Carbonates: K2CO3 (138.204), the formal ash's carbonate row.
@@ -323,12 +323,137 @@ Solve before reading the answers already printed in the labs; every worked figur
 
 ## Chapter Ledger
 
-- **Pins claimed (P1–P8, with anchors)**: C6H10O5 162.141 (Ch 25); CO2 44.009 (Ch 20); H2O 18.015 (Ch 4); O2 31.998 (Ch 10); CH4 16.043 (Ch 7); KMnO4 158.032 (Ch 13); K2CO3 138.204 (Ch 14); C3H8O3 92.094 (Ch 23). All eight re-derived from this chapter's own dual tables [computed]; **the anchor re-greps against the source chapters' pages are owed to the session-112 review** (session-107 tooling record: in-sandbox page-text fetch unavailable).
-- **New composition claimed**: MnO2 86.936 [computed, N1] — **NEW-candidate only**; the zero-hit grep against every prior chapter's master is owed to session 112 (code search attempted this session, inconclusive on an incomplete index; the label is not promoted to a claim until the grep discharges — if a prior page already owns the mass, this row converts to a pin at review, per the session-100 line's correction protocol).
+- **Pins claimed (P1–P8, with anchors)**: C6H10O5 162.141 (Ch 25); CO2 44.009 (Ch 20); H2O 18.015 (Ch 4); O2 31.998 (Ch 10); CH4 16.043 (Ch 7); KMnO4 158.032 (Ch 13); K2CO3 138.204 (Ch 14); C3H8O3 92.094 (Ch 23). All eight re-derived from this chapter's own dual tables [computed]; the anchor re-greps are discharged at the session-112 review — every anchor verified present in its named chapter (counts in the Revision Appendix's grep table).
+- **New composition claimed**: MnO2 86.936 [computed] — the claim is **withdrawn by the session-112 grep**: the mass was already pinned in Ch 12 (the alkaline cathode), re-used recognition-only in Ch 16/18/19, and cross-referenced in Ch 25/26; the row converts to a reused pin (Ch 12) per the session-100 line's pre-printed correction protocol (RA-4).
 - **Balances**: B1–B4 close; B5 the must-fail caught at exactly one CO2 (44.009 g). The formal-ash model is [flagged model] — bookkeeping exact, mechanism disclaimed.
 - **Gates**: the admission gate ('P' refused — the twelfth zero-admission chapter) and the P18 restricted-name gate (five refusals) — both printed as battery rows, not asserted.
 - **Engine provenance**: Engine 27, the unit-lattice engine — fresh build, zero code shared with the twenty-six prior engines; exact BigInt rationals; 4-D unit lattice (M, L, T, Θ) carried and proven on derived quantities; dual transcribed admission-gated element tables in myu (checksum row T1: 123,054,000 myu; dual tables identical, S6); honest run history 39/44 → 44/44 with the five harness defects named; post-compaction rebuild provenance recorded in Lab FC1.1, the rebuild's own three gate-caught defects printed, not smoothed.
 - **Figures discipline**: every decimal figure outside the battery block is either a battery value, a battery value's labeled unit restatement, or a [convergent]/[register] datum named to its source; the model inputs (16/20/8/30 MJ/kg; 5%/10%/3%; 2.5 kW/m²; 21% v/v) are [flagged model] or [convergent] inputs, stated where used. [speculative] nowhere.
-- **Owed**: the MnO2 zero-hit grep; the eight pin-anchor re-greps; the FC1 web edition (web-sync debt, renderer rebuild required); Ex FC1.6's withheld worked answer (due at the session-112 Revision Appendix, machine-verified before it prints).
+- **Owed**: the FC1 web edition only (web-sync debt, renderer rebuild required from the web/ch01-web.html template — standing). The MnO2 zero-hit grep and the pin-anchor re-greps are discharged (session 112; grep table in the Revision Appendix); Ex FC1.6's withheld worked answer is delivered in the Revision Appendix, machine-verified.
 
 *The oldest reaction, then: a threshold, a ladder, a menu of concentrated heat, and a rate you choose. Everything else in the Field Companion is downstream of a lit fire.*
+
+## Revision Appendix (session 112 — the adversarial review)
+
+**The review engine.** Engine 28, the prime-product review engine — a fresh build sharing zero code with Engines 1–27: compositions and reaction balance as prime products (C=2, H=3, O=5, K=7, Mn=11 — balance is product equality by unique factorization); masses as BigInt myu displayed by digit-wise long division (no rational type anywhere); heat and flux as fixed-point BigInt at 10^9 with an integer Newton square root (no Math.*); dimensions as prime products (M=2, L=3, T=5, Θ=7), factorized for display; a regex-free parser, admission gate, and P18 restricted gate. The element tables {C,H,O,K,Mn} were re-transcribed independently — twice, identity-proved (RS6) — and the chapter's own two printed battery blocks were read in-sandbox and verified row by row (MV1–MV9).
+
+**Honest run history.** Run 1 verified **61/63** — both FAILs were harness-side counting defects in the manuscript-verification rows (the must-fail row's own "MUST-FAIL:" label polluted a naive substring count of the printed blocks; the engine core was clean on all 63 rows). The two failing rows, verbatim:
+
+```
+MV8  manuscript run-1 block FAIL rows counted                      6 FAIL rows                             FAIL: expected 5
+MV9  manuscript run-2 block rows counted                           44 PASS rows, 1 FAIL                    FAIL: expected 44/0
+
+ENGINE 28 RUN 1 VERDICT: 61/63 PASS, 2 FAIL
+CANVAS READ: 51219 chars (FC1 manuscript, in-sandbox verification)
+```
+
+Repaired per the house precedent and re-run. **Run 2 verified 63/63 — CLEAN**, verbatim:
+
+```
+ENGINE 28 — the prime-product review engine (session 112; fresh build, zero code shared with Engines 1-27)
+Design: prime-product compositions and balance (unique factorization); BigInt myu masses with
+digit-wise long division (no rationals); fixed-point 10^9 heat/flux with integer Newton sqrt (no Math.*);
+prime-product dimensions factorized for display; regex-free parser, admission gate, and P18 gate.
+
+RT0  T1 formula re-derived independently (sum table A, x100)     123054000                                     PASS
+RT1  review checksum, positional (myu_i x (i+1), order C..Mn)    4931060 myu                                   PASS
+RS1  element admission C (table A)                               12.011 g/mol                                  PASS
+RS2  element admission H (table A)                               1.008 g/mol                                   PASS
+RS3  element admission O (table A)                               15.999 g/mol                                  PASS
+RS4  element admission K (table A)                               39.098 g/mol                                  PASS
+RS5  element admission Mn (table A)                              54.938 g/mol                                  PASS
+RS6  dual transcription: table A vs table B re-transcribed       IDENTICAL                                     PASS
+RP1  pin C6H10O5 (Ch 25 cellulose)                               162.141 g/mol                                 PASS
+RP2  pin CO2 (Ch 20)                                             44.009 g/mol                                  PASS
+RP3  pin H2O (Ch 4)                                              18.015 g/mol                                  PASS
+RP4  pin O2 (Ch 10)                                              31.998 g/mol                                  PASS
+RP5  pin CH4 (Ch 7)                                              16.043 g/mol                                  PASS
+RP6  pin KMnO4 (Ch 13)                                           158.032 g/mol                                 PASS
+RP7  pin K2CO3 (Ch 14)                                           138.204 g/mol                                 PASS
+RP8  pin C3H8O3 (Ch 23 glycerin)                                 92.094 g/mol                                  PASS
+RP9  pin MnO2 (Ch 12 — RA-4 conversion: reuse, not new)          86.936 g/mol                                  PASS
+RB1  cellulose + its 6 O2 air debt -> 6 CO2 + 5 H2O              354.129 g CLOSES                              PASS
+RB2  methane + its 2 O2 air debt -> CO2 + 2 H2O                  80.039 g CLOSES                               PASS
+RB3  char + its O2 air debt -> CO2                               44.009 g CLOSES                               PASS
+RB4  formal ash charge (the B4 equation) closes                  4977.460 g CLOSES                             PASS
+RB5  MUST-FAIL: the ash row drafted one CO2 short                GAP 44.009 g CAUGHT                           PASS
+RR1  'P' at the admission gate                                   REFUSED: element not admitted: 'P'            PASS
+RR2  gunpowder at the P18 restricted gate                        REFUSED (P18): recognition-only               PASS
+RR3  black powder at the P18 restricted gate                     REFUSED (P18): recognition-only               PASS
+RR4  rat poison at the P18 restricted gate                       REFUSED (P18): recognition-only               PASS
+RR5  fireworks mix at the P18 restricted gate                    REFUSED (P18): recognition-only               PASS
+RR6  dynamite at the P18 restricted gate                         REFUSED (P18): recognition-only               PASS
+RL1  heat 1.000 kg water 20->100 C (cp 4184 J/kg/K x 80 K)       334720 J                                      PASS
+RL2  boil it away (2256 J/g x 1000 g)                            2256000 J                                     PASS
+RL3  the kettle total (RL1 + RL2)                                2590720 J                                     PASS
+RL4  wood 16 MJ/kg at 5% capture                                 3238.400 g                                    PASS
+RL5  wood 20 MJ/kg at 10% capture                                1295.360 g                                    PASS
+RL6  charcoal 30 MJ/kg at 10% capture                            863.573 g                                     PASS
+RD1  RA-1 row: the fuel-only cut (20 MJ/kg, efficiency held 5%)  2590.720 g                                    PASS
+RD2  RA-1 row: the efficiency-only cut (16 MJ/kg, 5%->10%)       1619.200 g                                    PASS
+RD3  RA-1 percent check: RD1/RL4 = 0.800 exact (a 20% cut)       0.800 EXACT (20% cut)                         PASS
+RD4  RA-1 percent check: RD2/RL4 = 0.500 exact (a 50% cut)       0.500 EXACT (50% cut)                         PASS
+RF1  flux at r = 1 m from a 1000 W point source                  79.58 W/m2                                    PASS
+RF2  pain-band radius (2500 W/m2), Newton isqrt                  0.1784 m                                      PASS
+RF3  10 kW/m2 band radius                                        0.0892 m                                      PASS
+RF4  flux dimension = power / area (prime-product lattice)       M^1·T^-3                                      PASS
+RF5  power for the pain band at r = 1 m (2500 x 4pi)             31416 W                                       PASS
+RPR1 power's dimension = energy / time (J / T from the lattice)  M^1·L^2·T^-3                                  PASS
+RX1  cellulose massed from table B (dual check)                  162.141 g/mol                                 PASS
+RX2  mol air per mol CH4 (2 / 0.21, Ch 7 exception)              9.524                                         PASS
+RX3  g O2 per kg cellulose (6 x 31.998 / 162.141 x 1000)         1184.081 g                                    PASS
+RX4  RB4 exact closure as integers (no rounding)                 EXACT 49774600 myu                            PASS
+RX5  wet-wood summit: 8 MJ/kg at 3% capture                      10794.667 g                                   PASS
+RX6  RA-2 check: the DISPLAYED 863.573 scaled by 12.5            10794.663 ≠ 10794.667 — CAUGHT (session-104)  PASS
+INJ1 injected digit slip: cellulose claimed as 162.411           162.411 vs computed 162.141 — CAUGHT          PASS
+INJ2 injected 100x slip: RL6 claimed as 8635.733 g               8635.733 g vs computed 863.573 g — CAUGHT     PASS
+INJ3 injected swapped coefficient (13 K2CO3 + 5 CO2)             SIG MISMATCH + GAP 94.195 g — CAUGHT          PASS
+INJ4 injected closure clamp: 4977.461 g claimed                  49774610 myu vs exact 49774600 myu — CAUGHT   PASS
+MV1  manuscript run-1 verdict line, verbatim                     FOUND                                         PASS
+MV2  manuscript run-2 verdict line, verbatim                     FOUND                                         PASS
+MV3  run-1 L6 defect row, verbatim (8635.733 g FAIL)             FOUND                                         PASS
+MV4  run-1 F2/F3 defect rows, verbatim (0.0318 / 0.0080)         FOUND                                         PASS
+MV5  run-1 X5 kg-vs-g slip, verbatim (expected: 10.795 g)        FOUND                                         PASS
+MV6  run-1 PR1 expected-dimension slip, verbatim (M*L2*T-2*)     FOUND                                         PASS
+MV7  run-2 battery figures, verbatim (30 strings)                30/30 FOUND                                   PASS
+MV8  run-1 block FAIL rows counted (status-only)                 5 FAIL rows                                   PASS
+MV9  run-2 block rows counted (status-only)                      44 PASS rows, 0 FAIL                          PASS
+
+ENGINE 28 RUN 2 VERDICT: 63/63 PASS — CLEAN
+CANVAS READ: 51219 chars (FC1 manuscript, in-sandbox verification)
+```
+
+**The findings (each corrected in the body above; every corrected figure battery-derived — the session-102 line in force).**
+
+- **RA-1 (REAL — arithmetic; Ex FC1.3(b)).** The drafted prose said the 25% fuel-quality gain "bought a 22% price cut" and the doubled efficiency "bought 60%." The exact arithmetic: the 25% density gain buys exactly a **20% cut** (3,238.400 → 2,590.720 g, efficiency held — RD1); doubling efficiency alone buys exactly **50%** (→ 1,619.200 g at 16 MJ/kg — RD2); 60% is the *combined* cut (→ 1,295.360 g, L5). Prose corrected in the body; RD1–RD4 added to the review battery so every corrected figure is a battery row.
+- **RA-2 (REAL — the session-104 displayed-precision line; Ex FC1.5).** The drafted "*Ways*" claimed "the same 10,794.667 g both ways at displayed precision." Scaling the *displayed* 863.573 by 12.5 gives 10,794.663 — the two ways agree only through the unrounded rational. Corrected wording follows the Ch 36 precedent; the review battery's RX6 prints the slip.
+- **RA-3 (REAL — canon-coverage honesty).** "The model inputs 16/20/8 MJ/kg sit inside the bands" — 20 MJ/kg sits *above* the stated oven-dry band (18.5–19). Corrected: 16 mid-band (seasoned 15–19); 20 the conventional round planning figure at/just above the band top; 8 half of 16 per the wet-loss datum.
+- **RA-4 (REAL — ledger; the new-composition claim).** The MnO2 zero-hit grep — owed since session 111, discharged this session across all 36 prior masters — returned a verdict *against* the claim: MnO2 at 86.936 g/mol was first priced in **Ch 12** (the alkaline cathode's own pin), re-used recognition-only in Ch 16/18/19, and cross-referenced in Ch 25/26. The N1 row converts to a reused pin per the session-100 line's pre-printed correction protocol; the claim is withdrawn and the ledger corrected.
+- **RA-5 (REAL — attribution; c_p).** The chapter attributed c_p 4,184 J/kg·K to Ch 4. The grep: Ch 4 contains no c_p anywhere (no 4,184, no 4184); the pin lives in **Ch 7** (its calorimetry and specific-heat table, web-verified in its RA-7 row) — and Ch 26's "4184" is the food kilocalorie, a different quantity. Back-flags and the battery-reading prose reattributed.
+- **RA-6 (MINOR — attribution precision; latent heat).** The chapter attributed 2,256 J/g to "Ch 6's own figure." Ch 6 states the latent heat as 2.26 MJ/kg (40.65 kJ/mol); the exact 2,256 J/g form is **Ch 7's** RA-1-corrected pin (Ch 21 cross-references it as "Chapter 6/7's pin"). Reattributed jointly.
+
+**The grep table (the session-111 debts, discharged).** All 36 prior masters were greppable this session: 28 verified local copies (repo blob sizes matched), and ch01/ch02/ch31–ch36 fetched via the saved-JSON pipeline, their plain-ASCII anchors surviving JSON escaping.
+
+| Anchor | Named chapter | Hits | Verdict |
+| --- | --- | --- | --- |
+| MnO2 / MnO₂ / "manganese dioxide" / 86.936 | all 36 | 86.936 present in Ch 12, 16, 18, 19, 25, 26; text mentions in Ch 10/12/17 | **not new** — RA-4, claim withdrawn |
+| H2O 18.015 | Ch 4 | 1 | anchor verified |
+| latent 2,256/2256 | Ch 6 | 0 (Ch 6 prints 2.26 MJ/kg; 2256 lives in Ch 7/21) | RA-6, precision reattributed |
+| CH4 16.043 | Ch 7 | 2 | anchor verified |
+| O2 31.998 | Ch 10 | 3 | anchor verified |
+| KMnO4 158.032 | Ch 13 | 1 | anchor verified |
+| K2CO3 138.204 | Ch 14 | 2 | anchor verified |
+| CO2 44.009 | Ch 20 | 6 | anchor verified |
+| C3H8O3 92.094 | Ch 23 | 6 | anchor verified |
+| C6H10O5 162.141 | Ch 25 | 1 | anchor verified |
+| c_p 4,184/4184 | Ch 4 | 0 (Ch 7 owns it; Ch 26's 4184 is the kilocalorie) | RA-5, misattribution |
+
+**Web spot-checks (the convergent labels re-verified this session).** Paper ignition 233 °C/451 °F remains the commonly cited figure, within the measured range (hypertextbook.com; knowscape.blog; scienceonblog.wordpress.com). The wood bands hold — seasoned 15–19 MJ/kg with wet wood losing up to half (stalmark.pl; cfnielsen.com), and FAO's ~8.2 MJ/kg for green wood independently supports the chapter's 8 MJ/kg wet model input. KMnO4 + glycerin: the university demonstration sheets and the standard write-up confirm the delayed, violent, violet-flame reaction and its kinetics dependence (chem.wisc.edu; Wikipedia). The pain band: the ~3.16 kW/m² flare case and the pain-threshold tolerance tables unchanged (mdpi.com/1996-1073/14/17/5474; PMC5718773). All convergent labels hold; no finding.
+
+**Ex FC1.6 — the withheld worked answer, delivered (◆).** The ember forms and dies three times: the char cloth is *working* — the spark is caught, the ember exists — so the failure is downstream, in the bundle. Diagnosis: the bundle fails the **heat budget**. An ember delivers watts-scale power; damp or coarse spruce kindling demands kilojoules of drying-plus-pyrolysis before it will flame (Lecture 2's hiss — the same bill Lab FC1.1's kettle arithmetic prices), and a bundle packed tight starves the reaction of air — the oxidizer corner of the tetrahedron (Lecture 1). Prescribe: reshape the bundle into a loose bird's-nest with a cavity for the ember, finest tinder at the core graded outward (Lecture 5's split-wood and feather-stick discipline), shelter it from the wind, and feed the ember gentle, *timed* breaths — P17's release-rate control applied to the air feed. The variable that failed is technique, not materials — the same lesson the fuel-price ladder priced in Ex FC1.5. (This answer prints no new figures; the exercise's no-figures constraint stands for the exercise as printed.)
+
+**Withdrawn objections.** None. All six findings were confirmed at the machine; no review objection was raised and withdrawn.
+
+**Verdict: PASS WITH CORRECTIONS.** The engine core of the chapter — every battery figure, every balance, every gate, both printed run histories — verified exactly by an independent engine with a different arithmetic architecture (prime products and fixed-point against Engine 27's rationals and 4-D unit lattice). The six findings were prose, attribution, and ledger defects, all corrected in the body above. [speculative] appears nowhere in the chapter; the fence (P18) held at every gate.
+
+**Binding line for the next review (standing, session 113 and onward):** every cross-chapter *attribution* claim — pin anchors, back-flag chapter names, "Ch N's own figure" phrases — is grep-verified against the named chapter's master **in the authoring session itself**, not owed to review. RA-4, RA-5, and RA-6 were all authoring-session-checkable with the tooling that existed; the review engine now carries attribution-verification rows (MV-style), and every future authoring battery will include them.
