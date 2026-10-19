@@ -181,3 +181,83 @@ function dimStr(d:number[]):string{ const nm=["M","L","T","Θ"]; if(d.every(x=>x
 3. **Pin re-greps in owners' own pages** (raw `grep -o` counts, the Chapter Ledger, session-112 line): H2O Ch 4; NH3/N2/CO2/urea/(NH4)2SO4 Ch 20 (N2's owner Ch 10 inspected); K2CO3/K2O/CaCO3/CaO Ch 14; Ca(OH)2 Ch 24; CaMg(CO3)2/SiO2 Ch 30; MgSO4·7H2O Ch 4; the heat anchors 4.184 and 2256 Ch 7.
 4. **The chapter prose** (six lectures L0–L5 per the checkpoint skeleton), Labs FC5.1–FC5.2, Exercises FC5.1–5.7 (FC5.6 ◆ withheld, prints no figures, due at the session-120 Revision Appendix; FC5.7 ◐ census), 8-row Safety (row 7 the fence absolute), canon coverage with the honesty line, forward/back flags, Chapter Ledger.
 5. **The canvas + manuscript push byte-verified** to manuscript/field-companion/fc5.md; map FC5 planned → drafted; row 119 close; the FC5 web edition recorded as the standing web-sync debt.
+
+## 8. Part 2 (session 119, the post-compaction continuation) — runs 3–5, the sweep, the greps
+
+**The compaction event, recorded per the honest-history law.** The session's context compaction took the part-1 run-3 and run-4 output text (the battery harness source was never more than §6's placeholder; the six corrected row texts survived in the session log). Per the session-105/106 precedent (Engine 26's post-compaction rebuild, recorded as such), the battery was re-executed this session from the rebuilt engine: the core code verbatim from §6, the harness rewritten from §3's frozen run-2 block plus the six corrected rows. **Executed TWICE, byte-identical both runs (7,334 bytes) — the determinism proof.** All 56 got strings match the values on record: the 50 unchanged rows reproduce §3 exactly; the six corrected rows (C2, C3, L3, H1, H2, H3) reproduce the run-4 values recorded in the session log. The only non-machine text in the regenerated block is the three input-embedding name strings (C2, C3, L3 — rewritten to carry the corrected inputs) and N1's sweep-status parenthetical (rewritten to carry the paid sweep); recorded here.
+
+**The complete honest run history:**
+
+- **Run 1: 54/56** — C4 hand slip (44.44 vs the machine's 44.45) and the D2 display repair (M^1 always printed) — §4, FAIL lines verbatim.
+- **Run 2: 56/56 PASS — CLEAN** — §3's frozen block; superseded as the chapter's record by run 4's input corrections.
+- **Run 3 (pre-compaction, the web-check correction pass): 54/56.** The part-1 web battery forced four input corrections: glucose ΔHc **−2.803** MJ/mol (not −2.87); Cornell's own grass 45%C/2.4%N and leaves 50%C/0.75%N (rows C2/C3); ash K2O ~6% typical (row L3). Rows C2, C3, L3, H1, H2, H3 were recomputed and their expectations rewritten; run 3's two FAILs were H2/H3 hand-rounding slips in the rewritten expectations (the machine's 1.493 mol → 268.9 g and the 470.6/605.1 g band edges were right; the hand was wrong). The exact wrong hand strings are lost to the compaction — recorded as lost, not invented.
+- **Run 4 (pre-compaction, the repair pass): 56/56 PASS — CLEAN — THE CHAPTER'S FROZEN RECORD.** Its block differs from §3's run-2 block in rows C2, C3, L3, H1, H2, H3 only.
+- **Run 5 (this session, the post-compaction re-execution): 56/56 PASS — CLEAN, deterministic.** The block below is what Lab FC5.1 splices verbatim, recorded as the re-execution it is.
+
+### The regenerated run-5 block (7,334 bytes, verbatim)
+
+```
+ PASS T1 | admission table checksum Σmyu (11 elements) | got "265.094 (2650940 myu)" | expect "265.094 (2650940 myu)"
+ PASS T2 | positional checksum Σ(i+1)·myu, alphabetical order | got "1599.373 (15993730 myu)" | expect "1599.373 (15993730 myu)"
+ PASS S1 | self: H2O sanity | got "H2O 180150 myu = 18.015 r=0" | expect "H2O 180150 myu = 18.015 r=0"
+ PASS S2 | self: the dot-product identity | got "dot: 20160+159990=180150 EXACT" | expect "dot: 20160+159990=180150 EXACT"
+ PASS S3 | self: bracket scale (CH3)2CO -> C3H6O | got "(CH3)2CO 580800 myu = 58.080 r=0" | expect "(CH3)2CO 580800 myu = 58.080 r=0"
+ PASS S4 | self: hydrate dot MgSO4·7H2O | got "MgSO4·7H2O 2464660 myu = 246.466 r=0" | expect "MgSO4·7H2O 2464660 myu = 246.466 r=0"
+ PASS S5 | self: span-memo the long chain CH3(CH2)16COOH (Ch 23 stearic cross) | got "CH3(CH2)16COOH 2844840 myu = 284.484 r=0" | expect "CH3(CH2)16COOH 2844840 myu = 284.484 r=0"
+ PASS S6 | self: canonical display, scrambled input O6C6H12 | got "C6H12O6 1801560 myu = 180.156 r=0" | expect "C6H12O6 1801560 myu = 180.156 r=0"
+ PASS R1 | refusal: P at the admission gate (bone meal's Ca3(PO4)2 — the standing law) | got "REFUSED admission: P" | expect "REFUSED admission: P"
+ PASS R2 | refusal: DAP (NH4)2HPO4 (the 46 face refused) | got "REFUSED admission: P" | expect "REFUSED admission: P"
+ PASS R3 | refusal: ANFO at the P18 name gate (the fertilizer shelf's own shadow) | got "REFUSED P18: ANFO" | expect "REFUSED P18: ANFO"
+ PASS R4 | refusal: unclosed group | got "UNCLOSED (" | expect "UNCLOSED ("
+ PASS R5 | refusal: bad char | got "BAD CHAR "@" at 3" | expect "BAD CHAR "@" at 3"
+ PASS R6 | refusal: non-integer hydrate (the Engine-29 class) | got "REFUSED non-integer hydrate" | expect "REFUSED non-integer hydrate"
+ PASS P1 | pin H2O 18.015 Ch 4 | got "18.015 r=0" | expect "18.015 r=0"
+ PASS P2 | pin NH3 17.031 Ch 20 | got "17.031 r=0" | expect "17.031 r=0"
+ PASS P3 | pin N2 28.014 Ch 10 | got "28.014 r=0" | expect "28.014 r=0"
+ PASS P4 | pin CO2 44.009 Ch 20 | got "44.009 r=0" | expect "44.009 r=0"
+ PASS P5 | pin urea CO(NH2)2 60.056 Ch 20 | got "60.056 r=0" | expect "60.056 r=0"
+ PASS P6 | pin (NH4)2SO4 132.134 Ch 20 | got "132.134 r=0" | expect "132.134 r=0"
+ PASS P7 | pin K2CO3 138.204 Ch 14 | got "138.204 r=0" | expect "138.204 r=0"
+ PASS P8 | pin K2O 94.195 Ch 14 | got "94.195 r=0" | expect "94.195 r=0"
+ PASS P9 | pin CaCO3 100.086 Ch 14 | got "100.086 r=0" | expect "100.086 r=0"
+ PASS P10 | pin CaO 56.077 Ch 14 | got "56.077 r=0" | expect "56.077 r=0"
+ PASS P11 | pin Ca(OH)2 74.092 Ch 24 | got "74.092 r=0" | expect "74.092 r=0"
+ PASS P12 | pin CaMg(CO3)2 184.399 Ch 30 | got "184.399 r=0" | expect "184.399 r=0"
+ PASS P13 | pin MgSO4·7H2O 246.466 Ch 4 | got "246.466 r=0" | expect "246.466 r=0"
+ PASS P14 | pin SiO2 60.083 Ch 30 | got "60.083 r=0" | expect "60.083 r=0"
+ PASS N1 | NEW: biuret NH2CONHCONH2 = C2H5N3O2 (zero-hit corpus-wide — local masters, canvases, and all nine repo-only pages swept this session) | got "biuret C2H5N3O2 1030810 myu = 103.081 r=0" | expect "biuret C2H5N3O2 1030810 myu = 103.081 r=0"
+ PASS B1 | balance: urea hydrolysis CO(NH2)2 + H2O = 2 NH3 + CO2 (Ch 36 corridor class) | got "LHS 780710 RHS 780710 gap 0 EXACT" | expect "LHS 780710 RHS 780710 gap 0 EXACT"
+ PASS B2 | balance: biuret from urea 2 CO(NH2)2 = C2H5N3O2 + NH3 | got "LHS 1201120 RHS 1201120 gap 0 EXACT" | expect "LHS 1201120 RHS 1201120 gap 0 EXACT"
+ PASS B3 | balance: nitrification NH3 + 2 O2 = HNO3 + H2O | got "LHS 810270 RHS 810270 gap 0 EXACT" | expect "LHS 810270 RHS 810270 gap 0 EXACT"
+ PASS B4 | balance: the nitrate->nitrite leg 2 HNO3 = 2 HNO2 + O2 [formal model] | got "LHS 1260240 RHS 1260240 gap 0 EXACT" | expect "LHS 1260240 RHS 1260240 gap 0 EXACT"
+ PASS B5 | balance: carbonation Ca(OH)2 + CO2 = CaCO3 + H2O | got "LHS 1181010 RHS 1181010 gap 0 EXACT" | expect "LHS 1181010 RHS 1181010 gap 0 EXACT"
+ PASS B6 | balance: dolomite burn CaMg(CO3)2 = CaO + MgO + 2 CO2 (Ch 30 E12 class) | got "LHS 1843990 RHS 1843990 gap 0 EXACT" | expect "LHS 1843990 RHS 1843990 gap 0 EXACT"
+ PASS B7 | balance: the char model C6H10O5 = 6 C + 5 H2O [flagged model] | got "LHS 1621410 RHS 1621410 gap 0 EXACT" | expect "LHS 1621410 RHS 1621410 gap 0 EXACT"
+ PASS B8 | MUST-FAIL: one-H-short biuret C2H4N3O2 (the mis-typed condensation) | got "LHS 1201120 RHS 1191040 gap 10080 CAUGHT" | expect "LHS 1201120 RHS 1191040 gap 10080 CAUGHT"
+ PASS C1 | C:N target 30:1 [convergent Cornell] — N as fraction of C+N | got "1/31 = 3.226% N of C+N" | expect "1/31 = 3.226% N of C+N"
+ PASS C2 | C:N blend: grass 45/2.4 (18.75:1) + sawdust 480/1.2 per kg (400:1) [convergent Cornell band inputs] -> 30:1 | got "270/444 = 0.608 kg sawdust per kg grass" | expect "270/444 = 0.608 kg sawdust per kg grass"
+ PASS C3 | C:N the urea credit: 100 kg leaves, %C 50, %N 0.75 (66.7:1) -> 30:1; deficit at urea's own %N | got "2750/3 g N deficit -> 1965 g urea" | expect "2750/3 g N deficit -> 1965 g urea"
+ PASS C4 | biochar: the B7 char yield and its C:N face | got "720660/1621410 = 44.45% char; C:N undefined (no N)" | expect "720660/1621410 = 44.45% char; C:N undefined (no N)"
+ PASS L1 | NPK: urea %N (Ch 20's own census) | got "280140/600560 = 46.65% N" | expect "280140/600560 = 46.65% N"
+ PASS L2 | NPK: K2CO3 %K2O (Ch 14's potash convention) | got "941950/1382040 = 68.16% K2O" | expect "941950/1382040 = 68.16% K2O"
+ PASS L3 | NPK: the ash label read — 1 kg ash at the 6% K2O-eq band [convergent] | got "60 g K2O-eq -> 88.0 g K2CO3-eq per kg ash" | expect "60 g K2O-eq -> 88.0 g K2CO3-eq per kg ash"
+ PASS L4 | NPK: the DAP 18-46-0 label — the 46 face refused at the table | got "REFUSED admission: P" | expect "REFUSED admission: P"
+ PASS H1 | heat: glucose oxidation C6H12O6 + 6 O2 = 6 CO2 + 6 H2O + dH | got "LHS 3721440 RHS 3721440 gap 0 EXACT; dH -2.803 MJ/mol [convergent]" | expect "LHS 3721440 RHS 3721440 gap 0 EXACT; dH -2.803 MJ/mol [convergent]"
+ PASS H2 | heat: the 50-kg pile ledger, +20 K, c_p 4.184 [flagged model: water-dominated] | got "4184000 J / 2803000 = 1.493 mol -> 268.9 g glucose-equivalent" | expect "4184000 J / 2803000 = 1.493 mol -> 268.9 g glucose-equivalent"
+ PASS H3 | heat: the thermophilic band edges [55-65 C, Cornell] on the same ledger | got "7322000 J -> 470.6 g; 9414000 J -> 605.1 g" | expect "7322000 J -> 470.6 g; 9414000 J -> 605.1 g"
+ PASS H4 | heat: Ch 14's slaking band on the shell-kiln cross (4.746 mol CaO, -64.8 kJ/mol) | got "4.746 x 64.8 = 307.5 kJ [convergent band -63.7..-65.2]" | expect "4.746 x 64.8 = 307.5 kJ [convergent band -63.7..-65.2]"
+ PASS D1 | dim: specific heat c_p [J/(g·K)] | got "L^2·T^-2·Θ^-1" | expect "L^2·T^-2·Θ^-1"
+ PASS D2 | dim: power | got "M^1·L^2·T^-3" | expect "M^1·L^2·T^-3"
+ PASS D3 | dim: C:N and %N | got "dimensionless" | expect "dimensionless"
+ PASS X1 | cross: Ch 36's urea corridor 780710 reproduced from FC5's table | got "780710 EXACT (Ch 36 E3/E7 class)" | expect "780710 EXACT (Ch 36 E3/E7 class)"
+ PASS X2 | cross: Ch 30's dolomite 1843990 reproduced | got "1843990 EXACT (Ch 30)" | expect "1843990 EXACT (Ch 30)"
+ PASS X3 | cross: Ch 14's potash convention 68.16% reproduced | got "68.16 EXACT (Ch 14)" | expect "68.16 EXACT (Ch 14)"
+ PASS X4 | cross: Ch 20's urea %N 46.65% reproduced | got "46.65 EXACT (Ch 20)" | expect "46.65 EXACT (Ch 20)"
+RUN 5 SUMMARY: 56/56 PASS — CLEAN
+```
+
+## 9. The part-2 checks — ALL PAID (the §7 owed list, closed)
+
+1. **The repo N1 sweep (session-100 line): ALL NINE repo-only pages CLEAN — biuret (ci) 0, "103.08" 0, "103.081" 0, C2H5N3O2 0.** ch02, ch36 and the batches ch31/ch32/ch33 and ch34/ch35/fc1 machine-counted in-sandbox at the fetch; ch01's verdict by end-to-end inspection of its machine-fetched full text (52,791 B, complete — recorded as inspection, not machine count). Every fetched length consistent with the directory listing re-verified at HEAD 4d504ff8 (ch31 69,087 B; ch32 47,959; ch33 62,653; ch34 74,506; ch35 73,036; ch36 49,171; fc1 69,337; fc2 53,497; fc3 63,360; fc4 71,695). The two batch fetches were saved by the platform (tool-results run_typescript-…bce1cb808a4ebccf.json and run_typescript-…a23e0d0fca0daa09.json — per-page counts re-readable from disk). GitHub's native code search was probed first and REJECTED as evidence: its positive controls failed (metaborate and Epsom both returned total 0 with incomplete_results — the repo is not usefully indexed), so the byte-level fetch was the only valid sweep. **N1 = biuret stands as NEW corpus-wide; no reused-pin conversion needed.**
+2. **Pin re-greps (session-112 line), raw `grep -oF` counts in the owners' local masters:** H2O 18.015 Ch 4 ×1; NH3 17.031 Ch 20 ×13; N2 28.014 Ch 10 ×4 (the owner; Ch 20 cross-prints ×5); CO2 44.009 Ch 20 ×6; urea 60.056 Ch 20 ×3; (NH4)2SO4 132.134 Ch 20 ×2; K2CO3 138.204 Ch 14 ×2; K2O 94.195 Ch 14 ×2; CaCO3 100.086 Ch 14 ×7; CaO 56.077 Ch 14 ×2; Ca(OH)2 74.092 Ch 24 ×5 (Ch 14 cross-prints ×6); CaMg(CO3)2 184.399 Ch 30 ×6; MgSO4·7H2O 246.466 Ch 4 ×3 (honestly also printed in Ch 3 ×1); SiO2 60.083 Ch 30 ×4; heat anchors 4.184 Ch 7 ×10 and 2256 Ch 7 ×4 — both heat-anchor counts exact to expectation.
+3. **The [convergent] web battery (gathered at part 1, pre-compaction; all labels stand):** Cornell C:N 30:1 target and 55–65 °C thermophilic band (fastest 40–60, pathogen floor 55, ceiling ~65); Cornell's own grass ~45%C/2.4%N and leaves ~50%C/0.75%N; sawdust C:N up to 400–500:1; urea's biuret quality limit (<0.5% China mandate; >1% not for seed/seedling/foliar; biuret forms when urea is heated >132 °C); ash K2O 1–10% band, ~6% typical (Oklahoma State, Alabama Extension); glucose ΔHc −2.803 kJ per mmol = −2803 kJ/mol; DAP 18-46-0 label class (the 46 face recognition-only per the standing P law); slaking −63.7..−65.2 kJ/mol (Ch 14's own band).
