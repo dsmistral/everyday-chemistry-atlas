@@ -8,7 +8,7 @@ type: "text/markdown"
 
 *The Field Companion's first chapter made fire; its second made fire useful; this one begins before either — the jug you fill before you light anything, because a person outlives a missing meal by weeks and a bad jug by days. Water treatment is the home chemist's art at its most honest: no flame required for most of it, no rare reagent, and no step whose failure is silent — the failure announces itself, given a day. The chapter reads the water problem as three questions in fixed order — what is in the jug, what kills it, and what keeps it killed — and answers them with the kit a ruined world actually owns: heat, a dropper of bleach, sand, charcoal, sunlight, and a clean jar with a lid. The spine is a ladder (P19, promoted on this page's own evidence): interventions ranked cheap-and-robust first, because in a world with no pharmacy the cheapest robust rung is the one still standing when everything else is looted, broken, or spent. The fence holds as it held for thirty-six chapters and two field chapters: the trade's chlorinators — pool shock, trichlor tabs, the chlorine gas generator, calcium hypochlorite granules — are recognized, never made, never fired as salvage (P18), and the refusal is taught as a skill.*
 
-**Chapter status: drafted 2026-10-19 (session 115, parts 1–2). Engine 31 (the RPN shunting-yard integer-lattice verifier, fresh build, zero code shared with all thirty engines before it) run history printed in full in Lab FC3.1: run 1 scored 25/46 and found one real engine defect — top-level juxtaposition of adjacent operands never summed — plus four harness-side slips named on their rows (the T2 hand-summed checksum the machine corrected, the FC2-S2 class again); run 2, the repair, verified **46/46 CLEAN**; the frozen run-2 battery block is the chapter's record. Verification labels per the binding ladder: [computed] for every battery figure, [convergent] for web-verified datums, [register] for the canon register, [flagged model] for stated models, [single-source] where only one source was found, [speculative] nowhere. The session-100 line observed at authoring time: the one NEW composition (N1, PET C10H8O4 = 192.170 g/mol) was grepped against every prior chapter's page before this page froze — the local ch03–ch30 masters and the ten pages held only at the repo (ch01, ch02, ch31–ch36, FC1, FC2), fetched at HEAD 9afbf0be via the saved-JSON pipeline; the two word-boundary `pet` hits that surfaced in Ch 34 were inspected and named honestly (the English word — a "pet fence" passage about dogs and chocolate — not the polymer). P19 "the method ladder" was promoted at this chapter's authoring, on the test registered at session 110: recurrence in two FC chapters (FC1's fire-starting rungs; this chapter's spine) with canon support (WHO's treatment ladder; UC IPM); the durable record extended in PROJECT.md §3 the same day.**
+**Chapter status: drafted 2026-10-19 (session 115, parts 1–2). Engine 31 (the RPN shunting-yard integer-lattice verifier, fresh build, zero code shared with all thirty engines before it) run history printed in full in Lab FC3.1: run 1 scored 25/46 and found one real engine defect — top-level juxtaposition of adjacent operands never summed — plus four harness-side slips named on their rows (the T2 hand-summed checksum the machine corrected, the FC2-S2 class again); run 2, the repair, verified **46/46 CLEAN**; the frozen run-2 battery block is the chapter's record. Verification labels per the binding ladder: [computed] for every battery figure, [convergent] for web-verified datums, [register] for the canon register, [flagged model] for stated models, [single-source] where only one source was found, [speculative] nowhere. The session-100 line observed at authoring time: the one NEW composition (N1, PET C10H8O4 = 192.170 g/mol) was grepped against every prior chapter's page before this page froze — the local ch03–ch30 masters and the ten pages held only at the repo (ch01, ch02, ch31–ch36, FC1, FC2), fetched at HEAD 9afbf0be via the saved-JSON pipeline; the two word-boundary `pet` hits that surfaced in Ch 34 were inspected and named honestly (the English word — a "pet fence" passage about dogs and chocolate — not the polymer). P19 "the method ladder" was promoted at this chapter's authoring, on the test registered at session 110: recurrence in two FC chapters (FC1's fire-starting rungs; this chapter's spine) with canon support (WHO's treatment ladder; UC IPM); the durable record extended in PROJECT.md §3 the same day. Adversarially reviewed 2026-10-19 (session 116) — VERDICT: PASS WITH ONE CORRECTION (RA-1, the P9 raw-count line — a bookkeeping count, no figure and no claim of fact affected; Revision Appendix below): Engine 32 (the depth-map fold review engine, fresh build, zero code shared with Engines 1–31) read this page itself, verified the frozen block's integrity (46 rows, every frozen got == its expect, the CLEAN summary present), and reproduced all 46 rows independently — run 1 37/46 and run 2 45/46, every failure a harness-side scale slip named on its row and the engine core clean from the first run, run 3 **46/46 CLEAN**; all nine pin anchors and both heat anchors re-grepped in their named chapters (RA-1 and RN-1 printed below); N1 re-proven NEW at the review HEAD f95c40e9 (zero load-bearing hits, local and repo); the [convergent] datums re-confirmed at named sources; Ex FC3.6's withheld answer delivered below without a new figure.**
 
 ---
 
@@ -248,3 +248,91 @@ Solve before reading the labs again; every worked figure below is a battery row 
 ---
 
 *Chapter status: drafted 2026-10-19 (session 115, parts 1–2). The frozen run-2 battery block in Lab FC3.1 is the verification record; the labels are the contract; the fence (P18) held at every gate; and the ladder (P19) was promoted on this page's own evidence.*
+---
+
+## Revision Appendix (session 116 — the adversarial review)
+
+**The review, and its machine.** Engine 32, the depth-map fold review engine — built fresh for this review and sharing zero code with the thirty-one engines before it: a single left-to-right pass over each formula with bracket-depth-indexed coefficient maps (no shunting-yard, no regex rounds, no descent recursion, no frame stacks); rationals as BigInt pairs reduced by continued-fraction expansion-and-reconstruction (not Stein's binary gcd, not prime products, not Engine 31's modular Euclid); the {M, L, T, Θ} lattice; the P18 gate firing first; the same one-integrality-gate severity, inherited honest. The review protocol: the engine read this chapter's own page, extracted the frozen run-2 battery block, verified its integrity (46 rows present, every frozen got equal to its expect, the CLEAN summary line present — the record was never in doubt), then recomputed all 46 rows through its own pipeline and compared against the frozen expectations.
+
+**The honest run history — three runs, printed, not smoothed.** Run 1 scored 37/46 and every failure was a harness-side scale slip in the review battery's own row constants, named on their rows: the H1–H6 joule-to-kilojoule conversion constants, D1 over-scaled by 10⁴, D2 a ×200-instead-of-×20 slip in the ÷5% step, D5 priced as one drop instead of two. **Zero engine-core defects**: every composition, refusal, balance, pin, N1, and dimension row passed at run 1 — the parser, the continued-fraction rationals, the displays, and all the gates were correct as built. Run 2 scored 45/46: the single remaining slip was H5's tenths value passed to the display without its denominator (900 tenths printed as "900.0 °C"). Run 3, the repair: **46/46 PASS — CLEAN** — the block printed below is Engine 32's own output, the review's record, reproduced from the durable record (`engine-records/fc3-engine32.md`).
+
+```
+PASS T1 | table checksum Σmyu (6 elements) | got "1275.390" | expect "1275.390"
+PASS T2 | positional checksum Σ(i+1)·myu, i zero-based | got "5717.170" | expect "5717.170"
+PASS S1 | admission C | got "12.011" | expect "12.011"
+PASS S2 | admission H | got "1.008" | expect "1.008"
+PASS S3 | admission O | got "15.999" | expect "15.999"
+PASS S4 | admission Na | got "22.990" | expect "22.990"
+PASS S5 | admission Cl | got "35.453" | expect "35.453"
+PASS S6 | admission Ca | got "40.078" | expect "40.078"
+PASS S7 | NaOCl | got "ClNaO 74.442 rounds=0" | expect "ClNaO 74.442 rounds=0"
+PASS S8 | Ca(OCl)2 | got "CaCl2O2 142.982 rounds=1" | expect "CaCl2O2 142.982 rounds=1"
+PASS S9 | C2H2O4·2H2O | got "C2H6O6 126.064 rounds=0" | expect "C2H6O6 126.064 rounds=0"
+PASS S10 | (Na(OCl))2 — redundant nesting | got "Cl2Na2O2 148.884 rounds=2" | expect "Cl2Na2O2 148.884 rounds=2"
+PASS R1 | the four P18 restricted names (gate fires first) | got "P18 REFUSES: 'pool shock' ; P18 REFUSES: 'trichlor tabs' ; P18 REFUSES: 'chlorine gas generator' ; P18 REFUSES: 'calcium hypochlorite granules'" | expect "P18 REFUSES: 'pool shock' ; P18 REFUSES: 'trichlor tabs' ; P18 REFUSES: 'chlorine gas generator' ; P18 REFUSES: 'calcium hypochlorite granules'"
+PASS R2 | MgSO4 — element honestly out of scope | got "TABLE REFUSES Mg" | expect "TABLE REFUSES Mg"
+PASS R3 | NaCl·0.35H2O — the integrality gate on total mass | got "NON-EXACT refused: total mass 647482.5000 myu" | expect "NON-EXACT refused: total mass 647482.5000 myu"
+PASS R4 | '(NaOCl' — unclosed bracket | got "UNCLOSED/UNMATCHED BRACKET refused: '(NaOCl'" | expect "UNCLOSED/UNMATCHED BRACKET refused: '(NaOCl'"
+PASS R5 | NaOCl@H2O — bad char | got "BAD CHAR '@' refused at position 5" | expect "BAD CHAR '@' refused at position 5"
+PASS P1 | H2O pin (Ch 4) | got "18.015" | expect "18.015"
+PASS P2 | NaOCl pin (Ch 25) | got "74.442" | expect "74.442"
+PASS P3 | OCl pin (Ch 25) | got "51.452" | expect "51.452"
+PASS P4 | NaCl pin (Ch 25) | got "58.443" | expect "58.443"
+PASS P5 | C2H2O4·2H2O pin (Ch 15) | got "126.064" | expect "126.064"
+PASS P6 | C6H10O5 pin (Ch 25) | got "162.141" | expect "162.141"
+PASS P7 | Ca(OCl)2 pin (Ch 16) | got "142.982" | expect "142.982"
+PASS P8 | Ca(OH)2 pin (Ch 24) | got "74.092" | expect "74.092"
+PASS P9 | Cl2 pin (Ch 16) | got "70.906" | expect "70.906"
+PASS N1 | C10H8O4 PET — the chapter's NEW claim (SODIS's bottle) | got "192.170" | expect "192.170"
+PASS B1 | stored bleach decay :: 2 NaOCl -> 2 NaCl + O2 | got "1.488.840 EXACT" | expect "1.488.840 EXACT"
+PASS B2 | solid shelf-mate decay :: Ca(OCl)2 -> CaCl2 + O2 | got "1.429.820 EXACT" | expect "1.429.820 EXACT"
+PASS B3 | the storage jar's crust :: Ca(OH)2 + CO2 -> CaCO3 + H2O | got "1.181.010 EXACT" | expect "1.181.010 EXACT"
+PASS B4 | oxygen-overstated must-fail :: NaOCl -> NaCl + 2 O2 | got "CAUGHT gap 479.970 myu (47.997 g)" | expect "CAUGHT gap 479.970 myu (47.997 g)"
+PASS H1 | c_p delivery: 1,000 g × 4.184 J/(g·K) × 1.0 K | got "4.184 kJ" | expect "4.184 kJ"
+PASS H2 | 20.0 -> 100.0 °C: 1,000 g × 4.184 × 80.0 | got "334.720 kJ" | expect "334.720 kJ"
+PASS H3 | the phase change: 1,000 g × 2,256 J/g | got "2256.000 kJ" | expect "2256.000 kJ"
+PASS H4 | total to boil 1 L away from 20.0 °C | got "2590.720 kJ" | expect "2590.720 kJ"
+PASS H5 | altitude boil point [flagged model: the 300 m rule]: 3,000 m | got "90.0 °C" | expect "90.0 °C"
+PASS H6 | altitude total [flagged model: latent held at 2,256 J/g]: 20 -> 90 °C | got "2548.880 kJ" | expect "2548.880 kJ"
+PASS H7 | latent share at altitude: 2,256,000 / 2,548,880 | got "88.5%" | expect "88.5%"
+PASS D1 | 2 mg/L as Cl2 -> NaOCl (the stoichiometric floor) | got "2.0997 mg/L" | expect "2.0997 mg/L"
+PASS D2 | the same floor, as 5% w/w household bleach | got "41.995 mg/L" | expect "41.995 mg/L"
+PASS D3 | the NaOCl in one drop [0.05 mL, 1.08 g/mL, 5%] | got "2.70 mg" | expect "2.70 mg"
+PASS D4 | one drop per 2 L, expressed back as Cl2 | got "1.286 mg/L" | expect "1.286 mg/L"
+PASS D5 | two drops per 1 L (the field-class margin), as Cl2 | got "5.143 mg/L" | expect "5.143 mg/L"
+PASS W1 | dim(dose): mg/L | got "M^1·L^-3" | expect "M^1·L^-3"
+PASS W2 | dim(c_p): J ÷ (g·K) | got "L^2·T^-2·Θ^-1" | expect "L^2·T^-2·Θ^-1"
+PASS W3 | dim(latent heat): J ÷ g | got "L^2·T^-2" | expect "L^2·T^-2"
+RUN 3 SUMMARY: 46/46 PASS — CLEAN
+```
+
+**The pin anchors re-grepped (session-112 binding line; raw `grep -o` occurrence counts, this review's own runs):**
+
+| Anchor | Named chapter | Re-grep hits | Verdict |
+| --- | --- | --- | --- |
+| H2O 18.015 | Ch 4 | 1 | verified |
+| NaOCl 74.442 | Ch 25 | 2 | verified |
+| OCl 51.452 | Ch 25 | 1 | verified |
+| NaCl 58.443 | Ch 25 | 2 | verified |
+| C2H2O4·2H2O 126.064 | Ch 15 | 3 | verified |
+| C6H10O5 162.141 | Ch 25 | 1 | verified |
+| Ca(OCl)2 142.982 | Ch 16 | 3 | verified |
+| Ca(OH)2 74.092 | Ch 24 | 5 | verified |
+| Cl2 70.906 | Ch 16 | 4 (on 3 lines) | verified — **RA-1** |
+| c_p 4.184 J/(g·K) | Ch 7 | 10 | verified |
+| latent 2,256 J/g | Ch 7 | 4 (as "2256") | verified — RN-1 |
+
+- **RA-1 (the one correction, bookkeeping only)**: the Chapter Ledger's P9 line printed "Cl₂ 70.906 (Ch 16, ×3)" — the ×3 was the *line* count; the raw `grep -o` occurrence count is **4**, all four inspected and genuine chlorine-molar-mass occurrences (two in Ch 16's available-chlorine prose, one in its mass table, one in its 2×70.906/142.982 arithmetic). No figure and no claim of fact is affected — the pin itself was re-derived exactly by Engine 32 (P9, 70.906) — but the ledger's own rule ("raw occurrence counts") makes ×4 the honest print, and this appendix is the correction of record; the body text stands per extend-never-rewrite.
+- **RN-1 (a note, not a correction)**: Ch 7 writes the latent heat in its own notation — "2256" (×4 raw hits, including the kettle-to-dry ratio line) and "2.256 MJ/kg" — not the comma form "2,256" this chapter displays. The count and the datum are exact; the comma is FC3's display convention, Ch 6–Ch 7's kettle figures being this chapter's re-derivation, not their text.
+
+**N1 re-proven NEW at the review HEAD.** PET C₁₀H₈O₄ = 192.170 g/mol was re-grepped at repo HEAD f95c40e9 — zero load-bearing hits (192.169, 192.17, C10H8O4, polyethylene terephthalate, all case-insensitive) across the ten repo-only pages (ch01, ch02, ch31–ch36, FC1, FC2) and zero across the local ch03–ch30 masters; this chapter (the claimant) excluded. Ch 34's two word-boundary `pet` hits stand as inspected and dismissed at authoring time (the English word — the theobromine "pet fence" — not the polymer). The review re-ran the patterns rather than trusting the authoring run; the NEW claim stands.
+
+**Web spot-checks ([convergent] datums re-confirmed, named sources):** the rolling boil 1 minute / 3 minutes above 6,500 ft (CDC's Boil Water Advisory and emergency-water pages, cdc.gov); the WHO chlorine residual band — "0.2–0.5 mg/L at the point of delivery is generally sufficient" (WHO's chlorine guidance, cdn.who.int, and the GDWQ "few tenths of a milligram per litre" pages, who.int); SODIS 6 hours bright or half-clouded / two days fully clouded (the WASH technology pages, emergency-wash.org, and the field guides carrying the SODIS rule); the pharmacopoeia drop 0.05 mL / 20 drops per mL (unitconvertzone.com's pharmacopoeia standard; Wikipedia, *Drop (unit)*); solar-still yield on the order of 0.5–7 L/m²/day (scienceinsights.org; the off-grid guides' 0.5–1.5 L/day survival planning sits inside the range, supporting the chapter's plan-against-the-bottom advice). The bleach density's honest [single-source] label stands as printed — the review's own search found no second source either, and the jug-scale confirmation route remains the book's answer.
+
+**Ex FC3.6 — The cloudy jug (◆): the worked answer, delivered (no new figures; battery rows and [convergent] endpoints only).** The diagnosis is the ladder skipped, not the arithmetic wrong. Turbidity is two problems wearing one look: the suspended organic load is a chlorine *demand* — the oxidant spends itself on the cloud before it reaches the organisms — and a physical *shield*, hiding the living fraction from the dropper's chemistry and from sunlight alike. A dose that would clear a clear jug under-doses a cloudy one silently; the doser's one honest check, the residual at 30 minutes (the faint smell at the pour — the WHO band's working endpoint [convergent]), was the step that would have caught it, and it was skipped. The fix, rung by rung: **settle** (the jug standing half a day, the top nine-tenths poured off), **filter** to clarity (the sand-charcoal column, flushed of fines), **then kill** — either re-dosed at the field-class margin (D5's two-drops-per-liter arithmetic [computed], the margin existing exactly for water you could not see into), verified at the residual and re-dosed if the smell is absent; or, for tonight's drinking pot, the robust rung instead — the rolling boil, 1 minute (3 above 6,500 ft [convergent], CDC), which ignores the shield entirely, its only price the sensible heat H2 prices [computed]. And the discipline rows: date the jug at its treatment (Lecture 0's habit), never dip the cup into the treated store (Lecture 5's rung) — the week-later sickness of a *re*-infected jug mimics the week-later sickness of an under-dosed one, and the written date is the only witness that can tell them apart.
+
+**Verdict: PASS (with RA-1).** The chapter's engine core — all 46 battery rows, the five refusals with their exact strings, the four balances with their must-fail catch, the heat and dose ledgers, the dimension walks — reproduces exactly under an independent arithmetic architecture; the nine pin anchors match their named chapters to the digit (one count-wording correction, RA-1); the one NEW composition is re-proven at a fresh HEAD; the [convergent] datums re-confirmed at named sources; the withheld answer is delivered without a new figure; the two flagged models stand flagged, unlaundered; [speculative] appears nowhere; the fence (P18) held at every gate, from the outside as well as in. Chapter status: drafted (session 115) → **reviewed** (session 116).
+
+---
+
+*Chapter status: drafted 2026-10-19 (session 115, parts 1–2) → reviewed 2026-10-19 (session 116 — adversarial review PASS with RA-1; Revision Appendix above; Engine 32's frozen run-3 block the review's record). The labels are the contract; the fence held; the ladder held; and the machine is the contract in both directions.*
