@@ -8,7 +8,7 @@ type: "text/markdown"
 
 *A wounded tree does not bleed randomly. Cut a pine and a fragrant balsam wells up that is not sap, not juice, not water — it is the tree's own bandage, a chemistry of terpenes and resin acids evolved precisely to seal, sterilize, and trap. Scrape an acacia and the wound weeps a gum that hardens like glass. Tap a rubber tree and a white milk runs that is neither sap nor solution but a suspension of polymer spheres waiting for one drop of acid. Boil maple wood's own plumbing in spring and you collect a sugar solution so dilute it takes forty gallons of patience to make one gallon of the shelf. And when a Palaeolithic chemist rolled birch bark into a heap of embers, the bark itself distilled a tar that stuck flint to wood two hundred thousand years before anyone wrote the word *adhesive*. This is the exuding shelf — the fourth material kingdom of the Field Companion after fire, pests, and soil — and this chapter prices its chemistry the way the Atlas prices everything: masses from the bench's own tables, models labeled as models, recognition taught instead of extraction, and the Charter fence absolute over every poison the forest also makes.*
 
-**Chapter status: drafted 2026-10-20 (session 124); the Phase-3 adversarial review is the next unit (session 125) per the FC alternation. Engine 37 (the CPS fold compositor, fresh build, zero code shared with Engines 1–36) run honestly to a three-run history — 33/67, 63/67, then 67/67 CLEAN, the whole battery run twice byte-identical — printed verbatim in Lab FC7.1. The session-100 binding line executed BEFORE the page froze: every NEW composition grep-verified zero-hit across the whole corpus (the 28 local masters, the local Field-Companion engine records, FC1's fetched master, and the 41 web editions of all 36 chapters plus FC1–FC5); the session-112 line executed in the authoring session itself: every pin re-grepped in its owner's own page. Verification labels per the binding ladder: [computed] for every battery figure, [convergent] for web-verified datums, [register] for the session-123 canon register, [flagged model] for stated models, [speculative] nowhere.**
+**Chapter status: drafted 2026-10-20 (session 124); reviewed 2026-10-20 (session 125 — VERDICT: PASS WITH RF-1: every figure reproduced exactly by Engine 38, a fresh review engine sharing zero code with Engines 1–37; the one finding is the frozen verdict line’s own off-by-one tally — the block holds 68 PASS rows, not 67 — the correction of record at the Revision Appendix; the body untouched per extend-never-rewrite). Engine 37 (the CPS fold compositor, fresh build, zero code shared with Engines 1–36) run honestly to a three-run history — 33/67, 63/67, then 67/67 CLEAN, the whole battery run twice byte-identical — printed verbatim in Lab FC7.1. The session-100 binding line executed BEFORE the page froze: every NEW composition grep-verified zero-hit across the whole corpus (the 28 local masters, the local Field-Companion engine records, FC1's fetched master, and the 41 web editions of all 36 chapters plus FC1–FC5); the session-112 line executed in the authoring session itself: every pin re-grepped in its owner's own page. Verification labels per the binding ladder: [computed] for every battery figure, [convergent] for web-verified datums, [register] for the session-123 canon register, [flagged model] for stated models, [speculative] nowhere.**
 
 ---
 
@@ -303,3 +303,136 @@ Solve before reading the labs; every worked figure is a frozen battery row (the 
 - **Owed**: the session-125 Phase-3 adversarial review (the next unit per the FC alternation), Ex FC7.6's withheld worked answer delivered at its Revision Appendix, and the ALWAYS-SYNC push of this master, its web edition, and the project records at this session's close (discharged).
 
 *The tree that answers the knife, then: five liquids, one census, a wound's chemistry harvested at the rate the harvester chooses — and a ledger that catches even one joule of carelessness. The forest gives its pharmacy to the chemist who can tell its bandages from its poisons; that telling is this chapter's whole art.*
+
+## Revision Appendix (session 125 — the Phase-3 adversarial review)
+
+The review, per the FC alternation: **Engine 38, the dual-column peel-and-rescale review engine** — a fresh build sharing zero code with Engines 1–37 — re-executed the whole frozen battery, its expectations the chapter’s own frozen got-strings verbatim and its got-strings recomputed by a different method (a peel-and-push stack parser with explicit frames and a pending-subscript slot; every composition computed by TWO independent internal paths — forward and reverse dot products over the same lanes, plus a canonical re-parse — that must agree before any row prints; every ledger and exercise re-derived through exact BigInt rational fractions with half-up display rounding, the session-104 line). The review re-verifies; it does not re-author — any mismatch was to be raised, never patched.
+
+The honest two-run history, nothing smoothed. **Run 1: 64/68** — two defects in the *review’s own* machinery, named plainly, zero defects in the chapter’s figures:
+
+1. **The hydrate-unit scope hole (S3, P9, B4):** the coefficient after the dot multiplied only the unit’s first element — FeSO4·7H2O lost six oxygens (printed 182.012, 1,820,120 myu) and the copperas-drying balance read a false GAP 959,940 myu. The repair: the coefficient now multiplies the whole unit formula. A cousin of Engine 37’s own run-1 hydrate hole — the dot keeps catching engine-builders.
+2. **The display defect (N4):** the harness comma’d the g/mol column — 1,701.206 — where the chapter’s convention keeps the comma in the myu restatement alone (1701.206 g/mol, 17,012,060 myu). The repair: the g/mol column prints plain.
+
+The run-1 FAIL lines, preserved verbatim:
+
+> FAIL S3 | SELF FeSO4·7H2O - the hydrate lane | got "182.012 g/mol (1,820,120 myu)" | expect "278.006 g/mol (2,780,060 myu)"
+> FAIL P9 | pin copperas FeSO4·7H2O (Ch 19) re-derived | got "182.012 g/mol (1,820,120 myu)" | expect "278.006 g/mol (2,780,060 myu)"
+> FAIL N4 | NEW tannic acid C76H52O46 re-derived | got "1,701.206 g/mol (17,012,060 myu)" | expect "1701.206 g/mol (17,012,060 myu)"
+> FAIL B4 | copperas drying balance re-walked | got "GAP 959,940 myu CAUGHT" | expect "2,780,060 myu CLOSES"
+
+**Run 2, the repair pass, nothing else touched: 68/68 PASS — CLEAN**, the whole battery run twice byte-identical (C3). The frozen run-2 block, spliced verbatim from the engine’s own output:
+
+```text
+PASS T1 | admission table, straight checksum re-summed | got "1,169,230" | expect "1,169,230"
+PASS T2 | admission table, positional checksum (alphabetical C,Fe,H,O,S) re-summed | got "3,510,210" | expect "3,510,210"
+PASS S1 | SELF H2O through the peel machine, dual-column | got "18.015 g/mol (180,150 myu)" | expect "18.015 g/mol (180,150 myu)"
+PASS S2 | SELF (CH3)2CO - frame pop, subscript after the bracket | got "58.080 g/mol (580,800 myu)" | expect "58.080 g/mol (580,800 myu)"
+PASS S3 | SELF FeSO4·7H2O - the hydrate lane | got "278.006 g/mol (2,780,060 myu)" | expect "278.006 g/mol (2,780,060 myu)"
+PASS S4 | SELF CH3(CH2)16COOH - nested frames, one pass | got "284.484 g/mol (2,844,840 myu)" | expect "284.484 g/mol (2,844,840 myu)"
+PASS S5 | SELF scrambled O7C13H18 - canonical display from the lanes | got "C13H18O7 286.280" | expect "C13H18O7 286.280"
+PASS R1 | 'morphine' re-refused at the P18 name gate (FIRST) | got "REFUSED (P18): recognition-only, the fence absolute" | expect "REFUSED (P18): recognition-only, the fence absolute"
+PASS R2 | 'ricin' re-refused at the P18 name gate | got "REFUSED (P18): recognition-only, the fence absolute" | expect "REFUSED (P18): recognition-only, the fence absolute"
+PASS R3 | indigo C16H10N2O2 re-refused at the admission gate | got "REFUSED: element not admitted: 'N'" | expect "REFUSED: element not admitted: 'N'"
+PASS R4 | 'P' re-refused at the admission gate | got "REFUSED: element not admitted: 'P'" | expect "REFUSED: element not admitted: 'P'"
+PASS R5 | unclosed group C6H12(O6 re-refused | got "REFUSED: syntax (unclosed group)" | expect "REFUSED: syntax (unclosed group)"
+PASS R6 | bad character in 'C6H12O6$' re-refused | got "REFUSED: syntax (bad character)" | expect "REFUSED: syntax (bad character)"
+PASS R7 | FeSO4·0.35H2O re-refused as NON-EXACT at the dot | got "REFUSED: NON-EXACT (non-integer hydrate)" | expect "REFUSED: NON-EXACT (non-integer hydrate)"
+PASS R8 | FeSO4·0H2O re-refused, zero subscript | got "REFUSED: zero subscript" | expect "REFUSED: zero subscript"
+PASS P1 | pin H2O (Ch 4) re-derived | got "18.015 g/mol (180,150 myu)" | expect "18.015 g/mol (180,150 myu)"
+PASS P2 | pin glucose C6H12O6 (Ch 21) re-derived | got "180.156 g/mol (1,801,560 myu)" | expect "180.156 g/mol (1,801,560 myu)"
+PASS P3 | pin sucrose C12H22O11 (Ch 5) re-derived | got "342.297 g/mol (3,422,970 myu)" | expect "342.297 g/mol (3,422,970 myu)"
+PASS P4 | pin acetic acid C2H4O2 (Ch 4) re-derived | got "60.052 g/mol (600,520 myu)" | expect "60.052 g/mol (600,520 myu)"
+PASS P5 | pin methanol CH4O (Ch 21) re-derived | got "32.042 g/mol (320,420 myu)" | expect "32.042 g/mol (320,420 myu)"
+PASS P6 | pin O2 (Ch 7) re-derived | got "31.998 g/mol (319,980 myu)" | expect "31.998 g/mol (319,980 myu)"
+PASS P7 | pin CO2 (Ch 20) re-derived | got "44.009 g/mol (440,090 myu)" | expect "44.009 g/mol (440,090 myu)"
+PASS P8 | pin cellulose C6H10O5 (Ch 25) re-derived | got "162.141 g/mol (1,621,410 myu)" | expect "162.141 g/mol (1,621,410 myu)"
+PASS P9 | pin copperas FeSO4·7H2O (Ch 19) re-derived | got "278.006 g/mol (2,780,060 myu)" | expect "278.006 g/mol (2,780,060 myu)"
+PASS P10 | pin salicin C13H18O7 (Ch 34) re-derived | got "286.280 g/mol (2,862,800 myu)" | expect "286.280 g/mol (2,862,800 myu)"
+PASS P11 | pin saligenin C7H8O2 (Ch 34) re-derived | got "124.139 g/mol (1,241,390 myu)" | expect "124.139 g/mol (1,241,390 myu)"
+PASS P12 | pin aspirin C9H8O4 (Ch 3) re-derived | got "180.159 g/mol (1,801,590 myu)" | expect "180.159 g/mol (1,801,590 myu)"
+PASS P13 | pin isoprene C5H8 (Ch 35) re-derived | got "68.119 g/mol (681,190 myu)" | expect "68.119 g/mol (681,190 myu)"
+PASS P14 | pin salicylic acid C7H6O3 (Ch 13) re-derived | got "138.122 g/mol (1,381,220 myu)" | expect "138.122 g/mol (1,381,220 myu)"
+PASS P15 | pin stearic acid C18H36O2 (Ch 23) re-derived | got "284.484 g/mol (2,844,840 myu)" | expect "284.484 g/mol (2,844,840 myu)"
+PASS I1 | ISOMER a-pinene C10H16 - Ch 34 limonene number re-derived | got "136.238 g/mol (1,362,380 myu)" | expect "136.238 g/mol (1,362,380 myu)"
+PASS N1 | NEW abietic acid C20H30O2 re-derived | got "302.458 g/mol (3,024,580 myu)" | expect "302.458 g/mol (3,024,580 myu)"
+PASS N2 | NEW betulin C30H50O2 re-derived | got "442.728 g/mol (4,427,280 myu)" | expect "442.728 g/mol (4,427,280 myu)"
+PASS N3 | NEW gallic acid C7H6O5 re-derived | got "170.120 g/mol (1,701,200 myu)" | expect "170.120 g/mol (1,701,200 myu)"
+PASS N4 | NEW tannic acid C76H52O46 re-derived | got "1701.206 g/mol (17,012,060 myu)" | expect "1701.206 g/mol (17,012,060 myu)"
+PASS N5 | NEW arabinose C5H10O5 re-derived | got "150.130 g/mol (1,501,300 myu)" | expect "150.130 g/mol (1,501,300 myu)"
+PASS N6 | NEW formic acid CH2O2 re-derived | got "46.025 g/mol (460,250 myu)" | expect "46.025 g/mol (460,250 myu)"
+PASS B1 | salicin hydrolysis balance re-walked by lanes | got "3,042,950 myu CLOSES" | expect "3,042,950 myu CLOSES"
+PASS B2 | saligenin oxidation balance re-walked | got "1,561,370 myu CLOSES" | expect "1,561,370 myu CLOSES"
+PASS B3 | tannic hydrolysis balance re-walked | got "18,813,560 myu CLOSES" | expect "18,813,560 myu CLOSES"
+PASS B4 | copperas drying balance re-walked | got "2,780,060 myu CLOSES" | expect "2,780,060 myu CLOSES"
+PASS B5 | isoprene polymerization bookkeeping 1000 x C5H8 re-summed | got "681,190,000 myu CLOSES" | expect "681,190,000 myu CLOSES"
+PASS B6 | a-pinene combustion balance re-walked | got "5,842,100 myu CLOSES" | expect "5,842,100 myu CLOSES"
+PASS B7 | aspirin hydrolysis balance re-walked | got "1,981,740 myu CLOSES" | expect "1,981,740 myu CLOSES"
+PASS B8 | MUST-FAIL re-proof: salicin hydrolysis drafted with C6H10O5 for glucose | got "GAP 180,150 myu CAUGHT" | expect "GAP 180,150 myu CAUGHT"
+PASS PR1 | the 136-family re-probed: a-pinene vs limonene | got "0 myu — SAME number, DIFFERENT molecule (isomers)" | expect "0 myu — SAME number, DIFFERENT molecule (isomers)"
+PASS PR2 | the 180-family re-probed: aspirin minus glucose | got "30 myu" | expect "30 myu"
+PASS PR3 | the 150-family re-probed: thymol minus arabinose | got "910 myu" | expect "910 myu"
+PASS PR4 | the 46-family re-probed: ethanol minus formic | got "440 myu" | expect "440 myu"
+PASS L1 | maple model: 20 g sucrose / 0.669 solids, exact rational | got "29.895 g" | expect "29.895 g"
+PASS L2 | water evaporated: 1000 - syrup, exact rational | got "970.105 g" | expect "970.105 g"
+PASS L3 | the boil energy: water x 2256 J/g, exact rational | got "2,188,556 J (2.189 MJ)" | expect "2,188,556 J (2.189 MJ)"
+PASS L4 | the rule of 86 at 2% sap | got "43.0" | expect "43.0"
+PASS L5 | model sap:syrup ratio (density 1.33 g/mL) vs the rule, exact rational | got "44.49 vs 43.0 — honest gap 1.49 (~3.5%)" | expect "44.49 vs 43.0 — honest gap 1.49 (~3.5%)"
+PASS L6 | RO pre-concentration 2%->8%: 750 g vs the 970.105 g boil, exact rational | got "77.3% of the boil" | expect "77.3% of the boil"
+PASS L7 | latex: 350 g rubber / isoprene pin, exact rational | got "5.138 mol" | expect "5.138 mol"
+PASS L8 | oleoresin 20/80 model: pinene and abietic lanes, exact rational | got "0.1468 mol pinene / 0.2645 mol abietic acid" | expect "0.1468 mol pinene / 0.2645 mol abietic acid"
+PASS L9 | ink batch 4 g tannic + 3 g copperas, exact rational | got "tannic 2.3513 mmol, Fe 10.7911 mmol, gallate:Fe 2.179:1" | expect "tannic 2.3513 mmol, Fe 10.7911 mmol, gallate:Fe 2.179:1"
+PASS X1 | Ex 7.1 resin split at the 20/80 model | got "20.0 g turpentine / 80.0 g rosin" | expect "20.0 g turpentine / 80.0 g rosin"
+PASS X2 | Ex 7.2 the rule of 86 at 3% sap | got "28.667 (about 29 gal)" | expect "28.667 (about 29 gal)"
+PASS X3 | Ex 7.3 six waters over the heptahydrate, exact rational | got "38.880%" | expect "38.880%"
+PASS X4a | Ex 7.4a 40 L sap: 800 g sucrose / 0.669, exact rational | got "1,195.815 g" | expect "1,195.815 g"
+PASS X4b | Ex 7.4b the 40 L boil: 25,960,000/669 g water x 2256, exact rational | got "87,542,242 J (87.542 MJ)" | expect "87,542,242 J (87.542 MJ)"
+PASS X5a | Ex 7.5a the willow corridor 25 g salicin, exact rational | got "0.087327 mol -> 10.841 g -> 12.062 g" | expect "0.087327 mol -> 10.841 g -> 12.062 g"
+PASS X5b | Ex 7.5b the ink pot 60 g Aleppo galls at 65%, exact rational | got "22.925 mmol tannic (229.249 mmol galloyl) -> 29.250 g copperas" | expect "22.925 mmol tannic (229.249 mmol galloyl) -> 29.250 g copperas"
+PASS C1 | tannic acid's census read back from the lanes | got "C:76 H:52 O:46" | expect "C:76 H:52 O:46"
+PASS C2 | B3's element lanes, both sides re-compared | got "IDENTICAL" | expect "IDENTICAL"
+PASS C3 | determinism: the whole battery run twice, byte-identical | got "IDENTICAL" | expect "IDENTICAL"
+RUN 2 VERDICT: 68/68 PASS — CLEAN
+G1 RECOUNT: the frozen block holds 68 PASS rows; the frozen verdict line reads 67/67 — OFF-BY-ONE RAISED (RF-1)
+G2 CANARY: L1 expectation corrupted to "29.896 g" -> the harness FAIL (good - canary caught); non-vacuity proven
+G4 MUST-FAIL: B8 recomputed through the peel machine -> "GAP 180,150 myu CAUGHT"
+```
+
+**The gates.** **G1 RECOUNT — RF-1, the review’s one finding:** the frozen block holds **68 PASS rows**; its own verdict line reads "67/67" — the authoring harness’s tally undercounted by one, and the three-run history (33/67 → 63/67 → 67/67) carried the same off-by-one; every row itself PASSes with got == expect, so the defect is the summary count alone (most plausibly a fused pair among the X rows in the tally counter). The honest verdict by direct machine recount is **68/68 CLEAN**; the frozen block stands per extend-never-rewrite, and this appendix is the correction of record — no figure, balance, ledger, or exercise moves. **G2 CANARY:** L1’s expectation corrupted to "29.896 g" — the harness FAILED it; non-vacuity proven. **G3 DETERMINISM:** the whole battery run twice, byte-identical. **G4 MUST-FAIL:** B8 recomputed through the peel machine — GAP 180,150 myu CAUGHT again, exactly one water.
+
+**The pin re-greps (the session-112 line, raw `grep -oF` counts in the owners’ own pages):** all verified present, zero mismatches —
+
+| Pin | Owner’s page | Raw count |
+|---|---|---|
+| H2O 18.015 | Ch 4 | ×1 |
+| glucose 180.156 | Ch 21 | ×2 |
+| sucrose 342.297 | Ch 5 | ×2 |
+| acetic acid 60.052 | Ch 4 | ×5 |
+| methanol 32.042 | Ch 21 | ×3 |
+| O2 31.998 | Ch 7 | ×1 |
+| CO2 44.009 | Ch 20 | ×6 |
+| cellulose 162.141 | Ch 25 | ×1 |
+| copperas 278.006 | Ch 19 | ×2 (Ch 22 cross ×4) |
+| salicin 286.280 | Ch 34 | ×6 |
+| saligenin 124.139 | Ch 34 | ×4 |
+| aspirin 180.159 | Ch 3 | ×3 |
+| isoprene 68.119 | Ch 35 | ×2 |
+| salicylic acid 138.122 | Ch 13 | ×1 |
+| stearic acid 284.484 | Ch 23 | ×6 |
+| heat anchor 2256 J/g | Ch 7 | ×4 |
+| limonene 136.238 (the isomer twin) | Ch 34 | ×3 |
+| thymol 150.221 (the 150-family probe) | Ch 34 | ×2 |
+| ethanol 46.069 (the 46-family probe) | Ch 21 | ×22 |
+
+**The NEW re-proof at the review HEAD:** N1–N6 re-proven zero-hit corpus-wide — 302.458, 442.728, 170.120, 1701.206, 150.130, 46.025, and the seven shelf words (rosin, turpentine, arabic, hevea, guayule, birch, acorn) all zero-hit across the 28 local masters, the local Field-Companion engine records and design notes (2,247,571 B), and the 41 web editions (2,272,243 B) — fc7’s own master and web edition excluded as the home chapter, disclosed; fc1 swept via its byte-verified web edition per the content contract. The six NEW compositions stand.
+
+**The [convergent] re-confirmations at named sources (twelve fresh searches, all convergent, zero corrections owed):** α-pinene’s 155–156 °C boiling point and 136.23 g/mol; the Kozowyk experimental series named (the mound, pit, and raised-structure methods of the Palaeolithic dry-distillation literature); maple’s 66.9 °Brix minimum legal density; the Jones rule of 86 (C.H. Jones, 1946, the University of Vermont); formic acid as Hevea latex’s standard coagulant; the Aleppo gall as the ink canon’s tannin-rich ingredient; **gallotannic acid at 1701.19 g/mol — "ten times that of gallic acid" — the decagalloyl convention and the database-basis seam confirmed in one source line**; gum arabic’s three-fraction census with arabinogalactan the bulk; abietic acid at 302.4510 (the databases); tannic acid C76H52O46 at 1701.19 (the databases’ averaged-weight basis against the bench table’s 1701.206 — the seam re-printed honestly); betulin’s bark-band source page; the maple-sap sugar class.
+
+**Ex FC7.6 — the withheld worked answer, delivered (battery rows and [convergent] endpoints only; no new figures):**
+
+The diagnosis, rung by rung. *Why it writes pale then darkens:* the ink’s working black is the iron(III)-tannate line; a hurried batch starts mostly iron(II), nearly colorless against the gallotannin, and then air oxidizes it on the page — Ch 22’s E8 oxidation (cited in Lecture 5, not re-derived) running in miniature where the ink sits. The darkening you wanted and the corrosion you got are the same oxidation’s two halves. *Why the paper cracks and laces fifty years on, exactly where the writing ran:* three failure modes, each priced by this chapter’s own rows. **(a) Excess iron:** copperas poured "to make it darker" leaves free iron migrating along the fibers, and the metal catalyzes the cellulose’s oxidation (Ch 25’s polymer) — browning and embrittlement along the stroke. **(b) Excess acid:** the hurried maker’s shortcuts (vitriol added to "fix" a pale batch) leave sulfuric acid in the line, and iron(II) sulfate’s own hydrolysis keeps writing acid onto the page for decades; acid hydrolysis cuts the cellulose chains and the line becomes lace. **(c) The ratio abandoned:** the canon’s ~3:1 gallotannic-to-iron-sulfate weight stability finding — with this chapter’s model batch printed honestly at the ten-galloyl convention’s 2.179:1 gallate:iron (L9) — is not a flavor choice: the gallotannin binds the iron and holds it in the line. Under-gall the batch and the leftover iron wanders; over-vitriol it and the acid eats. The old 4:2:1 recipe family (2 oz galls, 1 oz copperas, ½ oz gum — the 1770 record) is the same instruction in ounce arithmetic.
+
+*The fix for the next batch, in the recipe’s own terms:* weigh, never pour — hold the recipe’s gall:copperas ratio (the canon’s ~3:1 by weight; L9 shows how a convention’s ratio is checked, never guessed); no acid beyond the recipe’s own; **fresh copperas, not the storage-dried box** (Ex 7.3’s own answer: the dried box carries unknown water and iron(III) already spent); gum arabic in the recipe’s proportion, so the ink’s particles ride the gum above the fiber instead of settling into it; soft water (the canon’s rain); and the modern conservator’s formulation is deliberately mild for exactly this history — recognition: the fifty-year lace is a conservation problem (the archivist’s deacidification shelf), not a home-bench project. This chapter prices the diagnosis; it never practices the restoration.
+
+**VERDICT: PASS WITH RF-1** — the review’s one correction is the frozen verdict line’s own tally (68 PASS rows, not 67; recorded here, the block untouched per extend-never-rewrite); every composition, balance, ledger, exercise figure, refusal, and checksum reproduced exactly by an engine sharing zero code with the authoring engine; the six NEW claims re-proven; the pins re-grepped; the [convergent] battery re-confirmed.
+
+*Chapter status: reviewed 2026-10-20 (session 125, PASS WITH RF-1) — drafted and frozen at session 124; the battery’s record is the 68-row block in Lab FC7.1 and Engine 38’s clean reproduction of it above.*
