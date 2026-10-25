@@ -1,0 +1,30 @@
+name: Assemble papers/CORPUS.md (batch 33er)
+on:
+  push:
+    paths:
+      - 'corpus-33er-parts/**'
+concurrency:
+  group: assemble-corpus-33er
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: assemble
+        run: |
+          N=$(ls corpus-33er-parts | wc -l)
+          if [ "$N" -ne 2 ]; then exit 0; fi
+          cat corpus-33er-parts/* > papers/CORPUS.md
+          test $(wc -c < papers/CORPUS.md) -eq 1214188
+          printf '%s  %s\n' '858430f49d14d39ff92be7c490c42cb6' 'papers/CORPUS.md' | md5sum -c
+          git config user.name "assembly-bot"
+          git config user.email "assembly-bot@users.noreply.github.com"
+          git add papers/CORPUS.md
+          git commit -m "Assemble papers/CORPUS.md (batch 33er)"
+          git push
+          git rm -r corpus-33er-parts
+          git commit -m "Remove corpus-33er-parts (batch 33er)"
+          git push
