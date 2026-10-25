@@ -1,0 +1,57 @@
+name: Assemble KNOWLEDGE (batch 33dz)
+on:
+  push:
+    paths:
+      - 'knowledge-parts/**'
+concurrency:
+  group: batch-33dz-knowledge-parts
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble and verify
+        run: |
+          ok=1
+            if [ ! -f "knowledge-parts/p1" ]; then
+              ok=0
+            fi
+            if [ ! -f "knowledge-parts/p2" ]; then
+              ok=0
+            fi
+            if [ ! -f "knowledge-parts/p3" ]; then
+              ok=0
+            fi
+            if [ ! -f "knowledge-parts/p4" ]; then
+              ok=0
+            fi
+            if [ ! -f "knowledge-parts/p5" ]; then
+              ok=0
+            fi
+            if [ ! -f "knowledge-parts/p6" ]; then
+              ok=0
+            fi
+            if [ ! -f "knowledge-parts/p7" ]; then
+              ok=0
+            fi
+          if [ "$ok" -ne 1 ]; then
+            echo "parts missing - exit 0 (guard)"
+            exit 0
+          fi
+          cat knowledge-parts/p1 knowledge-parts/p2 knowledge-parts/p3 knowledge-parts/p4 knowledge-parts/p5 knowledge-parts/p6 knowledge-parts/p7 > knowledge/everyday-chem-survey/KNOWLEDGE.md
+          if [ "$(wc -c < knowledge/everyday-chem-survey/KNOWLEDGE.md)" -ne 710741 ]; then
+            echo "SIZE MISMATCH"
+            exit 1
+          fi
+          printf '%s  %s\n' '1f61c59f2d25b14c1343d97f8a62760b' 'knowledge/everyday-chem-survey/KNOWLEDGE.md' | md5sum -c
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knowledge/everyday-chem-survey/KNOWLEDGE.md
+          git commit -m "batch-33dz: KNOWLEDGE assembly — the 33dz addendum (line 203), 710741 B, md5 1f61c59f2d25b14c1343d97f8a62760b"
+          git push
+          git rm -r knowledge-parts
+          git commit -m "batch-33dz: knowledge-parts removed in-job (assembly verified)"
+          git push

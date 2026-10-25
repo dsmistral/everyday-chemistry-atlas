@@ -1,0 +1,42 @@
+name: Assemble CORPUS (batch 33dz)
+on:
+  push:
+    paths:
+      - 'corpus-parts/**'
+concurrency:
+  group: batch-33dz-corpus-parts
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble and verify
+        run: |
+          ok=1
+            if [ ! -f "corpus-parts/p1" ]; then
+              ok=0
+            fi
+            if [ ! -f "corpus-parts/p2" ]; then
+              ok=0
+            fi
+          if [ "$ok" -ne 1 ]; then
+            echo "parts missing - exit 0 (guard)"
+            exit 0
+          fi
+          cat corpus-parts/p1 corpus-parts/p2 > papers/CORPUS.md
+          if [ "$(wc -c < papers/CORPUS.md)" -ne 1065657 ]; then
+            echo "SIZE MISMATCH"
+            exit 1
+          fi
+          printf '%s  %s\n' '1a2b8f5e7fa5d6f76b405d49da7448c9' 'papers/CORPUS.md' | md5sum -c
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers/CORPUS.md
+          git commit -m "batch-33dz: CORPUS assembly — the N475-N479 rows (the unfigured-remainder tranche) + the S02-cell note, Corpus 473 -> 478, 1065657 B, md5 1a2b8f5e7fa5d6f76b405d49da7448c9"
+          git push
+          git rm -r corpus-parts
+          git commit -m "batch-33dz: corpus-parts removed in-job (assembly verified)"
+          git push
