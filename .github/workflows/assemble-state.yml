@@ -1,0 +1,34 @@
+name: Assemble STATE (batch 33dp)
+on:
+  push:
+    branches: [main]
+    paths: ['state-parts/**', 'state-parts']
+concurrency:
+  group: assemble-state-33dp
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check all parts present
+        run: |
+          if [ ! -f state-parts/p1 ] || [ ! -f state-parts/p2 ]; then
+            echo "parts incomplete, skipping"
+            exit 0
+          fi
+      - name: Assemble and assert
+        run: |
+          cat state-parts/p1 state-parts/p2 > papers/STATE.md
+          if [ "$(wc -c < papers/STATE.md)" != "907421" ]; then echo "SIZE ASSERT FAILED"; exit 1; fi
+          echo "d9b61af570f57bd1bee3c51045f92943  papers/STATE.md" | md5sum -c - || { echo "MD5 ASSERT FAILED"; exit 1; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers/STATE.md
+          git rm -r state-parts
+          git commit -m "batch-33dp: STATE — the 33dp NEXT line (the deleted-episode cluster gathered: the Wayback description-level pair + the first-party removal statement + the extended removal set; corpus 436 -> 447)"
+          git push
