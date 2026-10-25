@@ -44,10 +44,10 @@ Session 189 continued (2026-10-25). AUDIT LEVEL — NO new papers (the corpus st
 
 ## The push record
 
-(to be appended after the landing)
+- **The push chain (all landed, verified via list_commits + directory listings)**: the batch record + the three assembly workflows (ed022e21) → the state parts p1 (dcdde7f2, 478,425 B) + p2 (0f045487, 518,920 B) → the assembly ef71c613 + the removal 2af0e0a5 (second poll) → the corpus parts p1 (dd81b296, 583,555 B) + p2 (d9924557, 541,986 B) → the assembly 2a3fb74d + the removal aa998841 (second poll) → the knowledge parts p1-p6 (821b9ff6, 284,130 B: the lines 1-12 head + the five line-13 fragments) + p7 (b729501b, 456,729 B) → the assembly 2e0b9257 + the removal cf4e4cfe (second poll) → the three workflow deletes (2272fc59 + 65b3d6f8 + 1d279b9d) → the SURVEY-2 both-mirrors push (31396de7). ALL THREE assembly runs CLEAN (the wc -c + md5sum -c gates passed in-workflow; no rm-stall at any register; no memory face on any assembly or part push).
 
 ## The post-landing note
 
-(to be appended at the unit's close)
+- **The post-landing verification (directory listings ONLY, per the standing rule)**: papers/CORPUS.md 1,125,541 B + papers/STATE.md 997,345 B + papers/SURVEY-2.md 644,877 B; knowledge/everyday-chem-survey/KNOWLEDGE.md 740,859 B + SURVEY-2.md 644,877 B + SURVEY.md 631,909 B (the untouched mirror); papers/batches/batch-33ej.md at the final size (this re-push closes the record); the parts dirs GONE (no *-33ej-parts at the root); the local .tmp33ej scratch deleted at close. **THE 16-MiB AFTER-PUSH MEMORY FACE — the fifth datum, a standing certainty on the two-mirror SURVEY-2 push: the push completes at op 13, the program dies after, the push LANDS — verified via list_commits (31396de7), NEVER re-pushed blind.**
 
 — NEXT (standing docket): the campaign's first tranche (the M class's en-vtt members in N-row order, the tranche size the user's call) / the duplicate-pair adjudication call (BqLH-nTZEOc N395+N406 + 2BZGjycR7YM N405+N428) / the mention-only 34's gather calls (each the user's call) / the authoring call Vol VI Ch 37 (gated per the session-189 v2 protocol: re-check the register for map pressure at that call), or the user's direction. Corpus 518 UNCHANGED (the audit done).
