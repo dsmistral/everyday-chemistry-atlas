@@ -1,0 +1,32 @@
+name: Assemble papers/STATE.md (batch 33eh)
+on:
+  push:
+    paths:
+      - 'state-33eh-parts/**'
+concurrency:
+  group: assemble-state-33eh
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guard
+        run: |
+          n=$(ls state-33eh-parts/p1.part state-33eh-parts/p2.part 2>/dev/null | wc -l)
+          if [ "$n" -ne 2 ]; then echo "incomplete"; exit 0; fi
+      - name: assemble
+        run: |
+          cat state-33eh-parts/p1.part state-33eh-parts/p2.part > papers/STATE.md
+          test "$(wc -c < papers/STATE.md)" -eq "993575"
+          printf '%s  %s\n' '0cfd47863da9c7f331ff72d7a2304f5d' 'papers/STATE.md' | md5sum -c
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add papers/STATE.md
+          git commit -m 'Assemble papers/STATE.md (batch 33eh)'
+          git push
+          git rm -r state-33eh-parts
+          git commit -m 'Remove state-33eh-parts (batch 33eh)'
+          git push

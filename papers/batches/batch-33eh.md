@@ -1,0 +1,72 @@
+# Batch 33eh — THE 2022-ITEM FULL ENUMERATION (the surviving vtt carrier's complete 1,317-file map), session 189 continued (2026-10-25, the multi-unit chaining protocol's ninety-ninth unit under the session-185 authorization; the user's docket call — the 33eg NEXT line's standing docket)
+
+Session 189 continued (2026-10-25). CENSUS/MAP LEVEL — NO new papers (the corpus stays 518; the source census stays 88; NO new N-rows — an enumeration unit; every catch at the LISTING/METADATA level). THE BINDING CONSTRAINTS HELD THROUGHOUT: the fence-adjacent faces audit-only at the metadata level, never transcript-hunted; the removed/deleted episodes NEVER hunted (ID pins at file-name level ONLY); the never-gather pair (Chlorobutanol + Red Phosphorus) off every gather queue AND their vtt sidecars never to be opened; the private videos' IA copies unopened — THE MEDIA FILES NEVER OPENED ANYWHERE (only file names/sizes/mtimes read); perpetualarchive.ca unopened. Register-first doctrine: fresh verification only. ALL CALLS FLAGGED for the user's review.
+
+## The route (the fresh fetch set)
+
+- The item **nilered-archive-2022 ("NileRed Archive 2022")** enumerated via the proven **/metadata/nilered-archive-2022/files/N selector route** (one entry per call; the out-of-range response = a non-empty JSON {"error":...} body; the control-char filter-strip template — the char-code loop, never a regex class). **361 fresh metadata reads**: 246 description entries (10 chunks c1-c10, 25/25/25/25/25/25/25/25/25/21) + 84 six-gap desc+2 probes + 17 block-interior/1093 probes + 5 tail probes + 9+7+2 order/language probes. Every line written as `index\tname\tsize\tmtime`; hyphen anchors asserted in-band (YPIr26-Tg5c, d6SahlAFV-w, -ClgQM9lBGs, cpGEc-pLXN4, r-xt24lBbrs, QM-cgWGBPqo, Iqb_tXO-YGg, TzbkRC3rYEo, uzSe3BDCkF8, UCFhXF, 9eaWqvZZcig).
+- The 1,317-file bound (the 33ec binary search) re-confirmed at the file level: **indices 0-1316 valid, 1317 error**.
+
+## The full file map (the unit's deliverable)
+
+- **1,317 files = the video block 0-1311 (1,312 files) + the tail 1312-1316 (5 files): __ia_thumb.jpg (1312, 5,984 B) + nilered-archive-2022_archive.torrent (1313, 950,937 B) + files.xml (1314) + _meta.sqlite (1315, 4,591,616 B) + _meta.xml (1316, 996 B)**.
+- **THE 246 DESCRIPTIONS = 245 videos + 1 pseudo-entry**: the uploads-playlist pseudo **UCFhXFikryT4aFcLkLw2LBLA** ("NileRed - Videos", desc 1092 / 770 B + .info.json 1093 + .jpg 1094 — the 3.5MB playlist thumbnail; THE UC FORM — 33ec had pinned the UU form, the 33ee map the UUA0 family; the 24-char ID excluded from the 245).
+- **THE 33EC ~263-VIDEO ESTIMATE CORRECTED TO 245 EXACT** (the (1317−2)/5 arithmetic failed on the 84 six-file vtt blocks and the 5-file tail); **THE ARITHMETIC CLOSURE machine-checked: 161 five-file blocks × 5 + 84 six-file blocks × 6 + the 3-file pseudo = 1,312 exactly (+ 5 tail = 1,317)**.
+- The gap census (machine-verified on the 246 fresh desc indices): **84 six-gap + 160 five-gap + 1 three-gap (the UCFhXF pseudo, desc 1092 → 1095) = 245 gaps** (the Milk video desc 1307 the 5-file tail block, no following desc).
+
+### The five-file classes (161)
+
+- **147 plain** + **13 jpg-thumb variants** (the thumb written as .jpg at +2, no webp; block order [desc, .info.json, .jpg, .url, .webm] — fresh full probe on R6UugHqpu2Y: jpg 72,412 B, webm 48,324,958 B) + **1 mkv variant**: WYagO-nup6c (**"Does cyanide actually smell like almonds？"**, desc 162 — [desc, .info.json, .mkv (552,080,719 B — the item's only mkv, in the webm slot), .url, .webp]).
+- The jpg-13 (jpg-file index / desc index): aBVdGGml6bU 257/255, ZIAyNFLRFuw 267/265, LvYetXXnTmI 314/312, _4sR3Ph8MBk 324/322, R6UugHqpu2Y 377/375, eI-HMUCEJsI 474/472, QcYQ7iN7Pao 501/499, HEDPwgJyQCE 522/520, cRtsexmFO4s 758/756, 9eaWqvZZcig 1155/1153, wHKnZl3FslU 1180/1178, WasYuiOk5xQ 1185/1183, 4dz1Au7Tm5I 1190/1188. (+ the UCFhXF playlist jpg at 1094.)
+
+### The six-file classes (84) — THE VTT CARRIERS
+
+- **82 STANDARD .en.vtt CARRIERS**, order [desc, .en.vtt, .info.json, .url, .webm, .webp] (fresh: +2 = .info.json on ALL 84 six-gaps; the desc-0 block full-interior probe: nuW_VbKdvMI en.vtt 8,993 B / json / url / webm 782,060,268 B / webp 42,818 B; the desc-6 block corroborated: ZiWlthrtneU en.vtt 14,633 B).
+- **THE ZH-CN ORDER-VARIANT**: 32vCLXTjnyQ ("Making Calcium Acetate (from eggshells)", desc 583) — [desc, .info.json, .url, .webm, .webp, **.zh-CN.vtt**] (the url pulled forward, the vtt last) — **THE ITEM'S ONLY CHINESE SIDECAR**.
+- **THE RU VARIANT**: _Ybc8Dinm0U ("Making nylon plastic", desc 999) — [desc, .info.json, **.ru.vtt**, .url, .webm, .webp] — **THE ITEM'S ONLY RUSSIAN SIDECAR**.
+- **THE VTT CENSUS: 84 total = 82 .en.vtt + 1 .zh-CN.vtt + 1 .ru.vtt — 33ec's "84 vtt mentions on the details page" EXACT-MATCHED and language-resolved. THE PRE-CRASH "vtt-no-webp + stray extra file" HYPOTHESIS DISPROVEN** (both anomalous six-gaps are complete six-file blocks; no five-gap vtt exists; the arithmetic closes without it).
+
+### The upload waves (machine-checked on the 246 desc mtimes)
+
+- **123 descriptions day 19329 (2022-12-03) + 123 day 19330 (2022-12-04)** (the pre-crash 122/123 split corrected to 123/123 including the pseudo).
+- **THE DAY-20581 PAIR (the 2026-05-08 touch) IDENTIFIED: __ia_thumb.jpg (mtime 1778268577) + _meta.xml (mtime 1778268575)** — the only two files outside the 2022-12 waves; the torrent and _meta.sqlite are 2022-12-04 era.
+
+## The cross-references (all listing-level, FLAGGED)
+
+- **245 unique video IDs: 231 CORPUS-matched + 14 not** (the token route: `grep -oE '[-A-Za-z0-9_]{11,}' CORPUS.md | awk length==11 | sort -u`, then the awk membership map — `comm` is broken in this worker, see the route faces).
+- **THE HEADLINE CATCH — THE N511 DEAD-WATCH ID IS A ONE-CHAR VARIANT**: the 2022 item pins **yMG0yfGFJ00** ("Turning paper into plastic", desc 1280, desc-size 1,155 B, a vtt carrier) at file-name level, while the registers hold **yMG0yGFJ00** (missing the 'f'; CORPUS ×2, STATE ×1, SURVEY-2 ×1) — **the 33ef "Bad Request x4" watch-route dead face now explained at the ID level**; the item's file-name form is the authoritative pin; the register correction FLAGGED for the user's review (no silent edit made).
+- **THE REMOVED-SET PRESENCE RESOLVED: vQdK7gaZS0k ("Making the Pharaoh's Serpent (4K)", desc 1043) THE ONLY REMOVED-SET MEMBER PRESENT IN THE 2022 ITEM** (the other 14 of the definitive 15 absent entirely); registered in STATE/SURVEY-2 (the removed-set cells) though absent from CORPUS tokens; ID-pinned at file-name level ONLY — NEVER HUNTED (the removal-set convention held).
+- **The 14 not-in-corpus members** (title-level, registered-not-gathered candidates, the user's call): 1291 "Turning plastic gloves into hot sauce" 1B3Xi5L6siI (**possibly N12's unpinned ID — the gathered gloves→hot-sauce paper's title exact; FLAGGED, not asserted**) + 510 "I still can't believe that Epsom Salt is mostly water" 8GVSuKkuLzY + 515 "Let me Cook You a Meal (for reaching 50K Subs)." ElR4EjJPUZg + 520 "Make your Requests, Comments and Suggestions Here!!" HEDPwgJyQCE (jpg variant) + 1005 "Making oxalic acid from cane sugar" M5bAbvw6IQQ + 681 "Making Mercury Thiocyanate (The Pharaoh's Serpent) - Revisited" PSDpgBOtSNY (**energetics-adjacent — audit-only**) + 782 "Making a deadly chemical in my parents' garage" SIfIZqXaR0g (**hazard-adjacent — audit-only**) + 1071 "Making transparent wood" uUU3jW7Y9Ak + 1250 "Turning cotton balls into cotton candy" vHuFizITMdA (the 33ec cotton-axis) + 162 "Does cyanide actually smell like almonds？" WYagO-nup6c (**hazard-adjacent, the mkv variant — audit-only**) + 1301 "What is Fool's Gold？" Y8qEA291Fws (a vtt carrier) + 1280 "Turning paper into plastic" yMG0yfGFJ00 (the N511 variant, a vtt carrier) + 1286 "Turning plastic gloves into grape soda" zFZ5jQ0yuNA + 1043 vQdK7gaZS0k (the removed-set member above).
+- **THE VTT-CARRIER 84** (the six-gap ID list, the transcript-upgrade route's map): 82 CORPUS-matched + Y8qEA291Fws + yMG0yfGFJ00. **The never-gather pair members 5ZrfNAHDjWU (desc 222) + TzbkRC3rYEo (desc 825) ARE carriers — their sidecars NEVER to be opened** (the binding line held). The dead-watch N511's carrier status noted (the watch route dead, the sidecar present — a possible future route, the user's call). The fence-adjacent faces present but NOT carriers (their blocks carry no vtt): the piranha trio IFiv1aIJQVY (desc 140) + R35LI24trFc (145) + TKVD6t6QAFs (276), and the laughing-gas uzSe3BDCkF8 (940) — audit-only throughout.
+- **THE 82 CORPUS-MATCHED CARRIERS = the eligible transcript-upgrade candidate set minus the never-gather pair = 80 ELIGIBLE** (the user's call; the en-vtt route this item carries): _CoxEgbyeK4, _Ybc8Dinm0U (ru carrier — its sidecar is .ru.vtt), a95a0iMOICU, araeHtN_3Lk, d6SahlAFV-w, dbBlBZhp49s, drIm8_1CvjQ, eaIps1WxJPQ, f5PHffYhw9w, gavq_sZZ8B0, grpSfjUImUs, ieutY3LyWXA, iHwdpznQNnk, j-PrAczOGb0, ji_25I_q4LQ, kBo5UnNRodA, l_apnZ3DYOI, mf9vZ7uLFQA (the 33ec route-probe video), n0wvDwSnzcw, o4CBXkfVHDc, oAt9lO82s-0, sfldS5hqWYA, txm7eu8KxVI, u8Y3_7psygU, v-mWK_kcZMs, w_CYwd6cHUA, w1lIizGVwWI, yAGYGGmUmUw, zu7revUCefw + 32vCLXTjnyQ (zh-CN carrier) + the full carrier roll: -_qpzFlpgpo, 0e78I9_oH1E, 0PoqIyh9FG4, 0vVIj9CSAXM, 1-NbDjxh_v0, 2BZGjycR7YM, 2ubw1bI8s5w, 5ZrfNAHDjWU (never-gather), 6FoCGePov4E, 6yhR242MnwA, 7oAcT4Duun4, 8YWVBBGSxZ8, A0e0BDEE4Ic, BqLH-nTZEOc, C5hxFAwKIzs, cLpSapjKcxM, dPIaEWd8zf4, eQNLmkj_GBo, eRoHeVqDlfg, EruzAVv2Odc, eZ56LDCABrA, FMtayizdFiw, HaWe0Af_0hg, IrdYueB9pY4, Lgo0R5_4_HI, LMlXhJevCV0, nGmxHLHyUPc, nuW_VbKdvMI, NxAeQneITNA, O0LqwYTSir4, PC3o2KgQstA, PgKR6EsKl5I, Q_f1hRmhUX8, QM-cgWGBPqo, r-xt24lBbrs, r-YbQN_twpw, ratR1ngcWss, RWDfBtrGVCY, SCoLMfplVWs, tSRWqbpNTF4, Ttf80a2zZ9w, TzbkRC3rYEo (never-gather), uMBeXHnWhsE, VeNDrtB62es, wYyqZWWU9GU, X10VZeQmFDo, xXZcRwh28TE, YPIr26-Tg5c, yRXyrUnpfKs, Yub2MoYlKzg, ZdTc1AFTKZ0, ZiWlthrtneU + Y8qEA291Fws + yMG0yfGFJ00 (count: 82 corpus-matched + 2 = 84 ✓ machine-verified).
+- The 33ec notable title-level presences re-confirmed at the file-name level this unit: the 2014 pair ZIAyNFLRFuw/QcYQ7iN7Pao (jpg variants), _4sR3Ph8MBk, 9eaWqvZZcig, the Eosin Y 0C4EfwqOS7A, anisole z_0AMRr5opg, hexanoic qy4xeixw_X8, blue bottle 6sJbNRSCoMA, bromoalkane Y4bC_buRAmk, Cannizzaro qEBC204WTKs, elemental bromine QM-cgWGBPqo (a carrier), silver coin 6FoCGePov4E (a carrier).
+
+## The machine checks
+
+- The register md5s verified before and after the unit (CORPUS bddfc7a260fd6b4b9c55846bef36ee22 → updated this unit; STATE d64d7c540d9aadf3f2eaea6c71f4179a → updated; SURVEY-2 813f91c6853a31d70e6682de24901c86 → updated; KNOWLEDGE fc1f9f21bcfbf228cfa3b7ad16e71a58 → updated; SURVEY.md untouched mirror).
+- 245 unique IDs (sort -u on the 246-desc extract = 245 exact, the pseudo excluded by the 11-char class); the gap census 84/160/3 machine-checked; the block arithmetic 161×5+84×6+3=1,312 exact; the day histogram 123/123; the carrier/corpus intersections via the awk membership map only (see the route faces).
+
+## The route faces (this unit's, all machine-met)
+
+1. **Non-zero setTimeout forbidden in the sandbox** ("Only zero-delay setTimeout() is supported") — the retry spacing done via the benign web_search spacer instead.
+2. **Concurrent push_files to the same branch = non-fast-forward race** — one consolidated push per message; fetch programs never push.
+3. **The post-restart control-char regex strip class** (the standing face): the raw \x00-\x1F regex class became a literal hyphen-stripper after a worker restart, silently corrupting fetched names (c6-c10: [rxt24lBbrs] → [rxt24lBbrs] etc.) — the char-code filter-strip template is the load-bearing fix; the corrupted chunks re-fetched clean with in-band hyphen assertions.
+4. **The JustBash worker dies sporadically** (twice wiped the unit temp dir; the knowledge registers survived every time) — **the GitHub durability protocol (the user's idea, adopted): the work digests pushed to the repo scratch dir work-33eh/ after each phase (commits 66269d7, 66bd20a), pullable via get_file_contents after any wipe; DELETED at unit close.**
+5. **grep -oFf with 245 patterns over the 1.1MB CORPUS.md TIMES OUT this worker** — the fast token route instead (11-char extract + awk length==11 + sort -u).
+6. **awk bare `v[$1]` as a no-op statement does NOT create the key in this worker** (silently empty membership maps) — always `v[$1]=1`.
+7. **`comm` IS BROKEN IN THIS WORKER** (returned 97/28 against the true 231/82 intersections even with C-sorted inputs — a silent wrong-answer face, the most dangerous of the unit) — the awk membership map the only trusted route; also keep collations consistent (LC_ALL=C everywhere).
+8. **Nested `$(wc -l < f)` redirect-subshells fail in the bash JSON layer** ("No such file or directory" against existing files) — direct wc / pipes only.
+9. **The IA /files/N JSON needs the control-char strip before JSON.parse** (standing); the description file names embed the full title + [ID] — the ID sits at length($2)-23 in awk char math.
+10. **The jpg FILE index ≠ the desc index** (the jpg-variant blocks write the thumb at +2: [desc, json, jpg, url, webm]) — the c9 9eaWqvZZcig anchor initially mis-set at 1155 (jpg) instead of 1153 (desc), re-fetched clean.
+11. **The 16-MiB after-push memory face** (standing) — verify every push via list_commits, never re-push blind.
+12. Emoji + double-space in titles (🐿 in the Aspirin Part 2/3 names) is genuine content, not corruption — the hyphen anchors decide, not the space scan.
+
+## The push record
+
+(to be appended after the landing)
+
+## The post-landing note
+
+(to be appended at the unit's close)
+
+— NEXT (standing docket): the LG0kGrnr7tk transcript-level upgrade call (the new vtt carrier, the N127 precedent) / the 33ef tranche's transcript-level upgrade calls (34 members at the vtt/filmot routes) / **the 2022-item en-vtt upgrade candidates (the 80-member eligible set above, at this item's surviving vtt route — the user's call)** / the authoring call Vol VI Ch 37 (gated per the session-189 v2 protocol: re-check the register for map pressure at that call), or the user's direction. Corpus 518 UNCHANGED (the enumeration done).
