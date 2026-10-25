@@ -1,0 +1,35 @@
+name: Assemble knowledge/everyday-chem-survey/KNOWLEDGE.md (batch 33eb)
+on:
+  push:
+    paths:
+      - 'knowledge-parts/**'
+concurrency:
+  group: assemble-knowledge-33eb
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check parts
+        run: |
+          ok=1
+          for f in knowledge-parts/p1 knowledge-parts/p2 knowledge-parts/p3 knowledge-parts/p4 knowledge-parts/p5 knowledge-parts/p6 knowledge-parts/p7; do
+            if [ ! -f "$f" ]; then ok=0; fi
+          done
+          if [ "$ok" -eq 0 ]; then echo "parts missing, exiting"; exit 0; fi
+      - name: Assemble
+        run: |
+          cat knowledge-parts/p1 knowledge-parts/p2 knowledge-parts/p3 knowledge-parts/p4 knowledge-parts/p5 knowledge-parts/p6 knowledge-parts/p7 > knowledge/everyday-chem-survey/KNOWLEDGE.md
+          test "$(wc -c < knowledge/everyday-chem-survey/KNOWLEDGE.md)" -eq 719795
+          printf '%s  %s\n' 'e712dd95f76696690e203d075fff1c62' 'knowledge/everyday-chem-survey/KNOWLEDGE.md' | md5sum -c
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add knowledge/everyday-chem-survey/KNOWLEDGE.md
+          git commit -m "Assemble knowledge/everyday-chem-survey/KNOWLEDGE.md (batch 33eb)"
+          git push
+          git rm -r knowledge-parts
+          git commit -m "Remove knowledge-parts (batch 33eb)"
+          git push
