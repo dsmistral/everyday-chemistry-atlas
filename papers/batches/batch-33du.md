@@ -43,3 +43,10 @@ Session 189 continued (2026-10-25). GATHER LEVEL — FOUR new papers, all descri
 ## The push record
 
 - The push record: the chain on main at the close (batch-33du.md -> papers/STATE.md -> papers/CORPUS.md (the N463-N466 rows + the S02-cell note + the count, via the piece+Actions assembly route) -> knowledge/everyday-chem-survey/KNOWLEDGE.md (via the piece+Actions route) -> SURVEY-2.md direct), each verified before/after the push; the assembly-race doctrine held; the temp artifacts deleted at the close.
+
+## The post-landing note (the chain verified)
+
+- The verified chain (all SHAs on main): batch record 26811e14 -> workflows 59bec08b (assemble-state/corpus/knowledge-33du; the in-job asserts STATE 939835 B / 9af3583e + CORPUS 1017304 B / 535b4217 + KNOWLEDGE 691521 B / 73fe8e1f) -> state parts f7f1e8cd + d26f7da1 -> STATE assembly 1fd5435a VERIFIED -> corpus parts adf2c733 + b0297d96 -> CORPUS assembly 3cde5886 VERIFIED -> knowledge parts 72064b36 (p1-p6, 284130 B) + 34efb3fa (p7, 407391 B) -> KNOWLEDGE assembly 60a12f7a VERIFIED -> the workflow deletes efec56a8 + 1eb417cb + 4c519970 -> SURVEY-2 direct e01a0a5b (579943 B) -> this re-push (the batch record + this note).
+- The mirror listing at the close (repo = local, byte-exact): papers/CORPUS.md 1017304, papers/STATE.md 939835, knowledge/everyday-chem-survey/KNOWLEDGE.md 691521, knowledge/everyday-chem-survey/SURVEY-2.md 579943; the parts dirs (state-parts / corpus-parts / knowledge-parts) git-rm'd in-job (404 on listing — expected); the workflows dir empty and gone (404 — expected).
+- The knowledge-parts route (the register's first line-13-fragment split: p1 the head 52089 + p2-p6 the five line-13 fragments 46404 / 46403 / 46405 / 46418 / 46411 = 232041 + p7 the rest 407391): the 691521-B rejoin md5-verified locally BEFORE the pushes; the in-job wc -c + md5sum asserts passed at the assembly.
+- ALL 33DU CALLS FLAGGED for the user's review; the temp artifacts deleted at the close.
