@@ -1,0 +1,34 @@
+name: assemble-state-33dv
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'state-parts/**'
+concurrency:
+  group: assemble-state-33dv
+  cancel-in-progress: false
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble papers/STATE.md
+        run: |
+          set -e
+          for p in state-parts/p1 state-parts/p2; do
+            if [ ! -f "$p" ]; then echo "waiting: $p absent"; exit 0; fi
+          done
+          cat state-parts/p1 state-parts/p2 > papers/STATE.md
+          echo "assembled: $(wc -c < papers/STATE.md) bytes"
+          [ "$(wc -c < papers/STATE.md)" = "944703" ] || { echo "SIZE MISMATCH"; exit 1; }
+          printf '%s  %s
+' "fb6186f1dac51d0661fd27e831195fb1" "papers/STATE.md" > /tmp/state.md5
+          md5sum -c /tmp/state.md5 || { echo "MD5 MISMATCH"; exit 1; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers/STATE.md
+          git rm -r -q state-parts
+          git commit -m "batch-33dv: STATE — the 33dv DONE line (the standing re-checks batch: the filmot lift + the removal-set pin round + the directory pair), Corpus 465"
+          git push

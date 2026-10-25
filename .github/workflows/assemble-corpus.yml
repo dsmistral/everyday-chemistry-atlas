@@ -1,0 +1,34 @@
+name: assemble-corpus-33dv
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'corpus-parts/**'
+concurrency:
+  group: assemble-corpus-33dv
+  cancel-in-progress: false
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble papers/CORPUS.md
+        run: |
+          set -e
+          for p in corpus-parts/p1 corpus-parts/p2; do
+            if [ ! -f "$p" ]; then echo "waiting: $p absent"; exit 0; fi
+          done
+          cat corpus-parts/p1 corpus-parts/p2 > papers/CORPUS.md
+          echo "assembled: $(wc -c < papers/CORPUS.md) bytes"
+          [ "$(wc -c < papers/CORPUS.md)" = "1026140" ] || { echo "SIZE MISMATCH"; exit 1; }
+          printf '%s  %s
+' "fc31fe123d937aaab74d82bf5c0fe04a" "papers/CORPUS.md" > /tmp/corpus.md5
+          md5sum -c /tmp/corpus.md5 || { echo "MD5 MISMATCH"; exit 1; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers/CORPUS.md
+          git rm -r -q corpus-parts
+          git commit -m "batch-33dv: CORPUS — the N463-N466 transcript upgrades (the filmot lift) + the S02-cell note (the removal-set pin round + the directory pair), Corpus 465"
+          git push
