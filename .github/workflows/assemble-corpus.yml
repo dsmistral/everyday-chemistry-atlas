@@ -29,5 +29,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add papers/CORPUS.md
           git rm -r corpus-parts
-          git commit -m "batch-33dr: CORPUS - the N450-N455 rows (the Aspirin-to-Acetaminophen series) + the S02-row note + the count, Corpus 448 -> 454"
+          git commit -m "batch-33dr: CORPUS — the N450-N455 rows (the Aspirin-to-Acetaminophen series) + the S02-row note + the count, Corpus 448 -> 454"
           git push
