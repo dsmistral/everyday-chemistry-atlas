@@ -1,0 +1,37 @@
+name: assemble-state
+on:
+  push:
+    paths:
+      - 'state-parts/**'
+concurrency:
+  group: assemble-state
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guard
+        run: |
+          ok=1
+          for f in state-parts/p1 state-parts/p2; do
+            [ -f "$f" ] || ok=0
+          done
+          if [ "$ok" -eq 0 ]; then echo "parts incomplete; exiting"; exit 0; fi
+      - name: assemble
+        run: |
+          cat state-parts/p1 state-parts/p2 > papers/STATE.md
+          wc -c papers/STATE.md
+          test "$(wc -c < papers/STATE.md)" -eq 953165
+          printf '%s  %s\n' '1566d93c95fadb21a31737f04585c3c4' 'papers/STATE.md' | md5sum -c
+      - name: commit
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add papers/STATE.md
+          git commit -m "batch-33dx: STATE assembly — the 33dx DONE line at 88 (the ID-pinned pair gathered, corpus 465 -> 467; 953165 B, md5 1566d93c95fadb21a31737f04585c3c4)"
+          git push
+          git rm -r state-parts
+          git commit -m "assemble-state: remove the parts dir (assembled)"
+          git push
