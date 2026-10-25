@@ -1,0 +1,30 @@
+name: Assemble knowledge/everyday-chem-survey/KNOWLEDGE.md (batch 33ei)
+on:
+  push:
+    paths:
+      - 'knowledge-33ei-parts/**'
+concurrency:
+  group: knowledge-33ei-parts
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guard
+        run: |
+          N=$(ls knowledge-33ei-parts | wc -l)
+          if [ "$N" -ne 7 ]; then echo "parts incomplete: $N"; exit 0; fi
+          cat knowledge-33ei-parts/p1.txt knowledge-33ei-parts/p2.txt knowledge-33ei-parts/p3.txt knowledge-33ei-parts/p4.txt knowledge-33ei-parts/p5.txt knowledge-33ei-parts/p6.txt knowledge-33ei-parts/p7.txt > knowledge/everyday-chem-survey/KNOWLEDGE.md
+          test $(wc -c < knowledge/everyday-chem-survey/KNOWLEDGE.md) -eq 739481
+          printf '%s  %s\n' 'd747fbb285a02a6376d4445b6553d234' 'knowledge/everyday-chem-survey/KNOWLEDGE.md' | md5sum -c
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add knowledge/everyday-chem-survey/KNOWLEDGE.md
+          git commit -m "Assemble knowledge/everyday-chem-survey/KNOWLEDGE.md (batch 33ei)"
+          git push
+          git rm -r knowledge-33ei-parts
+          git commit -m "Remove knowledge-33ei-parts (batch 33ei)"
+          git push
