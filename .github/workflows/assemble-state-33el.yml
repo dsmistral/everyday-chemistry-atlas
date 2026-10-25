@@ -1,0 +1,30 @@
+name: Assemble papers/STATE.md (batch 33el)
+on:
+  push:
+    paths:
+      - 'state-33el-parts/**'
+concurrency:
+  group: assemble-state-33el
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: assemble
+        run: |
+          N=$(ls state-33el-parts | wc -l)
+          if [ "$N" -ne 2 ]; then exit 0; fi
+          cat state-33el-parts/* > papers/STATE.md
+          test $(wc -c < papers/STATE.md) -eq 1000348
+          printf '%s  %s\n' 'a6ec6d0b0a6850c7a59f2e4612c27077' 'papers/STATE.md' | md5sum -c
+          git config user.name "github-actions[bot]"
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add papers/STATE.md
+          git commit -m "Assemble papers/STATE.md (batch 33el)"
+          git push
+          git rm -r state-33el-parts
+          git commit -m "Remove state-33el-parts (batch 33el)"
+          git push

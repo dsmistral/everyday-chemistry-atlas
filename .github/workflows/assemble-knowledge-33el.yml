@@ -1,0 +1,30 @@
+name: Assemble knowledge/everyday-chem-survey/KNOWLEDGE.md (batch 33el)
+on:
+  push:
+    paths:
+      - 'knowledge-33el-parts/**'
+concurrency:
+  group: assemble-knowledge-33el
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: assemble
+        run: |
+          N=$(ls knowledge-33el-parts | wc -l)
+          if [ "$N" -ne 7 ]; then exit 0; fi
+          cat knowledge-33el-parts/* > knowledge/everyday-chem-survey/KNOWLEDGE.md
+          test $(wc -c < knowledge/everyday-chem-survey/KNOWLEDGE.md) -eq 743410
+          printf '%s  %s\n' '1687d0f0fbd95658faddc7dbd156d5c0' 'knowledge/everyday-chem-survey/KNOWLEDGE.md' | md5sum -c
+          git config user.name "github-actions[bot]"
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add knowledge/everyday-chem-survey/KNOWLEDGE.md
+          git commit -m "Assemble knowledge/everyday-chem-survey/KNOWLEDGE.md (batch 33el)"
+          git push
+          git rm -r knowledge-33el-parts
+          git commit -m "Remove knowledge-33el-parts (batch 33el)"
+          git push
