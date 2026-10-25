@@ -1,0 +1,50 @@
+name: assemble-corpus
+on:
+  push:
+    branches: [main]
+    paths: ['corpus-parts/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: assemble-corpus
+  cancel-in-progress: true
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check all parts present
+        run: |
+          ok=1
+          for f in A1 A2 A3 C D; do
+            if [ ! -f "corpus-parts/$f.md" ]; then
+              ok=0
+              echo "missing corpus-parts/$f.md"
+            fi
+          done
+          if [ "$ok" = "0" ]; then
+            echo "Waiting for remaining parts; exiting cleanly."
+            exit 0
+          fi
+      - name: Assemble and verify
+        run: |
+          cat corpus-parts/A1.md corpus-parts/A2.md corpus-parts/A3.md corpus-parts/C.md corpus-parts/D.md > papers/CORPUS.md
+          size=$(wc -c < papers/CORPUS.md | tr -d ' ')
+          if [ "$size" != "942702" ]; then
+            echo "SIZE MISMATCH: $size (expected 942702)"
+            exit 1
+          fi
+          echo "bad53808ffe22d0398465e66f389d200  papers/CORPUS.md" | md5sum -c -
+      - name: Commit assembled corpus and remove parts
+        run: |
+          git config user.name "vibe-bot"
+          git config user.email "vibe-bot@users.noreply.github.com"
+          git add papers/CORPUS.md
+          git commit -m "batch-33do: CORPUS — N436/N437 rows + the S02-row upgrade note (the caffeine-trio parents; the N11 upgrade), Corpus 434 -> 436"
+          git rm -q -r corpus-parts
+          git commit -m "batch-33do: remove corpus-parts (assembled into papers/CORPUS.md)"
+          git push
