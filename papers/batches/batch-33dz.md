@@ -32,4 +32,13 @@ Session 189 continued (2026-10-25). GATHER LEVEL — five new papers (the corpus
 
 ## The push record
 
-- To be appended at the close (the chain verified).
+- The verified chain (all SHAs on main): batch record 2f58bbb2 -> workflows 5e45e2e0 (the validated YAML form, the literal-backslash-n printf asserts, the in-band backslash-n + column-0 + parts-path-list checks) -> state parts 8bf2888 (p1, 481614 B) + 3a4d5ef (p2, 483500 B) -> STATE assembly 9bc727d VERIFIED (965114 B, the in-job wc -c + md5sum asserts passed) -> corpus parts 05ad1a0 (p1, 522673 B) + 4854ae1 (p2, 542984 B) -> CORPUS assembly cfcbdf5 VERIFIED (1065657 B) -> knowledge parts a37861e (p1-p6, 284130 B, the path-list check passed) + 71d04da (p7, 426611 B) -> KNOWLEDGE assembly 56fa493 VERIFIED (710741 B) -> the workflow deletes c004358 + 6f37a8f + e74020d -> SURVEY-2 direct 61bec941 (608305 B, the 11-read loop) -> this re-push (the batch record + this note).
+
+## The post-landing note (the chain verified)
+
+- NO pp-naming faces this unit (the 33dy path-list doctrine applied in-band before the knowledge parts push — the guard names p1-p7 checked against the pushed paths, all matching).
+- THE OFF-BY-ONE ROUTE DATUM (the unit's own lesson, FLAGGED): the first state-p1 read loop overshot by exactly one line (6,845 B = line 137) — the 0-indexed-offset vs 1-based-line arithmetic in the limit term (137 - off instead of 136 - off); the corrected form (limit = END_LINE - off on 0-indexed offsets) then ran clean on all six part reads. THE STANDING NOTE for future parts pushes: the limit term is (1-based end line - 0-indexed offset).
+- The counter regression-input datum (FLAGGED): the ☝-test set's U+1F446 form computes 15 bytes (the correct 4+3+4+4 math — the surrogate pair 4 + the variation selector 3), the U+261D+FE0F form computes 14; the counter logic itself (the no-skip surrogate form) verified both ways — the 14-expectation applies to the U+261D+FE0F form.
+- No fast-forward faces this chain; no memory-ceiling faces (the SURVEY-2 608305-B read+push in one call — the over-the-600K-wall direct push delivered clean, the second consecutive unit); the parts dirs (state-parts / corpus-parts / knowledge-parts) git-rm'd in-job (404 on listing — expected); the workflows dir gone (404 — expected).
+- The mirror listing at the close (repo = local, byte-exact): papers/STATE.md 965114, papers/CORPUS.md 1065657, knowledge/everyday-chem-survey/KNOWLEDGE.md 710741, knowledge/everyday-chem-survey/SURVEY-2.md 608305, papers/batches/batch-33dz.md (this record); the temp artifacts (.tmp33dz) deleted at the close.
+- ALL 33DZ CALLS FLAGGED for the user's review.
