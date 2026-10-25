@@ -1,0 +1,25 @@
+732	Making Stinky Pyridine from Vitamin B3 [r-xt24lBbrs].info.json	328368	1670140142
+768	Making a Nylon Precursor using Green Chemistry [O0LqwYTSir4].info.json	318108	1670085046
+799	Making a liquid that attracts biting insects (1-octen-3-ol) [yRXyrUnpfKs].info.json	327477	1670081025
+805	Making a silver mirror [nGmxHLHyUPc].info.json	327666	1670085450
+811	Making acrolein [7oAcT4Duun4].info.json	322105	1670089226
+827	Making an old hypnotic sedative and preservative [TzbkRC3rYEo].info.json	323194	1670104183
+833	Making an old pain and fever medication [eQNLmkj_GBo].info.json	308985	1670104647
+844	Making and playing with Liquid Oxygen [zu7revUCefw].info.json	320928	1670105099
+865	Making basic copper carbonate [Ttf80a2zZ9w].info.json	324965	1670115552
+871	Making bromine from pool supplies [eaIps1WxJPQ].info.json	314499	1670118354
+877	Making cadaverine [C5hxFAwKIzs].info.json	311764	1670118441
+883	Making calcium acetate from Tums [w1lIizGVwWI].info.json	314179	1670120507
+904	Making elemental bromine [QM-cgWGBPqo].info.json	332341	1670127252
+920	Making glow sticks from scratch [w_CYwd6cHUA].info.json	319429	1670130408
+931	Making indigo and dyeing jeans blue [6yhR242MnwA].info.json	319934	1670131685
+957	Making liquid soap [VeNDrtB62es].info.json	319370	1670132523
+968	Making margarine from olive oil [drIm8_1CvjQ].info.json	319937	1670133507
+974	Making metal crystals from Pepto-Bismol [-_qpzFlpgpo].info.json	330790	1670135435
+980	Making milk lactose free [wYyqZWWU9GU].info.json	319661	1670137001
+1001	Making nylon plastic [_Ybc8Dinm0U].ru.vtt	38526	1670137694
+1017	Making skatole - The essence of poop [eZ56LDCABrA].info.json	319249	1670139825
+1023	Making sunscreen from scratch [gavq_sZZ8B0].info.json	326450	1670140880
+1034	Making table salt using sodium metal and chlorine gas [ji_25I_q4LQ].info.json	322018	1670144191
+1050	Making the Pharaoh's Serpent [PC3o2KgQstA].info.json	321869	1670145474
+1061	Making the world's most expensive carbonated water! [n0wvDwSnzcw].info.json	329806	1670145539

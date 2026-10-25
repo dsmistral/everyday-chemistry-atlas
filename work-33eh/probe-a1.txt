@@ -1,0 +1,25 @@
+2	All about Bromine, one of my favorite elements ｜ Element Series [nuW_VbKdvMI].info.json	331425	1670043389
+8	All about Mercury, the Liquid Metal ｜ Element Series [ZiWlthrtneU].info.json	330625	1670044315
+14	All about Sodium ｜ Element Series [mf9vZ7uLFQA].info.json	323989	1670044474
+20	All about White Phosphorus ｜ Element Series [LMlXhJevCV0].info.json	323830	1670044542
+31	Aluminum and Mercury [IrdYueB9pY4].info.json	337223	1670044796
+37	Aspirin to Acetaminophen - Part 1 of 6： Extracting Aspirin from Pills [YPIr26-Tg5c].info.json	330454	1670044962
+43	Aspirin to Acetaminophen - Part 2 of 6：  Conversion of ASA to Salicylic Acid [tSRWqbpNTF4].info.json	326692	1670046920
+49	Aspirin to Acetaminophen - Part 3 of 6：  Phenol from Salicylic Acid [Q_f1hRmhUX8].info.json	325740	1670048741
+55	Aspirin to Acetaminophen - Part 4 of 6： Mono-nitration of Phenol [ieutY3LyWXA].info.json	327477	1670050533
+66	Aspirin to Acetaminophen - Part 6 of 6： Acetaminophen from p-aminophenol [u8Y3_7psygU].info.json	325717	1670055901
+87	Can you actually smell metal？ [BqLH-nTZEOc].info.json	324386	1670058801
+98	Cleaning Dirty Phenol [f5PHffYhw9w].info.json	328664	1670059596
+104	Cleaning liquid mercury metal [2ubw1bI8s5w].info.json	328045	1670060604
+115	Cleaning old sodium metal [eRoHeVqDlfg].info.json	320328	1670061500
+136	Dissolving Gold in Mercury [yAGYGGmUmUw].info.json	322447	1670063187
+152	Dissolving pure silver to make silver nitrate [EruzAVv2Odc].info.json	329262	1670063497
+158	Distilling Mercury Metal [d6SahlAFV-w].info.json	330446	1670064174
+169	Extracting DNA from strawberries and eating it [araeHtN_3Lk].info.json	322285	1670066528
+180	Extracting caffeine from caffeine pills [ZdTc1AFTKZ0].info.json	322383	1670066408
+186	Extracting caffeine from coffee [_CoxEgbyeK4].info.json	322575	1670066478
+207	Extracting pure silver from a coin [6FoCGePov4E].info.json	320886	1670068361
+218	Extracting the citric acid from lemons [FMtayizdFiw].info.json	327584	1670068718
+224	Extracting the red phosphorus from matchboxes [5ZrfNAHDjWU].info.json	322452	1670069975
+235	Extracting the starch from potatoes [PgKR6EsKl5I].info.json	327495	1670070182
+246	Extracting urea from my own pee [sfldS5hqWYA].info.json	319146	1670071208
