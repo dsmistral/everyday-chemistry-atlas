@@ -1,0 +1,36 @@
+# Batch 33ek — THE N476 TRANSCRIPT-LEVEL UPGRADE (the nuW_VbKdvMI en-vtt discharge — the 33ej campaign's FIRST M-class member, the 2022 item's surviving-vtt route), session 189 continued (2026-10-25, the multi-unit chaining protocol's hundred-and-second unit under the session-185 authorization; the user's explicit first-tranche call)
+
+Session 189 continued (2026-10-25). UPGRADE LEVEL — NO new papers (the corpus stays 518; the source census stays 88; NO new N-rows — the N476 row upgraded in place). THE USER'S EXPLICIT TRANCHE CALL authorizes the sidecar open (the 33ej audit's M-class first member, the 33ei one-member precedent). THE MEDIA FILES NEVER OPENED (the .webm 782,060,268 B and the .info.json 331,425 B available-NOT-opened; only the block metadata + the manual caption sidecar read). Register-first doctrine: the block re-verified fresh before the open. ALL CALLS FLAGGED for the user's review.
+
+## The upgrade
+
+- **N476 "All about Bromine, one of my favorite elements | Element Series" (nuW_VbKdvMI, S02 NileRed, gathered batch 33dz at metadata level — the element-bromine CC-row adjudication member) UPGRADED at transcript level via the 2022 item's .en.vtt (8,993 B per the item metadata) — THE 2022-ITEM ROUTE'S FIRST CAMPAIGN DISCHARGE** (Kind: captions, Language: en; the block re-verified fresh first: .description 1,042 + .en.vtt 8,993 + .info.json 331,425 + .url 69 + .webm 782,060,268 + .webp 42,818 — the 33eh pins EXACT on all three sizes; the desc-0 block confirmed).
+- **THE PIN AUDIT (every N476 pin CONFIRMED on the clean manual track)**: the group-17 halogen family ✓; the F→Cl→Br→I phase ladder ✓; THE MERCURY-ONLY-OTHER-LIQUID doctrine ("mercury is the only other element like this... we only have two, mercury and bromine that are liquid") ✓; the dark-red/nearly-black color ("looks a little bit scary") ✓; the high-vapor-pressure storage doctrine + the leak-out-of-almost-all-containers ✓; the rusted/discolored/decrepit bottle-area datum ✓; the glass-ampule solution + the break-to-use/use-everything-at-once tradeoff ✓; the PPE set (lab coat + gloves + goggles) ✓; the fume set (the "*cough* (oh God) it's gonna fume profusely" + the leave-the-area) ✓; the respirator + the well-ventilated-area alternative (the "crazy fans" tension) ✓; the density ~3x water ✓; the viscosity-like-water ✓; THE EVAPORATION DEMO (the watch-glass ~4-min disappearance + the <30-s-with-a-fan estimate + the sped-up-time honesty) ✓; the too-reactive-to-find-alone doctrine ✓; the diatomic Br2 doctrine ✓; THE NaBr POOL-STORE SOURCE (the bromine-equivalent-of-table-salt + the disinfectant + the "little bit of chemistry" liberation — the N54 pool-spa axis recurrence) ✓; the "extremely dangerous... I really don't recommend doing it" statement ✓; THE FLUORESCEIN→EOSIN APPLICATION (the biology/histology dye + the previous-video pointer + "a bunch of bromines added onto it") ✓; the self-made-bromine/ampule side note + the description-links pointer ✓; the Patreon close ✓.
+- **NEW PINS (the track's additions)**: **THE DURATION PIN — the row's "duration honestly UNPINNED" DISCHARGED: the last cue 00:06:35.000 (the ~6:35 span, the element-series short-form class)**; **THE VAPOR-HEAVIER-THAN-AIR POUR DEMO** ("the bromine vapor is heavier than air... pouring to the beaker and all over the table" — unpinned until now); the true-subscript BR₂ TYPOGRAPHY (the track's \u2082 character); the 24-hours-early Patreon tier + the name-at-end close + the filmed/plan video list (the Patreon close's detail set); the eosin "previous video" re-confirmation (the eosin prior pointer stands, the ID still unpinned).
+- **THE TRACK'S ARTIFACT SET (the manual track's honest flaws, the 33ei artifact class)**: TWO STRAY TIMESTAMP FRAGMENTS embedded in the cue text ("00:01:21.5" mid-storage-doctrine + "2:57.980" mid-respirator); the "I mean both the ampules and the bromine myself" slip (for "I made" — confirmed "made" by the later "I made the bromine in this video" cue); the "three times out of water" slip (for "three times that of"); noted, no effect on the pins.
+- **THE SERVED-BODY SIZE TENSION (FLAGGED)**: the served en-vtt utf8-counted 8,997 B (8,995 chars — exactly one multibyte char, the Br₂ +2) against the item metadata's 8,993 B (+4 unexplained; the metadata size held as authoritative for the pins; the body one-read complete, no truncation).
+
+## The route faces (this unit's)
+
+1. **THE IA FILE-NAME FULLWIDTH-PIPE DATUM**: the 2022 item's file names render the title pipe as the FULLWIDTH VERTICAL LINE ｜ (\uff5c) where the register title carries ASCII " | " — the download-URL route must encode the fullwidth form (the name normalization datum, the campaign's first sighting).
+2. **The /files/N per-entry JSON is nested under "result"** (j.result.name/size/mtime — the 33eh-era route's shape re-confirmed fresh; the \n\r\t-passing control strip + JSON.parse clean).
+3. **The served-vtt vs metadata size face** (above) — byte-verify the served body (utf8len), count the multibyte delta, and flag any residue honestly rather than assume.
+
+## The machine checks
+
+- The register md5s verified before the unit (the 33ej close set: CORPUS cf1bb66eafd404e7d05ab52ffb7bb85a / STATE 84242596b58637e4a180352d4d988e0d / SURVEY-2 08b7a3cdfdcd798d17609435205ec9f5 / KNOWLEDGE 5b1df2e4b172feb268641fbeb6ccc818) and re-verified after the edits.
+- The block re-verification fresh (6 /files/N reads, the three 33eh pins exact-matched: 8,993 / 782,060,268 / 42,818); the transcript body one-read complete; the pin audit 20/20 confirmed + the artifact set registered.
+
+## The census
+
+- The corpus 518 UNCHANGED; the source census 88 UNCHANGED; NO new N-rows — the N476 row upgraded in place (the S02 cell note); the M-class campaign: 1 of 13 discharged (the remainder: N483, N488, N493 (zh-CN flag), N495, N500, N501, N503, N505 (ru flag), N507, N509, N510, N512).
+
+## The push record
+
+(to be appended after the landing)
+
+## The post-landing note
+
+(to be appended at the unit's close)
+
+— NEXT (standing docket): the M-class tranche's next members (N483 Ttf80a2zZ9w next in N-row order; the size per unit the user's call) / the duplicate-pair adjudication call (BqLH-nTZEOc N395+N406 + 2BZGjycR7YM N405+N428) / the mention-only 34's gather calls / the authoring call Vol VI Ch 37 (gated per the session-189 v2 protocol: re-check the register for map pressure at that call), or the user's direction. Corpus 518 UNCHANGED (the upgrade done).
