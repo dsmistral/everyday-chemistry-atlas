@@ -1,1 +1,1 @@
-batch-33dv assembly re-trigger (the workflow registration-lag guard; p1+p2 already present; this file is git-rm'd with the parts dir by the assembly job)
+batch-33dv assembly re-fire #2 (after the workflow YAML repair; p1 485340 + p2 459363 present)
