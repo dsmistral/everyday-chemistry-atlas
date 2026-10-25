@@ -1,0 +1,33 @@
+name: assemble-state-33du
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'state-parts/**'
+concurrency:
+  group: assemble-state-33du
+  cancel-in-progress: false
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble papers/STATE.md
+        run: |
+          set -e
+          for p in state-parts/p1 state-parts/p2; do
+            if [ ! -f "$p" ]; then echo "waiting: $p absent"; exit 0; fi
+          done
+          cat state-parts/p1 state-parts/p2 > papers/STATE.md
+          echo "assembled: $(wc -c < papers/STATE.md) bytes"
+          [ "$(wc -c < papers/STATE.md)" = "939835" ] || { echo "SIZE MISMATCH"; exit 1; }
+          printf '%s  %s\n' "9af3583e8dd8260a82a8931b3f94b776" "papers/STATE.md" > /tmp/state.md5
+          md5sum -c /tmp/state.md5 || { echo "MD5 MISMATCH"; exit 1; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers/STATE.md
+          git rm -r -q state-parts
+          git commit -m "batch-33du: STATE — the 33du DONE line (the listing-catch pairs batch + the queue-pressure resolution + the cinnabar adjudication + the Red-P metadata pin), Corpus 461 -> 465"
+          git push
