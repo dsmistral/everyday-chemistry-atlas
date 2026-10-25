@@ -34,10 +34,10 @@ Session 189 continued (2026-10-25). UPGRADE LEVEL — NO new papers (the corpus 
 
 ## The push record
 
-(to be appended after the landing)
+- **The push chain (all landed, verified via list_commits + directory listings)**: the batch record + the three assembly workflows (23762dd9) → the state parts p1 (b40bf3c7, 484,637 B) + p2 (c44ca3d1, 510,921 B) → the assembly 307f19f2 + the removal 50b62e1e (first poll) → the corpus parts p1 (a1926dab, 582,489 B) + p2 (8cefc0de, 541,986 B) → the assembly 076c5bc3 + the removal bef77f63 (third poll) → the knowledge parts p1-p6 (ea2cf11c, 284,130 B: the lines 1-12 head + the five line-13 fragments) + p7 (efc1bacb, 455,351 B) → the assembly fe014679 + the removal 16c430e5 (third poll) → the three workflow deletes (1e22d5f7 + 476f1b64 + b8972418) → the SURVEY-2 both-mirrors push (39d22380). ALL THREE assembly runs CLEAN (the wc -c + md5sum -c gates passed in-workflow; no rm-stall at any register; no memory face on any assembly).
 
 ## The post-landing note
 
-(to be appended at the unit's close)
+- **The post-landing verification (directory listings ONLY, per the standing rule)**: papers/CORPUS.md 1,124,475 B + papers/STATE.md 995,558 B + papers/SURVEY-2.md 643,612 B; knowledge/everyday-chem-survey/KNOWLEDGE.md 739,481 B + SURVEY-2.md 643,612 B + SURVEY.md 631,909 B (the untouched mirror); papers/batches/batch-33ei.md at the final size (this re-push closes the record); the parts dirs GONE (no *-33ei-parts at the root); the local .tmp33ei fragments deleted at close. **THE 16-MiB AFTER-PUSH MEMORY FACE — the fourth datum, now a standing certainty on the two-mirror SURVEY-2 push: the push completes, then the program dies at the 13th recorded op; the push LANDS — verified via list_commits (39d22380), NEVER re-pushed blind.** Also this unit's fragment-recipe datum: the f1-f4 fragments take NO trailing newline (only f5 gets the printf '%s\n' close) — a one-byte-per-fragment drift, caught by the concat md5 check before any push.
 
 — NEXT (standing docket): the 33ef tranche's transcript-level upgrade calls (34 members at the vtt/filmot routes) / the 2022-item en-vtt upgrade candidates (the 80-member eligible set at the surviving vtt route — the user's call) / the authoring call Vol VI Ch 37 (gated per the session-189 v2 protocol: re-check the register for map pressure at that call), or the user's direction. Corpus 518 UNCHANGED (the upgrade done).
