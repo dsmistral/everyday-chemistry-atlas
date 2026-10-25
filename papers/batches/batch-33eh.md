@@ -63,10 +63,11 @@ Session 189 continued (2026-10-25). CENSUS/MAP LEVEL — NO new papers (the corp
 
 ## The push record
 
-(to be appended after the landing)
+- **All landed, repo = local byte-exact.** batch record + the three assembly workflows **e725b1a7** → state p1 **a7b3c612** (492,916 B) + p2 **24385553** (500,659 B) → assembly **be70c5d4** + removal **82025f32** (FIRST POLL — clean) → corpus p1 **eb8184de** (581,160 B) + p2 **c3963f74** (541,986 B) → assembly **e172d6e9** + removal **48e2a533** (second poll — clean) → knowledge p1-p6 **5468e060** (284,130 B) + p7 **fe811088** (453,931 B) → assembly **188fdfb0** + removal **f9091e86** (third poll — clean) → workflow deletes **d5a42ed0 + 58967e19 + 9448b1fb** → SURVEY-2 direct **6f1af55d** (both mirrors, 641,858 B each; **THE 4TH MEMORY-FACE DATUM** — the push_files completed at op 12 and the face hit after; verified via list_commits per the standing rule, never re-pushed blind) → this final re-push (push record + post-landing note). **ALL THREE ASSEMBLY RUNS CLEAN — no rm-stall, no memory face on any assembly or part push; the directory-listing verification byte-exact: papers/CORPUS.md 1,123,146 / papers/STATE.md 993,575 / papers/SURVEY-2.md 641,858 / knowledge/everyday-chem-survey/KNOWLEDGE.md 738,061 + SURVEY-2.md 641,858 + SURVEY.md 631,909; the parts dirs gone; .github/workflows empty (the dir route 404s); no *-33eh-parts dirs at root.**
+- One pre-landing face event only: the two-part state-read program hit the 16-MiB face at 17 recorded ops BEFORE any push executed (nothing landed; clean retry one-part-per-program — the proven pattern's rationale re-confirmed).
 
-## The post-landing note
+## The post-landing note (the unit's close)
 
-(to be appended at the unit's close)
+- THE 2022-ITEM FULL ENUMERATION CLOSED (the ninety-ninth unit; corpus 518 unchanged, source census 88 unchanged). The GitHub durability scratch dir work-33eh/ (the user's protocol, adopted this unit) deleted at close; the local temp .tmp33eh removed. The surviving vtt carrier now fully mapped; the N511 variant + the vQdK7gaZS0k removed-set presence + the language-resolved vtt census the unit's standing catches; the 80-member eligible en-vtt upgrade set the user's next-call map.
 
 — NEXT (standing docket): the LG0kGrnr7tk transcript-level upgrade call (the new vtt carrier, the N127 precedent) / the 33ef tranche's transcript-level upgrade calls (34 members at the vtt/filmot routes) / **the 2022-item en-vtt upgrade candidates (the 80-member eligible set above, at this item's surviving vtt route — the user's call)** / the authoring call Vol VI Ch 37 (gated per the session-189 v2 protocol: re-check the register for map pressure at that call), or the user's direction. Corpus 518 UNCHANGED (the enumeration done).
