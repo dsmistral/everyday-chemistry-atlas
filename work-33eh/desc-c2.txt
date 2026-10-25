@@ -1,14 +1,14 @@
 140	Dissolving a Hotdog in Hot Piranha [IFiv1aIJQVY].description	947	1670062092
 145	Dissolving pork in hot piranha solution [R35LI24trFc].description	1229	1670063269
 150	Dissolving pure silver to make silver nitrate [EruzAVv2Odc].description	1020	1670063493
-156	Distilling Mercury Metal [d6SahlAFVw].description	1176	1670064170
-162	Does cyanide actually smell like almonds？ [WYagOnup6c].description	3407	1670066010
+156	Distilling Mercury Metal [d6SahlAFV-w].description	1176	1670064170
+162	Does cyanide actually smell like almonds？ [WYagO-nup6c].description	3407	1670066010
 167	Extracting DNA from strawberries and eating it [araeHtN_3Lk].description	1229	1670066522
-173	Extracting Lidocaine from Anal Lubricant [WAq4pXd0Pk].description	715	1670066933
+173	Extracting Lidocaine from Anal Lubricant [WA-q4pXd0Pk].description	715	1670066933
 178	Extracting caffeine from caffeine pills [ZdTc1AFTKZ0].description	990	1670066401
 184	Extracting caffeine from coffee [_CoxEgbyeK4].description	1563	1670066467
 190	Extracting gold from computer parts (Part 1) [ASQCa7mfjVo].description	766	1670066662
-195	Extracting gold from computer parts (Part 2) [gtOOWxr7_s].description	858	1670066783
+195	Extracting gold from computer parts (Part 2) [gt-OOWxr7_s].description	858	1670066783
 200	Extracting mercury from contaminated water [S4T57SFntIs].description	783	1670067028
 205	Extracting pure silver from a coin [6FoCGePov4E].description	868	1670068355
 211	Extracting the blue dye in jeans [67kyi5hLnA4].description	1108	1670068401

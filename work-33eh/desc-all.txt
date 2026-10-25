@@ -1,0 +1,246 @@
+0	All about Bromine, one of my favorite elements ｜ Element Series [nuW_VbKdvMI].description	1042	1670043369
+6	All about Mercury, the Liquid Metal ｜ Element Series [ZiWlthrtneU].description	1818	1670044310
+12	All about Sodium ｜ Element Series [mf9vZ7uLFQA].description	856	1670044470
+18	All about White Phosphorus ｜ Element Series [LMlXhJevCV0].description	811	1670044538
+24	Aluminum and Mercury - Trying out your suggestions! [8vUbNv4LoOM].description	1129	1670044643
+29	Aluminum and Mercury [IrdYueB9pY4].description	1067	1670044791
+35	Aspirin to Acetaminophen - Part 1 of 6： Extracting Aspirin from Pills [YPIr26-Tg5c].description	1384	1670044957
+41	Aspirin to Acetaminophen - Part 2 of 6：  Conversion of ASA to Salicylic Acid [tSRWqbpNTF4].description	1219	1670046916
+47	Aspirin to Acetaminophen - Part 3 of 6：  Phenol from Salicylic Acid [Q_f1hRmhUX8].description	1205	1670048737
+53	Aspirin to Acetaminophen - Part 4 of 6： Mono-nitration of Phenol [ieutY3LyWXA].description	1371	1670050528
+59	Aspirin to Acetaminophen - Part 5 of 6： Reducing p-nitrophenol to p-aminophenol [dcaPfPefgDg].description	1003	1670054231
+64	Aspirin to Acetaminophen - Part 6 of 6： Acetaminophen from p-aminophenol [u8Y3_7psygU].description	1126	1670055893
+70	Attempting to make a ferrofluid [uLAeHVRxhAU].description	1382	1670057087
+75	Attempting to make transparent wood [x1H-323d838].description	1252	1670057799
+80	Brominating an Alcohol using Phosphorus Tribromide (1-pentanol) [E4zVgQpMzcg].description	1209	1670058719
+85	Can you actually smell metal？ [BqLH-nTZEOc].description	1617	1670058795
+91	Christmas Special： Making a ChemisTree [BOkIqxwc5zs].description	1064	1670059318
+96	Cleaning Dirty Phenol [f5PHffYhw9w].description	843	1670059589
+102	Cleaning liquid mercury metal [2ubw1bI8s5w].description	1230	1670060595
+108	Cleaning old potassium metal [QiorGia-VrY].description	1032	1670061360
+113	Cleaning old sodium metal [eRoHeVqDlfg].description	740	1670061495
+119	Demonstration of Instant Snow (Sodium Polyacrylate) [_xrNjPEi2Uw].description	746	1670061608
+124	Developing my own photos [hYqn8CO2P3E].description	1471	1670061639
+129	Dissolving Cotton and Paper in Water (using Schweizer's Reagent) [7zHj9-JB33g].description	756	1670062342
+134	Dissolving Gold in Mercury [yAGYGGmUmUw].description	1137	1670063182
+140	Dissolving a Hotdog in Hot Piranha [IFiv1aIJQVY].description	947	1670062092
+145	Dissolving pork in hot piranha solution [R35LI24trFc].description	1229	1670063269
+150	Dissolving pure silver to make silver nitrate [EruzAVv2Odc].description	1020	1670063493
+156	Distilling Mercury Metal [d6SahlAFV-w].description	1176	1670064170
+162	Does cyanide actually smell like almonds？ [WYagO-nup6c].description	3407	1670066010
+167	Extracting DNA from strawberries and eating it [araeHtN_3Lk].description	1229	1670066522
+173	Extracting Lidocaine from Anal Lubricant [WA-q4pXd0Pk].description	715	1670066933
+178	Extracting caffeine from caffeine pills [ZdTc1AFTKZ0].description	990	1670066401
+184	Extracting caffeine from coffee [_CoxEgbyeK4].description	1563	1670066467
+190	Extracting gold from computer parts (Part 1) [ASQCa7mfjVo].description	766	1670066662
+195	Extracting gold from computer parts (Part 2) [gt-OOWxr7_s].description	858	1670066783
+200	Extracting mercury from contaminated water [S4T57SFntIs].description	783	1670067028
+205	Extracting pure silver from a coin [6FoCGePov4E].description	868	1670068355
+211	Extracting the blue dye in jeans [67kyi5hLnA4].description	1108	1670068401
+216	Extracting the citric acid from lemons [FMtayizdFiw].description	1144	1670068712
+222	Extracting the red phosphorus from matchboxes [5ZrfNAHDjWU].description	1230	1670069964
+228	Extracting the spicy chemical in black pepper [YGZddY3R1pU].description	900	1670070040
+233	Extracting the starch from potatoes [PgKR6EsKl5I].description	940	1670070175
+239	Extracting the theobromine from cocoa powder [2VaeGdLUsRQ].description	1022	1670071046
+244	Extracting urea from my own pee [sfldS5hqWYA].description	1734	1670071201
+250	Extracting vitamin B3 (niacin) from pills [SYrEbrljEfE].description	1137	1670071378
+255	Fuming Nitric Acid vs. Lab Gloves [aBVdGGml6bU].description	1061	1670071623
+260	Getting Manganese Dioxide, Zinc and Carbon from Batteries [XC5q9mDKUCo].description	1566	1670071644
+265	Glycerol and Potassium Permanganate [ZIAyNFLRFuw].description	235	1670071741
+270	Growing Lead crystals [dbBlBZhp49s].description	1245	1670071774
+276	Hot Piranha Eating a Fortune Cookie [TKVD6t6QAFs].description	951	1670071894
+281	How to Convert Aspirin to Salicylic Acid (Base Hydrolysis Method) [-ClgQM9lBGs].description	190	1670072032
+286	How to Dissolve Cotton in Water [tvoimHLHdnA].description	144	1670072075
+291	How to Extract Bismuth Metal from Pepto-Bismol Tablets [grpSfjUImUs].description	865	1670072196
+297	How to Freebase (Phenylhydrazine HCl as an example) [IaTGCMixxKU].description	863	1670072576
+302	How to Separate Dichloromethane (DCM, Methylene Chloride) from Paint Remover [QdgpehUX3wU].description	939	1670073995
+307	How to build a Pressure Cooker Pot Still [m2DfCr2Qsx0].description	606	1670071980
+312	How to extract Acetylsalicylic Acid from Aspirin Tablets [LvYetXXnTmI].description	667	1670072152
+317	How to extract Caffeine from Tea (Classic DCM Method) [RIbff5iD0GQ].description	961	1670072259
+322	How to extract Capsaicinoids from Peppers at Home [_4sR3Ph8MBk].description	955	1670072350
+327	How to extract Cinnamaldehyde from Cinnamon [bDoaPIKT_Xg].description	791	1670072452
+332	How to extract Limonene from Orange Peels [o4CBXkfVHDc].description	756	1670072507
+338	How to extract Vanillin from Vanilla Sugar [DELgSlr5Eyw].description	787	1670072539
+343	How to extract capsaicinoids from chili peppers [cQIMLEwQWL0].description	805	1670072297
+348	How to extract chemicals from over the counter products [NffmujESqNw].description	755	1670072401
+353	How to grow Tin Crystals! [r-YbQN_twpw].description	1183	1670072632
+359	How to isolate Vanillin from Artificial Vanilla Extract [skS8SKJrZYc].description	1244	1670072699
+364	How to make Alcohol at Home (Ethanol) [txm7eu8KxVI].description	2243	1670072798
+370	How to make Aniline [nKWOZajmAQo].description	805	1670073026
+375	How to make Banana, Mushroom, Orange, and Pear Flavoring (Acetate Esters) [R6UugHqpu2Y].description	361	1670073115
+380	How to make Butyric Acid (Grignard Reaction) [_wmx65zQk58].description	335	1670073238
+385	How to make Butyric Acid (Smell of Vomit) - Oxidation Method [M8VSKqPYdHI].description	208	1670073290
+390	How to make Calcium Hydroxide (Ca(OH)2) [G26uzosONGk].description	1003	1670073384
+395	How to make Glacial Acetic Acid [8iG_qnkF08Y].description	904	1670073419
+400	How to make Glycerine (Glycerol) [HaWe0Af_0hg].description	1289	1670073441
+406	How to make Grape Flavoring (methyl anthranilate) [lolclWtn0Xk].description	724	1670073514
+411	How to make Hydrobromic Acid [OC7iBvqStFc].description	112	1670073573
+416	How to make Manganese Heptoxide [BowId4YyRgQ].description	229	1670073605
+421	How to make Nitrobenzene [ovHFjtxo-D4].description	792	1670073655
+426	How to make Phthalic acid and Phthalic Anhydride [wQidAZQhxbA].description	1057	1670073696
+431	How to make Phthalimide [iHwdpznQNnk].description	821	1670073757
+437	How to make Propanal (propionaldehyde) [T9ha_MS1S9o].description	788	1670073786
+442	How to make Putrescine [UAldEzWpr_A].description	859	1670073851
+447	How to make Sodium Carbonate (from Sodium Bicarbonate) [cpGEc-pLXN4].description	163	1670073880
+452	How to make a Phenolphthalein Indicator Solution (0.05%wt) [hhe8bB13eWY].description	1046	1670072733
+457	How to make a Stannous Chloride Solution (Tin (II) Chloride) [zziLOly2R8U].description	979	1670072755
+462	How to make ampoules from glass test tubes [7hRPs64NOf8].description	680	1670072856
+467	How to make an Acid and Base Bath [AsPpxQtZcUg].description	792	1670072885
+472	How to make an Oxygen Generator (MnO2⧸H2O2 Method) [eI-HMUCEJsI].description	120	1670072939
+477	How to make anhydrous ethanol (100% alcohol) [ratR1ngcWss].description	1028	1670072975
+483	How to make benzene [X10VZeQmFDo].description	1080	1670073169
+489	How to make cadaverine (the smell of death) [V4D5aTNYalQ].description	948	1670073336
+494	How to make the Cinnamaldehyde Clock [W18FL1GwFSw].description	134	1670073912
+499	How to prepare the Iodine Clock Reaction [QcYQ7iN7Pao].description	254	1670073941
+504	I accidentally discovered lead sponge... [1-NbDjxh_v0].description	991	1670074032
+510	I still can't believe that Epsom Salt is mostly water [8GVSuKkuLzY].description	1224	1670074173
+515	Let me Cook You a Meal (for reaching 50K Subs). [ElR4EjJPUZg].description	1515	1670074666
+520	Make your Requests, Comments and Suggestions Here!! [HEDPwgJyQCE].description	1612	1670074803
+525	Making 3-nitrophthalic Acid (Luminol Precursor) [K1RBxdFCN4c].description	848	1670074817
+530	Making Acetone from Calcium Acetate [44cyq4BxCD8].description	974	1670087432
+535	Making Alcohol Jelly (from Calcium Acetate) [DjmnSoupVoA].description	831	1670091583
+540	Making Ammonium Formate [CuiLFCaYseo].description	1092	1670101816
+545	Making Ammonium Metavanadate [0vVIj9CSAXM].description	1100	1670101940
+551	Making Anhydrous Oxalic Acid (using a Dean-Stark Apparatus) [oAt9lO82s-0].description	875	1670105484
+557	Making Benzaldehyde From Cinnamon Oil [Fui19FPh0R0].description	927	1670116631
+562	Making Benzaldehyde from Bitter Almond Oil [a95a0iMOICU].description	902	1670116369
+568	Making Benzocaine (Revisiting!) [RiTN1EYB-rs].description	962	1670117043
+573	Making Benzoic Acid (from sodium benzoate) [vGND_cTU4jw].description	908	1670117170
+578	Making Benzyl Chloride [lWFTYQ-x-SM].description	856	1670118211
+583	Making Calcium Acetate (from eggshells) [32vCLXTjnyQ].description	946	1670119877
+589	Making Chloroform [j-PrAczOGb0].description	913	1670121336
+595	Making Chromyl Chloride [a0-LwnmW694].description	1350	1670121392
+600	Making Cinnamic Acid [RWDfBtrGVCY].description	952	1670121543
+606	Making Concentrated (68%) Nitric Acid [KBeo8nww21g].description	939	1670123663
+611	Making Diethyl Ether [6Z2oE8-uthU].description	1250	1670127197
+616	Making Fluorescein [xXZcRwh28TE].description	1003	1670129994
+622	Making Fuming Nitric Acid [8YWVBBGSxZ8].description	1947	1670130145
+628	Making Hexanoic Acid [qy4xeixw_X8].description	848	1670131142
+633	Making Hydrazine Sulfate from Urea and Bleach [PCovDr4FVNQ].description	868	1670131543
+638	Making Instant Coke (Iodine Clock Demonstration - Not Real Coke) [ize_tQsF8nA].description	1221	1670131822
+643	Making Iron (II) Sulfide [NxAeQneITNA].description	451	1670132076
+649	Making Lithium Peroxide [Yub2MoYlKzg].description	1062	1670132735
+655	Making Luminol [u0GhnbEoSKE].description	1002	1670133309
+660	Making Magnesium Silicide and Explosive Silane Gas [KXCBnznxxIk].description	352	1670133433
+665	Making Mercuric Chloride (a very toxic mercury salt) [1CPwmXnihkk].description	983	1670133685
+670	Making Mercury (Part 1) [0e78I9_oH1E].description	2538	1670134320
+676	Making Mercury (Part 2) [ArKdq4J8-3I].description	961	1670134452
+681	Making Mercury Thiocyanate (The Pharaoh's Serpent) - Revisited [PSDpgBOtSNY].description	1622	1670134554
+686	Making Methyl Iodide [kY3CuZTkAAA].description	1033	1670136082
+691	Making Phenol [A0e0BDEE4Ic].description	682	1670138802
+697	Making Phenolphthalein (a common pH indicator) [kBo5UnNRodA].description	1104	1670138831
+703	Making Phenylhydrazine (Skatole precursor) [pAeSQZFnj0U].description	1006	1670138880
+708	Making Piranha Solution [cLpSapjKcxM].description	993	1670138977
+714	Making Prussian Blue [BtnCynfmBnc].description	983	1670138998
+719	Making Silicon Tetrachloride [wU77anzCzxg].description	1013	1670139736
+724	Making Soap [uMBeXHnWhsE].description	1433	1670139930
+730	Making Stinky Pyridine from Vitamin B3 [r-xt24lBbrs].description	1350	1670140137
+736	Making Trimethylamine - The Stench of Rotting Fish [cIDWdpMhKII].description	984	1670148131
+741	Making Vanillin Oxime (Capsaicin precursor) [oQ8k5OoTkEw].description	1079	1670150837
+746	Making Wintergreen (a minty odor and flavoring) [lJLP2bcXDqY].description	806	1670150944
+751	Making a Bromoalkane (1-bromopentane) [Y4bC_buRAmk].description	949	1670074893
+756	Making a Hydrogen Sulfide Generator [cRtsexmFO4s].description	437	1670080991
+761	Making a Mysterious Foam [rxLNIHM0BZ0].description	1533	1670084700
+766	Making a Nylon Precursor using Green Chemistry [O0LqwYTSir4].description	926	1670085041
+772	Making a carbon snake with P-Nitroaniline [YKHUnHDphTc].description	1238	1670075614
+777	Making a chemical that changes color in different liquids [RGG2GNvpwA4].description	1427	1670075723
+782	Making a deadly chemical in my parents' garage [SIfIZqXaR0g].description	1267	1670077448
+787	Making a dye from scratch and coloring socks! [vPSJRhg4dYk].description	2168	1670079077
+792	Making a fluorescent dye - Eosin Y [0C4EfwqOS7A].description	969	1670079431
+797	Making a liquid that attracts biting insects (1-octen-3-ol) [yRXyrUnpfKs].description	732	1670081021
+803	Making a silver mirror [nGmxHLHyUPc].description	1362	1670085446
+809	Making acrolein [7oAcT4Duun4].description	1025	1670089219
+815	Making aerogel [Y0HfmYBlF8g].description	1242	1670089765
+820	Making aluminum isopropoxide [SuoWnueBJaY].description	1182	1670092289
+825	Making an old hypnotic sedative and preservative [TzbkRC3rYEo].description	1040	1670104175
+831	Making an old pain and fever medication [eQNLmkj_GBo].description	1256	1670104639
+837	Making and Playing with Phosphorus Tribromide [mYDYtsJ4NbQ].description	1098	1670105223
+842	Making and playing with Liquid Oxygen [zu7revUCefw].description	883	1670105091
+848	Making anisole [z_0AMRr5opg].description	1212	1670107632
+853	Making bakelite plastic (Part 1) [phNLecfyWS8].description	711	1670115114
+858	Making bakelite plastic (Part 2) [z-l2_WDqW1A].description	814	1670115324
+863	Making basic copper carbonate [Ttf80a2zZ9w].description	1016	1670115548
+869	Making bromine from pool supplies [eaIps1WxJPQ].description	908	1670118351
+875	Making cadaverine [C5hxFAwKIzs].description	830	1670118436
+881	Making calcium acetate from Tums [w1lIizGVwWI].description	962	1670120502
+887	Making color changing plastic [YfjoU1_9GQ8].description	1420	1670123163
+892	Making copper hydroxide [YniCGw-rqmU].description	927	1670124448
+897	Making denatonium benzoate - the world's most bitter chemical [GOw_I42eUpM].description	1236	1670125104
+902	Making elemental bromine [QM-cgWGBPqo].description	1037	1670127248
+908	Making ferrofluid from scratch [6L8yUY-doNc].description	1396	1670129231
+913	Making fuming nitric acid [QmCdrDLyNXQ].description	1044	1670130200
+918	Making glow sticks from scratch [w_CYwd6cHUA].description	1398	1670130402
+924	Making glow toys from scratch [OfI-XpYAqM0].description	1416	1670130511
+929	Making indigo and dyeing jeans blue [6yhR242MnwA].description	1796	1670131681
+935	Making iodine [FNf8PSda7iI].description	919	1670131927
+940	Making laughing gas [uzSe3BDCkF8].description	1741	1670132118
+945	Making lead crystals that taste sweet [lOjLuJyMmUQ].description	1345	1670132203
+950	Making liquid ammonia to dissolve sodium and lithium metal [gHokrNS1ask].description	1032	1670132364
+955	Making liquid soap [VeNDrtB62es].description	1194	1670132518
+961	Making lithium hydroxide [9c4BjVIgK1k].description	1081	1670132638
+966	Making margarine from olive oil [drIm8_1CvjQ].description	1366	1670133503
+972	Making metal crystals from Pepto-Bismol [-_qpzFlpgpo].description	1119	1670135431
+978	Making milk lactose free [wYyqZWWU9GU].description	942	1670136994
+984	Making my favorite liquid carcinogen [saANxD0cqy0].description	1187	1670137110
+989	Making my own blueprint [0e8CMbHfLxM].description	1158	1670137572
+994	Making nylon [HTh_5CWMSoQ].description	1337	1670137874
+999	Making nylon plastic [_Ybc8Dinm0U].description	1219	1670137689
+1005	Making oxalic acid from cane sugar [M5bAbvw6IQQ].description	1231	1670138142
+1010	Making raspberry perfume [_M_Yhlh2PTo].description	1162	1670139218
+1015	Making skatole - The essence of poop [eZ56LDCABrA].description	1036	1670139816
+1021	Making sunscreen from scratch [gavq_sZZ8B0].description	1096	1670140874
+1027	Making superconductors [RS7gyZJg5nc].description	1330	1670143266
+1032	Making table salt using sodium metal and chlorine gas [ji_25I_q4LQ].description	729	1670144186
+1038	Making test tube liquid rockets [OszX18NLtrY].description	1465	1670144263
+1043	Making the Pharaoh's Serpent (4K) [vQdK7gaZS0k].description	1511	1670144917
+1048	Making the Pharaoh's Serpent [PC3o2KgQstA].description	1373	1670145469
+1054	Making the dye in jeans edible [jBZ8ly4erzs].description	1189	1670144529
+1059	Making the world's most expensive carbonated water! [n0wvDwSnzcw].description	1101	1670145535
+1065	Making toilet paper moonshine [v-mWK_kcZMs].description	1549	1670146272
+1071	Making transparent wood [uUU3jW7Y9Ak].description	1356	1670147247
+1076	Making uranium glass [RGw6fXprV9U].description	1708	1670150300
+1081	Melting Zinc Battery Casings into an Ingot [Lgo0R5_4_HI].description	1142	1670151014
+1087	Mixing sodium with mercury [SoOyaDWIoMA].description	1875	1670151255
+1092	NileRed - Videos [UCFhXFikryT4aFcLkLw2LBLA].description	770	1670151601
+1095	Playing with an InfraRed Camera (reuploaded) [EfUzKcAcX0Q].description	193	1670151612
+1100	Preparing a Drying Agent (Magnesium sulfate) [CKTjXXtv6w8].description	233	1670151698
+1105	Purifying Sulfuric Acid Drain Cleaner [4DUGRWjdNLI].description	1461	1670151774
+1110	Reacting Bromine and Aluminum [ZpQkgM0msj4].description	708	1670151913
+1115	Recreating one of the weirdest reactions [LL3kVtc-4vY].description	1579	1670151966
+1120	Recreating the Briggs-Rauscher oscillating reaction [SCoLMfplVWs].description	1916	1670152214
+1126	Recreating the Iodine Clock Reaction at Home with Vitamin C [0PoqIyh9FG4].description	849	1670152563
+1132	Recreating the chemical traffic light reaction [1ueSa6-UqYo].description	1291	1670152386
+1137	Recreating the world's first test for diabetes [l_apnZ3DYOI].description	1896	1670153345
+1143	Spontaneous Combustion： Silane Gas [aKMrt6MsoY4].description	101	1670153496
+1148	Storing mercury without water [m03Bke3CLFM].description	950	1670153523
+1153	Synthesis of a Bromoalkane (n-Bromopropane) [9eaWqvZZcig].description	434	1670154216
+1158	Taking the caffeine out of Red Bull so I can drink it at night [oY8tz1paj6o].description	1388	1670154258
+1163	Technique Series： Recrystallization (urea as an example) [T2Z8tFXYpI8].description	1124	1670154736
+1168	The Birch reduction [gNLvgGY-D9o].description	1075	1670154864
+1173	The Blue Bottle Experiment [6sJbNRSCoMA].description	1143	1670154942
+1178	The Briggs-Rausher Oscillating Reaction (Demonstration) [wHKnZl3FslU].description	403	1670155350
+1183	The Briggs-Rausher Oscillating Reaction (Tutorial and Explanation) [WasYuiOk5xQ].description	672	1670155378
+1188	The Burning of Sulfur (Demonstration) [4dz1Au7Tm5I].description	338	1670155447
+1193	The Cannizzaro reaction [qEBC204WTKs].description	913	1670155500
+1198	The Iodine Myth [dPIaEWd8zf4].description	1350	1670155966
+1204	The Pharaoh's Serpent demonstration [2dhHpHOgrUI].description	1042	1670156791
+1209	The evolution of NileRed + NEW LAB TOUR [8mk4Q5omv3Q].description	1433	1670155755
+1214	The lead sponge mystery continues... [Iqb_tXO-YGg].description	1184	1670156043
+1219	The microwave plasma mystery [l0u8Vtf2GoQ].description	1857	1670156250
+1224	This chemical really doesn't want to exist [2BZGjycR7YM].description	1332	1670156819
+1230	Turning Aspirin into Tylenol [b0Ejuew2riA].description	1184	1670157354
+1235	Turning a plastic soda bottle into foam [xLftqtsiFBs].description	1158	1670157058
+1240	Turning aspirin pills into mint flavor [3NN9IUvrKi4].description	943	1670157600
+1245	Turning batteries into medicine [U2UQ4-NOP9E].description	1644	1670157744
+1250	Turning cotton balls into cotton candy [vHuFizITMdA].description	1289	1670157946
+1255	Turning mercury into a weird sponge [Hp9PIXOYaEA].description	1248	1670158509
+1260	Turning mint flavor into a glowing liquid [Zn61XAGgJA0].description	1331	1670158844
+1265	Turning my own pee into an artificial sweetener [pujG5DbtDT8].description	1454	1670158928
+1270	Turning my own pee into medicine [b5aUF8aaFg8].description	1336	1670159136
+1275	Turning old jewelry into pure gold bars [37Kn-kIsVu8].description	1520	1670159316
+1280	Turning paper into plastic [yMG0yfGFJ00].description	1155	1670160157
+1286	Turning plastic gloves into grape soda [zFZ5jQ0yuNA].description	1374	1670160423
+1291	Turning plastic gloves into hot sauce [1B3Xi5L6siI].description	1466	1670161887
+1296	Turning soap into oil and making French fries [HAieBBeS7Ss].description	1244	1670163509
+1301	What is Fool's Gold？ [Y8qEA291Fws].description	1348	1670163752
+1307	What is Milk made of？ [BV8aFRII1M4].description	1161	1670164219

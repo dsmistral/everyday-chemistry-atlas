@@ -1,25 +1,25 @@
 1076	Making uranium glass [RGw6fXprV9U].description	1708	1670150300
 1081	Melting Zinc Battery Casings into an Ingot [Lgo0R5_4_HI].description	1142	1670151014
 1087	Mixing sodium with mercury [SoOyaDWIoMA].description	1875	1670151255
-1092	NileRed  Videos [UCFhXFikryT4aFcLkLw2LBLA].description	770	1670151601
+1092	NileRed - Videos [UCFhXFikryT4aFcLkLw2LBLA].description	770	1670151601
 1095	Playing with an InfraRed Camera (reuploaded) [EfUzKcAcX0Q].description	193	1670151612
 1100	Preparing a Drying Agent (Magnesium sulfate) [CKTjXXtv6w8].description	233	1670151698
 1105	Purifying Sulfuric Acid Drain Cleaner [4DUGRWjdNLI].description	1461	1670151774
 1110	Reacting Bromine and Aluminum [ZpQkgM0msj4].description	708	1670151913
-1115	Recreating one of the weirdest reactions [LL3kVtc4vY].description	1579	1670151966
-1120	Recreating the BriggsRauscher oscillating reaction [SCoLMfplVWs].description	1916	1670152214
+1115	Recreating one of the weirdest reactions [LL3kVtc-4vY].description	1579	1670151966
+1120	Recreating the Briggs-Rauscher oscillating reaction [SCoLMfplVWs].description	1916	1670152214
 1126	Recreating the Iodine Clock Reaction at Home with Vitamin C [0PoqIyh9FG4].description	849	1670152563
-1132	Recreating the chemical traffic light reaction [1ueSa6UqYo].description	1291	1670152386
+1132	Recreating the chemical traffic light reaction [1ueSa6-UqYo].description	1291	1670152386
 1137	Recreating the world's first test for diabetes [l_apnZ3DYOI].description	1896	1670153345
 1143	Spontaneous Combustion： Silane Gas [aKMrt6MsoY4].description	101	1670153496
 1148	Storing mercury without water [m03Bke3CLFM].description	950	1670153523
-1153	Synthesis of a Bromoalkane (nBromopropane) [9eaWqvZZcig].description	434	1670154216
+1153	Synthesis of a Bromoalkane (n-Bromopropane) [9eaWqvZZcig].description	434	1670154216
 1158	Taking the caffeine out of Red Bull so I can drink it at night [oY8tz1paj6o].description	1388	1670154258
 1163	Technique Series： Recrystallization (urea as an example) [T2Z8tFXYpI8].description	1124	1670154736
-1168	The Birch reduction [gNLvgGYD9o].description	1075	1670154864
+1168	The Birch reduction [gNLvgGY-D9o].description	1075	1670154864
 1173	The Blue Bottle Experiment [6sJbNRSCoMA].description	1143	1670154942
-1178	The BriggsRausher Oscillating Reaction (Demonstration) [wHKnZl3FslU].description	403	1670155350
-1183	The BriggsRausher Oscillating Reaction (Tutorial and Explanation) [WasYuiOk5xQ].description	672	1670155378
+1178	The Briggs-Rausher Oscillating Reaction (Demonstration) [wHKnZl3FslU].description	403	1670155350
+1183	The Briggs-Rausher Oscillating Reaction (Tutorial and Explanation) [WasYuiOk5xQ].description	672	1670155378
 1188	The Burning of Sulfur (Demonstration) [4dz1Au7Tm5I].description	338	1670155447
 1193	The Cannizzaro reaction [qEBC204WTKs].description	913	1670155500
 1198	The Iodine Myth [dPIaEWd8zf4].description	1350	1670155966

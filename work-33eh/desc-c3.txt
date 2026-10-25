@@ -1,7 +1,7 @@
 276	Hot Piranha Eating a Fortune Cookie [TKVD6t6QAFs].description	951	1670071894
-281	How to Convert Aspirin to Salicylic Acid (Base Hydrolysis Method) [ClgQM9lBGs].description	190	1670072032
+281	How to Convert Aspirin to Salicylic Acid (Base Hydrolysis Method) [-ClgQM9lBGs].description	190	1670072032
 286	How to Dissolve Cotton in Water [tvoimHLHdnA].description	144	1670072075
-291	How to Extract Bismuth Metal from PeptoBismol Tablets [grpSfjUImUs].description	865	1670072196
+291	How to Extract Bismuth Metal from Pepto-Bismol Tablets [grpSfjUImUs].description	865	1670072196
 297	How to Freebase (Phenylhydrazine HCl as an example) [IaTGCMixxKU].description	863	1670072576
 302	How to Separate Dichloromethane (DCM, Methylene Chloride) from Paint Remover [QdgpehUX3wU].description	939	1670073995
 307	How to build a Pressure Cooker Pot Still [m2DfCr2Qsx0].description	606	1670071980
@@ -13,13 +13,13 @@
 338	How to extract Vanillin from Vanilla Sugar [DELgSlr5Eyw].description	787	1670072539
 343	How to extract capsaicinoids from chili peppers [cQIMLEwQWL0].description	805	1670072297
 348	How to extract chemicals from over the counter products [NffmujESqNw].description	755	1670072401
-353	How to grow Tin Crystals! [rYbQN_twpw].description	1183	1670072632
+353	How to grow Tin Crystals! [r-YbQN_twpw].description	1183	1670072632
 359	How to isolate Vanillin from Artificial Vanilla Extract [skS8SKJrZYc].description	1244	1670072699
 364	How to make Alcohol at Home (Ethanol) [txm7eu8KxVI].description	2243	1670072798
 370	How to make Aniline [nKWOZajmAQo].description	805	1670073026
 375	How to make Banana, Mushroom, Orange, and Pear Flavoring (Acetate Esters) [R6UugHqpu2Y].description	361	1670073115
 380	How to make Butyric Acid (Grignard Reaction) [_wmx65zQk58].description	335	1670073238
-385	How to make Butyric Acid (Smell of Vomit)  Oxidation Method [M8VSKqPYdHI].description	208	1670073290
+385	How to make Butyric Acid (Smell of Vomit) - Oxidation Method [M8VSKqPYdHI].description	208	1670073290
 390	How to make Calcium Hydroxide (Ca(OH)2) [G26uzosONGk].description	1003	1670073384
 395	How to make Glacial Acetic Acid [8iG_qnkF08Y].description	904	1670073419
 400	How to make Glycerine (Glycerol) [HaWe0Af_0hg].description	1289	1670073441
