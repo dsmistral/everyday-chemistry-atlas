@@ -1,0 +1,41 @@
+name: Assemble STATE
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'state-parts/**'
+concurrency:
+  group: assemble-state-33dq
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: All parts present
+        run: |
+          if [ ! -f state-parts/p1 ] || [ ! -f state-parts/p2 ]; then
+            echo "state-parts incomplete - skipping"
+            exit 0
+          fi
+      - name: Assemble and assert
+        run: |
+          cat state-parts/p1 state-parts/p2 > papers/STATE.md
+          SIZE=$(wc -c < papers/STATE.md)
+          if [ "$SIZE" != "918502" ]; then
+            echo "BYTE COUNT MISMATCH: $SIZE != 918502"
+            exit 1
+          fi
+          echo "d87909b627b98197beb3372a9b6cdcf5  papers/STATE.md" > /tmp/state-check.md5
+          md5sum -c /tmp/state-check.md5
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers/STATE.md
+          git rm -r -f state-parts
+          git commit -m "batch-33dq: STATE — the 33dq DONE line (the S88 HTME debut + the DDT strike datum + the dead-reupload census + the channel-grid maps), State 907421 -> 918502"
+          git push
