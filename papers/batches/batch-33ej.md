@@ -1,0 +1,53 @@
+# Batch 33ej — THE 80-MEMBER LEVEL AUDIT (the 2022-item en-vtt upgrade campaign's register-only opener, the campaign's level map + tranche definition), session 189 continued (2026-10-25, the multi-unit chaining protocol's hundred-and-first unit under the session-185 authorization; the user's explicit call — the 80-member eligible set, audit-first, tranche order the user delegated to the best approach)
+
+Session 189 continued (2026-10-25). AUDIT LEVEL — NO new papers (the corpus stays 518; the source census stays 88; NO new N-rows), NO fetches (register-only: every pin read from the landed registers, zero IA/GitHub/web route calls; the media files never opened, the sidecars never opened — the binding constraints held; the fence-adjacent faces audit-only; the never-gather pair's sidecars never to be opened; perpetualarchive.ca unopened). Register-first doctrine: the audit BEFORE the campaign's first sidecar open. ALL CATCHES FLAGGED for the user's review; NO silent register edits (the N511-variant precedent's rule held — the duplicate catches below are flagged, not corrected).
+
+## The audit question and the method
+
+- The 33eh roll named **80 eligible en-vtt upgrade members** (the 82 corpus-matched carriers minus the never-gather pair). The eligible set was token-matched in 33eh — the audit's question: **which members actually carry register rows, at what gather level, and what does an "upgrade" mean per member.**
+- The method (register-only, all local): the one-pass id-line map (grep -noF -f ids over CORPUS.md — 138 ID-line occurrences), the line-head classification (ROW lines = the N-row records; NOTE lines = batch digests; SRC = the S02 cell), and the zone-boundary extractor (grep -oE '\([A-Za-z0-9_-]{11},' per row line — the row's own ID at the first paren, the cross-reference trap filter).
+
+## The level map (the audit's deliverable)
+
+- **46 of the 80 carry own N-rows; 34 are MENTION-ONLY** (their IDs live in batch-note digests, the S02 cell, or other rows' cross-references — no gathered paper rows of their own). The mention-only 34: dbBlBZhp49s, eaIps1WxJPQ, iHwdpznQNnk, ji_25I_q4LQ, kBo5UnNRodA, mf9vZ7uLFQA, o4CBXkfVHDc, oAt9lO82s-0, sfldS5hqWYA, txm7eu8KxVI, zu7revUCefw, 1-NbDjxh_v0, 6FoCGePov4E, 6yhR242MnwA, 8YWVBBGSxZ8, A0e0BDEE4Ic, C5hxFAwKIzs, cLpSapjKcxM, eQNLmkj_GBo, eRoHeVqDlfg, eZ56LDCABrA, FMtayizdFiw, Lgo0R5_4_HI, LMlXhJevCV0, NxAeQneITNA, O0LqwYTSir4, PgKR6EsKl5I, r-YbQN_twpw, ratR1ngcWss, X10VZeQmFDo (30 batch-note/S02-cell mentions) + _CoxEgbyeK4, HaWe0Af_0hg, j-PrAczOGb0, xXZcRwh28TE (4 cross-reference-only mentions on other rows: on N431's row, 7oAcT4Duun4's row, and VeNDrtB62es's row). **A sidecar open on a mention-only member is a GATHER (a new N-row), not an upgrade — the register-first doctrine: each such open is the user's call.**
+- **The 46 with rows split 23 T / 12 C / 13 M (48 rows over 46 videos — the 2 extra rows are the duplicate catches below):**
+  - **T — 23 rows already at TRANSCRIPT-LEVEL (no upgrade needed; the campaign's non-set):** -_qpzFlpgpo N401, 7oAcT4Duun4 N421, a95a0iMOICU N464, EruzAVv2Odc N468, grpSfjUImUs N402, ieutY3LyWXA N453, nGmxHLHyUPc N456, n0wvDwSnzcw N403, PC3o2KgQstA N414, Q_f1hRmhUX8 N452, RWDfBtrGVCY N469, SCoLMfplVWs N471, tSRWqbpNTF4 N451, u8Y3_7psygU N455, v-mWK_kcZMs N404, yAGYGGmUmUw N416, YPIr26-Tg5c N450, yRXyrUnpfKs N415, Yub2MoYlKzg N467, ZdTc1AFTKZ0 N437 + BqLH-nTZEOc N406 + 2BZGjycR7YM N405 AND N428 (the duplicate members themselves).
+  - **C — 12 rows at CRAWL/AUTO-TRACK level (the pins carry filmot-crawl auto-track transcript content; the upgrade = the 33ei supersede class):** gavq_sZZ8B0 N379, 2ubw1bI8s5w N380, 0e78I9_oH1E N387, d6SahlAFV-w N389, ZiWlthrtneU N390, IrdYueB9pY4 N393, uMBeXHnWhsE N394, VeNDrtB62es N396, drIm8_1CvjQ N398, 0PoqIyh9FG4 N480, r-xt24lBbrs N481 + BqLH-nTZEOc N395 (the duplicate pair's crawl-level half — the video itself already has the transcript-level N406, so NOT upgrade-needed).
+  - **M — 13 rows at METADATA level (oEmbed/watch/title/date pins only; the upgrade = the FIRST transcript):** nuW_VbKdvMI N476, Ttf80a2zZ9w N483, _Ybc8Dinm0U N505, 32vCLXTjnyQ N493, w1lIizGVwWI N495, f5PHffYhw9w N500, 0vVIj9CSAXM N501, w_CYwd6cHUA N503, QM-cgWGBPqo N488, dPIaEWd8zf4 N507, araeHtN_3Lk N509, l_apnZ3DYOI N510, wYyqZWWU9GU N512 — the 33ef-tranche 11 (each flagged "transcript upgrade deferred" at gather) + the 33dy corroborator-route 2. **THE LANGUAGE-VARIANT CARRIERS FLAGGED INSIDE THE M CLASS: _Ybc8Dinm0U's sidecar is the .ru.vtt + 32vCLXTjnyQ's is the .zh-CN.vtt (auto-translation tracks, the 33eh census datum) — their upgrade value is the user's call.**
+- **THE TRUE CAMPAIGN SET = 24 distinct videos needing upgrade: 13 M + 11 C** (the C class minus the already-covered BqLH-nTZEOc).
+
+## The duplicate catches (FLAGGED, no edits made)
+
+- **BqLH-nTZEOc "Can you actually smell metal?" IS REGISTERED TWICE: N395 (the 33cp crawl-level gather, the 33cp prior-chain refutation) AND N406 (the 33ct E04 transcript-level discharge)** — the same video, two rows, no cross-reference between them. N406's row is the richer (the P15 smell-chemistry premise + the N390 axis discharge); N395's row carries the 33cp refutation content. The corpus-518 count includes BOTH.
+- **2BZGjycR7YM "This chemical really doesn't want to exist" IS REGISTERED TWICE: N405 (the 33ct E06 transcript-level gather) AND N428 (the re-gather with the N425 NileBlue same-day parent + the contributor set)** — the same video (14 Jun 2019, the Mn2O7 episode), two transcript-level rows, no cross-reference.
+- Both pairs are members of the 80-set (both vtt carriers); the effective distinct-video count of the corpus is 516 if both duplicates are adjudicated merged — THE USER'S ADJUDICATION CALL (the merges, the row retirements, or the deliberate retention of both rows; no silent edits per the standing rule).
+
+## The tranche definition (the order — the user's delegated call, decided here)
+
+- **TRANCHE ORDER STANDING: Class M first (13 members — the first-transcript value class; the two language-variant carriers flagged inside), then Class C (11 members — the supersede class), within each class by N-row order.** The first tranche (the campaign's first sidecar-open unit) = the M class's en-vtt members in N-row order: N476 nuW_VbKdvMI, N483 Ttf80a2zZ9w, N488 QM-cgWGBPqo, N493 32vCLXTjnyQ (zh-CN flag), N495 w1lIizGVwWI, N500 f5PHffYhw9w, N501 0vVIj9CSAXM, N503 w_CYwd6cHUA, N505 _Ybc8Dinm0U (ru flag), N507 dPIaEWd8zf4, N509 araeHtN_3Lk, N510 l_apnZ3DYOI, N512 wYyqZWWU9GU — the tranche SIZE is the user's call at each unit (the 33ei precedent: one member per unit at transcript level).
+- The mention-only 34 and the duplicate adjudications are SEPARATE user-call dockets (never silently gathered, never silently merged).
+
+## The route faces (this unit's)
+
+1. **THE WORKER'S AWK INTERMITTENTLY READS LONG RECORDS AS EMPTY**: the S02 cell (line 8, 28,176 B) read as EMPTY across several consecutive commands early in the unit (the first audit attempt's segment-scan found 0 rows for exactly this reason; two full audit runs returned 75 of 80 unassigned), then re-read fine at 27,971 awk-chars later in the session — the face is worker-instance/transient-dependent, not a fixed length cap. THE RULE: sentinel-verify (length or grep) before trusting awk on long records; the grep/sed single-pass routes the reliable fallback.
+2. **awk -f IS REJECTED in this worker** ("invalid option -- 'f'") — the '"$(cat prog.awk)"' command-substitution route the workaround.
+3. **awk -F'|' TREATS FS AS REGEX ALTERNATION** (silently wrong splits, "start index out of bounds") — never '|' as FS; cut -d'|' instead.
+4. **awk multi-file print redirection needs close() BEFORE the counter increment** (the too-many-open-files face silently lost 15 of 74 output blocks until fixed).
+5. **The per-ID grep loop + per-line awk re-reads = the 30-second command timeout** (80 × 1.1 MB greps + ~200 × 1.1 MB awk re-reads); the single-pass routes complete in seconds.
+6. **grep -noF -f ids.txt (80 fixed-string patterns) IS FAST** — the one-pass id→line map (138 occurrences); the 33eh 245-pattern -oFf timeout face did NOT recur at 80 patterns over the same 1.1-MB file.
+7. **The zone-boundary extractor** (grep -oE '\([A-Za-z0-9_-]{11},' on the row line) pins the row's own ID — the cross-reference trap filter (9 of 57 row-line hits were cross-references on other rows' lines).
+
+## The machine checks
+
+- The register md5s verified before the unit (the 33ei close set: CORPUS 64a8db93b8b52ec112582bc420a5e7cf / STATE 9a0370e1e75902ce404e29c1443de84a / SURVEY-2 d36f8cf74c1093b6455838e7ccda5f7d / KNOWLEDGE d747fbb285a02a6376d4445b6553d234) and re-verified after the edits.
+- The census machine-checked: 46 + 34 = 80 exact; 23 T + 12 C + 13 M = 48 rows over 46 videos; the 34 mention-only each verified hit-line-type NOTE/SRC/other-row-only; the 9 cross-reference traps zone-filtered; both duplicate pairs zone-verified on BOTH rows (the first-paren zone equals the ID on each).
+
+## The push record
+
+(to be appended after the landing)
+
+## The post-landing note
+
+(to be appended at the unit's close)
+
+— NEXT (standing docket): the campaign's first tranche (the M class's en-vtt members in N-row order, the tranche size the user's call) / the duplicate-pair adjudication call (BqLH-nTZEOc N395+N406 + 2BZGjycR7YM N405+N428) / the mention-only 34's gather calls (each the user's call) / the authoring call Vol VI Ch 37 (gated per the session-189 v2 protocol: re-check the register for map pressure at that call), or the user's direction. Corpus 518 UNCHANGED (the audit done).
