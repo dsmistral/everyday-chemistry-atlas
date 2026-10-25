@@ -1,0 +1,46 @@
+# Batch 33eq — THE DUPLICATE-PAIR ADJUDICATION II (the called pair 1-NbDjxh_v0 = N278/N346 + the audit's five more, seven same-video pairs resolved at the standing delegated no-information-loss criterion), session 189 continued (2026-10-25, the multi-unit chaining protocol's hundred-and-eighth unit under the session-185 authorization; REGISTER-ONLY, ZERO fetches)
+
+Session 189 continued (2026-10-25). ADJUDICATION LEVEL — no new papers, no fetches, no sidecars, no media (the corpus rows 535 UNCHANGED in count; the DISTINCT convention 533 -> 526). THE USER'S DOCKET CALL (the third duplicate-pair adjudication) answered at the STANDING DELEGATED CRITERION (33el, verbatim: "do what is best for our project and does not reduce information quality we need for books" — the no-information-loss merge: CROSS-REF NOTES, NO DELETIONS, the unique data of every superseded row preserved in place). THE UNIT'S OWN AUDIT: before ruling, the whole-register ID-level row-head census (every row head's first-paren video ID extracted + counted) — which found THE CALLED PAIR PLUS FIVE MORE the 33ej/33el zone-verification had missed (the packed-line + old-format rows' face again); the adjudication covers ALL SEVEN. Register-first doctrine: all fourteen rows read in full from the register before the ruling. ALL CALLS FLAGGED for the user's review.
+
+## The audit
+
+- The whole-register ID-level row-head census: the 'Nxxx (NileRed )?"title" (ID,' head form ×297 + the '" gathered (ID,' form ×8 extracted and counted; NINE same-ID pairs found, TWO already adjudicated (the 33el sanity check: BqLH-nTZEOc N395/N406 + 2BZGjycR7YM N405/N428), SEVEN open — the census's raw high-count IDs checked one by one and cleared as cross-references (qT5XLkATzSI + 98qiQJ8maCU + Jg4k5P_GXt4), not rows.
+- THE 33k/33aa DOUBLE-GATHER INCIDENT: the Oct-22/Oct-23 session-188 batches shared TWO videos (the battery-chain trio's re-gather) — the incident's two pairs (N278/N346 + N277/N347) both now adjudicated.
+- The known non-ID duplicate faces OUT OF SCOPE (separate docket items, untouched): the Bromine set N158/N54/N144/N155 (the CC-badged "Element-Bromine" residual adjudication) + the N269 "Making nylon" ID-level catch + the cinnabar-pair deletion-axiom.
+
+## The ruling (seven pairs, the 33el convention: the richer superset THE PRIMARY, the books' canonical row; the sibling SUPERSEDED as a census member, unique data preserved in place; no deletions)
+
+1. **1-NbDjxh_v0 "I accidentally discovered lead sponge..." — N278 THE PRIMARY (the richer superset: the full lecture detail + the P3/P7 fires + the studio-transition datum) / N346 SUPERSEDED (unique preserved: the Contributors-2 12thealchemist recurrence + the watch 3,841,102 TWO-READ DRIFT vs N278's 3,841,076 (+26) + the 263.6-mmol/54.6-g theoretical-Pb calc + the N337 description cross-link + the P2/P6/P1/P4 boundary-convention set); the 33ep PENDING flags on both rows discharged by the ruling.
+2. **XC5q9mDKUCo "Getting Manganese Dioxide, Zinc and Carbon from Batteries" — N277 THE PRIMARY (the chain-origin member, the richer row) / N347 SUPERSEDED (unique preserved: the watch 679,164 TWO-READ DRIFT vs N277's 679,113 (+51) + the 1.6381x ratio + the description-pinned MnO2/carbon post-publication note + the N87-axis first-method member registered unpinned).
+3. **v-mWK_kcZMs "Making toilet paper moonshine" — N404 THE PRIMARY (the complete dual-track superset + the TheTVDB S2019E10 36-min pin + the live 14,432,844 face) / N323 SUPERSEDED (unique preserved: the fundraiser-badge watch face + the watch 14,431,489 TWO-READ DRIFT (+1,355) + the blocked-routes record (the cookie wall + the Invidious ×2) + the P13 biocatalyst debut + the production-code route's second use).
+4. **lOjLuJyMmUQ "Making lead crystals that taste sweet" — N412 THE PRIMARY (the richer P-index superset: P15/P2/P13/P10/P11/P3+P14 double-credit/P9/P12/P16 + the 2.3616x ratio the register's largest) / N275 SUPERSEDED (unique preserved: THE RETITLING DATUM (the IA filename "20170628 - Making Sugar of Lead") + the watch 4,250,179 TWO-READ DRIFT vs N412's 4,250,875 (+696) + the 188-day tree-of-Saturn promise-arc statement + the P3 35->36 fire count).
+5. **Hp9PIXOYaEA "Turning mercury into a weird sponge" — N410 THE PRIMARY (the TheTVDB S2019E02 16-min pin + the live 3,132,351 face + the P-fire bookkeeping + the absent-hazard datum + the rail) / N382 SUPERSEDED (unique preserved: the title-corrected-at-gather datum (the 33ch pin's variant) + the watch-walled intermittency datum + the two-theory-set + comments-invitation phrasing + the degradation-tests detail).
+6. **d6SahlAFV-w "Distilling Mercury Metal" — N389 THE PRIMARY (the richer superset: the five-contributor page + the N380 prior link with the 272-day gap + the mineral-oil check + the cleanup train) / N339 SUPERSEDED (unique preserved: THE 19:53 DURATION PIN via the German-locale third-party rail — THE INTER-ROW TENSION with N389's "duration unpinned" note FLAGGED, both statements carried (the register's first pinned-vs-unpinned pair face) + the sulfur-bag description UPDATE correction + the live watch 3,056,156 the pair's only live read + the 1.9101x ratio + the dislike-census 2016-era face).
+7. **6L8yUY-doNc "Making ferrofluid from scratch" — N407 THE PRIMARY (the TheTVDB S2019E07 38-min pin + the N405 delivery-side corroboration + the full P-fire bookkeeping + the RPM ladder + the garble set) / N381 SUPERSEDED (unique preserved: THE N340 262-DAY CHAIN re-confirmation + the make-vs-buy arc closed + the watch full-details 15,542,191 THE PAIR'S ONLY LIVE FACE (N407 sign-in-walled) + the 1.3061x ratio + the single-track truncation-class 29->30 member datum).
+
+## The adjudication-level faces
+
+1. **FOUR NEW TWO-READ LIVE-DRIFT FACES** (the 33el N405/N428 +140 face's siblings): N278/N346 +26 + N277/N347 +51 + N275/N412 +696 + N323/N404 +1,355 — two different live reads of the same watch pages at different gather times, both carried as EXACT at their respective reads; not contradictions, two-read data.
+2. **THE THREE ONLY-LIVE-FACE NOTES**: three pairs where one row's watch read was walled (N382's intermittency wall + N389's standard shell + N407's full sign-in wall) — the sibling's live read is the pair's ONLY live datum, noted on both rows.
+3. **THE N339/N389 DURATION TENSION**: the superseded N339 carries the register's only duration pin for the video (19:53, the German-locale third-party rail) while the primary N389 states "duration unpinned" (no TheTVDB/IMDb record surfaced at its gather) — both statements carried, FLAGGED; the 19:53 pin stands as the third-party-rail datum.
+4. **THE CENSUS CORRECTION**: the distinct convention 533 -> 526 (the 33ep "533 distinct" figure accounted only the two 33el pairs; the audit's five more pairs each merge one distinct video — 535 - 9 = 526); the correction noted on every new statement, the historical lines never rewritten.
+
+## The machine checks
+
+- The register md5s verified before the unit (the 33ep close set: CORPUS 0a9fc3dacc11a7013c7b3ec416654db6 / STATE 18fdd5905fdcfb9733bf99d896015bdd / SURVEY-2 6b287fc9ac17bd4d624fefcf33dc456f / KNOWLEDGE b010b69701b305d75cc43671e0001af7) and after the edits (the new set: CORPUS 05e56a56dab9cc10e82bf5c3467bbde1 / STATE 26841173b82dedba6d7817f4ddf1a423 / SURVEY-2 4618bb87caab7da6963df34df1f87e27 / KNOWLEDGE a34c7f3b9965bb92613a3fc53628f962; SURVEY.md b7dea5d2a88d4c5e09add3dc89129f3a untouched).
+- All fourteen rows read in full before the ruling (the packed-line rows via the row-head sed splits: N277/N278 on line 204 + N275 on line 203 + N323 on line 217 + N339 on line 220; the own-line rows N346/N347 on line 222 + N381 line 246 + N382 line 247 + N389 line 254 + N404 line 269 + N407 line 272 + N410 line 275 + N412 line 277).
+- All anchors grep-verified unique before each edit (15/15 single-occurrence-anchored: the 14 row seams + the S02 cell tail); the CORPUS line count 402 UNCHANGED (in-place notes only); the footer "Corpus 535." unchanged (the ROW count unchanged; the distinct figure carried in the notes); the KNOWLEDGE line-13 long record never edited (232,041 B EXACT before and after; the addendum at line 220).
+
+## The census
+
+- The corpus 535 N-rows / **526 DISTINCT** (the seven-pair adjudication done; NINE pairs total, all merged); the source census 88 UNCHANGED; no new N-rows; the campaign docket: the C-class tranche (11) + the authoring call Vol VI Ch 37 (gated per the session-189 v2 protocol) — the user's calls.
+
+## The push record
+
+- (to be appended after the chain lands — this line replaced at the batch re-push)
+
+## The post-landing note
+
+- (to be appended after the chain lands — this line replaced at the batch re-push)
+
+— NEXT (standing docket): the C-class tranche (the 11 crawl/auto-track upgrades, the user's call) / the authoring call Vol VI Ch 37 (gated per the session-189 v2 protocol: re-check the register for map pressure at that call), or the user's direction. Corpus 535 rows / 526 distinct (the seven-pair adjudication done).
