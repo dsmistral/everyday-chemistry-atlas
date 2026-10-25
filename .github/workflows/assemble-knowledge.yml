@@ -1,0 +1,28 @@
+name: Assemble KNOWLEDGE
+on:
+  push:
+    paths:
+      - 'knowledge-parts/**'
+permissions:
+  contents: write
+concurrency:
+  group: assemble-knowledge
+  cancel-in-progress: false
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Assemble, verify, commit
+        run: |
+          if [ ! -f knowledge-parts/p1 ] || [ ! -f knowledge-parts/p2 ] || [ ! -f knowledge-parts/p3 ] || [ ! -f knowledge-parts/p4 ] || [ ! -f knowledge-parts/p5 ] || [ ! -f knowledge-parts/p6 ] || [ ! -f knowledge-parts/p7 ]; then echo "parts not all present; skipping"; exit 0; fi
+          cat knowledge-parts/p1 knowledge-parts/p2 knowledge-parts/p3 knowledge-parts/p4 knowledge-parts/p5 knowledge-parts/p6 knowledge-parts/p7 > knowledge/everyday-chem-survey/KNOWLEDGE.md
+          test "$(wc -c < knowledge/everyday-chem-survey/KNOWLEDGE.md)" -eq 706828
+          printf '%s  %s\n' 'c7b7844bedc66efbcd31793d547cbfed' 'knowledge/everyday-chem-survey/KNOWLEDGE.md' | md5sum -c -
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knowledge/everyday-chem-survey/KNOWLEDGE.md
+          git rm -r knowledge-parts
+          git commit -m "batch-33dy: KNOWLEDGE assembly — the 33dy addendum (line 202), 706828 B, md5 c7b7844bedc66efbcd31793d547cbfed"
+          git push

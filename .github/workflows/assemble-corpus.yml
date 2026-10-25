@@ -1,0 +1,28 @@
+name: Assemble CORPUS
+on:
+  push:
+    paths:
+      - 'corpus-parts/**'
+permissions:
+  contents: write
+concurrency:
+  group: assemble-corpus
+  cancel-in-progress: false
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Assemble, verify, commit
+        run: |
+          if [ ! -f corpus-parts/p1 ] || [ ! -f corpus-parts/p2 ]; then echo "parts not all present; skipping"; exit 0; fi
+          cat corpus-parts/p1 corpus-parts/p2 > papers/CORPUS.md
+          test "$(wc -c < papers/CORPUS.md)" -eq 1050026
+          printf '%s  %s\n' '5f74cc3a2081f64bbddd895f3f72f14d' 'papers/CORPUS.md' | md5sum -c -
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers/CORPUS.md
+          git rm -r corpus-parts
+          git commit -m "batch-33dy: CORPUS assembly — the N469-N474 rows (the grid-figured tranche) + the S02-cell note, Corpus 467 -> 473, 1050026 B, md5 5f74cc3a2081f64bbddd895f3f72f14d"
+          git push
