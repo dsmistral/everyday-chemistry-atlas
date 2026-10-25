@@ -1,0 +1,39 @@
+name: Assemble papers/STATE.md (batch 33ee)
+on:
+  push:
+    paths:
+      - 'state-33ee-parts/**'
+concurrency:
+  group: assemble-state-33ee
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Guard all parts present
+        run: |
+          ok=1
+          for p in state-33ee-parts/p1 state-33ee-parts/p2; do
+          if [ ! -f "$p" ]; then echo "missing $p"; ok=0; fi
+          done
+          if [ "$ok" != 1 ]; then echo "parts incomplete, skipping"; exit 0; fi
+      - name: Assemble and verify
+        run: |
+          cat state-33ee-parts/p1 state-33ee-parts/p2 > papers/STATE.md
+          test "$(wc -c < papers/STATE.md)" -eq 987350
+          printf '%s  %s\n' 'd06abdb03a54f7d5bfe12f5ffe130a35' 'papers/STATE.md' | md5sum -c
+      - name: Commit assembled file
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add papers/STATE.md
+          git commit -m "Assemble papers/STATE.md (batch 33ee)"
+          git push
+      - name: Remove parts
+        run: |
+          git rm -r state-33ee-parts
+          git commit -m "Remove state-33ee-parts (batch 33ee)"
+          git push
