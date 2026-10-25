@@ -1,0 +1,39 @@
+name: Assemble papers/CORPUS.md (batch 33ef)
+on:
+  push:
+    paths:
+      - 'corpus-33ef-parts/**'
+concurrency:
+  group: assemble-corpus-33ef
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Guard all parts present
+        run: |
+          ok=1
+          for p in corpus-33ef-parts/p1 corpus-33ef-parts/p2; do
+          if [ ! -f "$p" ]; then echo "missing $p"; ok=0; fi
+          done
+          if [ "$ok" != 1 ]; then echo "parts incomplete, skipping"; exit 0; fi
+      - name: Assemble and verify
+        run: |
+          cat corpus-33ef-parts/p1 corpus-33ef-parts/p2 > papers/CORPUS.md
+          test "$(wc -c < papers/CORPUS.md)" -eq 1120673
+          printf '%s  %s\n' '3fd2d9fcacfdd31bf588c7049338b0c6' 'papers/CORPUS.md' | md5sum -c
+      - name: Commit assembled file
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add papers/CORPUS.md
+          git commit -m "Assemble papers/CORPUS.md (batch 33ef)"
+          git push
+      - name: Remove parts
+        run: |
+          git rm -r corpus-33ef-parts
+          git commit -m "Remove corpus-33ef-parts (batch 33ef)"
+          git push
