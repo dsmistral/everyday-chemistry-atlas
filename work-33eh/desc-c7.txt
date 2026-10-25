@@ -1,0 +1,25 @@
+803	Making a silver mirror [nGmxHLHyUPc].description	1362	1670085446
+809	Making acrolein [7oAcT4Duun4].description	1025	1670089219
+815	Making aerogel [Y0HfmYBlF8g].description	1242	1670089765
+820	Making aluminum isopropoxide [SuoWnueBJaY].description	1182	1670092289
+825	Making an old hypnotic sedative and preservative [TzbkRC3rYEo].description	1040	1670104175
+831	Making an old pain and fever medication [eQNLmkj_GBo].description	1256	1670104639
+837	Making and Playing with Phosphorus Tribromide [mYDYtsJ4NbQ].description	1098	1670105223
+842	Making and playing with Liquid Oxygen [zu7revUCefw].description	883	1670105091
+848	Making anisole [z_0AMRr5opg].description	1212	1670107632
+853	Making bakelite plastic (Part 1) [phNLecfyWS8].description	711	1670115114
+858	Making bakelite plastic (Part 2) [zl2_WDqW1A].description	814	1670115324
+863	Making basic copper carbonate [Ttf80a2zZ9w].description	1016	1670115548
+869	Making bromine from pool supplies [eaIps1WxJPQ].description	908	1670118351
+875	Making cadaverine [C5hxFAwKIzs].description	830	1670118436
+881	Making calcium acetate from Tums [w1lIizGVwWI].description	962	1670120502
+887	Making color changing plastic [YfjoU1_9GQ8].description	1420	1670123163
+892	Making copper hydroxide [YniCGwrqmU].description	927	1670124448
+897	Making denatonium benzoate  the world's most bitter chemical [GOw_I42eUpM].description	1236	1670125104
+902	Making elemental bromine [QMcgWGBPqo].description	1037	1670127248
+908	Making ferrofluid from scratch [6L8yUYdoNc].description	1396	1670129231
+913	Making fuming nitric acid [QmCdrDLyNXQ].description	1044	1670130200
+918	Making glow sticks from scratch [w_CYwd6cHUA].description	1398	1670130402
+924	Making glow toys from scratch [OfIXpYAqM0].description	1416	1670130511
+929	Making indigo and dyeing jeans blue [6yhR242MnwA].description	1796	1670131681
+935	Making iodine [FNf8PSda7iI].description	919	1670131927
