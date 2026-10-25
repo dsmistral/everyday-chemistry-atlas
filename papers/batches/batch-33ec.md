@@ -80,3 +80,19 @@ Session 189 continued (2026-10-25). RE-CHECK LEVEL — NO new papers (the corpus
 - **THE RAW-DOWNLOAD WALL DOWN** at the rebuilt items (the vtt route's resource restored — item 4).
 
 — NEXT: the user's call — the new census-fed candidates (the 2022-item full enumeration / the third item's 2014-2016 ID map / the transcript-upgrade candidates via the restored vtt route) + the authoring call (Vol VI Ch 37 — the user's explicit standing call, gated per the session-189 v2 protocol: re-check the register for map pressure at that call), or the user's direction. Corpus 484.
+
+## The push record (all landed, repo = local byte-exact)
+
+Chain: batch record bbc9370 ("Add batch-33ec record (batch 33ec)") → workflows 70b2c46 ("Add assembly workflows (batch 33ec)", 3 files, all validated in-band: backslash-n assert + column-0 leak check + parts path-list check PASS; utf8len regression 14 PASS at the chain head) → state parts 491a084c (p1, 492,817 B) + d0e0ce93 (p2, 488,250 B) → corpus parts b61b74aa (p1, 556,055 B) + 970cdf50 (p2, 535,150 B) → knowledge parts d97668ac (p1-p6, 284,130 B: head 52,089 + five line-13 fragments 46,361/46,357/46,492/46,427/46,404) + 88bf0811 (p7, 441,107 B) → STATE assembly 4e684cc (981,067 B verified) + CORPUS assembly 6453ce5 (1,091,205 B verified) + KNOWLEDGE assembly 305d3e3 (725,237 B verified) → workflow deletes 108255c (assemble-state) + ace7676 (assemble-corpus) + 1685251 (assemble-knowledge) → SURVEY-2 direct push d02e6e08 (629,316 B) → state-parts rm 6a718aa ("Remove state-parts (batch 33ec)", the workflow's second-phase commit).
+
+## The post-landing note (the unit's close)
+
+- **THE STATE-PARTS PATH-NAME FACE (the unit's ops lesson, FLAGGED):** the state workflow's guard/cat list references `state-parts/p1`/`p2`, but the first parts push landed as `state-parts/sp1`/`sp2` (the tmp-file names carried into the repo paths) — the guard's `exit 0` made every run a silent no-op, and the assembly never attempted. Diagnosis route: read the workflow file from the repo (the small-file get_file_contents route is safe) and compare the cat list against the parts-dir listing. Fix: re-push the same verified content at the correct p1/p2 paths (2212a96b + a4ab6b05) → the assembly landed on the next trigger (4e684cc, asserts PASS). The stray sp1/sp2 + the re-trigger marker were all removed by the workflow's `git rm -r state-parts` (6a718aa). The earlier "push-race" hypothesis was WRONG for state (the runs were guard-exits, not failed pushes) — the corpus/knowledge chains landed first-push clean (their paths p1/p2 and p1-p7 matched their workflows).
+- **THE RE-TRIGGER MARKER (92a3dd9)** was pushed under the wrong diagnosis (queue-lag) — it triggered a guard-exit no-op, harmless; the doctrine's precondition check should now include "verify the parts PATHS match the workflow's cat list" BEFORE any re-trigger.
+- Poll counts: STATE needed the path fix (~30 polls total incl. the misdirected marker); CORPUS and KNOWLEDGE each landed within ~2 polls of their p-last pushes (warm queue).
+- No rm-race recurrence: all three parts dirs + .github/workflows verified 404 via directory listings (no leftover part files anywhere).
+- The 8-MiB session-filesystem cap: no new big local writes this leg (the reads were direct from the source files / tmp parts); stale-tmp deletion doctrine unchanged.
+- The fetch-depth-0/pull--rebase template variant performed as designed (the knowledge + corpus chains each produced exactly ONE pinned-message assembly commit + one rm commit; the state chain produced the same after the path fix).
+- ALL CALLS FLAGGED for the user's review.
+
+— Corpus 484.
