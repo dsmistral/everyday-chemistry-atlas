@@ -23,9 +23,8 @@ jobs:
           cat corpus-parts/p1 corpus-parts/p2 > papers/CORPUS.md
           echo "assembled: $(wc -c < papers/CORPUS.md) bytes"
           [ "$(wc -c < papers/CORPUS.md)" = "1026140" ] || { echo "SIZE MISMATCH"; exit 1; }
-          printf '%s  %s
-' "fc31fe123d937aaab74d82bf5c0fe04a" "papers/CORPUS.md" > /tmp/corpus.md5
-          md5sum -c /tmp/corpus.md5 || { echo "MD5 MISMATCH"; exit 1; }
+          printf '%s  %s\n' "fc31fe123d937aaab74d82bf5c0fe04a" "papers/CORPUS.md" > /tmp/check.md5
+          md5sum -c /tmp/check.md5 || { echo "MD5 MISMATCH"; exit 1; }
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add papers/CORPUS.md

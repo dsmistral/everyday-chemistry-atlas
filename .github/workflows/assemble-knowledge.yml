@@ -23,9 +23,8 @@ jobs:
           cat knowledge-parts/p1 knowledge-parts/p2 knowledge-parts/p3 knowledge-parts/p4 knowledge-parts/p5 knowledge-parts/p6 knowledge-parts/p7 > knowledge/everyday-chem-survey/KNOWLEDGE.md
           echo "assembled: $(wc -c < knowledge/everyday-chem-survey/KNOWLEDGE.md) bytes"
           [ "$(wc -c < knowledge/everyday-chem-survey/KNOWLEDGE.md)" = "695420" ] || { echo "SIZE MISMATCH"; exit 1; }
-          printf '%s  %s
-' "d9b18aed899ba21e259c5e9d66118c2f" "knowledge/everyday-chem-survey/KNOWLEDGE.md" > /tmp/knowledge.md5
-          md5sum -c /tmp/knowledge.md5 || { echo "MD5 MISMATCH"; exit 1; }
+          printf '%s  %s\n' "d9b18aed899ba21e259c5e9d66118c2f" "knowledge/everyday-chem-survey/KNOWLEDGE.md" > /tmp/check.md5
+          md5sum -c /tmp/check.md5 || { echo "MD5 MISMATCH"; exit 1; }
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add knowledge/everyday-chem-survey/KNOWLEDGE.md
