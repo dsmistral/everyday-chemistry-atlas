@@ -1,0 +1,36 @@
+# Engine 79 — the triple-prime review engine (E79-GF; session 192, the Ch 51 Phase-3 adversarial review)
+
+*Session 192 (2026-11-05), the Vol VIII Ch 51 "The Aniline Chain — Benzene to Dye" Phase-3 adversarial review unit. Fresh build, zero code shared with Engines 1–78; the audited authoring engines were E77 (the exact integer-pair rational engine, part 1) and E78 (the integer-lane engine, part 2). The battery — the Piece A probe, Sheet 1 the eleven balances, Sheet 2 the molar book, Sheet 3 the charge/yield ledgers, Sheet 4 the prose-figure sweep + worked-exercise answers, Sheet 5 the skeptic corpus receipts — adjudicated the chapter PASS WITH CORRECTIONS (RA-1..RA-12 named at the master's Revision Appendix; zero frozen-figure chemistry moved). This record, the transcripts record (ch51-engine79-transcripts.md), and the source record (ch51-engine79-src.md) are the durable record.*
+
+## 1. Design
+
+**One sentence:** every balance and figure is re-proved on a third value representation, independent of both authoring engines — exact integer element residuals with prime-residue cross-checks at 251/997/10007, and GF(p) rank via modular Gauss-Jordan with the Fermat inverse — so that no common-mode defect can hide in a representation the re-verifier shares with the engine it audits.
+
+- **The kernel lane:** exact integer element residuals; prime-residue cross-checks at three primes (251, 997, 10007); GF(p) rank via modular Gauss-Jordan with the Fermat inverse — the series' third independent algorithm, after E77's rational Gauss-Jordan and E78's integer-lane Bareiss cofactors. Unique claims proven at dim 1; non-unique sets refused at their true kernel dimension (the Verley-Doebner dim-2 refusal independently confirmed: gfRank=3 at all three primes over 5 species; the second kernel relation 5 malonic -> 1 cinnamic + 6 CO2 + 6 H2O verified in-kernel, basis-independence rank 2).
+- **The table lane:** fresh transcription of the held element table on the x10^3 lattice — H 1008 / C 12011 / N 14007 / O 15999 / Na 22990 / S 32060 / Cl 35450 re-read at Ch 3's owner page (the 35.453 isotope seam exactly as ch51 discloses); Sn 118710 = Ch 11's pin, re-grepped at corpus level ("no new elements admitted" TRUE). Half-up convention throughout; nmol floors exact; masses in scaled integer units.
+- **The prose lane:** tenth-unit integer lanes for the prose-condition rows (the Sheet 4 rev-2 lesson); the never-divide-by-a-print rule enforced (Ch 46's R07); cross-chapter pins re-grepped at their owners from fetched repo masters; census counts re-derived with the spelled/abbreviated forms separated.
+- **The digest lane:** sdbm over the transcript text — a lane distinct from E78's djb2 receipts and the earlier series' conventions; determinism byte-identical between passes.
+- No BigInt, no recursion, no Math.random; float64 nowhere in the value path (the probe demonstrates the toFixed(2.675) seam itself).
+
+## 2. Honest run history — the five harness-defect classes, all E79's own, zero chapter figures moved
+
+1. **Sheet 1 rev-1, transcription:** the generic Ar inconsistently transcribed — ring-carrying in ArNH2 but featureless in ArN2Cl; the B6 FAIL was the harness.
+2. **Sheet 1 rev-1, keying:** the D-B3 second-relation coefficients mis-ordered [5,1,6,6] for [5,0,1,6,6].
+3. **Sheet 3 rev-1, scale:** gram rows fed at the mg scale — the nine MISMATCH rows were the harness.
+4. **Sheet 4 rev-1, lane scale:** PR6/PR7/PR8 printed wrong-scale values, the nmol lane proven by EX51.1.
+5. **Sheet 4 rev-2, float equality:** three spurious FINDING labels from float-equality in the condition lanes — the tenth-unit integer lanes fixed them.
+
+Both rev-1 sheets re-ran clean at their next revision with the defects disclosed at each step; no frozen figure moved at any point. The platform story — the mid-review compaction (the Piece A–S3 as-run source lost; the review finished post-compaction against the receipts), the JustBash worker's mid-close death blocking every local file route, and the tool-results store's rotation that took the transcript bytes themselves — is disclosed in full in the transcripts record. Nothing laundered.
+
+## 3. The gates (the battery; per-sheet receipts in the transcripts record, digests in its header)
+
+- **Piece A (the probe) — sdbm caf6b8fd, 1,104 B.** The probe harness itself: synthetic witness 2:1:2 zero residuals at all primes + dim=1; digit-slip 2:1:3 CAUGHT; false-unique injection CAUGHT (gfRank=3, dim=2); refusals honored; rounding boundaries half-up correct; the toFixed(2.675) float seam demonstrated; the FLAG that became RA-1 (cinnamic 12.6/14.5754 = 86.45 on the integer lane, not 86.44) raised at the probe and reconciled at Sheets 3/4.
+- **Sheet 1 (the eleven balances) — rev-2 — sdbm 4c530349, 2,720 B.** ALL ELEVEN PASS: chain B1–B7 and doors B1–B4 exact-zero residuals at all three primes; dims=1 on every unique claim; the Verley-Doebner dim-2 REFUSAL independently confirmed by the third algorithm; 3 injections CAUGHT + 1 arity refusal.
+- **Sheet 2 (the molar book) — sdbm 303705d9, 3,279 B.** Fresh transcription on the x10^3 lattice; 30 molar rows + 7 mass closures ALL PASS, every cross-pin re-grepped at its owner (144.105/122.123 Ch 31; 285.343 Ch 34; 138.126/144.173/293.282 Ch 48; 44.009 Ch 20; 39.997 Ch 8; 104.152 the Ch 50 collision; 106.124 the ester-clock disambiguator; the 303,358 Ch 34 E8 pin re-derived); 3 injections CAUGHT (the ester-digit pin, the isotope-basis SnCl2 seam claim, the NaNO2 half-boundary truncation).
+- **Sheet 3 (the charge/yield ledgers) — rev-2 — sdbm fb779635, 4,147 B.** All 26 part-1 (E77) rows PASS, the half-up convention honored at every true boundary; all nmol floors exact; L13/D1d/X4 exact. SIX REAL FINDINGS in E78's doors ledger, all last-digit truncations at the print — the findings that became RA-1..RA-6; 4 injections CAUGHT.
+- **Sheet 4 (the prose-figure sweep + worked-exercise answers) — rev-3 — sdbm 72b3692a, 2,516 B.** ALL 14 ROWS PASS; the two range prints that became RA-7/RA-8 found here; EX51.1–51.5 worked answers machine-verified; the 51.6 answer drafted for the appendix.
+- **Sheet 5 (the skeptic corpus receipts) — sdbm a70a7754, 3,197 B.** SK1–SK8: 4 VERIFIED pin sets, 2 COUNT SEAMS (RA-9, RA-11), 1 PROVENANCE misattribution (RA-10), 1 PRECISION note (RA-12); owner masters grepped in-sandbox, counts returned compact.
+
+## 4. Verdict
+
+PASS WITH CORRECTIONS — the twelve findings named at the chapter's Revision Appendix: RA-1..RA-6 the six E78 last-digit print truncations (D4 cinnamic 86.44→86.45 + the register delta 0.56→0.55 pt; D2 benzoate 14.1763→14.1764; implied benzoate 8.7893→8.7894; X1 NaOH 1.9673→1.9674; X2 para red 10.6164→10.6165; X3 round-trip 12.6805→12.6806 — the never-divide-by-a-print MISMATCH, Ch 46's R07); RA-7 benzene bp 0.6–1.1→0.1–1.1, two locations; RA-8 the D2 bp bracket 0.3–1.3→0.3–0.7; RA-9 the Ch 50 cubane 104.152 count seam ×6→×8; RA-10 the ester-clock MISATTRIBUTION (106.121 = the Ch 23–25 esterification mass closure 60.052+46.069, NOT ethyl acetate's 88.106; three Ch 51 locations); RA-11 the Ch 34 cinnamic count seam ×2→×3; RA-12 the DCM spelled-vs-abbreviated precision note. The 51.6 answer landed at the appendix. None silent, no frozen figure moved; the battery's own escapes: none; the five harness-defect classes printed above, never laundered.
