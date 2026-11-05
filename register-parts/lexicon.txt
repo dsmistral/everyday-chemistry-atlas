@@ -1,0 +1,287 @@
+sulfuric acid||H2SO4||acid-in||0||h2so4;;sulfuric acid;;sulphuric acid;;oil of vitriol;;rooto;;battery acid;;drain opener acid
+hydrochloric acid||HCl||acid-in||0||hydrochloric acid;;muriatic acid;;spirits of salt;;hcl gas;;hcl vapor
+nitric acid||HNO3||acid-in||0||hno3;;nitric acid;;aqua fortis
+phosphoric acid||H3PO4||acid-in||0||h3po4;;phosphoric acid
+aqua regia||HNO3+HCl||acid-mix||0||aqua regia
+hydrobromic acid||HBr||acid-in||0||hydrobromic acid;;hbr
+hydriodic acid||HI||acid-in||0||hydriodic acid;;hydroiodic acid
+hydrofluoric acid||HF||acid-fence||0||hydrofluoric acid
+sulfamic acid||H3NSO3||acid-in||0||sulfamic acid
+carbonic acid||H2CO3||acid-in||0||carbonic acid;;h2co3
+acetic acid||CH3COOH||acid-org||0||acetic acid;;ch3cooh;;glacial acetic;;vinegar;;cider vinegar;;white vinegar
+citric acid||C6H8O7||acid-org||0||citric acid;;c6h8o7
+oxalic acid||H2C2O4||acid-org||0||oxalic acid;;h2c2o4;;wood bleach
+tartaric acid||C4H6O6||acid-org||0||tartaric acid
+formic acid||CH2O2||acid-org||0||formic acid
+salicylic acid||C7H6O3||acid-org||0||salicylic acid
+benzoic acid||C7H6O2||acid-org||0||benzoic acid
+ascorbic acid||C6H8O6||acid-org||0||ascorbic acid;;vitamin c
+lactic acid||C3H6O3||acid-org||0||lactic acid
+tannic acid||C76H52O46||acid-org||0||tannic acid;;tannin;;tannins
+humic acid||—||acid-org||0||humic acid
+sodium hydroxide||NaOH||base||0||sodium hydroxide;;naoh;;caustic soda;;lye
+potassium hydroxide||KOH||base||0||potassium hydroxide;;koh;;caustic potash
+calcium hydroxide||Ca(OH)2||base||0||calcium hydroxide;;ca(oh)2;;slaked lime;;hydrated lime;;limewater;;lime water;;whitewash
+ammonia (aqueous)||NH3(aq)||base||0||aqueous ammonia;;ammonia solution;;ammonium hydroxide;;ammonia water;;ammonia
+magnesium hydroxide||Mg(OH)2||base||0||magnesium hydroxide;;milk of magnesia
+sodium bicarbonate||NaHCO3||base||1||sodium bicarbonate;;nahco3;;baking soda;;bicarbonate of soda;;sodium hydrogen carbonate
+sodium carbonate||Na2CO3||base||0||sodium carbonate;;na2co3;;washing soda;;soda ash;;ph up
+potassium carbonate||K2CO3||base||0||potassium carbonate;;k2co3;;pearl ash
+calcium carbonate||CaCO3||mineral||0||calcium carbonate;;caco3;;limestone;;garden lime;;chalk;;calcite;;marble
+calcium oxide||CaO||base||0||calcium oxide;;cao;;quicklime;;burnt lime
+trisodium phosphate||Na3PO4||base||0||trisodium phosphate
+sodium silicate||Na2SiO3||salt||0||sodium silicate;;water glass;;na2sio3
+copper(II) sulfate pentahydrate||CuSO4·5H2O||salt||0||cuso4·5h2o;;copper sulfate pentahydrate;;copper sulphate pentahydrate;;root killer;;bluestone;;blue vitriol
+copper(II) sulfate (anhydrous)||CuSO4||salt||1||cuso4;;anhydrous copper sulfate;;anhydrous copper sulphate
+copper(II) carbonate||CuCO3||salt||0||copper carbonate;;cuco3;;cupric carbonate;;basic copper carbonate
+copper(II) acetate||Cu(C2H3O2)2||salt||0||copper acetate;;verdigris;;cupric acetate
+copper(II) chloride||CuCl2||salt||0||copper chloride;;cucl2;;cupric chloride
+copper(I) chloride||CuCl||salt||1||cuprous chloride;;cucl
+copper(I) oxide||Cu2O||oxide||0||cuprous oxide;;cu2o;;copper(i) oxide
+copper(II) oxide||CuO||oxide||0||copper oxide;;cupric oxide;;cuo
+copper nitrate||Cu(NO3)2||salt||0||copper nitrate
+sodium sulfate||Na2SO4||salt||1||na2so4;;sodium sulfate;;sodium sulphate
+sodium chloride||NaCl||salt||1||sodium chloride;;nacl;;table salt;;halite;;rock salt
+sodium bisulfate||NaHSO4||salt||0||sodium bisulfate;;nahso4;;ph down;;dry acid
+sodium bisulfite||NaHSO3||salt||0||sodium bisulfite;;nahso3
+sodium metabisulfite||Na2S2O5||salt||0||sodium metabisulfite;;na2s2o5
+sodium thiosulfate||Na2S2O3||salt||0||sodium thiosulfate;;na2s2o3;;photographic hypo;;hypo fixer
+sodium hypochlorite||NaOCl||salt||0||sodium hypochlorite;;naocl;;bleach
+sodium bromide||NaBr||salt||0||sodium bromide;;nabr
+sodium iodide||NaI||salt||0||sodium iodide
+sodium nitrate||NaNO3||salt||0||sodium nitrate;;nano3;;chile saltpeter
+sodium nitrite||NaNO2||salt||0||sodium nitrite
+sodium sulfite||Na2SO3||salt||0||sodium sulfite
+sodium chlorate||NaClO3||fence||0||sodium chlorate
+sodium sulfide||Na2S||salt||0||sodium sulfide
+sodium acetate||CH3COONa||salt||0||sodium acetate
+sodium oxalate||Na2C2O4||salt||0||sodium oxalate
+sodium dichromate||Na2Cr2O7||salt||0||sodium dichromate
+sodium chromate||Na2CrO4||salt||0||sodium chromate
+sodium cyanide||NaCN||fence||0||sodium cyanide
+potassium chloride||KCl||salt||1||potassium chloride;;kcl
+potassium nitrate||KNO3||salt||0||potassium nitrate;;kno3;;saltpeter;;saltpetre;;niter;;nitre
+potassium sulfate||K2SO4||salt||0||potassium sulfate
+potassium bromide||KBr||salt||0||potassium bromide;;kbr
+potassium iodide||KI||salt||0||potassium iodide
+potassium permanganate||KMnO4||oxidizer||0||potassium permanganate;;kmno4;;permanganate
+potassium manganate||K2MnO4||salt||0||potassium manganate;;manganate
+potassium dichromate||K2Cr2O7||oxidizer||0||potassium dichromate;;dichromate
+potassium chromate||K2CrO4||oxidizer||0||potassium chromate
+potassium chlorate||KClO3||fence||0||potassium chlorate;;kclo3
+potassium perchlorate||KClO4||fence||0||potassium perchlorate;;perchlorate
+potassium ferricyanide||K3[Fe(CN)6]||salt||0||potassium ferricyanide;;ferricyanide;;red prussiate
+potassium ferrocyanide||K4[Fe(CN)6]||salt||0||potassium ferrocyanide;;ferrocyanide;;yellow prussiate
+potassium bitartrate||KHC4H4O6||salt||0||cream of tartar;;potassium bitartrate;;potassium hydrogen tartrate;;khc4h4o6
+rochelle salt||KNaC4H4O6||salt||0||rochelle salt;;potassium sodium tartrate
+ammonium chloride||NH4Cl||salt||0||ammonium chloride;;nh4cl;;sal ammoniac
+ammonium sulfate||(NH4)2SO4||salt||0||ammonium sulfate;;ammonium sulphate;;(nh4)2so4;;21-0-0
+ammonium nitrate||NH4NO3||fence-adj||0||ammonium nitrate;;nh4no3
+aluminum sulfate||Al2(SO4)3||salt||0||aluminum sulfate;;aluminium sulfate;;papermaker's alum
+potash alum||KAl(SO4)2·12H2O||salt||1||potash alum;;kal(so4)2·12h2o;;potassium alum;;alum
+magnesium sulfate heptahydrate||MgSO4·7H2O||salt||0||mgso4·7h2o;;magnesium sulfate heptahydrate;;epsom salt;;epsom salts;;epsom
+magnesium sulfate (anhydrous)||MgSO4||salt||1||mgso4;;anhydrous magnesium sulfate
+magnesium chloride||MgCl2||salt||0||magnesium chloride
+calcium chloride||CaCl2||salt||0||calcium chloride;;cacl2
+calcium sulfate (gypsum)||CaSO4·2H2O||mineral||0||caso4·2h2o;;gypsum;;calcium sulfate dihydrate
+plaster of Paris||CaSO4·½H2O||mineral||0||plaster of paris;;plaster of paris;;caso4·½h2o;;calcium sulfate hemihydrate
+calcium nitrate||Ca(NO3)2||salt||0||calcium nitrate
+calcium phosphate||Ca3(PO4)2||mineral||0||calcium phosphate;;bone ash;;tricalcium phosphate;;apatite
+superphosphate||Ca(H2PO4)2||fertilizer||0||superphosphate;;triple superphosphate
+zinc chloride||ZnCl2||salt||0||zinc chloride;;zncl2
+zinc sulfate||ZnSO4||salt||0||zinc sulfate;;white vitriol
+zinc oxide||ZnO||oxide||0||zinc oxide;;zno;;zinc white;;calamine
+tin(II) chloride||SnCl2||salt||0||stannous chloride;;sncl2;;tin(ii) chloride
+iron(II) sulfate||FeSO4||salt||0||ferrous sulfate;;feso4;;green vitriol;;copperas;;iron(ii) sulfate
+iron(III) chloride||FeCl3||salt||0||ferric chloride;;fecl3;;iron(iii) chloride;;etchant
+iron(III) oxide||Fe2O3||oxide||0||iron(iii) oxide;;fe2o3;;hematite;;red iron oxide;;iron oxide red
+iron(II,III) oxide||Fe3O4||oxide||0||fe3o4;;magnetite;;iron(ii,iii) oxide;;black iron oxide
+pyrite||FeS2||mineral||0||pyrite;;fool's gold;;fes2
+iron sulfide||FeS||mineral||1||iron sulfide;;fes
+galena||PbS||mineral||1||galena;;lead sulfide;;pbs
+lead(II) oxide||PbO||oxide||1||litharge;;massicot;;lead(ii) oxide;;pbo
+red lead||Pb3O4||oxide||0||red lead;;pb3o4;;minium
+lead dioxide||PbO2||oxide||0||lead dioxide;;lead(iv) oxide;;pbo2
+lead sulfate||PbSO4||salt||0||lead sulfate;;pbso4
+lead acetate||Pb(C2H3O2)2||salt||0||lead acetate;;sugar of lead
+silver nitrate||AgNO3||salt||0||silver nitrate;;agno3
+silver chloride||AgCl||salt||0||silver chloride;;agcl
+silver(I) oxide||Ag2O||oxide||0||silver oxide;;ag2o
+manganese dioxide||MnO2||oxide||0||manganese dioxide;;mno2;;pyrolusite
+chromium(III) oxide||Cr2O3||oxide||0||chromium oxide;;chrome green;;cr2o3;;chromium oxide green
+vanadium pentoxide||V2O5||oxide||0||vanadium pentoxide;;v2o5
+ammonium metavanadate||NH4VO3||salt||0||ammonium metavanadate;;nh4vo3
+sodium vanadate||NaVO3||salt||0||sodium vanadate;;navo3
+antimony trioxide||Sb2O3||oxide||0||antimony trioxide;;sb2o3
+stibnite||Sb2S3||mineral||0||stibnite;;antimony sulfide;;sb2s3
+cinnabar||HgS||mineral||0||cinnabar;;mercury sulfide;;hgs;;vermilion
+titanium dioxide||TiO2||oxide||0||titanium dioxide;;tio2;;titanium white;;rutile
+barium sulfate||BaSO4||salt||0||barium sulfate;;baso4;;barytes
+bismuth subsalicylate||C7H5BiO4||pharma||0||bismuth subsalicylate;;pepto-bismol
+cobalt oxide||CoO||oxide||0||cobalt oxide;;cobalt blue
+nickel sulfate||NiSO4||salt||0||nickel sulfate
+cadmium||Cd||metal||0||cadmium
+potassium ferrioxalate||K3[Fe(C2O4)3]||salt||0||potassium ferrioxalate;;ferrioxalate
+calcium oxalate||CaC2O4||salt||0||calcium oxalate
+ammonium iron(III) oxalate||(NH4)3[Fe(C2O4)3]||salt||0||ammonium iron(iii) oxalate;;ammonium ferrioxalate
+calcium hypochlorite||Ca(OCl)2||oxidizer||0||bleaching powder;;calcium hypochlorite;;chloride of lime
+hydrogen peroxide||H2O2||oxidizer||0||hydrogen peroxide;;h2o2
+trichloroisocyanuric acid||TCCA||oxidizer||0||trichloroisocyanuric;;trichlor;;tcca;;pool puck;;pool pucks
+oxygen||O2||gas||1||oxygen;;o2
+ozone||O3||gas||0||ozone
+hydrogen||H2||gas||1||hydrogen gas;;h2
+nitrogen||N2||gas||1||nitrogen gas;;n2
+carbon dioxide||CO2||gas||1||carbon dioxide;;co2
+carbon monoxide||CO||gas||0||carbon monoxide
+hydrogen sulfide||H2S||gas||1||hydrogen sulfide;;hydrogen sulphide;;h2s
+sulfur dioxide||SO2||gas||1||sulfur dioxide;;sulphur dioxide;;so2
+sulfur trioxide||SO3||gas||1||sulfur trioxide;;so3
+nitrogen dioxide||NO2||gas||1||nitrogen dioxide;;no2
+nitric oxide||NO||gas||0||nitric oxide
+nitrous oxide||N2O||gas||1||nitrous oxide;;n2o;;laughing gas
+chlorine||Cl2||gas||0||chlorine
+ammonia gas||NH3||gas||0||ammonia gas
+methane||CH4||gas||1||methane;;natural gas;;ch4
+acetylene||C2H2||gas||0||acetylene;;ethyne;;c2h2
+propane||C3H8||gas||0||propane
+butane||C4H10||gas||0||butane
+ethylene||C2H4||gas||0||ethylene;;ethene
+ethanol||C2H5OH||solvent||0||ethanol;;ethyl alcohol;;grain alcohol;;denatured alcohol;;spirit of wine
+methanol||CH3OH||solvent||0||methanol;;methyl alcohol;;wood alcohol;;wood spirit
+isopropyl alcohol||C3H8O||solvent||0||isopropyl alcohol;;isopropanol;;rubbing alcohol
+acetone||C3H6O||solvent||0||acetone;;propanone;;nail polish remover
+methyl ethyl ketone||C4H8O||solvent||0||methyl ethyl ketone;;mek
+ethylene glycol||C2H6O2||solvent||0||ethylene glycol;;antifreeze
+glycerin||C3H8O3||organic||0||glycerin;;glycerine;;glycerol
+diethyl ether||C4H10O||solvent||0||diethyl ether;;ethyl ether
+chloroform||CHCl3||solvent||0||chloroform
+toluene||C7H8||solvent||0||toluene;;methylbenzene
+xylene||C8H10||solvent||0||xylene;;xylol
+benzene||C6H6||solvent||1||benzene
+naphtha||mixture||solvent||0||naphtha;;lighter fluid
+mineral spirits||mixture||solvent||0||mineral spirits
+kerosene||mixture||solvent||0||kerosene;;paraffin lamp oil;;lamp oil
+turpentine||mixture||solvent||0||turpentine
+naphthalene||C10H8||organic||0||naphthalene;;mothballs;;moth balls
+paradichlorobenzene||C6H4Cl2||organic||0||paradichlorobenzene;;para-dichlorobenzene
+formaldehyde||CH2O||organic||0||formaldehyde;;formalin;;paraformaldehyde
+phenol||C6H5OH||organic||0||phenol;;carbolic acid
+urea||CH4N2O||organic||0||urea;;carbamide
+hydrazine||N2H4||organic||0||hydrazine;;n2h4
+ketazine||organic||organic||0||ketazine
+sucrose||C12H22O11||food||0||sucrose;;table sugar;;cane sugar
+glucose||C6H12O6||food||0||glucose;;dextrose
+starch||(C6H10O5)n||food||1||starch;;corn starch
+cellulose||(C6H10O5)n||organic||0||cellulose
+lignin||organic||organic||0||lignin
+casein||protein||organic||0||casein
+gelatin||protein||organic||0||gelatin
+pectin||polysaccharide||organic||0||pectin
+agar||polysaccharide||organic||1||agar;;agar-agar
+indigo||C16H10N2O2||pigment||0||indigo;;indigotin
+methylene blue||C16H18ClN3S||indicator||0||methylene blue
+phenolphthalein||C20H14O4||indicator||0||phenolphthalein
+litmus||dye||indicator||0||litmus
+methyl orange||indicator||indicator||0||methyl orange
+prussian blue||Fe4[Fe(CN)6]3||pigment||0||prussian blue
+bone black||C+Ca3(PO4)2||pigment||0||bone black;;ivory black;;bone char
+lead white||2PbCO3·Pb(OH)2||pigment||0||lead white;;ceruse
+lithopone||BaSO4+ZnS||pigment||0||lithopone
+ultramarine||Na8-10Al6Si6O24S2-4||pigment||0||ultramarine;;lapis lazuli
+ochre||Fe2O3+clay||pigment||0||ochre;;ocher;;raw sienna;;burnt sienna
+cochineal||dye||pigment||0||cochineal;;carmine
+alizarin||C14H8O4||pigment||0||alizarin;;madder
+logwood||dye||pigment||0||logwood
+iron gall ink||FeSO4+tannin||misc||0||iron gall
+rosin||resin||organic||0||rosin;;colophony
+shellac||resin||organic||0||shellac
+beeswax||wax||organic||0||beeswax
+paraffin wax||wax||organic||0||paraffin wax
+tallow||fat||organic||0||tallow
+linseed oil||oil||organic||0||linseed oil;;flaxseed oil
+sulfur||S8||element||0||sulfur;;sulphur;;dusting sulfur;;brimstone;;flowers of sulfur
+iodine||I2||element||0||iodine;;tincture of iodine;;iodine tincture
+bromine||Br2||element||0||bromine
+mercury||Hg||metal||0||mercury;;quicksilver;;mercury metal
+red phosphorus||P||element||0||red phosphorus
+white phosphorus||P4||element||0||white phosphorus
+carbon (charcoal/graphite)||C||element||0||charcoal;;graphite;;activated carbon;;carbon black;;lampblack;;coke;;biochar
+copper (metal)||Cu||metal||0||copper metal;;copper wire;;copper pipe;;copper sheet;;copper foil;;copper turnings;;copper rod;;bare copper;;copper electrode
+zinc (metal)||Zn||metal||0||zinc metal;;metallic zinc;;zinc foil;;roofing zinc;;zinc strip;;zinc electrode
+iron (metal)||Fe||metal||0||iron metal;;iron filings;;iron wool;;steel wool;;iron nail;;cast iron;;iron powder;;wrought iron;;iron electrode
+tin (metal)||Sn||metal||0||tin metal;;metallic tin;;solder;;tin can;;tinfoil;;tin foil
+lead (metal)||Pb||metal||0||lead metal;;metallic lead;;lead sheet;;lead foil;;lead weight;;lead electrode
+silver (metal)||Ag||metal||0||silver metal;;metallic silver;;silver wire;;silver leaf;;sterling silver
+gold||Au||metal||0||gold metal;;metallic gold;;gold foil;;gold dust;;scrap gold
+platinum||Pt||metal||0||platinum
+magnesium (metal)||Mg||metal||0||magnesium metal;;magnesium ribbon;;magnesium turnings;;magnesium shavings;;magnesium rod
+aluminum (metal)||Al||metal||0||aluminum metal;;aluminium metal;;aluminum foil;;aluminum can;;aluminum wire;;aluminum turnings;;aluminum powder;;aluminum electrode
+silicon (element)||Si||element||0||silicon metal;;metallurgical silicon;;ferrosilicon;;silicon wafer
+lithium||Li||element||0||lithium;;lithium battery;;lithium-ion;;lithium cell
+sodium (metal)||Na||metal||0||sodium metal;;metallic sodium
+nickel (metal)||Ni||metal||0||nickel;;nickel-cadmium;;ni-cd;;nickel metal hydride
+antimony (metal)||Sb||metal||0||antimony metal;;antimony
+bismuth (metal)||Bi||metal||0||bismuth metal;;bismuth
+manganese (metal)||Mn||metal||0||manganese metal;;manganese
+chromium (metal)||Cr||metal||0||chromium metal;;chrome plating;;chromium
+silica (SiO2)||SiO2||mineral||0||silicon dioxide;;sio2;;silica;;quartz;;silica sand;;silica gel
+alumina (Al2O3)||Al2O3||mineral||0||aluminum oxide;;alumina;;al2o3;;bauxite;;corundum
+kaolinite||Al2Si2O5(OH)4||mineral||0||kaolin;;kaolinite;;china clay;;potter's clay
+clay minerals||hydrous phyllosilicates||mineral||0||clay;;fireclay;;earthenware clay;;stoneware clay
+feldspar||tectosilicates||mineral||0||feldspar
+dolomite||CaMg(CO3)2||mineral||0||dolomite
+portland cement||CaO·SiO2 etc.||construction||0||portland cement;;cement
+lime mortar||Ca(OH)2+sand||construction||0||mortar;;lime mortar
+soda-lime glass||Na2O·CaO·SiO2||construction||0||soda-lime glass;;glass cullet;;borosilicate glass
+polyethylene terephthalate (PET)||[C10H8O4]n||polymer||0||polyethylene terephthalate;;pet resin;;pet flake;;pet flakes;;pet bottle;;pet bottles;;pet plastic;;pet-to-benzene;;pet plastic
+polyethylene||[C2H4]n||polymer||0||polyethylene;;hdpe;;ldpe;;pe plastic;;polythene
+polypropylene||[C3H6]n||polymer||0||polypropylene;;pp plastic
+polystyrene||[C8H8]n||polymer||0||polystyrene;;ps plastic;;styrofoam
+polyvinyl chloride||[C2H3Cl]n||polymer||0||polyvinyl chloride;;pvc
+silicone||polysiloxane||polymer||0||silicone;;silicone sealant;;silicone rubber
+natural rubber||polyisoprene||polymer||0||rubber;;latex;;vulcanized rubber
+aspirin (acetylsalicylic acid)||C9H8O4||pharma||0||aspirin;;acetylsalicylic acid
+gentian violet||C25H30ClN3||pharma||0||gentian violet;;crystal violet;;methyl violet
+caffeine||C8H10N4O2||pharma||0||caffeine
+nicotine||C10H14N2||pharma||0||nicotine
+pyrethrum||esters||pharma||0||pyrethrum;;pyrethrin;;pyrethrins
+rotenone||C23H22O6||pharma||0||rotenone
+glyphosate||C3H8NO5P||pharma||0||glyphosate
+diatomaceous earth||SiO2 (amorphous)||mineral||0||diatomaceous earth;;diatomite
+sodium fluoride||NaF||pharma||0||sodium fluoride
+camphor||C10H16O||organic||0||camphor
+menthol||C10H20O||organic||0||menthol
+cubane||C8H8||fence||0||cubane
+octanitrocubane||C8(NO2)8||fence||0||octanitrocubane
+trinitrotoluene (TNT)||C7H5N3O6||fence||0||tnt;;trinitrotoluene
+nitroglycerin||C3H5N3O9||fence||0||nitroglycerin;;nitroglycerine
+nitrocellulose||[C6H7O2(ONO2)3]n||fence||0||nitrocellulose;;guncotton;;flash paper
+RDX||C3H6N6O6||fence||1||rdx;;cyclonite;;hexogen
+PETN||C5H8N4O12||fence||1||petn
+picric acid||C6H3N3O7||fence||0||picric acid
+mercury fulminate||Hg(ONC)2||fence||0||mercury fulminate;;fulminate
+lead azide||Pb(N3)2||fence||0||lead azide
+silver acetylide||Ag2C2||fence||0||silver acetylide
+armstrong's mixture||KClO3+P||fence||0||armstrong's mixture
+black powder||KNO3+S+C||fence||0||black powder;;gunpowder
+flash powder||mixtures||fence||0||flash powder
+thermite||Fe2O3+Al||fence||0||thermite;;thermite reaction
+nitrogen triiodide||NI3||fence||0||nitrogen triiodide
+triacetone triperoxide (TATP)||C9H18O6||fence||0||tatp;;triacetone triperoxide;;acetone peroxide
+ammonium perchlorate||NH4ClO4||fence||0||ammonium perchlorate
+potassium bromate||KBrO3||fence||0||potassium bromate
+ammonium dichromate||(NH4)2Cr2O7||fence||0||ammonium dichromate
+borax (sodium tetraborate decahydrate)||Na2B4O7·10H2O||salt||0||na2b4o7·10h2o;;borax;;sodium tetraborate;;sodium tetraborate decahydrate;;sodium borate
+boric acid||H3BO3||salt||0||boric acid;;boracic acid;;h3bo3
+sodium percarbonate||2Na2CO3·3H2O2||oxidizer||0||sodium percarbonate;;oxiclean;;oxygen bleach;;sodium carbonate peroxide
+sodium tripolyphosphate||Na5P3O10||salt||0||sodium tripolyphosphate;;stpp
+calcium carbide||CaC2||salt||0||calcium carbide;;cac2;;carbide lamp;;carbide
+silicon carbide||SiC||mineral||1||silicon carbide;;carborundum;;sic
+ferric ammonium sulfate||NH4Fe(SO4)2||salt||0||ferric ammonium sulfate;;ammonium iron(iii) sulfate
+ammonium phosphate||(NH4)3PO4||fertilizer||0||ammonium phosphate;;monoammonium phosphate;;diammonium phosphate
+potassium cyanide||KCN||fence||0||potassium cyanide
+mercuric chloride||HgCl2||fence||0||mercuric chloride;;mercury(ii) chloride;;corrosive sublimate
+magnesium nitrate||Mg(NO3)2||salt||0||magnesium nitrate;;mg(no3)2
+iron(III) oxalate||Fe2(C2O4)3||salt||0||iron(iii) oxalate;;ferric oxalate;;ferrioxalate
+sodium ethoxide||C2H5ONa||organic||0||sodium ethoxide;;sodium ethanolate
+copper oxychloride||Cu2(OH)3Cl||salt||0||copper oxychloride;;copper hydroxychloride

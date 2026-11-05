@@ -1,0 +1,13 @@
+name: compound-extract
+on:
+  push:
+    branches: [main]
+    paths: ['register-parts/**']
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash register-parts/extract.sh
