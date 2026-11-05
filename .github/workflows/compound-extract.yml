@@ -11,10 +11,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: guard
         run: |
-          if [ -f register-parts/HOLD ]; then
-            echo "HOLD staged — skip"
-            exit 0
-          fi
           if [ ! -f register-parts/extract.sh ]; then
             echo "no register-parts staged — skip"
             exit 0
