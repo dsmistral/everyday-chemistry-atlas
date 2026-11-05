@@ -1,0 +1,61 @@
+# THE V3 MAP PROPOSAL — session 187 (2026-11-05), drafted for the user's adjudication
+
+Status: **PROPOSAL. Nothing here is approved, authored, or pre-committed.** Per the v2-map gate protocol (session-153 record): at the next authoring call, re-check the survey register for developments since 2026-10-23 that pressure the map, and propose any adjustment to the user BEFORE finalizing. This document is that re-check and that proposal. The user's audit directive stands: **be objective, no need to please.** Everything below is graded by the evidence as it stands; the grades are the proposal's, the calls are the user's.
+
+## 1. The evidence base (what changed since the v2 map)
+
+**The survey register grew ~4× after the v2 map was set.** The v2 map (Vols VI–VII) was drawn at corpus ≈131–142 N-rows. The batch-33 campaign (2026-10-22 → 10-25, batches 33a–33et, the register's largest gather arc) grew the corpus to **535 rows / 526 distinct** — roughly 400 rows the v2 map never saw. Vols VI–VII consumed their named register arcs (the deuterium series, the five-metal arc, the chloralkali axis, the cubane trilogy, the bromine feeder, the amines, the indigo chain, the DNBP/Birkeland–Eyde pair); the batch-33 material was gathered into the register's evidence layer and has fed authoring citations, but **no map unit was ever created for it**. The register's own standing docket after 33es: the mention-only gathers, the authoring call, or the user's direction — the map-pressure re-check this document performs was the gated obligation.
+
+**The compound audit (session 186) landed its register: 236 compounds found across all 61 masters, ZERO mentioned-only at window level, 4 procured-only, 2 manufactured-only, 3 recognition-only (the fence class, exact per charter), 51 zero-occurrence lexicon rows, 562 phase-2 candidates.** Its six named leads and its candidate list are absorbed below as map-adjudication items, per the row-186 NEXT.
+
+## 2. What the unconsumed corpus actually contains (graded honestly)
+
+Read at the batch ledger, the ~400 post-v2 rows fall into seven clusters. Grades: **STRONG** = multiple transcript-complete end-to-end gathers, home-feasible, within the charter; **MEDIUM** = real evidence but capped/partial transcripts or unclear chapter-scale; **WEAK/FENCE** = recognition-only at best under the P18 fence.
+
+1. **The aniline chain (STRONG).** The food-additive benzene head pair → nitration → the tin-reduced aniline → chain completion (batches 33d–33e, end-to-end); the cinnamic/grid-figured organic tranche (33dy, N469–N474); ties to Ch 22 (dyes) and Ch 48 (indigo). This is the largest coherent organic arc the register holds that no chapter owns.
+2. **The medicine axis (STRONG evidence, FENCE-LIMITED).** The aspirin→acetaminophen 6-part series (33dr/33dt), the pyrimethamine 7-series complete (33cc), the Pepto-Bismuth axis end-to-end (33cs), lidocaine (33cm), the anti-seizure episode (33ch), the DDT datum (33dq). Pharmaceutical targets are P18 recognition-only by charter — but note the audit found **aspirin itself at 113 mentions tagged manufactured+procured at window level** in the existing book. The fence's exact placement for consumer OTC medicines is therefore a genuine open adjudication, not a settled question (see §5, item A).
+3. **Cryogens (STRONG).** The LN2 series complete including the Leidenfrost original-vs-redo pair (33q), the "liquid nitrogen from scratch (an absurd amount)" datum (N384 — the register's newest video, no archival coverage, duration unpinned: honest bounds recorded), the pee-to-refrigeration new-source paper (33cg, the Birkeland–Eyde recognition tie already in Ch 49). A campaign-class unit in the Vol VI sense: months-scale apparatus, P22.
+4. **The exotic metals annex (MEDIUM).** Purple gold (N397, 53 min, transcript-limited), the bismuth-knife 16M-view paper (33v), ferrofluid from scratch (N381, transcript-cap member), the sodium-amalgam 41M datum (33u). Real evidence, but several members sit at cap/limited-transcript level; the register's own honest classes cap what a chapter could claim.
+5. **The product deconstructions (MEDIUM).** The HTME source debut (33dq): toilet paper (33cu), margarine (33cr), sunscreen (33ck), the soap-axis rail catches (33cp). Each member is a make-the-everyday-product arc; each also maps to an existing closed chapter's territory (Ch 23 fats, Ch 33 cleaning).
+6. **The demo/hazard class (WEAK/FENCE).** Microwave plasma + chromyl chloride (33cw), the pyrotechnic-demo cluster (33m — energetic-adjacent, P18), pool-chlorine/brake-fluid cross-channel replication (33w — the NCl₃/monochloramine hazard class the audit's phase-2 sweep independently surfaced). Recognition-level material for a hazard chapter that already exists (Ch 28); not a chapter.
+7. **The mention-only sweep class (NOT PROPOSABLE).** The corrected 17-member census (33ep: chloroform, fluorescein, glycerine, anhydrous ethanol, …) — description-level evidence only. The register's own honest class. No chapter, no upgrade, recorded as the standing docket it already is.
+
+## 3. THE PROPOSAL — two candidate volumes, nothing else
+
+Extend-never-rewrite binds: the 61 closed masters stand untouched; new material can only be new chapters appended as new volumes. Every chapter below awaits the user's call; the authoring gate (nothing starts without the user's future authoring call) applies to these exactly as it did to Vols VI–VII.
+
+**Vol VIII — The Manufactured Shelf** *(working title; the P21 make-vs-buy frame extended to the things the world makes)*
+
+- **Ch 51 — The Aniline Chain: Benzene to Dye.** STRONG. The benzene → nitrobenzene → aniline → diazonium → dye arc, the cinnamic tranche as the worked organic set. Patterns: P15 (literature-recipe recovery), P16 (protective-intermediate staging), P6. Ties: Ch 22, Ch 48, Ch 45 (the anhydride). Fence check: aniline toxic (recognition); nitration is the energetic-adjacent step — the chapter must carry the Ch 28 discipline; no energetic target.
+- **Ch 52 — The Medicine Shelf (recognition-only by charter, P18).** STRONG evidence, fence-limited. The pharmaceutical axis as a recognition chapter: how the OTC shelf is made industrially, what the molecules are, why the fence (P18) keeps synthesis out. Gated on the §5-A adjudication.
+- **Ch 53 — Citric, Starch, and Vanillin: The Food-Additive Organics.** MEDIUM-STRONG. The citric-acid head member (N363), starch-from-potatoes (N364), the vanillin-extraction pair (N365–366), the 2014 aspirin-prior gathers as literature anchors. Ties: Ch 31 (food), Ch 34 (extractions), Ch 23 (esters).
+- **Ch 54 — The Product Deconstructions.** MEDIUM. Margarine, sunscreen, soap, paper — the HTME axis. Alternative disposition (offered honestly): NOT a chapter; each member is thin alone, and the cluster may be better left on the register until a second HTME-class source lands. The user cuts.
+
+**Vol IX — The Physical Annex** *(working title; campaign-class units beyond the bench-chemistry frame)*
+
+- **Ch 55 — Cryogens: Liquid Nitrogen and the Cold Axis.** STRONG. LN2 production at campaign scale (the "absurd amount" datum the honest bounds), the Leidenfrost discipline, dry ice, asphyxiation recognition (the FC11 air tie). Patterns: P22, P11.
+- **Ch 56 — The Exotic Metals Annex.** MEDIUM. Purple gold, the bismuth knife, ferrofluid from scratch. Scoped to the strong members or deferred for evidence upgrades — the user cuts.
+- **Ch 57 — NOT PROPOSED (the demo class).** Named here only to close it: the plasma/chromyl/pyrotechnic cluster stays recognition-level register material under P18. No chapter.
+
+## 4. The compound audit's dispositions (absorbed per the row-186 NEXT)
+
+- **The 4 procured-only leads** (benzoic acid, copper(II) chloride, sodium bisulfite, naphtha): make-routes exist for three — benzoic acid from OTC sodium benzoate + acid (P14 liberation), CuCl₂ by metathesis/electrolysis (Ch 19 classes), sodium bisulfite from SO₂ + base (Ch 17 classes). Naphtha is a petroleum fraction: **procured-only is the honest verdict**, not a gap. Disposition: dated Coverage Fold sections at their owner masters per the session-184 Erratum Fold precedent (closed chapters gain dated folds; the body never rewritten), OR absorption into the v3 chapters where natural. The user picks the mechanism.
+- **The 2 manufactured-only leads** (Cu₂O, ZnCl₂): the reverse gap — made but never taught forward to uses. Cu₂O → the Fehling test (Ch 34/31 tie); ZnCl₂ → flux, the historical cell, wood preservative. Same disposition options as above.
+- **The 3 recognition-only rows** (SO₃, PbO₂, octanitrocubane): the fence tag working as designed. No action.
+- **The 51 zero-occurrence lexicon rows**: expectations of the lexicon author, not book gaps. Held in the audit evidence pack; use as v3 scoping feedstock only.
+- **The phase-2 genuine finds** (Li₂CO₃, LiCoO₂, monochloramine, NCl₃, stearic/oleic acids, KHSO₄, KIO₃, CuC₂O₄, CoCl₂ …): these are **lexicon misses, not book gaps** — the compounds ARE in the masters; the register's alias lists missed their formula spellings. Disposition: a register-alias upgrade (mechanical, in the audit evidence pack), then the occurrence counts re-run at the next audit touch. NCl₃/monochloramine additionally confirm the Ch 28 hazard class (the pool-chlorine cluster).
+- **The formula-alias gaps** (NH₃ 132, CaSO₄ 90, C₂H₅OH 51, C₆H₁₂O₆ 61, CH₃COONa 35 …) and the meta-tokens (FC/PR): alias upgrades and discard rules — already recorded in the audit pack; zero chapter content.
+
+## 5. The adjudication asks (the user's calls, in order of consequence)
+
+- **A. The fence placement for consumer medicines.** The charter says pharmaceutical targets are recognition-only (P18). The audit found aspirin already at manufactured+procured level in the closed book (113 mentions — window-level tags, proximity not proof). Options: (i) the fence holds absolutely — the existing aspirin coverage gets an honest recognition-only fold note, and Ch 52 is recognition-only; (ii) the fence is scoped to prescription/controlled classes, OTC-from-OTC manufacture stays in-bounds — Ch 52 could then be procedural within the charter's hazard ceiling. This is the single highest-consequence call in the proposal.
+- **B. The volumes themselves.** Adopt Vol VIII and/or Vol IX as proposed; cut chapters (the MEDIUM items exist to be cut); rename; or reject the extension entirely — the 61 masters stand complete either way.
+- **C. The audit-folds mechanism.** Coverage Folds at closed owner masters (session-184 precedent) vs absorption into v3 chapters vs leaving the six leads as recorded-only. 
+- **D. The class-12 / companion-volume question.** The evidence read, stated plainly: the audit and the register produced **no evidence of inaccessibility** — no failed exercise, no complaint, no recorded reader struggle; the question was preemptive. The book's own apparatus (OpenStax-anchored Vol I, the ◆ exercise ladder, the P-index diagnostics, exact-arithmetic labs) already does accessibility work. The genuinely class-12-challenging material is concentrated (Ch 12 Nernst, Ch 24 buffer/Ksp arithmetic, Ch 27 electro-titration, the Vol VI Faradaic bookkeeping, Ch 44's Rayleigh mathematics). **Recommendation: no companion volume on current evidence.** If accessibility remains a concern, the cheap honest next step is a dedicated assessment unit (grade the existing ◆ exercises of 3–4 representative chapters against a class-12 syllabus) before any volume commitment.
+- **E. The lexicon/alias upgrades and the 33ep mention-only docket.** Mechanical register work; approve as standing docket or fold into a later unit.
+
+## 6. What this proposal deliberately does NOT do
+
+No chapter is authored. No closed master is touched. No pattern is promoted (the P-index gains nothing until chapters exist to mine; P19 — the method ladder — remains registered-not-promoted as it has since session 110, honestly noted). The class-12 companion is recommended AGAINST on current evidence. The demo/energetic class is fenced out. The mention-only sweep is left as the register's standing honest class. The survey's gathering continues untouched by this proposal (the sibling's NEXT stands).
+
+— drafted session 187, 2026-11-05. Every item above awaits the user's adjudication; the map does not move until the user calls it.
