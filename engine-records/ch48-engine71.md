@@ -1,0 +1,46 @@
+# Engine 71 Record — E71-PE "the prime-exponent engine" — Session 177, Vol VII Ch 48 (Indigo and Natural Dyes)
+
+**Session 177 (2026-11-05), repo dsmistral/everyday-chemistry-atlas, branch main.** Engine 71 is fresh this session and shares zero code with Engines 1–70. The chapter unit is the authoring of Vol VII Chapter 48; the review of this chapter belongs to a later session (one unit per session; the Phase-3 adversarial review runs one chapter back).
+
+## Design
+
+E71-PE holds every quantity as a **signed rational in prime-exponent form**: a value is a sign plus two maps prime→exponent (numerator and denominator), normalized by cancellation. Multiply and divide are pure exponent arithmetic (add and subtract exponents, then cancel). Add and subtract expand both operands to plain integers under the **9.0e15 guard** (every lane checked before each multiply: `x > GUARD/y` refuses), combine, and re-factor by trial division (the 6k±1 wheel). Rendering is a **digit-by-digit half-up lane** at the requested precision — never a float print. Witnesses: **W1**, an independent float64 plain-formula lane (plain number arithmetic, string-compared at the sheet's precision); **W2**, the **prime-product re-expansion bijection** (expand the rational to integers, re-factor, and require the maps equal the originals). Gates: a fresh iterative atom parser (stack-based, parens/brackets supported, zero recursion) feeding **atom-multiset balance gates** and **mass-ledger equality** (both sides summed in rationals, exact subtraction-sign check). For the carbonate equilibrium root the engine adds an **exact fixed-point bracket**: the quadratic x² + Kb·x − Kb·C = 0 is bisected at 1e-7 fixed point on integers, the comparison made against the exact rational constant K = a·s²/b with guarded cross-multiplication — no float enters the bracket. The decadic logarithm is transcendental, so pH values are rendered in the W1 lane **inside the exact bracket as the cage** (the convention is named in the sheets and the chapter). The digest is **Jenkins one-at-a-time ("joat", 32-bit, hex)** — distinct from E69's FNV-1a and E70's j31, neither reused. Iterative only; no BigInt anywhere in the value path; guards at 9.0e15.
+
+## Honest run history (all defects caught before any battery row was accepted)
+
+- **rev-0:** factorize's bump() read absent map keys as `as number` → NaN exponents, every value 1/1 — caught by the s0 probe's P1 FAIL on the first run.
+- **rev-1:** norm() conflated a numerator cancelled to 1 with zero (ratI(1) returned the zero value, so every count-1 atom dropped: NaOH computed 0.000, "NO3" lost its N, "H2O" its O) — caught by s0 P1/P3/P4 FAILs and 17 s1 FAILs; fixed by having norm preserve the sign (zero only enters via the explicit constructors).
+- **rev-2:** the joat digest deviated from canonical Jenkins one-at-a-time (`h = h<<10` instead of `h += h<<10`, a weaker mixer) — caught by the suspicious s0/s1 digest collision (both "74d7207" for different texts) before the battery froze; fixed to canonical.
+- **rev-3 (row construction, not engine):** a two-argument ratI misuse (ratI(25,10) = 25, so N338's 2.5 g read as 25 g), mmol-scale slips on the carmine rows, and a mol-vs-mmol division on the stock-NaOH equivalents row — both lanes agreeing on the wrong formula (the lesson named: lane agreement catches arithmetic-type defects; claims catch formula defects) — caught by eight s3 FAILs.
+- **rev-4:** the register-basis rows used 46.636 for 466.36 (ratF(46636,1000)) — caught by the last two s3 FAILs.
+- **rev-5:** the carbonate bracket's comparison algebra dropped the denominator b from the right-hand constant (a·s²/q instead of a·s²/b), landing the exact bracket at x ≈ 3e-6 instead of 7.9e-3 — **caught by the sR settlement itself refusing** (R09 UNSETTLED against the float witness; the two-lane discipline worked as designed); fixed to the exact rational constant K = a·s²/b.
+
+The frozen battery below is the clean rev-6 run. Every sheet was executed twice in the same process, byte-identical (the s5 determinism protocol).
+
+## The battery (all machine-settled; transcript verbatim in ch48-engine71-transcripts.md)
+
+```text
+s0  the probe battery                 5 rows: 4 PASS + 1 seeded CAUGHT (truncating render)   joat b4acb020   434 B
+s1  the molar book, Sheet 1          29 rows: 29 PASS 0 fail                                  joat fb0a530b  2785 B
+s2  the balances, Sheet 2            9 rows:  9 PASS 0 fail (atom multiset + mass ledger)   joat 45020691  1575 B
+s3  the charge ledger, Sheet 3       35 rows: 35 PASS 0 fail (two-lane + claims)             joat 4cca16b   2942 B
+s4  the fresh-keyed injections       8 rows:  8 CAUGHT 0 escaped                              joat 65160826  1116 B
+sR  the register settlement          14 rows: 14 SETTLED 0 unsettled                          joat 7e5ee651  1261 B
+s5  determinism                      every sheet run twice, byte-identical                   (per-sheet digests equal)
+whole battery (six sheets joined)    joat 58fb79e8
+```
+
+Key settled values: N369 — 25 g 2-nitrobenzaldehyde = 0.1654 mol (register 0.1654), theoretical indigo 21.6935 g (register 21.69), yield 11 g = 50.71% (register 50.7; episode "about 51"); NaOH 5 g sub-stoichiometric at 0.7557 of the 1:1 demand; acetone 250 mL × 0.791 g/mL = 3.4048 mol = 20.6 eq; the dye bath 0.2 g indigo = 0.7626 mmol vs 0.3 g dithionite = 1.7232 mmol = 2.26 eq practice against Ch 22's 1:1 theory (0.1328 g demand); the stock vat 19.0645 mmol indigo, 34.4637 mmol dithionite = 1.81 eq, NaOH 7.87 eq; the pretreatment 1.15 mM. N338 — 2.5 g indigo = 9.5322 mmol (register 9.53), theoretical carmine 4.4453 g on the held basis 466.346 vs 4.4455 g on the register's machine basis 466.36 (the seam named: identical at the register's 3-dp precision), yield 2.8 g = 62.99% (register 62.99; episode 63); the wash arithmetic 0.1 g exact; the edible recovery 32.14%; the IPA shortfall 3.00×. N366 — glucose 0.0666 M, NaOH 0.5000 M (formal pH 13.70, the float-log convention named; the episode's honest "twelve and thirteen" sits below the formal value), carmine 0.4289 mM (both bases at 4 dp), carbonate 0.3019 M (register 0.30) with the exact bracket x ∈ [0.0078583, 0.0078584] M → pH 11.8953, the register's ~11.9 supported, the in-video 8–9 estimate wrong by ≈4 units, the description-pinned correction "closer to 11" warranted. N385 — p-nitroaniline 5 g = 0.03620 mol, 2-naphthol 2.7 g = 0.018728 mol (limiting), theoretical para red 5.4924 g, the yield an honest P12 zero (the exercise's ◆). The promise chains: 135 days (N385→N369), 54 days (N369→N338), 131 days (N338→N365), 110 days (N365→N366), 241 days = the 8-month chain EXACT (N338→N366).
+
+The eight injections, all keyed to this chapter's own seams and all CAUGHT: I01 the transposed charge (dithionite molar for indigo), I02 the mis-basis theoretical (indigo molar for carmine), I03 the dropped water (B1 without the 4 H2O), I04 the inverted yield, I05 the pH wrong-base (moles not molarity), I06 the dropped HCl (B6), I07 the uncondensed coupling (B9 net-negative HCl), I08 the dropped condensation factor (1:1 instead of 2:1).
+
+## The census and the pins
+
+The pre-census over the 45 local masters first missed Chapter 22's indigo row because it swept the rounded literal 262.27 while Ch 22 prints the full 262.268 — the miss was caught on the full-literal re-sweep and is recorded here as the lesson: **sweep full-precision literals, never rounded forms**. The settled pin ledger: indigo 262.268, leuco-indigo 264.284, sodium dithionite 174.096, and the gluconate ion 195.147 are owned by Ch 22 (its B4 already priced the 1:1 vat charge — 2.00 g indigo → 1.328 g dithionite — which this chapter cites as the theory baseline); acetone 58.080 and its density 0.791 g/mL and sodium acetate 82.034 by Ch 21; NaOH 39.997 and Na2CO3 105.988 by Ch 08; H2SO4 98.072 by Ch 06; O2 31.998 by Ch 07; HCl 36.458 and H2O2 34.014 by Ch 04; NaCl 58.440 and H2O 18.015 by Ch 03; glucose 180.156 by Ch 10; NaNO2 68.995 by Ch 20; aniline 93.129 by Ch 47; Na2SO3 126.037 and S8 256.480 by Ch 17; Na2SO4 142.036 by Ch 05; Na2S 78.040 by Ch 13. New admissions this chapter (zero corpus hits): 2-nitrobenzaldehyde 151.121, isatin 147.133, indigo disulfonic acid 422.382, indigo carmine 466.346, reduced indigo carmine 468.362, sodium gluconate 218.137, p-nitroaniline 138.126, 2-naphthol 144.173, para red 293.282. Coincidences named: the color-word "carmine" at Ch 13's flame-test table and Ch 39's lines (descriptors, not the dye); fc7's engine-38 record carries an indigo admission-gate refusal string (a gate test, not a datum).
+
+## Files
+
+- `engine-records/ch48-engine71-transcripts.md` — 12,936 B; the six sheets verbatim, the honest run history, and this manifest.
+- This record: `engine-records/ch48-engine71.md`.
+
+*Engine 71 record closed at session 177 (2026-11-05); the chapter master it serves is Vol VII Ch 48, drafted this session.*
