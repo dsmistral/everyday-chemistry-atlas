@@ -1,6 +1,12 @@
-# ACTIVE-SESSION — session 196 (2026-11-05)
+# ACTIVE SESSION — 196 (the Phase-3 adversarial review of Ch 52, part 1 of 2)
 
-**The unit:** VOL VIII CH 52 "THE MEDICHE SHELF" — the Phase-3 adversarial review of the complete chapter (both parts) — a fresh Engine 82 (zero code shared with Engines 1–81); the two-experts pass chunk by chunk; every objection machine-verified before acceptance; fixes extend-never-rewrite via the revision appendix; the reviewed web edition (banner `drafted` → `reviewed` per the 192 precedent); the map flip `drafted` → `reviewed` at close. The P18 ABSOLUTE discipline stands over the whole review, absolute.
+Unit: the Phase-3 adversarial review of Ch 52 "THE MEDICINE SHELF" (complete chapter, both parts) with a fresh Engine 82, run under the two-experts protocol. Split at the context boundary per the split-on-trouble amendment: part 1 = battery + Revision Appendix + records + close (this session); part 2 (next session) = the reviewed web edition (oracle-first re-render, banner `drafted`→`reviewed`) + the map flip `drafted`→`reviewed`.
 
-## Next step
-Read the Ch 52 master (77,969 B, md5 7dc839af25d4f93b979c34134b09f7ec) at the local mirror; extract the frozen-figure ledger (the 13 molar masses, the balances, the dose/economics figures); build Engine 82's pre-flight probe.
+## Step log (the crash-resume map; the last update before the close surgery)
+
+- Engine 82-RD battery COMPLETE: probe 7/7 with 3/3 injections CAUGHT; Sheet A the molar book 32/32 MATCH; Sheet B the display audit 20 PASS / 1 TRUNC / 7 FAIL (five FAILs harness lane slips, the TRUNC + two FAILs the real findings); Sheet C the balance book 15/16 + 2 harness slips (one a wrong-but-coincidence-balanced C.10 lane, disclosed); Sheet D rev-2 the fixed lanes + determinism 13/13 MATCH + 2 injections CAUGHT; Sheet D2 rev-3 the last two harness lanes fixed. Eight distinct harness lanes slipped across the runs (one twice in a row), all disclosed in the transcripts; the engine value path defect-free in every run.
+- VERDICT: PASS WITH CORRECTIONS — RA-1 the exact-basis miss 125.25× corrected to 125.26× (S3.7's divisor 26,347 wrong by +2; exact spoken-basis efficiency 26,345.13); RA-2 the patch-load display 9.28 truncated, true 2dp display 9.29 (the E81 transcript's own note honored); RA-3 the Daraprim "5,500 percent" annotated with the exact 5,456. Zero frozen-figure chemistry moved. Coverage sweeps re-run clean (the 303,358 collision re-verified at its owner).
+- The Revision Appendix APPENDED to the master and PUSHED: manuscript/vol8/ch52.md now 83,442 B (md5 376ad1b83fc8a39d281289f8c8d23ab6), commit a0022dea, blob 2d8d0fca. The canvas re-materialized byte-exact (the 1-byte drift disclosed).
+- The Engine 82 record set LANDED: engine-records/ch52-engine82-transcripts.md (10,637 B), ch52-engine82.md (7,206 B), ch52-engine82-src.md (3,772 B — HONEST: the as-run source lost to the compaction, reconstruction keyed to the transcripts, the appendix's source-preserved line corrected).
+- NEXT: the close via the in-repo Actions route (PROJECT row 196 + [x] 196 + the [ ] 197 queue = review part 2: the web edition oracle-first + banner reviewed + the map flip drafted→reviewed at THAT close; NO map flip this close), then the honest report.
+
