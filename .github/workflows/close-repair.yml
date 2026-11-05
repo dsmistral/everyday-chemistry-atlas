@@ -1,0 +1,34 @@
+name: session-198-close-repair
+on:
+  push:
+    paths:
+      - 'repair/**'
+      - '.github/workflows/close-repair.yml'
+permissions:
+  contents: write
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guard (repair already closed = nothing to do)
+        run: if [ ! -f repair/manifest.md5 ]; then echo "repair dir absent, nothing to do"; exit 0; fi
+      - name: verify the full session state (md5sum gate over repo files + spans)
+        run: md5sum -c repair/manifest.md5
+      - name: apply the repairs (byte + md5 gated, fails rather than writes a bad file)
+        run: python3 repair/recipe.py
+      - name: commit the close
+        run: |
+          set -e
+          git config user.name "vibe-agent"
+          git config user.email "vibe@users.noreply.github.com"
+          git rm session-state/ACTIVE-SESSION.md
+          git add KNOWLEDGE.md PROJECT.md
+          git rm -r -q repair .github/workflows/close-repair.yml
+          git commit -m "session 198 close (in-repo verified): PROJECT.md row 198 (Ch 53 Citric, Starch, and Vanillin drafted single-part — the food-additive organics: N363 the citric head, N364 the starch head, the vanillin pair N260–N261 with the map/queue citation slip N365–N366 corrected of record, the 2014 aspirin priors N461–N462; the fresh web battery convergent; Engine 83 (E83-MC, the two-prime modular cross-check: the exact integer lane + residues mod 65537 and mod 1000003, zero code shared with Engines 1–82) PASS — probe 5/5, molar 22/22, balance 7/7, dose/economics 15/15 + the honest-gap refusal, injections 4/4 CAUGHT, determinism byte-identical, the source saved to disk before any run; the master manuscript/vol8/ch53.md 50,957 B a27c6c9d; the web edition rendered oracle-first (ch52 reproduced byte-identically at dc04087c before the render), web/ch53-web.html 46,549 B 8bd34c1d with the drafted tail per the 195 precedent; the map line flipped \`planned\`->\`drafted\` with the citation corrected) + [x] 198 appended + the [ ] 199 queue re-seated (Vol VIII Ch 54 The Product Deconstructions, or whatever the user calls instead); KNOWLEDGE.md session-198 paragraph appended; ACTIVE-SESSION deleted at close; md5sum -c over the full session state + recipe byte/md5 gates all executed in-repo; PROJECT.md 703451 B; KNOWLEDGE.md 693596 B"
+          git push
+      - name: receipt
+        run: |
+          git show --stat HEAD | head -20
+          echo "KNOWLEDGE.md bytes: $(git show HEAD:KNOWLEDGE.md | wc -c)"
+          echo "PROJECT.md bytes: $(git show HEAD:PROJECT.md | wc -c)"
