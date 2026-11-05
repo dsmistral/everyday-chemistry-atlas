@@ -193,7 +193,6 @@ git config user.name "dsmistral"
 git config user.email "deepsudden@gmail.com"
 git add COMPOUND-REGISTER.md audit/compound-register
 git rm -r -q register-parts || true
-git rm -q .github/workflows/compound-extract.yml || true
 git commit -q -m "Session 186: the Compound Register built in-repo (61 masters, 287-row lexicon, ${NAGG} compounds, ${NGAP} mentioned-only provisional gaps, ${NCAND} phase-2 candidates) + the audit evidence pack"
 git push
 echo "PUSH DONE"
