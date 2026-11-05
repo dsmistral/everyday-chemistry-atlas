@@ -1,0 +1,28 @@
+name: assemble-knowledge
+on:
+  push:
+    paths: [ 'knowparts/**' ]
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: assemble and gate
+        run: |
+          set -e
+          cat knowparts/k01 knowparts/k02 knowparts/k03 knowparts/k04 knowparts/k05 knowparts/k06 knowparts/k07 knowparts/k08 knowparts/k09 knowparts/k10 knowparts/k11 knowparts/k12 > KNOWLEDGE.md
+          SZ=$(wc -c < KNOWLEDGE.md)
+          if [ "$SZ" != "662226" ]; then echo "SIZE GATE FAILED: $SZ"; exit 1; fi
+          echo "cb19f82ad90f216e784dc267163b2349  KNOWLEDGE.md" > md5.expected
+          md5sum -c md5.expected
+      - name: commit and clean
+        run: |
+          git config user.name "dsmistral"
+          git config user.email "deepsudden@gmail.com"
+          git add KNOWLEDGE.md
+          git commit -m "Assemble KNOWLEDGE.md from knowparts (session 186 close: the session-186 entry appended inside line 10)"
+          git rm -q -r knowparts
+          git commit -q -m "Remove knowparts (assembled into KNOWLEDGE.md)"
+          git push
