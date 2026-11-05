@@ -1,0 +1,36 @@
+name: Assemble papers/STATE.md (33et)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'state-33et-parts/**'
+concurrency:
+  group: assemble-state-33et
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble and verify
+        run: |
+          test -f state-33et-parts/s01
+          test -f state-33et-parts/s02
+          cat state-33et-parts/s01 state-33et-parts/s02 > papers/STATE.md
+          test "$(wc -c < papers/STATE.md)" -eq 1017484
+          echo "706704898449e577e2dd595e51c0c137  papers/STATE.md" | md5sum -c -
+      - name: Commit and clean
+        run: |
+          git config user.name "survey-assembly"
+          git config user.email "survey-assembly@users.noreply.github.com"
+          git add papers/STATE.md
+          if git diff --staged --quiet; then echo "no changes"; else
+            git commit -m "Assemble papers/STATE.md (batch 33et, byte-gated 1017484 B / 706704898449e577e2dd595e51c0c137)"
+          fi
+          git rm -r -q state-33et-parts
+          if git diff --staged --quiet; then echo "no parts to remove"; else
+            git commit -m "Remove state-33et-parts (batch 33et)"
+          fi
+          git push

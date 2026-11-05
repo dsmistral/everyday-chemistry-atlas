@@ -1,0 +1,37 @@
+name: Assemble papers/CORPUS.md (33et)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'corpus-33et-parts/**'
+concurrency:
+  group: assemble-corpus-33et
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble and verify
+        run: |
+          test -f corpus-33et-parts/c01
+          test -f corpus-33et-parts/c02
+          test -f corpus-33et-parts/c03
+          cat corpus-33et-parts/c01 corpus-33et-parts/c02 corpus-33et-parts/c03 > papers/CORPUS.md
+          test "$(wc -c < papers/CORPUS.md)" -eq 1219526
+          echo "9bd20276a8d0b3cce196cfbd15cef7f4  papers/CORPUS.md" | md5sum -c -
+      - name: Commit and clean
+        run: |
+          git config user.name "survey-assembly"
+          git config user.email "survey-assembly@users.noreply.github.com"
+          git add papers/CORPUS.md
+          if git diff --staged --quiet; then echo "no changes"; else
+            git commit -m "Assemble papers/CORPUS.md (batch 33et, byte-gated 1219526 B / 9bd20276a8d0b3cce196cfbd15cef7f4)"
+          fi
+          git rm -r -q corpus-33et-parts
+          if git diff --staged --quiet; then echo "no parts to remove"; else
+            git commit -m "Remove corpus-33et-parts (batch 33et)"
+          fi
+          git push
