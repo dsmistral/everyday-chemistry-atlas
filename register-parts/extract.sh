@@ -15,7 +15,7 @@ if [ "$NF" -ne 61 ]; then echo "MASTER CENSUS FAIL: $NF (expected 61)"; exit 1; 
 echo "masters: 61"
 
 # --- 2. flatten lexicon ---
-awk -F"\\|\\|" '{
+awk -F'[|][|]' '{
   wb=$4; sub(/;;.*/,"",wb);
   n=split($5,a,";;");
   for(i=1;i<=n;i++){ if(length(a[i])>0) print a[i] "\t" wb "\t" NR > "/tmp/aliases.txt" }
