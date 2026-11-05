@@ -4,22 +4,15 @@
 
 ## Durable state (repo main, HEAD = 97de2f2c, the session-191 in-repo close)
 
-- manuscript/vol8/ch51.md 87,727 B (4c6902d5) — the COMPLETE two-part chapter under review (Lectures 0-6, Labs 51.1/51.2, Safety Table, Exercises, Canon-Coverage Check, Sources; 352 lines).
-- engine-records/: ch51-engine77{,-transcripts,-src}.md (6,797 / 5,383 / 10,369 B) + ch51-engine78{,-transcripts,-src}.md (8,788 / 12,218 / 13,473 B) — the authoring engines' records (E77 rational Gauss-Jordan; E78 integer-lane Bareiss cofactors).
+- manuscript/vol8/ch51.md 87,727 B (4c6902d5) — the COMPLETE two-part chapter under review (Lectures 0-6, Labs 51.1/51.2, Safety Table, Exercises, Canon-Coverage Check, Sources; 352 lines). The full master was re-read this session (both reads, paged; all figures in context).
+- engine-records/: ch51-engine77{,-transcripts,-src}.md + ch51-engine78{,-transcripts,-src}.md — the authoring engines' records (E77 rational Gauss-Jordan; E78 integer-lane Bareiss cofactors).
 - web/ch51-web.html 78,746 B (98fb6554).
 - PROJECT.md 657,677 B + KNOWLEDGE.md 676,019 B (both at 97de2f2c; local mirrors byte-exact: 23f245a5 / ea048b8b).
 - Local PROJECT.md carries row 192 IN PROGRESS (pushed at close with the close text).
 
-## Plan (Engine 79: fresh, zero code shared with E77/E78; GF-prime rank lane + modular residual verification + fresh table transcription; digest distinct from the series' ten)
+## Plan (Engine 79: fresh, zero code shared with E77/E78; GF-prime rank lane + modular residual verification + fresh table transcription; sdbm digest, distinct from the series' ten)
 
-1. Piece A probe: synthetic balance witnesses, GF(p) rank checks, rounding boundaries, injections.
-2. Sheet 1: the eleven balances (chain B1-B7 + doors B1-B4) — exact integer residuals + prime-residue cross-checks + uniqueness/dimension claims.
-3. Sheet 2: the molar book, fresh transcription (~30 distinct molecules, both labs' rows).
-4. Sheet 3: the charge/yield ledgers (L1-L15, D1-D5, X1-X4) re-derived from the episode charges.
-5. Sheet 4: the prose-figure sweep at printed precision + the worked-exercise answers.
-6. The skeptic battery: rank markers, fence language, cross-chapter pins re-grepped at owners, census spot-checks — every objection machine-verified before acceptance.
-7. Revision Appendix only if a correction of record lands (extend-never-rewrite; appended after the status line).
-8. Close: verdict in row 192; map drafted->reviewed if PASS; web re-render; records via the in-repo Actions route (binding lesson 26.3 — no >=600 KB sandbox payloads); this mirror deleted at close.
+1. Piece A probe. 2. Sheet 1: the eleven balances. 3. Sheet 2: the molar book, fresh transcription. 4. Sheet 3: the charge/yield ledgers (L1-L15, D1-D5, X1-X4). 5. Sheet 4: the prose-figure sweep + worked-exercise answers. 6. The skeptic battery (rank markers, fence language, cross-chapter pins re-grepped at owners, census spot-checks). 7. Revision Appendix only if a correction of record lands. 8. Close: verdict in row 192; map drafted->reviewed if PASS; web re-render if the master changed; records via the in-repo Actions route (binding lesson 26.3); this mirror deleted at close.
 
 ## In-session artifacts
 
@@ -27,5 +20,7 @@ No buffer Knowledge topic this session: the 172-buffer precedent (still pending 
 
 ### Step log (re-runnable pieces; transcripts durably echoed in the tool-results of each step; sdbm digests recorded here)
 
-- PIECE A (probe) COMPLETE 2026-11-05. Lane: exact integer element residuals + prime-residue cross-checks (251/997/10007) + GF(p) rank via modular Gauss-Jordan with Fermat inverse (third algorithm, zero code shared with E77 rational-GJ / E78 Bareiss); sdbm digest (distinct from the series' ten). Determinism: two passes byte-identical. sdbm = caf6b8fd, 1,104 B transcript. Results: P1 synthetic witness 2:1:2 exact-zero residues at all three primes, gfRank=2 dim=1, uniqueness claim TRUE. P2 digit-slip 2:1:3 CAUGHT (exact residual H=-2, O=-1; nonzero at all primes). P3 false-unique injection CAUGHT (5 species/3 elements: gfRank=3 at all primes => dim=2, claim dim=1 rejected; kernel basis rank 2). P4 refusals all refused (nonnumeric "x", arity 3v4, negative token). P5 rounding: round2 integer lane 0.13/0.38/2.68 half-up correct; toFixed(2.675)=2.67 float seam demonstrated; FLAG for Sheet 4: integer lane gives cinnamic 12.6/14.5754 = 86.45% (not 86.44) — reconcile against the master's printed figure.
-- NEXT: Sheet 1 (the eleven balances) — re-read the master's balance rows from the local mirror first.
+- PIECE A (probe) COMPLETE 2026-11-05. Exact integer element residuals + prime-residue cross-checks (251/997/10007) + GF(p) rank via modular Gauss-Jordan with Fermat inverse (third algorithm, zero code shared with E77/E78). Determinism byte-identical; sdbm caf6b8fd (1,104 B). All probe checks PASS: synthetic witness 2:1:2 zero residuals at all primes + dim=1; digit-slip 2:1:3 CAUGHT; false-unique injection CAUGHT (gfRank=3, dim=2); refusals honored; rounding boundaries half-up correct; toFixed(2.675) float seam demonstrated; FLAG: cinnamic 12.6/14.5754 = 86.45% on the integer lane (not 86.44) — reconcile against the master's print at Sheet 3/4.
+- SHEET 1 (the eleven balances) COMPLETE 2026-11-05, rev-2 (rev-1 disclosed TWO HARNESS DEFECTS, both E79's own, no chapter figure moved: the generic Ar was inconsistently transcribed ring-carrying in ArNH2 but featureless in ArN2Cl — the B6 FAIL was the harness; the D-B3 second-relation coefficients were mis-ordered [5,1,6,6] for [5,0,1,6,6]). Rev-2: ALL ELEVEN PASS — chain B1-B7 and doors B1-B4 exact-zero residuals at all three primes; dims=1 on every unique claim; the Verley-Doebner dim=2 REFUSAL independently confirmed by the third algorithm (gfRank=3 at 251/997/10007 over 5 species); the second kernel relation (5 malonic -> 1 cinnamic + 6 CO2 + 6 H2O) verified in-kernel, basis-independence rank 2; 3 injections CAUGHT + 1 arity refusal. Determinism byte-identical; sdbm 4c530349 (2,720 B).
+- SHEET 2 (the molar book) COMPLETE 2026-11-05. Fresh transcription on the x10^3 lattice; element owners verified: H 1008 / C 12011 / N 14007 / O 15999 / Na 22990 / S 32060 / Cl 35450 re-read at Ch 3's owner page (line-117 table; the 35.453 isotope seam at line 162 — exactly as ch51 discloses); Sn 118710 = Ch 11's pin (the Ch 47 census records re-grepped this session: "Sn 118.710 Ch 11's", pin-hits Ch 11/12/13/19) — ch51's "no new elements admitted" claim TRUE at corpus level. 30 molar rows + 7 mass closures ALL PASS (both labs' books, every cross-pin: 144.105/122.123 Ch 31; 285.343 Ch 34; 138.126/144.173/293.282 Ch 48; 44.009 Ch 20; 39.997 Ch 8; 104.152 the Ch 50 collision; 106.124 the ester-clock disambiguator; the 303,358 my Ch 34 E8 pin re-derived). 3 injections CAUGHT: the ester-digit pin, the isotope-basis SnCl2 seam claim (lane carries the table value, seam disclosed), the NaNO2 half-boundary truncation (68.995 -> 69.00 half-up). Determinism byte-identical; sdbm 303705d9 (3,279 B).
+- NEXT: Sheet 3 (the charge/yield ledgers L1-L15, D1-D5, X1-X4) — re-derived from the episode charges on the fresh lane.
