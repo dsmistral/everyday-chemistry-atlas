@@ -23,6 +23,9 @@
 
 ## In-session artifacts
 
-Engine 79 transcripts = re-runnable scratch pieces, md5s recorded HERE as they land (none yet). No buffer Knowledge topic this session: the 172-buffer precedent (still pending user deletion) argues against creating another; crash-resume = this mirror + re-runnable pieces, disclosed at close.
+No buffer Knowledge topic this session: the 172-buffer precedent (still pending user deletion) argues against creating another; crash-resume = this mirror + re-runnable pieces, disclosed at close.
 
-Next step: Engine 79, Piece A (the probe).
+### Step log (re-runnable pieces; transcripts durably echoed in the tool-results of each step; sdbm digests recorded here)
+
+- PIECE A (probe) COMPLETE 2026-11-05. Lane: exact integer element residuals + prime-residue cross-checks (251/997/10007) + GF(p) rank via modular Gauss-Jordan with Fermat inverse (third algorithm, zero code shared with E77 rational-GJ / E78 Bareiss); sdbm digest (distinct from the series' ten). Determinism: two passes byte-identical. sdbm = caf6b8fd, 1,104 B transcript. Results: P1 synthetic witness 2:1:2 exact-zero residues at all three primes, gfRank=2 dim=1, uniqueness claim TRUE. P2 digit-slip 2:1:3 CAUGHT (exact residual H=-2, O=-1; nonzero at all primes). P3 false-unique injection CAUGHT (5 species/3 elements: gfRank=3 at all primes => dim=2, claim dim=1 rejected; kernel basis rank 2). P4 refusals all refused (nonnumeric "x", arity 3v4, negative token). P5 rounding: round2 integer lane 0.13/0.38/2.68 half-up correct; toFixed(2.675)=2.67 float seam demonstrated; FLAG for Sheet 4: integer lane gives cinnamic 12.6/14.5754 = 86.45% (not 86.44) — reconcile against the master's printed figure.
+- NEXT: Sheet 1 (the eleven balances) — re-read the master's balance rows from the local mirror first.
