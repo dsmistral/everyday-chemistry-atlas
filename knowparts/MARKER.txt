@@ -1,1 +1,0 @@
-assemble session-186 KNOWLEDGE.md
