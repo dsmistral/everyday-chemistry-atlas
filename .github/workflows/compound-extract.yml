@@ -2,7 +2,6 @@ name: compound-extract
 on:
   push:
     branches: [main]
-    paths: ['register-parts/**']
 permissions:
   contents: write
 jobs:
@@ -10,4 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: bash register-parts/extract.sh
+      - name: guard
+        run: |
+          if [ ! -f register-parts/extract.sh ]; then
+            echo "no register-parts staged — skip"
+            exit 0
+          fi
+          if [ -f COMPOUND-REGISTER.md ] && [ ! -f register-parts/MARKER ]; then
+            echo "register already built and parts cleaned — skip"
+            exit 0
+          fi
+          bash register-parts/extract.sh
