@@ -1,0 +1,236 @@
+10	carbonic acid	H2CO3	acid-in	12	4	ch01,ch08,ch14,ch24	manufactured+procured
+6	hydrobromic acid	HBr	acid-in	26	4	ch17,ch18,ch43,ch50	manufactured+procured
+2	hydrochloric acid	HCl	acid-in	81	23	ch01,ch02,ch04,ch06,ch08,ch09,ch13,ch14,ch15,ch16,ch17,ch18,ch19,ch20,ch27,ch28,ch38,ch39,ch40,ch42,ch46,ch47,ch48	manufactured+procured
+3	nitric acid	HNO3	acid-in	91	11	ch04,ch05,ch15,ch20,ch23,ch32,ch39,ch43,ch45,ch49,fc5	manufactured+procured
+4	phosphoric acid	H3PO4	acid-in	4	2	ch01,fc8	manufactured+procured
+1	sulfuric acid	H2SO4	acid-in	261	26	ch02,ch06,ch08,ch09,ch12,ch13,ch14,ch15,ch16,ch17,ch18,ch19,ch20,ch22,ch23,ch25,ch27,ch28,ch36,ch43,ch45,ch46,ch48,ch49,ch50,fc7	manufactured+procured
+11	acetic acid	CH3COOH	acid-org	557	37	ch01,ch02,ch03,ch04,ch05,ch08,ch09,ch10,ch11,ch12,ch13,ch14,ch15,ch16,ch18,ch21,ch22,ch23,ch24,ch25,ch26,ch27,ch28,ch31,ch33,ch34,ch35,ch36,ch42,ch45,ch46,ch47,fc10,fc4,fc6,fc7,fc8	manufactured+procured
+18	ascorbic acid	C6H8O6	acid-org	33	7	ch13,ch18,ch25,ch27,ch31,ch32,ch34	manufactured+procured
+17	benzoic acid	C7H6O2	acid-org	2	1	ch31	procured
+12	citric acid	C6H8O7	acid-org	24	7	ch08,ch25,ch26,ch31,ch33,ch34,ch47	manufactured+procured
+15	formic acid	CH2O2	acid-org	7	1	fc7	manufactured+procured
+19	lactic acid	C3H6O3	acid-org	4	1	ch31	manufactured+procured
+13	oxalic acid	H2C2O4	acid-org	51	11	ch02,ch04,ch09,ch15,ch20,ch23,ch24,ch40,ch50,fc2,fc3	manufactured+procured
+16	salicylic acid	C7H6O3	acid-org	34	6	ch01,ch13,ch23,ch34,ch45,fc7	manufactured+procured
+20	tannic acid	C76H52O46	acid-org	106	6	ch22,ch34,fc10,fc7,fc8,fc9	manufactured+procured
+25	ammonia (aqueous)	NH3(aq)	base	280	27	ch01,ch03,ch08,ch09,ch10,ch13,ch14,ch16,ch18,ch19,ch20,ch21,ch24,ch28,ch29,ch31,ch33,ch35,ch36,ch46,ch47,ch49,ch50,fc1,fc10,fc3,fc5	manufactured+procured
+24	calcium hydroxide	Ca(OH)2	base	259	27	ch02,ch09,ch10,ch13,ch14,ch15,ch20,ch21,ch22,ch23,ch24,ch26,ch28,ch29,ch30,ch31,ch32,ch34,ch35,ch37,ch40,ch41,fc3,fc5,fc6,fc8,fc9	manufactured+procured
+31	calcium oxide	CaO	base	243	13	ch02,ch14,ch15,ch21,ch24,ch26,ch29,ch30,ch34,ch40,fc5,fc6,fc9	manufactured+procured
+26	magnesium hydroxide	Mg(OH)2	base	13	4	ch09,ch19,ch24,ch40	manufactured+procured
+29	potassium carbonate	K2CO3	base	71	10	ch14,ch20,ch21,ch39,ch41,ch46,ch50,fc1,fc5,fc9	manufactured+procured
+23	potassium hydroxide	KOH	base	172	16	ch11,ch12,ch14,ch16,ch18,ch20,ch21,ch23,ch24,ch27,ch39,ch40,ch41,ch42,fc4,fc8	manufactured+procured
+27	sodium bicarbonate	NaHCO3	base	185	26	ch01,ch02,ch03,ch04,ch08,ch09,ch10,ch11,ch13,ch14,ch15,ch17,ch19,ch20,ch22,ch23,ch24,ch25,ch26,ch27,ch28,ch31,ch37,ch45,ch47,ch50	manufactured+procured
+28	sodium carbonate	Na2CO3	base	235	28	ch02,ch08,ch09,ch10,ch13,ch14,ch15,ch16,ch20,ch21,ch24,ch25,ch28,ch30,ch33,ch34,ch35,ch36,ch37,ch39,ch40,ch44,ch46,ch48,ch49,fc10,fc4,fc9	manufactured+procured
+22	sodium hydroxide	NaOH	base	810	47	ch01,ch02,ch03,ch08,ch09,ch11,ch12,ch13,ch14,ch15,ch16,ch17,ch18,ch19,ch20,ch21,ch23,ch24,ch25,ch26,ch27,ch28,ch30,ch31,ch33,ch34,ch35,ch36,ch37,ch38,ch39,ch40,ch41,ch42,ch43,ch44,ch45,ch46,ch48,ch49,ch50,fc3,fc4,fc5,fc7,fc8,fc9	manufactured+procured
+234	lime mortar	Ca(OH)2+sand	construction	73	11	ch01,ch07,ch14,ch21,ch26,ch30,ch34,ch45,ch47,fc6,fc9	manufactured+procured
+233	portland cement	CaO·SiO2 etc.	construction	229	35	ch01,ch03,ch05,ch10,ch11,ch12,ch14,ch15,ch18,ch19,ch20,ch21,ch24,ch27,ch30,ch32,ch35,ch36,ch37,ch38,ch39,ch40,ch41,ch42,ch43,ch44,ch45,ch46,ch50,fc11,fc2,fc5,fc6,fc7,fc9	manufactured+procured
+235	soda-lime glass	Na2O·CaO·SiO2	construction	6	4	ch01,ch07,ch14,ch30	manufactured+procured
+204	bromine	Br2	element	243	16	ch02,ch03,ch05,ch15,ch17,ch18,ch19,ch25,ch34,ch42,ch43,ch44,ch45,ch47,ch50,fc3	manufactured+procured
+208	carbon (charcoal/graphite)	C	element	166	33	ch01,ch02,ch03,ch04,ch05,ch07,ch10,ch11,ch12,ch13,ch14,ch16,ch17,ch18,ch22,ch26,ch27,ch28,ch29,ch37,ch38,ch39,ch40,ch42,ch43,ch49,ch50,fc1,fc11,fc2,fc3,fc5,fc7	manufactured+procured
+203	iodine	I2	element	227	17	ch02,ch03,ch04,ch10,ch13,ch17,ch18,ch23,ch24,ch25,ch27,ch29,ch31,ch42,ch43,ch50,fc8	manufactured+procured
+220	lithium	Li	element	185	15	ch01,ch03,ch10,ch11,ch12,ch13,ch14,ch19,ch25,ch27,ch37,ch38,ch39,ch40,ch41	manufactured+procured
+219	silicon (element)	Si	element	2	1	ch40	manufactured+procured
+202	sulfur	S8	element	373	37	ch01,ch02,ch03,ch04,ch06,ch08,ch09,ch10,ch12,ch13,ch14,ch15,ch16,ch17,ch18,ch19,ch20,ch21,ch23,ch24,ch25,ch27,ch28,ch31,ch32,ch34,ch36,ch43,ch45,ch46,ch48,ch49,ch50,fc1,fc10,fc11,fc7	manufactured+procured
+207	white phosphorus	P4	element	9	1	fc2	manufactured+procured
+266	black powder	KNO3+S+C	fence	31	5	ch11,ch17,ch21,fc1,fc6	manufactured+procured
+254	cubane	C8H8	fence	69	2	ch43,ch50	manufactured+procured
+283	mercuric chloride	HgCl2	fence	6	1	ch43	manufactured+procured
+258	nitrocellulose	[C6H7O2(ONO2)3]n	fence	5	2	ch15,ch16	manufactured+procured
+257	nitroglycerin	C3H5N3O9	fence	11	2	ch23,fc6	manufactured+procured
+255	octanitrocubane	C8(NO2)8	fence	14	1	ch50	recognition-only-fence
+71	potassium chlorate	KClO3	fence	21	2	ch16,ch42	manufactured+procured
+55	sodium chlorate	NaClO3	fence	5	2	ch16,ch42	manufactured+procured
+268	thermite	Fe2O3+Al	fence	45	8	ch06,ch11,ch19,ch20,ch21,ch23,ch24,ch28	manufactured+procured
+256	trinitrotoluene (TNT)	C7H5N3O6	fence	10	1	fc6	manufactured+procured
+79	ammonium nitrate	NH4NO3	fence-adj	76	8	ch09,ch15,ch20,ch26,ch28,ch29,ch49,fc5	manufactured+procured
+281	ammonium phosphate	(NH4)3PO4	fertilizer	8	1	ch20	manufactured+procured
+90	superphosphate	Ca(H2PO4)2	fertilizer	3	1	fc5	manufactured+procured
+173	glucose	C6H12O6	food	156	15	ch10,ch21,ch22,ch25,ch26,ch27,ch31,ch34,ch35,ch36,ch48,fc10,fc5,fc6,fc7	manufactured+procured
+174	starch	(C6H10O5)n	food	75	13	ch01,ch02,ch13,ch17,ch18,ch24,ch25,ch27,ch31,ch34,ch35,ch36,fc7	manufactured+procured
+172	sucrose	C12H22O11	food	102	12	ch02,ch03,ch04,ch05,ch07,ch21,ch26,ch31,ch34,fc10,fc7,fc8	manufactured+procured
+145	acetylene	C2H2	gas	21	4	ch35,ch45,fc2,fc3	manufactured+procured
+143	ammonia gas	NH3	gas	2	1	ch20	manufactured+procured
+147	butane	C4H10	gas	11	4	ch01,ch07,ch21,fc1	manufactured+procured
+134	carbon dioxide	CO2	gas	503	45	ch02,ch03,ch04,ch07,ch08,ch09,ch10,ch11,ch13,ch14,ch15,ch19,ch20,ch21,ch22,ch23,ch24,ch25,ch26,ch27,ch28,ch30,ch31,ch33,ch34,ch35,ch36,ch37,ch38,ch39,ch40,ch45,ch47,ch49,ch50,fc1,fc10,fc11,fc2,fc3,fc5,fc6,fc7,fc8,fc9	manufactured+procured
+135	carbon monoxide	CO	gas	24	6	ch07,ch10,ch28,ch40,fc1,fc11	manufactured+procured
+142	chlorine	Cl2	gas	334	37	ch01,ch02,ch03,ch04,ch08,ch10,ch11,ch12,ch13,ch14,ch15,ch16,ch17,ch18,ch19,ch20,ch22,ch24,ch25,ch26,ch27,ch28,ch30,ch31,ch32,ch33,ch40,ch41,ch42,ch43,ch44,ch45,ch46,ch47,fc11,fc3,fc4	manufactured+procured
+148	ethylene	C2H4	gas	54	10	ch02,ch14,ch15,ch21,ch34,ch35,ch45,ch47,ch50,fc3	manufactured+procured
+132	hydrogen	H2	gas	240	38	ch03,ch04,ch06,ch07,ch08,ch09,ch10,ch11,ch12,ch13,ch14,ch15,ch16,ch18,ch19,ch20,ch21,ch23,ch25,ch26,ch27,ch31,ch32,ch34,ch35,ch37,ch38,ch39,ch42,ch43,ch44,ch47,ch48,ch50,fc11,fc3,fc4,fc5	manufactured+procured
+136	hydrogen sulfide	H2S	gas	18	4	ch10,ch17,ch18,ch19	manufactured+procured
+144	methane	CH4	gas	83	12	ch03,ch07,ch10,ch21,ch26,ch28,ch34,ch45,fc1,fc11,fc2,fc5	manufactured+procured
+140	nitric oxide	NO	gas	4	2	ch20,ch49	manufactured+procured
+133	nitrogen	N2	gas	119	23	ch02,ch03,ch04,ch10,ch13,ch15,ch19,ch20,ch22,ch26,ch29,ch30,ch34,ch35,ch46,ch47,ch48,ch49,fc11,fc5,fc7,fc8,fc9	manufactured+procured
+139	nitrogen dioxide	NO2	gas	28	4	ch03,ch15,ch20,ch49	manufactured+procured
+141	nitrous oxide	N2O	gas	21	4	ch03,ch20,ch28,ch49	manufactured+procured
+130	oxygen	O2	gas	777	52	ch03,ch04,ch07,ch08,ch09,ch10,ch11,ch12,ch13,ch14,ch15,ch16,ch17,ch18,ch19,ch20,ch21,ch22,ch23,ch25,ch26,ch27,ch28,ch30,ch31,ch32,ch33,ch34,ch35,ch37,ch38,ch39,ch40,ch41,ch42,ch43,ch44,ch46,ch47,ch48,ch49,ch50,fc1,fc10,fc11,fc2,fc3,fc4,fc5,fc6,fc7,fc8	manufactured+procured
+146	propane	C3H8	gas	39	5	ch01,ch07,ch21,ch49,fc11	manufactured+procured
+137	sulfur dioxide	SO2	gas	44	7	ch17,ch18,ch24,ch25,ch26,ch31,fc10	manufactured+procured
+138	sulfur trioxide	SO3	gas	4	2	ch06,ch17	recognition-only
+184	litmus	dye	indicator	34	5	ch10,ch20,ch22,ch27,fc10	manufactured+procured
+185	methyl orange	indicator	indicator	25	3	ch08,ch14,ch22	manufactured+procured
+183	phenolphthalein	C20H14O4	indicator	49	7	ch08,ch09,ch14,ch22,ch23,ch27,fc10	manufactured+procured
+218	aluminum (metal)	Al	metal	16	6	ch07,ch11,ch14,ch19,ch43,ch49	manufactured+procured
+223	antimony (metal)	Sb	metal	4	3	ch03,ch11,ch19	manufactured+procured
+224	bismuth (metal)	Bi	metal	11	3	ch02,ch13,ch29	manufactured+procured
+123	cadmium	Cd	metal	3	2	ch22,ch31	manufactured+procured
+226	chromium (metal)	Cr	metal	21	11	ch01,ch03,ch09,ch11,ch12,ch19,ch20,ch21,ch23,ch24,fc8	manufactured+procured
+209	copper (metal)	Cu	metal	29	9	ch01,ch03,ch11,ch12,ch19,ch27,ch32,ch39,ch43	manufactured+procured
+215	gold	Au	metal	1	1	ch03	manufactured+procured
+211	iron (metal)	Fe	metal	9	5	ch01,ch02,ch11,ch19,ch40	manufactured+procured
+213	lead (metal)	Pb	metal	1	1	ch44	manufactured+procured
+217	magnesium (metal)	Mg	metal	13	4	ch19,ch37,ch40,ch41	manufactured+procured
+225	manganese (metal)	Mn	metal	38	15	ch03,ch10,ch12,ch16,ch18,ch19,ch23,ch25,ch26,ch27,ch31,ch32,ch39,ch43,fc1	manufactured+procured
+205	mercury	Hg	metal	152	13	ch11,ch19,ch20,ch26,ch31,ch37,ch40,ch41,ch42,ch43,ch44,ch45,ch50	manufactured+procured
+222	nickel (metal)	Ni	metal	44	11	ch02,ch08,ch12,ch20,ch23,ch27,ch28,ch37,ch39,ch43,ch47	manufactured+procured
+216	platinum	Pt	metal	6	4	ch40,ch41,ch42,ch43	manufactured+procured
+214	silver (metal)	Ag	metal	3	2	ch13,ch32	manufactured+procured
+221	sodium (metal)	Na	metal	17	6	ch21,ch37,ch40,ch41,ch45,ch50	manufactured+procured
+212	tin (metal)	Sn	metal	39	7	ch01,ch02,ch19,ch39,ch44,ch47,fc3	manufactured+procured
+210	zinc (metal)	Zn	metal	2	2	ch02,ch11	manufactured+procured
+228	alumina (Al2O3)	Al2O3	mineral	138	9	ch11,ch14,ch19,ch22,ch28,ch30,ch38,ch39,fc9	manufactured+procured
+30	calcium carbonate	CaCO3	mineral	278	32	ch01,ch02,ch03,ch04,ch06,ch08,ch09,ch10,ch13,ch14,ch15,ch20,ch21,ch22,ch23,ch24,ch25,ch26,ch28,ch30,ch31,ch33,ch37,ch38,ch39,ch40,ch41,fc3,fc5,fc6,fc8,fc9	manufactured+procured
+89	calcium phosphate	Ca3(PO4)2	mineral	16	4	ch22,ch40,fc5,fc8	manufactured+procured
+86	calcium sulfate (gypsum)	CaSO4·2H2O	mineral	158	20	ch01,ch02,ch03,ch04,ch05,ch09,ch10,ch13,ch14,ch15,ch17,ch22,ch24,ch30,ch31,ch32,ch37,ch42,fc10,fc9	manufactured+procured
+117	cinnabar	HgS	mineral	3	2	ch22,ch43	manufactured+procured
+230	clay minerals	hydrous phyllosilicates	mineral	111	10	ch05,ch07,ch17,ch30,ch38,ch42,fc3,fc5,fc8,fc9	manufactured+procured
+250	diatomaceous earth	SiO2 (amorphous)	mineral	8	1	fc4	manufactured+procured
+232	dolomite	CaMg(CO3)2	mineral	47	4	ch30,ch40,fc5,fc9	manufactured+procured
+231	feldspar	tectosilicates	mineral	14	2	ch30,fc9	manufactured+procured
+101	galena	PbS	mineral	18	2	ch09,ch13	manufactured+procured
+100	iron sulfide	FeS	mineral	4	1	ch17	manufactured+procured
+229	kaolinite	Al2Si2O5(OH)4	mineral	129	4	ch30,ch38,ch49,fc9	manufactured+procured
+87	plaster of Paris	CaSO4·½H2O	mineral	20	6	ch01,ch02,ch03,ch05,fc8,fc9	manufactured+procured
+227	silica (SiO2)	SiO2	mineral	192	15	ch01,ch02,ch05,ch06,ch07,ch09,ch14,ch26,ch30,ch38,ch50,fc4,fc5,fc6,fc9	manufactured+procured
+195	iron gall ink	FeSO4+tannin	misc	1	1	fc7	manufactured+procured
+198	beeswax	wax	organic	32	3	ch23,fc2,fc8	manufactured+procured
+177	casein	protein	organic	36	3	ch31,fc8,fc9	manufactured+procured
+175	cellulose	(C6H10O5)n	organic	45	9	ch07,ch16,ch45,fc1,fc10,fc2,fc3,fc5,fc7	manufactured+procured
+167	formaldehyde	CH2O	organic	9	3	ch13,ch21,ch35	manufactured+procured
+178	gelatin	protein	organic	48	9	ch31,ch32,ch35,ch36,ch39,ch42,ch46,fc8,fc9	manufactured+procured
+155	glycerin	C3H8O3	organic	157	12	ch21,ch22,ch23,ch24,ch31,ch33,ch34,ch36,fc1,fc4,fc6,fc8	manufactured+procured
+170	hydrazine	N2H4	organic	127	8	ch16,ch18,ch20,ch21,ch22,ch36,ch46,ch47	manufactured+procured
+171	ketazine	organic	organic	19	4	ch16,ch20,ch21,ch46	manufactured+procured
+176	lignin	organic	organic	2	2	ch34,fc1	manufactured+procured
+201	linseed oil	oil	organic	2	1	ch23	manufactured+procured
+253	menthol	C10H20O	organic	17	2	ch34,ch37	manufactured+procured
+199	paraffin wax	wax	organic	6	2	ch07,fc2	manufactured+procured
+179	pectin	polysaccharide	organic	12	4	ch31,ch39,ch40,fc9	manufactured+procured
+168	phenol	C6H5OH	organic	96	14	ch08,ch09,ch14,ch22,ch23,ch25,ch27,ch31,ch34,ch35,ch45,fc10,fc7,fc8	manufactured+procured
+196	rosin	resin	organic	21	3	ch34,ch35,fc7	manufactured+procured
+197	shellac	resin	organic	33	3	ch31,ch35,fc8	manufactured+procured
+286	sodium ethoxide	C2H5ONa	organic	2	1	ch21	manufactured+procured
+200	tallow	fat	organic	57	3	ch23,ch31,fc8	manufactured+procured
+169	urea	CH4N2O	organic	227	10	ch02,ch16,ch20,ch35,ch36,ch46,ch49,fc10,fc11,fc5	manufactured+procured
+115	antimony trioxide	Sb2O3	oxide	1	1	ch02	manufactured+procured
+111	chromium(III) oxide	Cr2O3	oxide	10	4	ch02,ch11,ch19,fc9	manufactured+procured
+121	cobalt oxide	CoO	oxide	1	1	ch39	manufactured+procured
+40	copper(I) oxide	Cu2O	oxide	6	3	ch11,ch19,ch22	manufactured
+41	copper(II) oxide	CuO	oxide	58	8	ch11,ch15,ch19,ch20,ch22,ch34,fc5,fc9	manufactured+procured
+98	iron(II,III) oxide	Fe3O4	oxide	38	5	ch03,ch11,ch19,ch22,fc9	manufactured+procured
+97	iron(III) oxide	Fe2O3	oxide	70	13	ch03,ch11,ch12,ch19,ch22,ch25,ch26,ch28,ch30,ch32,ch38,fc6,fc9	manufactured+procured
+104	lead dioxide	PbO2	oxide	6	2	ch12,ch19	recognition-only
+102	lead(II) oxide	PbO	oxide	38	7	ch12,ch19,ch22,ch23,ch30,ch44,fc4	manufactured+procured
+110	manganese dioxide	MnO2	oxide	46	9	ch10,ch12,ch16,ch18,ch19,ch25,ch26,ch39,fc1	manufactured+procured
+103	red lead	Pb3O4	oxide	81	7	ch13,ch37,ch38,ch39,ch40,ch41,ch42	manufactured+procured
+109	silver(I) oxide	Ag2O	oxide	4	2	ch12,ch32	manufactured+procured
+118	titanium dioxide	TiO2	oxide	4	2	ch22,fc9	manufactured+procured
+112	vanadium pentoxide	V2O5	oxide	10	3	ch02,ch11,ch17	manufactured+procured
+93	zinc oxide	ZnO	oxide	28	5	ch11,ch12,ch19,ch22,ch34	manufactured+procured
+127	calcium hypochlorite	Ca(OCl)2	oxidizer	13	4	ch16,ch18,ch28,fc3	manufactured+procured
+128	hydrogen peroxide	H2O2	oxidizer	95	22	ch01,ch02,ch03,ch04,ch10,ch11,ch13,ch15,ch16,ch17,ch18,ch19,ch22,ch25,ch26,ch28,ch31,ch32,ch33,ch39,ch48,fc7	manufactured+procured
+69	potassium dichromate	K2Cr2O7	oxidizer	2	1	ch21	manufactured+procured
+67	potassium permanganate	KMnO4	oxidizer	90	10	ch08,ch13,ch16,ch17,ch18,ch21,ch28,ch32,ch43,fc1	manufactured+procured
+276	sodium percarbonate	2Na2CO3·3H2O2	oxidizer	3	2	ch16,ch33	manufactured+procured
+129	trichloroisocyanuric acid	TCCA	oxidizer	64	10	ch02,ch08,ch10,ch16,ch18,ch20,ch28,ch33,ch42,fc3	manufactured+procured
+243	aspirin (acetylsalicylic acid)	C9H8O4	pharma	113	12	ch01,ch02,ch03,ch08,ch13,ch23,ch31,ch34,ch36,ch45,ch46,fc7	manufactured+procured
+120	bismuth subsalicylate	C7H5BiO4	pharma	8	2	ch02,ch13	manufactured+procured
+245	caffeine	C8H10N4O2	pharma	55	3	ch21,ch31,ch34	manufactured+procured
+244	gentian violet	C25H30ClN3	pharma	9	3	ch02,ch13,ch16	manufactured+procured
+249	glyphosate	C3H8NO5P	pharma	9	1	fc4	manufactured+procured
+251	sodium fluoride	NaF	pharma	1	1	ch18	manufactured+procured
+193	alizarin	C14H8O4	pigment	6	1	ch22	manufactured+procured
+187	bone black	C+Ca3(PO4)2	pigment	2	1	ch22	manufactured+procured
+192	cochineal	dye	pigment	49	3	ch13,ch39,ch48	manufactured+procured
+181	indigo	C16H10N2O2	pigment	117	3	ch22,ch48,fc7	manufactured+procured
+188	lead white	2PbCO3·Pb(OH)2	pigment	10	2	ch22,ch23	manufactured+procured
+189	lithopone	BaSO4+ZnS	pigment	3	1	ch22	manufactured+procured
+191	ochre	Fe2O3+clay	pigment	1	1	ch22	manufactured+procured
+186	prussian blue	Fe4[Fe(CN)6]3	pigment	58	11	ch22,ch23,ch24,ch32,ch36,ch40,ch48,ch49,fc10,fc8,fc9	manufactured+procured
+242	natural rubber	polyisoprene	polymer	109	14	ch06,ch10,ch14,ch15,ch21,ch34,ch35,ch36,ch39,ch42,ch43,ch46,fc7,fc8	manufactured+procured
+237	polyethylene	[C2H4]n	polymer	7	4	ch14,ch15,ch35,fc3	manufactured+procured
+236	polyethylene terephthalate (PET)	[C10H8O4]n	polymer	3	1	fc3	manufactured+procured
+238	polypropylene	[C3H6]n	polymer	1	1	ch35	manufactured+procured
+239	polystyrene	[C8H8]n	polymer	7	1	ch21	manufactured+procured
+240	polyvinyl chloride	[C2H3Cl]n	polymer	1	1	ch42	manufactured+procured
+241	silicone	polysiloxane	polymer	14	2	ch35,ch36	manufactured+procured
+80	aluminum sulfate	Al2(SO4)3	salt	1	1	ch22	manufactured+procured
+77	ammonium chloride	NH4Cl	salt	45	6	ch12,ch14,ch15,ch19,ch20,ch49	manufactured+procured
+113	ammonium metavanadate	NH4VO3	salt	10	5	ch02,ch09,ch13,ch17,ch20	manufactured+procured
+78	ammonium sulfate	(NH4)2SO4	salt	40	8	ch02,ch03,ch04,ch20,ch32,ch34,ch35,fc5	manufactured+procured
+119	barium sulfate	BaSO4	salt	15	6	ch04,ch09,ch13,ch15,ch22,ch24	manufactured+procured
+274	borax (sodium tetraborate decahydrate)	Na2B4O7·10H2O	salt	116	15	ch01,ch02,ch03,ch04,ch08,ch13,ch22,ch24,ch33,ch37,ch40,ch41,ch42,fc4,fc8	manufactured+procured
+275	boric acid	H3BO3	salt	8	2	ch24,fc4	manufactured+procured
+278	calcium carbide	CaC2	salt	22	5	ch09,ch15,ch20,ch38,ch40	manufactured+procured
+85	calcium chloride	CaCl2	salt	71	14	ch06,ch09,ch13,ch14,ch15,ch16,ch20,ch21,ch26,ch28,ch33,ch40,fc3,fc4	manufactured+procured
+125	calcium oxalate	CaC2O4	salt	8	3	ch04,ch15,ch40	manufactured+procured
+42	copper nitrate	Cu(NO3)2	salt	4	2	ch15,ch20	manufactured+procured
+39	copper(I) chloride	CuCl	salt	5	3	ch05,ch09,ch43	manufactured+procured
+37	copper(II) acetate	Cu(C2H3O2)2	salt	10	2	ch11,ch22	manufactured+procured
+36	copper(II) carbonate	CuCO3	salt	39	8	ch01,ch02,ch04,ch05,ch09,ch14,ch19,ch22	manufactured+procured
+38	copper(II) chloride	CuCl2	salt	5	4	ch05,ch09,ch12,ch43	procured
+35	copper(II) sulfate (anhydrous)	CuSO4	salt	112	18	ch01,ch02,ch03,ch05,ch09,ch10,ch11,ch12,ch13,ch14,ch15,ch17,ch19,ch20,ch22,ch27,ch34,ch35	manufactured+procured
+34	copper(II) sulfate pentahydrate	CuSO4·5H2O	salt	104	18	ch01,ch02,ch03,ch04,ch05,ch08,ch09,ch10,ch11,ch12,ch13,ch14,ch15,ch17,ch19,ch20,ch22,ch27	manufactured+procured
+95	iron(II) sulfate	FeSO4	salt	99	7	ch11,ch13,ch19,ch22,fc7,fc8,fc9	manufactured+procured
+96	iron(III) chloride	FeCl3	salt	12	4	ch11,ch13,ch15,ch22	manufactured+procured
+285	iron(III) oxalate	Fe2(C2O4)3	salt	4	1	ch15	manufactured+procured
+105	lead sulfate	PbSO4	salt	12	2	ch12,ch19	manufactured+procured
+84	magnesium chloride	MgCl2	salt	11	2	ch26,ch40	manufactured+procured
+284	magnesium nitrate	Mg(NO3)2	salt	9	1	ch20	manufactured+procured
+83	magnesium sulfate (anhydrous)	MgSO4	salt	77	17	ch02,ch03,ch04,ch09,ch13,ch15,ch17,ch19,ch20,ch21,ch26,ch27,ch34,ch35,ch49,fc3,fc5	manufactured+procured
+82	magnesium sulfate heptahydrate	MgSO4·7H2O	salt	177	24	ch01,ch02,ch03,ch04,ch05,ch06,ch07,ch09,ch12,ch13,ch15,ch17,ch19,ch20,ch21,ch26,ch27,ch34,ch35,ch39,ch40,ch42,ch49,fc5	manufactured+procured
+81	potash alum	KAl(SO4)2·12H2O	salt	122	20	ch01,ch02,ch03,ch04,ch10,ch13,ch14,ch15,ch17,ch20,ch21,ch22,ch23,ch24,ch25,ch26,ch27,ch32,fc8,fc9	manufactured+procured
+75	potassium bitartrate	KHC4H4O6	salt	2	1	ch02	manufactured+procured
+65	potassium bromide	KBr	salt	12	3	ch18,ch32,ch43	manufactured+procured
+62	potassium chloride	KCl	salt	133	13	ch13,ch14,ch16,ch17,ch18,ch20,ch22,ch25,ch27,ch29,ch40,ch41,ch46	manufactured+procured
+73	potassium ferricyanide	K3[Fe(CN)6]	salt	16	3	ch22,ch32,ch36	manufactured+procured
+74	potassium ferrocyanide	K4[Fe(CN)6]	salt	38	3	ch22,ch28,ch32	manufactured+procured
+66	potassium iodide	KI	salt	5	3	ch13,ch18,ch25	manufactured+procured
+68	potassium manganate	K2MnO4	salt	53	7	ch08,ch16,ch17,ch18,ch21,ch43,fc1	manufactured+procured
+63	potassium nitrate	KNO3	salt	104	14	ch04,ch05,ch09,ch13,ch15,ch16,ch18,ch20,ch28,ch29,ch30,ch31,ch49,fc10	manufactured+procured
+108	silver chloride	AgCl	salt	93	13	ch04,ch09,ch12,ch13,ch14,ch18,ch20,ch24,ch27,ch31,ch32,ch35,ch36	manufactured+procured
+107	silver nitrate	AgNO3	salt	45	10	ch02,ch09,ch11,ch13,ch15,ch18,ch19,ch20,ch27,ch32	manufactured+procured
+57	sodium acetate	CH3COONa	salt	56	9	ch08,ch23,ch26,ch31,ch35,ch36,ch45,ch47,ch48	manufactured+procured
+45	sodium bisulfate	NaHSO4	salt	29	9	ch01,ch02,ch15,ch17,ch18,ch20,ch24,ch42,ch45	manufactured+procured
+46	sodium bisulfite	NaHSO3	salt	10	5	ch17,ch18,ch22,ch25,ch31	procured
+50	sodium bromide	NaBr	salt	46	5	ch02,ch18,ch25,ch43,ch50	manufactured+procured
+44	sodium chloride	NaCl	salt	437	43	ch01,ch02,ch03,ch04,ch05,ch08,ch09,ch10,ch12,ch13,ch14,ch15,ch16,ch17,ch18,ch20,ch21,ch22,ch23,ch24,ch25,ch26,ch27,ch28,ch29,ch30,ch31,ch32,ch33,ch34,ch35,ch37,ch38,ch40,ch41,ch42,ch45,ch46,ch47,ch48,ch49,fc3,fc4	manufactured+procured
+49	sodium hypochlorite	NaOCl	salt	500	33	ch01,ch02,ch04,ch08,ch09,ch10,ch12,ch13,ch14,ch15,ch16,ch17,ch18,ch20,ch21,ch22,ch24,ch25,ch26,ch27,ch28,ch29,ch31,ch32,ch33,ch36,ch42,ch46,fc10,fc3,fc4,fc5,fc8	manufactured+procured
+51	sodium iodide	NaI	salt	2	1	ch18	manufactured+procured
+47	sodium metabisulfite	Na2S2O5	salt	20	4	ch17,ch25,ch26,ch31	manufactured+procured
+52	sodium nitrate	NaNO3	salt	39	9	ch02,ch09,ch13,ch15,ch18,ch20,ch27,ch31,ch49	manufactured+procured
+53	sodium nitrite	NaNO2	salt	11	4	ch20,ch31,ch47,ch48	manufactured+procured
+58	sodium oxalate	Na2C2O4	salt	5	2	ch09,ch40	manufactured+procured
+33	sodium silicate	Na2SiO3	salt	23	5	ch09,ch14,ch24,ch30,fc9	manufactured+procured
+43	sodium sulfate	Na2SO4	salt	63	20	ch02,ch05,ch09,ch13,ch14,ch15,ch17,ch19,ch20,ch21,ch23,ch25,ch27,ch28,ch37,ch44,ch45,ch48,ch49,ch50	manufactured+procured
+56	sodium sulfide	Na2S	salt	5	3	ch13,ch17,ch48	manufactured+procured
+54	sodium sulfite	Na2SO3	salt	2	2	ch17,ch48	manufactured+procured
+48	sodium thiosulfate	Na2S2O3	salt	45	8	ch01,ch17,ch18,ch25,ch26,ch32,ch33,fc9	manufactured+procured
+277	sodium tripolyphosphate	Na5P3O10	salt	8	1	ch33	manufactured+procured
+114	sodium vanadate	NaVO3	salt	1	1	ch02	manufactured+procured
+94	tin(II) chloride	SnCl2	salt	12	3	ch11,ch19,ch47	manufactured+procured
+91	zinc chloride	ZnCl2	salt	9	5	ch10,ch12,ch15,ch19,ch20	manufactured
+92	zinc sulfate	ZnSO4	salt	2	2	ch19,ch27	manufactured+procured
+152	acetone	C3H6O	solvent	146	13	ch02,ch06,ch13,ch21,ch23,ch28,ch35,ch36,ch45,ch47,ch48,ch49,fc2	manufactured+procured
+160	benzene	C6H6	solvent	8	4	ch21,ch31,ch44,ch50	manufactured+procured
+157	chloroform	CHCl3	solvent	12	1	ch21	manufactured+procured
+156	diethyl ether	C4H10O	solvent	28	3	ch21,ch49,ch50	manufactured+procured
+149	ethanol	C2H5OH	solvent	420	30	ch02,ch06,ch07,ch10,ch14,ch16,ch18,ch21,ch23,ch24,ch25,ch26,ch31,ch34,ch35,ch36,ch39,ch40,ch41,ch42,ch47,ch48,ch49,ch50,fc10,fc11,fc2,fc6,fc7,fc8	manufactured+procured
+154	ethylene glycol	C2H6O2	solvent	54	5	ch02,ch21,ch35,ch45,ch50	manufactured+procured
+151	isopropyl alcohol	C3H8O	solvent	27	7	ch01,ch02,ch21,ch33,ch41,ch48,fc2	manufactured+procured
+163	kerosene	mixture	solvent	16	2	ch07,fc2	manufactured+procured
+150	methanol	CH3OH	solvent	91	7	ch21,ch23,ch24,ch47,ch48,ch50,fc7	manufactured+procured
+153	methyl ethyl ketone	C4H8O	solvent	65	2	ch21,ch46	manufactured+procured
+162	mineral spirits	mixture	solvent	1	1	ch02	manufactured+procured
+161	naphtha	mixture	solvent	2	2	ch07,ch34	procured
+158	toluene	C7H8	solvent	23	4	ch35,ch41,ch47,ch50	manufactured+procured
+164	turpentine	mixture	solvent	17	1	fc7	manufactured+procured
