@@ -1,0 +1,278 @@
+lithium carbonate||Li2CO3||salt||0||li2co3;;lithium carbonate
+lithium cobalt oxide||LiCoO2||mineral||0||licoo2;;lithium cobalt oxide
+monochloramine||NH2Cl||fence||0||nh2cl;;monochloramine
+nitrogen trichloride||NCl3||fence||0||ncl3;;nitrogen trichloride
+dichloramine||NHCl2||fence||0||nhcl2;;dichloramine
+potassium bisulfate||KHSO4||salt||0||khso4;;potassium bisulfate
+potassium iodate||KIO3||oxidizer||0||kio3;;potassium iodate
+copper(II) oxalate||CuC2O4||salt||0||cuc2o4;;copper(ii) oxalate
+cobalt(II) chloride||CoCl2||salt||0||cocl2;;cobalt(ii) chloride;;cobaltous chloride;;co1cl2o6h12
+magnesium carbonate||MgCO3||mineral||0||mgco3;;magnesium carbonate;;magnesite
+aluminum chloride||AlCl3||salt||0||alcl3;;aluminum chloride
+cryolite||Na3AlF6||mineral||0||na3alf6;;cryolite
+lead iodide||PbI2||fence||0||pbi2;;lead iodide
+lead chromate||PbCrO4||fence||0||pbcro4;;lead chromate;;chrome yellow
+lead chloride||PbCl2||fence||0||pbcl2;;lead chloride
+iron(II) chloride||FeCl2||salt||0||fecl2;;iron(ii) chloride;;ferrous chloride;;fe1cl2
+manganese(II) sulfate||MnSO4||salt||0||mnso4;;manganese(ii) sulfate
+manganese(III) oxide||Mn2O3||mineral||0||mn2o3;;manganese(iii) oxide
+boron trioxide||B2O3||mineral||0||b2o3;;boron trioxide
+nitrous acid||HNO2||acid-in||0||hno2;;nitrous acid
+sulfurous acid||H2SO3||acid-in||0||h2so3;;sulfurous acid
+Caro's acid||H2SO5||acid-in||0||h2so5;;caro's acid;;peroxymonosulfuric acid
+sodium metaborate||NaBO2||salt||0||nabo2;;sodium metaborate
+metakaolin||Al2Si2O7||mineral||0||al2si2o7;;metakaolin
+mullite||Al6Si2O13||mineral||0||al6si2o13;;mullite
+potassium silicate||K2SiO3||mineral||0||k2sio3;;potassium silicate
+potassium calcium silicate||K2CaSi2O6||mineral||0||k2casi2o6;;potassium calcium silicate
+wollastonite (calcium silicate)||CaSiO3||mineral||0||casio3;;wollastonite (calcium silicate);;calcium silicate
+alite (tricalcium silicate)||Ca3SiO5||mineral||0||ca3sio5;;alite (tricalcium silicate);;tricalcium silicate
+belite (dicalcium silicate)||Ca2SiO4||mineral||0||ca2sio4;;belite (dicalcium silicate);;dicalcium silicate
+rankinite (tricalcium disilicate)||Ca3Si2O7||mineral||0||ca3si2o7;;rankinite (tricalcium disilicate);;tricalcium disilicate
+lithium peroxide||Li2O2||oxidizer||0||li2o2;;lithium peroxide
+lithium oxide||Li2O||mineral||0||li2o;;lithium oxide
+chitin||C8H13NO5||polymer||0||c8h13no5;;chitin
+chitosan||C6H11NO4||polymer||0||c6h11no4;;chitosan
+ergosterol||C28H44O||organic||0||c28h44o;;ergosterol
+alpha-amanitin||C39H54N10O14S||fence||0||c39h54n10o14s;;alpha-amanitin;;amatoxin
+dehydroascorbic acid||C6H6O6||organic||0||c6h6o6;;dehydroascorbic acid
+stearic acid||C18H36O2||organic||0||c18h36o2;;stearic acid
+oleic acid||C18H34O2||organic||0||c18h34o2;;oleic acid
+myristic acid||C14H28O2||organic||0||c14h28o2;;myristic acid
+palmitic acid||C16H32O2||organic||0||c16h32o2;;palmitic acid
+lauric acid||C12H24O2||organic||0||c12h24o2;;lauric acid
+linoleic acid||C18H32O2||organic||0||c18h32o2;;linoleic acid
+linolenic acid||C18H30O2||organic||0||c18h30o2;;linolenic acid
+sodium stearate||C18H35NaO2||salt||0||c18h35nao2;;sodium stearate
+sodium oleate||C18H33NaO2||salt||0||c18h33nao2;;sodium oleate
+potassium stearate||C18H35KO2||salt||0||c18h35ko2;;potassium stearate;;c18h35o2k
+potassium oleate||C18H33KO2||salt||0||c18h33ko2;;potassium oleate;;c18h33o2k
+sodium laurate||C12H23NaO2||salt||0||c12h23nao2;;sodium laurate
+potassium palmitate||C16H31KO2||salt||0||c16h31ko2;;potassium palmitate;;c16h31o2k
+orcinol (C7H8O2 isomer class)||C7H8O2||organic||0||c7h8o2;;orcinol (c7h8o2 isomer class);;salicyl alcohol;;saligenin
+potassium chromate||K2CrO4||oxidizer||0||k2cro4;;potassium chromate
+curcumin||C21H20O6||organic||0||c21h20o6;;curcumin;;turmeric
+aleuritic acid||C16H32O5||organic||0||c16h32o5;;aleuritic acid
+betulin||C30H50O2||organic||0||c30h50o2;;betulin
+triacontanol||C30H62O||organic||0||c30h62o;;triacontanol;;myricyl alcohol
+cerotic acid||C26H52O2||organic||0||c26h52o2;;cerotic acid
+limonene (C10H16 terpene class)||C10H16||organic||0||c10h16;;limonene (c10h16 terpene class);;alpha-pinene;;a-pinene;;pinene
+sheet silicate unit||Si4O10||mineral||0||si4o10;;sheet silicate unit;;silicate sheet
+biuret||C2H5N3O2||organic||0||c2h5n3o2;;biuret
+acetaldehyde||C2H4O||organic||0||c2h4o;;acetaldehyde
+melamine||C3H6N6||organic||0||c3h6n6;;melamine
+hydroquinone||C6H6O2||organic||0||c6h6o2;;hydroquinone
+benzoquinone||C6H4O2||organic||0||c6h4o2;;benzoquinone;;quinone
+sodium benzoate||NaC7H5O2||salt||0||nac7h5o2;;sodium benzoate
+potassium sorbate||C6H7KO2||salt||0||c6h7ko2;;potassium sorbate
+sodium lactate||C3H5NaO3||salt||0||c3h5nao3;;sodium lactate
+glycine||C2H5NO2||organic||0||c2h5no2;;glycine
+riboflavin||C17H20N4O6||organic||0||c17h20n4o6;;riboflavin
+trisodium citrate||Na3C6H5O7||salt||0||na3c6h5o7;;trisodium citrate;;sodium citrate
+EDTA||C10H16N2O8||organic||0||c10h16n2o8;;edta;;ethylenediaminetetraacetic acid
+disodium EDTA||Na2C10H14N2O8||salt||0||na2c10h14n2o8;;disodium edta;;disodium edetate
+sodium dodecyl sulfate||C12H25NaO4S||salt||0||c12h25nao4s;;sodium dodecyl sulfate;;sds
+sodium dodecylbenzenesulfonate||C18H29NaO3S||salt||0||c18h29nao3s;;sodium dodecylbenzenesulfonate;;las
+theophylline||C7H8N4O2||organic||0||c7h8n4o2;;theophylline
+eugenol||C10H12O2||organic||0||c10h12o2;;eugenol
+thymol (C10H14O isomer class)||C10H14O||organic||0||c10h14o;;thymol (c10h14o isomer class);;carvone
+cinnamaldehyde||C9H8O||organic||0||c9h8o;;cinnamaldehyde
+capsaicin||C18H27NO3||organic||0||c18h27no3;;capsaicin
+acetic anhydride||C4H6O3||organic||0||c4h6o3;;acetic anhydride
+morphine (C17H19NO3 class)||C17H19NO3||fence||0||c17h19no3;;morphine (c17h19no3 class);;piperine
+leucoindigo||C16H12N2O2||organic||0||c16h12n2o2;;leucoindigo;;indigo white
+methyl red||C15H15N3O2||organic||0||c15h15n3o2;;methyl red
+indigo carmine||C16H10N2O8S2||organic||0||c16h10n2o8s2;;indigo carmine;;c16h8n2na2o8s2;;c16h10n2na2o8s2
+cyclohexane||C6H12||solvent||0||c6h12;;cyclohexane
+pentanol (amyl alcohol class)||C5H12O||solvent||0||c5h12o;;pentanol (amyl alcohol class);;amyl alcohol
+ethyl acetate (C4H8O2 class)||C4H8O2||solvent||0||c4h8o2;;ethyl acetate (c4h8o2 class);;1,4-dioxane
+vinyl acetate||C4H6O2||organic||0||c4h6o2;;vinyl acetate
+ethyl cyanoacrylate||C6H7NO2||polymer||0||c6h7no2;;ethyl cyanoacrylate;;cyanoacrylate
+acrolein||C3H4O||fence||0||c3h4o;;acrolein
+trilaurin||C39H74O6||organic||0||c39h74o6;;trilaurin
+tripalmitin||C51H98O6||organic||0||c51h98o6;;tripalmitin
+methyl salicylate (C8H8O3 class)||C8H8O3||organic||0||c8h8o3;;methyl salicylate (c8h8o3 class);;vanillin;;oil of wintergreen
+salicin||C13H18O7||organic||0||c13h18o7;;salicin
+gallic acid||C7H6O5||organic||0||c7h6o5;;gallic acid
+pentose sugars (C5H10O5 class)||C5H10O5||organic||0||c5h10o5;;pentose sugars (c5h10o5 class);;ribose;;arabinose;;pentose
+quinine||C20H24N2O2||organic||0||c20h24n2o2;;quinine
+naphthoquinone||C10H6O3||organic||0||c10h6o3;;naphthoquinone;;1,4-naphthoquinone
+sodium salicylate||NaC7H5O3||salt||0||nac7h5o3;;sodium salicylate
+octane||C8H18||solvent||0||c8h18;;octane
+potassium sulfate||K2SO4||salt||0||k2so4;;potassium sulfate
+potassium metabisulfite||K2S2O5||salt||0||k2s2o5;;potassium metabisulfite
+sodium pyrosulfate||Na2S2O7||salt||0||na2s2o7;;sodium pyrosulfate
+cyanuric acid||C3H3N3O3||organic||0||c3h3n3o3;;cyanuric acid;;c3n3o3h3
+sodium tetrathionate||Na2S4O6||salt||0||na2s4o6;;sodium tetrathionate
+potassium peroxymonosulfate||KHSO5||oxidizer||0||khso5;;potassium peroxymonosulfate;;oxone
+sodium iodate||NaIO3||salt||0||naio3;;sodium iodate
+manganese(II) chloride||MnCl2||salt||0||mncl2;;manganese(ii) chloride
+potassium triiodide||KI3||salt||0||ki3;;potassium triiodide
+sodium bromate||NaBrO3||oxidizer||0||nabro3;;sodium bromate
+zinc carbonate||ZnCO3||mineral||0||znco3;;zinc carbonate
+aluminum sulfide||Al2S3||salt||0||al2s3;;aluminum sulfide
+tin(II) sulfate||SnSO4||salt||0||snso4;;tin(ii) sulfate
+tin(IV) chloride||SnCl4||salt||0||sncl4;;tin(iv) chloride
+silver sulfide||Ag2S||mineral||0||ag2s;;silver sulfide
+tin(II) fluoride||SnF2||salt||0||snf2;;tin(ii) fluoride
+ammonium bicarbonate||NH4HCO3||salt||0||nh4hco3;;ammonium bicarbonate
+ammonium carbamate||NH2COONH4||salt||0||nh2coonh4;;ammonium carbamate
+potassium tetraiodomercurate||K2HgI4||fence||0||k2hgi4;;potassium tetraiodomercurate;;mayer's reagent
+phosphorus pentoxide||P2O5||mineral||0||p2o5;;phosphorus pentoxide
+hexane||C6H14||solvent||0||c6h14;;hexane
+sodium dithionite||Na2S2O4||salt||0||na2s2o4;;sodium dithionite
+disodium phosphate||Na2HPO4||salt||0||na2hpo4;;disodium phosphate
+potassium phosphate||K2HPO4||salt||0||k2hpo4;;potassium phosphate
+iodic acid||HIO3||acid-in||0||hio3;;iodic acid
+chloric acid||HClO3||acid-in||0||hclo3;;chloric acid
+uranium dioxide||UO2||mineral||0||uo2;;uranium dioxide
+thorium dioxide||ThO2||mineral||0||tho2;;thorium dioxide
+americium dioxide||AmO2||mineral||0||amo2;;americium dioxide
+lead silicate||PbSiO3||fence||0||pbsio3;;lead silicate
+cortisol||C21H30O5||organic||0||c21h30o5;;cortisol
+diethylene glycol||C4H10O3||solvent||0||c4h10o3;;diethylene glycol
+ketene||C2H2O||organic||0||c2h2o;;ketene
+acetyl chloride||C2H3ClO||organic||0||c2h3clo;;acetyl chloride
+lysine||C6H14N2O2||organic||0||c6h14n2o2;;lysine
+hydroxylamine||NH2OH||base||0||nh2oh;;hydroxylamine
+aniline||C6H7N||organic||0||c6h7n;;aniline
+benzenediazonium chloride||C6H5N2Cl||organic||0||c6h5n2cl;;benzenediazonium chloride
+p-phenylenediamine||C6H8N2||organic||0||c6h8n2;;p-phenylenediamine;;phenylenediamine
+isatin||C8H5NO2||organic||0||c8h5no2;;isatin
+pyridine||C5H5N||solvent||0||c5h5n;;pyridine
+naphthol||C10H8O||organic||0||c10h8o;;naphthol
+hydrazine sulfate||N2H6SO4||fence||0||n2h6so4;;hydrazine sulfate
+sodium gluconate||C6H11NaO7||salt||0||c6h11nao7;;sodium gluconate
+tungsten trioxide||WO3||mineral||0||wo3;;tungsten trioxide
+nickel(II) chloride||NiCl2||salt||0||nicl2;;nickel(ii) chloride
+gold(III) chloride||AuCl3||salt||0||aucl3;;gold(iii) chloride
+calomel||Hg2Cl2||fence||0||hg2cl2;;calomel;;mercury(i) chloride
+potassium oxide||K2O||mineral||0||k2o;;potassium oxide
+sodium oxide||Na2O||mineral||0||na2o;;sodium oxide
+potassium bicarbonate||KHCO3||salt||0||khco3;;potassium bicarbonate
+barium chloride||BaCl2||fence||0||bacl2;;barium chloride
+lead carbonate||PbCO3||fence||0||pbco3;;lead carbonate
+aluminum fluoride||AlF3||salt||0||alf3;;aluminum fluoride
+lithium nitrate||LiNO3||oxidizer||0||lino3;;lithium nitrate
+lithium sulfate||Li2SO4||salt||0||li2so4;;lithium sulfate
+lithium aluminate||LiAlO2||mineral||0||lialo2;;lithium aluminate
+potassium superoxide||KO2||oxidizer||0||ko2;;potassium superoxide
+sodium borohydride||NaBH4||salt||0||nabh4;;sodium borohydride
+ethylenediamine||C2H8N2||base||0||c2h8n2;;ethylenediamine
+chloroprene||C4H5Cl||organic||0||c4h5cl;;chloroprene
+dodecane||C12H26||solvent||0||c12h26;;dodecane
+adipic acid||C6H10O4||organic||0||c6h10o4;;adipic acid
+cyclopentanone||C5H8O||solvent||0||c5h8o;;cyclopentanone
+cyclopentanone ethylene ketal||C7H12O2||organic||0||c7h12o2;;cyclopentanone ethylene ketal
+tribromoketal (Ch 50 route)||C7H9Br3O2||organic||0||c7h9br3o2;;tribromoketal (ch 50 route);;2,2,5-tribromoketal
+bromocyclopentadienone ketal (Ch 50 route)||C7H7BrO2||organic||0||c7h7bro2;;bromocyclopentadienone ketal (ch 50 route);;bromoketal
+dimer diketal (Ch 50 route)||C14H14Br2O4||organic||0||c14h14br2o4;;dimer diketal (ch 50 route)
+dibromo diketone (Ch 50 route)||C10H6Br2O2||organic||0||c10h6br2o2;;dibromo diketone (ch 50 route);;diketone
+dimethyl cubane-1,4-dicarboxylate||C12H12O4||organic||0||c12h12o4;;dimethyl cubane-1,4-dicarboxylate
+benzophenone||C13H10O||organic||0||c13h10o;;benzophenone
+acetonitrile||C2H3N||solvent||0||c2h3n;;acetonitrile
+disodium cubane-1,4-dicarboxylate||Na2C10H6O4||salt||0||na2c10h6o4;;disodium cubane-1,4-dicarboxylate
+N-acetylglucosamine||C8H15NO6||organic||0||c8h15no6;;n-acetylglucosamine;;nag
+usnic acid||C18H16O7||organic||0||c18h16o7;;usnic acid
+orcein||C28H24N2O7||organic||0||c28h24n2o7;;orcein
+glucosamine||C6H13NO5||organic||0||c6h13no5;;glucosamine
+zircon (zirconium silicate)||ZrSiO4||mineral||0||zrsio4;;zircon (zirconium silicate);;zirconium silicate
+orthoclase feldspar||KAlSi3O8||mineral||0||kalsi3o8;;orthoclase feldspar;;potassium feldspar
+nepheline||NaAlSiO4||mineral||0||naalsio4;;nepheline
+spodumene||LiAlSi2O6||mineral||0||lialsi2o6;;spodumene
+caffeine hydrochloride||C8H11N4O2Cl||organic||0||c8h11n4o2cl;;caffeine hydrochloride
+allicin||C6H10OS2||organic||0||c6h10os2;;allicin
+diallyl disulfide||C6H10S2||organic||0||c6h10s2;;diallyl disulfide
+allylsulfenic acid||C3H6OS||organic||0||c3h6os;;allylsulfenic acid
+allyl isothiocyanate||C3H5NS||organic||0||c3h5ns;;allyl isothiocyanate;;aitc;;mustard oil
+ammonia (aqueous)||NH3(aq)||base||0||nh3;;nh4oh;;n1h3
+calcium sulfate (gypsum)||CaSO4·2H2O||mineral||0||caso4;;ca1s1o6h4
+ethanol||C2H5OH||solvent||0||c2h5oh;;c2h6o;;c2h6o1
+glucose||C6H12O6||food||0||c6h12o6;;o6c6h12
+sodium acetate||CH3COONa||salt||0||ch3coona;;nac2h3o2;;c2h3nao2
+sucrose||C12H22O11||food||0||c12h22o11
+glycerin||C3H8O3||organic||0||c3h8o3
+aspirin (acetylsalicylic acid)||C9H8O4||pharma||0||c9h8o4
+salicylic acid||C7H6O3||acid-org||0||c7h6o3
+ascorbic acid||C6H8O6||acid-org||0||c6h8o6
+tannic acid||C76H52O46||acid-org||0||c76h52o46
+indigo||C16H10N2O2||pigment||0||c16h10n2o2
+polyethylene terephthalate (PET)||[C10H8O4]n||polymer||0||c10h8o4
+ethylene glycol||C2H6O2||solvent||0||c2h6o2
+propane||C3H8||gas||0||c3h8
+kerosene||mixture||solvent||0||c25h52
+silicone||polysiloxane||polymer||0||c5h8
+methanol||CH3OH||solvent||0||ch4o;;c1h4o1
+formaldehyde||CH2O||organic||0||ch2o
+urea||CH4N2O||organic||0||ch4n2o
+butane||C4H10||gas||0||c4h10
+calcium oxalate||CaC2O4||salt||0||cac2o4
+sodium oxalate||Na2C2O4||salt||0||na2c2o4
+borax (sodium tetraborate decahydrate)||Na2B4O7·10H2O||salt||0||na2b4o7;;b4h20na2o17
+kaolinite||Al2Si2O5(OH)4||mineral||0||al2si2o5;;oh4
+sodium nitrite||NaNO2||salt||0||nano2
+sodium chlorate||NaClO3||fence||0||naclo3
+magnesium chloride||MgCl2||salt||0||mgcl2
+zinc sulfate||ZnSO4||salt||0||znso4
+sodium sulfite||Na2SO3||salt||0||na2so3
+sodium sulfide||Na2S||salt||0||na2s
+potassium dichromate||K2Cr2O7||oxidizer||0||k2cr2o7
+potassium manganate||K2MnO4||salt||0||k2mno4
+sodium tripolyphosphate||Na5P3O10||salt||0||na5p3o10
+oxalic acid||H2C2O4||acid-org||0||c2h2o4;;c2h6o6
+trichloroisocyanuric acid||TCCA||oxidizer||0||c3n3o3cl3
+acetic acid||CH3COOH||acid-org||0||c2h4o2
+formic acid||CH2O2||acid-org||0||ch2o2
+caffeine||C8H10N4O2||pharma||0||c8h10n4o2
+alizarin||C14H8O4||pigment||0||c14h8o4
+phenolphthalein||C20H14O4||indicator||0||c20h14o4
+beeswax||wax||organic||0||c46h92o2
+chloroform||CHCl3||solvent||0||chcl3
+acetone||C3H6O||solvent||0||ch3coch3;;c3h6o
+methyl ethyl ketone||C4H8O||solvent||0||c4h8o
+diethyl ether||C4H10O||solvent||0||c4h10o
+benzoic acid||C7H6O2||acid-org||0||c7h6o2
+menthol||C10H20O||organic||0||c10h20o
+phenol||C6H5OH||organic||0||c6h6o
+lactic acid||C3H6O3||acid-org||0||c3h6o3
+starch||(C6H10O5)n||food||0||c6h10o5
+cellulose||(C6H10O5)n||organic||0||c6h10o5
+cubane||C8H8||fence||0||c8h8
+octanitrocubane||C8(NO2)8||fence||0||c8n8o16
+toluene||C7H8||solvent||0||c7h8
+mercuric chloride||HgCl2||fence||0||hgcl2
+methyl orange||indicator||indicator||0||c14h14n3nao3s
+sodium ethoxide||C2H5ONa||organic||0||nac2h5o
+isopropyl alcohol||C3H8O||solvent||0||c3h8o
+boric acid||H3BO3||salt||0||bh3o3
+sodium silicate||Na2SiO3||salt||0||o2si
+sodium hypochlorite||NaOCl||salt||0||cl2na2o2
+calcium hypochlorite||Ca(OCl)2||oxidizer||0||cacl2o2
+sodium sulfate||Na2SO4||salt||0||na2o4s
+sulfuric acid||H2SO4||acid-in||0||h2o4s
+potassium carbonate||K2CO3||base||0||k2c1o3
+carbon dioxide||CO2||gas||0||c1o2
+sodium bromide||NaBr||salt||0||na1br1
+hydrochloric acid||HCl||acid-in||0||h1cl1
+sodium chloride||NaCl||salt||0||na1cl1;;na1o1cl1
+sodium hydroxide||NaOH||base||0||na1h1o1;;na1o1h1
+hydrobromic acid||HBr||acid-in||0||h1br1
+calcium hydroxide||Ca(OH)2||base||0||cao2h2;;ca1o2h2;;h2o2ca1
+aluminum sulfate||Al2(SO4)3||salt||0||k1al1s2o20h24;;h24o20al1s2k1
+copper(II) sulfate pentahydrate||CuSO4·5H2O||salt||0||cu1s1o4;;cu1s1o9h10
+iron(II) sulfate||FeSO4||salt||0||fe1s1o4;;fe1s1o11h14
+iron(III) chloride||FeCl3||salt||0||fe1cl3
+zinc oxide||ZnO||oxide||0||zn1o1
+copper(II) oxide||CuO||oxide||0||cu1o1
+copper(I) oxide||Cu2O||oxide||0||cu2o1
+calcium carbonate||CaCO3||mineral||0||ca1c1o3
+sodium bicarbonate||NaHCO3||base||0||na1h1c1o3
+hydrogen peroxide||H2O2||oxidizer||0||o2h2
+hydrazine||N2H4||organic||0||nh2nh2
+rosin||resin||organic||0||c20h30o2;;c19h29co2h
+silver chloride||AgCl||salt||0||cl2ag2
+ammonium sulfate||(NH4)2SO4||salt||0||h8n2o4s1
+ferric ammonium sulfate||NH4Fe(SO4)2||salt||0||o12s3fe2
+tin(II) chloride||SnCl2||salt||0||sn1cl2
+methane||CH4||gas||0||c1h4
+ethylene||C2H4||gas||0||c2h4
