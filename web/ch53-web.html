@@ -115,7 +115,7 @@
 <p><em>Hints.</em> p1 = 65537 is the corruption's own size; the residues are what a single-prime design would have gated on.</p>
 <p><em>Worked answer.</em> +65537 is congruent to zero modulo 65537, so the corrupted value's residue is unchanged and the p1-lane check passes — a single-prime engine at 65537 would have approved the corruption. The same shift modulo 1000003 is 65537, nonzero, so the p2-lane residues disagree and the gate fails. The exact integer lane catches it trivially and in addition certifies what the modular lanes cannot certify alone — the absolute value, not merely its residue class. The design's claim, demonstrated live: a corruption must deceive three independent lanes to pass, and the J4 class cannot even deceive two [computed: Lab 53.1, the injections, J4].</p>
 <hr>
-<p class="banner no-print">HTML edition of the drafted manuscript — the labels are the contract. Canon-Coverage and everything after it live in the .md master only.</p>
+<p class="banner no-print">HTML edition of the reviewed manuscript — the labels are the contract. Canon-Coverage and everything after it live in the .md master only.</p>
 </main>
 </body>
 </html>
