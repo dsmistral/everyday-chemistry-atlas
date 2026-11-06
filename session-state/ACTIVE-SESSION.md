@@ -1,0 +1,7 @@
+# ACTIVE SESSION — 202 (open, 2026-11-06)
+
+Unit: THE PHASE-3 ADVERSARIAL REVIEW OF VOL IX CH 55 "CRYOGENS — LIQUID NITROGEN AND THE COLD AXIS" (the queued unit; the map line `drafted`, flips to `reviewed` at close if the verdict holds). The chapter master read in full this session (manuscript/vol9/ch55.md, 54,323 B, md5 f0c579b6, repo = mirror, verified at the 201 close). The review's fresh engine: Engine 87, a fresh paradigm, zero code shared with Engines 1–86, split ≤4-KB pieces, probe first, no recursion, no BigInt.
+
+Done so far: session open; the master read in full; the skeptic's first sweep complete — candidate objections in the expansion/displacement chain (the printed 692.93/704.75 vs the printed constants' 692.82/704.63; the closet 17.4% vs the chapter's own printed formula's 16.76%; the threshold-room arithmetic 14,533.7/1.4 vs 9,651.6) — ALL PENDING machine verification by the engine before any becomes a correction of record.
+
+Next: (1) Engine 87 design written to disk BEFORE any run; (2) the battery split in pieces, outputs frozen with md5 receipts; (3) the pin re-greps at the review HEAD; (4) the canvas/master byte-identity check; (5) the verdict + Revision Appendix (extend-never-rewrite) + the E87 record set; (6) the web edition re-render oracle-first if the master changes; (7) the close via the in-repo Actions route; ALWAYS-SYNC at close; extend-never-rewrite; one unit per session.
