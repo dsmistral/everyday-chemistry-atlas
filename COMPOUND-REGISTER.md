@@ -580,3 +580,342 @@ Known bounds (never laundered): pass-2 recall is bounded by the lexicon (an unna
 | fc9 | 32 | 637 |
 
 *Register built in-repo by session 186's extractor; every count reproducible from audit/compound-register/occurrences.tsv + lexicon.txt. The register is a records artifact, not a chapter: extend, never rewrite.*
+
+## E. Session 204 (2026-11-06) — the docket-E mechanical register upgrade
+
+*Executed as the standing docket E ("execute and finish mechanical register upgrade" — the user's call at session 204). Scope per the ACTIVE-SESSION state: the lexicon/alias upgrades, the phase-2 candidate adjudication, and the discard rules — the register's pass-2 machinery brought current. Method: the fresh census re-swept all 61 masters of the 186 scope (ch01–ch50 + fc1–fc11) on the 186 extractor's own token rule; every disposition below cites that census; and every naming resolution was made by grepping the token's own source chapter before any row was written — no name invented, no count laundered. Deliverables: `audit/compound-register/lexicon-upgrade-204.txt` (NEW rows plus alias additions, pure lexicon format, the pass-1 matcher's upgrade) and this section, the adjudication of record.*
+
+### E.1 The fresh census (receipts)
+
+- Batch gates, exact: Region A 421 + 828 = 1,249; Region B 767 + 363 = 1,130; Region C 25 + 375 + 79 + 152 = 631; Region D 142 + 109 + 188 + 178 + 219 + 160 + 94 = 1,090.
+- occTotal 4,100; distinct 562 — distinct matching the 186 candidate census exactly (SUMMARY.md: "Phase-2 candidates: 562.").
+- The local fc1/fc2 mirrors byte-verified against the repo masters before the sweep (68,696 and 52,809 bytes, every count identical).
+
+### E.2 The Section-C comparison, and the one finding
+
+- 146 of the 150 Section-C rows reproduce exactly.
+- Fold-attributed deltas (the session-189 Coverage Fold edits): H2O 614 → 617 (+3), NH3 132 → 133 (+1), Mn2O3 5 → 6 (+1), HgCl2 3 → 4 (below the Section-C cut; the fold's ch43 edit — dispositioned as an alias addition to the mercuric chloride row below).
+- **THE FINDING (unattributed): FC2 63 → 62 (−1).** Not fold-attributed — the folds only added tokens. A real corpus change since 186; the most plausible cause is the session-189 ch43 fold edit dropping one "FC2" label mention (ch43 is the only FC2-bearing chapter among the six fold-edited masters; its fresh count is 1). Disclosed as found; never laundered.
+
+### E.3 The naming resolutions (greps at the sources, this session)
+
+| Token | The source names it | Disposition |
+| --- | --- | --- |
+| C6H7NO2 | ethyl cyanoacrylate — Ch 36's polymer-pair node, Ch 25's 125.127 pin (19 mentions, the largest former tail token) | NEW row |
+| C4H6O2 | vinyl acetate — Ch 36's binder-wing gateway (E6: C4H6O2 + NaOH → C2H4O + CH3COONa) | NEW row |
+| C2H4O | acetaldehyde — E6's product, its formula also the PVA repeat Ch 35 pinned at 44.053 (cross-attribution) | NEW row |
+| C16H32O5 | aleuritic acid — FC8's N1 (304.427), the shellac monomer | NEW row |
+| C30H50O2 | betulin — FC7's N2 (442.728), the birch-bark triterpene | NEW row |
+| C8H15NO6 | N-acetylglucosamine — FC10's S2 (221.209), the chitin monomer | NEW row |
+| C32H60O8 | FC8's own label: "the labeled polyester dimer model" (N5) — a LABELED MODEL, not a compound | reclassified: model artifact, discarded (the binding's NEW-row expectation corrected by the source grep; disclosed) |
+| C7H8O2 | the orcinol / salicyl-alcohol isomer class — FC10's S11 prints 124.139, the same number Ch 34 pinned to willow's salicyl alcohol | NEW row, named as class |
+| C10H16 | the limonene / α-pinene isomer class — FC7's I1 prints α-pinene as Ch 34's limonene twin | NEW row, named as class |
+| C14H28O2 | myristic acid — FC8's N4, by F1 a Ch 23 pin | NEW row |
+| C6H10OS2 / C6H10S2 / C3H6OS / C3H5NS | Ch 34's sulfur militia, all named at their own battery: allicin, diallyl disulfide, allylsulfenic acid, allyl isothiocyanate | NEW rows |
+| C8H11N4O2Cl | caffeine hydrochloride — Ch 34's E2 row | NEW row |
+
+### E.4 The discard rules (binding, by class)
+
+- **D1 — water-class:** H2O, D2O, H3O, NH3O, H2O1 (the water-family convention).
+- **D2 — label/identifier:** the FC/PR/ST/RD/MT/MV/RL/RX/RPb/RPR/RP/RR/RS/RB/RC/RE/RT/INJ/PB/RA label families (regex `^(FC|PR|ST|RD|MT|MV|RL|RX|RPb|RPR|RP|RR|RS|RB|RC|RE|RT|INJ|PB|RA)\d*$`), plus C3S, C2S, TRPV1, TRPA1, C1V1, C2V2, AX2E, AX2E2, M2O, LN2, NWc9BGMDaA, OrZ5Oa9K1R0, P10P, E10E, Na0Cl, PBk9, PR83 — engine/battery labels and notation shorthands, never compounds.
+- **D3 — ion-fragment:** SO4, NO3, NH4, CO3, HCO3, NH2, CH3, CH3COO, HSO3, HSO4, HSO5, PO4, S2O3, S2O4, S4O6, CH2, C2O4, C2H3O2, MnO4, B4O7, ClO3, IO3, BrO3, OCH3, CH2OH, C6H3, C6H4, C6H5O7, C6H11O7, C18H35O2, C17H35COO, C7H5O3, K4Fe, NH4Al, OH4, C2H6OSi, C2H8O2Si, C6H12O4Si, C7H12O6Si, C2H5, HO2 — each owned by its parent row (citrate → citric acid; stearate → the stearate rows; salicylate → salicylic acid; gluconate → gluconate chemistry; the silicone oligomer fragments → the silicone row; the kaolinite (OH)4 artifact → kaolinite).
+- **D4 — parser-battery / reversed / model artifacts:** the explicit-1 battery tokens whose stripped base matches an existing or new row were CONVERTED to alias additions (E.6); the remainder are discarded: SO42, Na2Zn, K2Zn, C33H81O2, NH4NH4, C2H4N3O2, C2H8, C4H12O2, C32H60O8, C18N18Fe7, H10O8Na2S2, O6Na4S4Cl1Ag1, C24N24Fe8, H1O4, Cu2C1O5H2, Fe1O2H1, Fe1O2H2, Fe1O3H3, Na1Al1O4H4 — engine artifacts (the fc4 2×ethanol sum row C4H12O2; FC8's labeled polyester dimer model C32H60O8; the malachite battery form Cu2C1O5H2 with no register row; the iron-complex battery sums).
+
+### E.5 The tail (below-cut unnamed)
+
+Retained as candidates, no row written, no name invented: C9H6O4, C8H5NO4, C19H14O5S, C8H7N3O2, C32H22N6Na2O6S2, C18H31O2, C19H36O2, C7H14O2, C6H12O2, C5H5NO2, C15H16O2, C21H24O4, C2H6N2O2, C10H11NaO2, C5H10S, C8H9NO3, C7H10O4S, C9H9N, C6H9N2Cl, C4H4BrNO2, C5H12N2O2, C5H13ClN2O2, C4H12N2, C6H15ClN2O2, C5H10N2, C5H14N2, C8H16N2, CH3ClN2O, C6H16O2, C6H6N2O2, C16H11N3O3, C12H9N3O4, C12H11N, C8H11NO2, C7H5NO3, C10H18O2, C15H20O5, C15H20O4, C4H12O4. (C15H20O5 and C15H20O4 are FC8's shellac hydroxy-fatty-acid family members — the family the chapter itself refuses to name at its own gate; that refusal is inherited here.)
+
+### E.6 The alias additions (the mechanical upgrade)
+
+| Row | Added alias(es) | Note |
+| --- | --- | --- |
+| ammonia (aqueous) | nh3, nh4oh, n1h3 | the NH3 / NH4OH faces |
+| calcium sulfate (gypsum) | caso4, ca1s1o6h4 | the anhydrous and dihydrate notation |
+| ethanol | c2h5oh, c2h6o, c2h6o1 | three notation faces |
+| glucose | c6h12o6, o6c6h12 | incl. the reversed battery form; lactose/trehalose isomers cross-attributed |
+| sodium acetate | ch3coona, nac2h3o2, c2h3nao2 | three notation faces |
+| sucrose | c12h22o11 | lactose (FC8) and trehalose (FC10) are same-formula isomers |
+| glycerin | c3h8o3 | the C3H8O3 face |
+| aspirin (acetylsalicylic acid) | c9h8o4 | the formula face |
+| salicylic acid | c7h6o3 | the formula face |
+| ascorbic acid | c6h8o6 | the formula face |
+| tannic acid | c76h52o46 | the ten-galloyl convention's formula face |
+| indigo | c16h10n2o2 | the formula face |
+| polyethylene terephthalate (PET) | c10h8o4 | repeat unit; Ch 50's cubane diacid is the same formula — cross-attribution |
+| ethylene glycol | c2h6o2 | the formula face |
+| propane | c3h8 | the formula face |
+| kerosene | c25h52 | the formula face |
+| silicone | c5h8 | isoprene repeat |
+| methanol | ch4o, c1h4o1 | Hill + battery faces |
+| formaldehyde | ch2o | the formula face |
+| urea | ch4n2o | the formula face |
+| butane | c4h10 | the formula face |
+| calcium oxalate | cac2o4 | the formula face |
+| sodium oxalate | na2c2o4 | the formula face |
+| borax (sodium tetraborate decahydrate) | na2b4o7, b4h20na2o17 | anhydrous + decahydrate notation |
+| kaolinite | al2si2o5, oh4 | the dehydroxylated sheet + the (OH)4 battery artifact |
+| sodium nitrite | nano2 | the formula face |
+| sodium chlorate | naclo3 | the formula face |
+| magnesium chloride | mgcl2 | the formula face |
+| zinc sulfate | znso4 | the formula face |
+| sodium sulfite | na2so3 | the formula face |
+| sodium sulfide | na2s | the formula face |
+| potassium dichromate | k2cr2o7 | the formula face |
+| potassium manganate | k2mno4 | the formula face |
+| sodium tripolyphosphate | na5p3o10 | the formula face |
+| oxalic acid | c2h2o4, c2h6o6 | anhydrous + dihydrate notation |
+| trichloroisocyanuric acid | c3n3o3cl3 | the formula face |
+| acetic acid | c2h4o2 | the formula face |
+| formic acid | ch2o2 | the formula face |
+| caffeine | c8h10n4o2 | the formula face |
+| alizarin | c14h8o4 | the formula face |
+| phenolphthalein | c20h14o4 | the formula face |
+| beeswax | c46h92o2 | myricyl palmitate face |
+| chloroform | chcl3 | the formula face |
+| acetone | ch3coch3, c3h6o | two notation faces |
+| methyl ethyl ketone | c4h8o | the formula face |
+| diethyl ether | c4h10o | the formula face |
+| benzoic acid | c7h6o2 | the formula face |
+| menthol | c10h20o | the formula face |
+| phenol | c6h6o | the formula face |
+| lactic acid | c3h6o3 | the formula face |
+| starch | c6h10o5 | repeat unit; cellulose cross-attribution |
+| cellulose | c6h10o5 | repeat unit; starch cross-attribution |
+| cubane | c8h8 | the formula face; polystyrene cross-attribution |
+| octanitrocubane | c8n8o16 | the formula face |
+| toluene | c7h8 | the formula face |
+| mercuric chloride | hgcl2 | the formula face (the audit's ch43 row) |
+| methyl orange | c14h14n3nao3s | the formula face |
+| sodium ethoxide | nac2h5o | the formula face |
+| isopropyl alcohol | c3h8o | the formula face |
+| boric acid | bh3o3 | the Hill face |
+| sodium silicate | o2si | the reversed face |
+| sodium hypochlorite | cl2na2o2 | the (NaOCl)2 battery form |
+| calcium hypochlorite | cacl2o2 | the notation face |
+| sodium sulfate | na2o4s | the Hill face |
+| sulfuric acid | h2o4s | the Hill face |
+| potassium carbonate | k2c1o3 | the battery face |
+| carbon dioxide | c1o2 | the battery face |
+| sodium bromide | na1br1 | the battery face |
+| hydrochloric acid | h1cl1 | the battery face |
+| sodium chloride | na1cl1, na1o1cl1 | the battery faces |
+| sodium hydroxide | na1h1o1, na1o1h1 | the battery faces |
+| hydrobromic acid | h1br1 | the battery face |
+| calcium hydroxide | cao2h2, ca1o2h2, h2o2ca1 | three battery faces |
+| aluminum sulfate | k1al1s2o20h24, h24o20al1s2k1 | the written-out dodecahydrate forms |
+| copper(II) sulfate pentahydrate | cu1s1o4, cu1s1o9h10 | anhydrous + pentahydrate battery forms |
+| iron(II) sulfate | fe1s1o4, fe1s1o11h14 | anhydrous + heptahydrate battery forms |
+| iron(III) chloride | fe1cl3 | the battery face |
+| zinc oxide | zn1o1 | the battery face |
+| copper(II) oxide | cu1o1 | the battery face |
+| copper(I) oxide | cu2o1 | the battery face |
+| calcium carbonate | ca1c1o3 | the battery face |
+| sodium bicarbonate | na1h1c1o3 | the battery face |
+| hydrogen peroxide | o2h2 | the reversed face |
+| hydrazine | nh2nh2 | the written-out face |
+| rosin | c20h30o2, c19h29co2h | abietic acid + its written-out face |
+| silver chloride | cl2ag2 | the doubled battery form |
+| ammonium sulfate | h8n2o4s1 | the written-out form |
+| ferric ammonium sulfate | o12s3fe2 | the written-out form |
+| tin(II) chloride | sn1cl2 | the battery face |
+| methane | c1h4 | the battery face |
+| ethylene | c2h4 | the formula face |
+
+### E.7 The NEW rows
+
+| Name | Formula | Category | Fresh count |
+| --- | --- | --- | --- |
+| lithium carbonate | Li2CO3 | salt | 24 |
+| lithium cobalt oxide | LiCoO2 | mineral | 14 |
+| monochloramine | NH2Cl | fence | 16 |
+| nitrogen trichloride | NCl3 | fence | 16 |
+| dichloramine | NHCl2 | fence | 6 |
+| potassium bisulfate | KHSO4 | salt | 10 |
+| potassium iodate | KIO3 | oxidizer | 12 |
+| copper(II) oxalate | CuC2O4 | salt | 13 |
+| cobalt(II) chloride | CoCl2 | salt | 14 |
+| magnesium carbonate | MgCO3 | mineral | 18 |
+| aluminum chloride | AlCl3 | salt | 11 |
+| cryolite | Na3AlF6 | mineral | 5 |
+| lead iodide | PbI2 | fence | 8 |
+| lead chromate | PbCrO4 | fence | 8 |
+| lead chloride | PbCl2 | fence | 7 |
+| iron(II) chloride | FeCl2 | salt | 8 |
+| manganese(II) sulfate | MnSO4 | salt | 5 |
+| manganese(III) oxide | Mn2O3 | mineral | 6 |
+| boron trioxide | B2O3 | mineral | 8 |
+| nitrous acid | HNO2 | acid-in | 10 |
+| sulfurous acid | H2SO3 | acid-in | 9 |
+| Caro's acid | H2SO5 | acid-in | 6 |
+| sodium metaborate | NaBO2 | salt | 7 |
+| metakaolin | Al2Si2O7 | mineral | 13 |
+| mullite | Al6Si2O13 | mineral | 10 |
+| potassium silicate | K2SiO3 | mineral | 10 |
+| potassium calcium silicate | K2CaSi2O6 | mineral | 11 |
+| wollastonite (calcium silicate) | CaSiO3 | mineral | 11 |
+| alite (tricalcium silicate) | Ca3SiO5 | mineral | 7 |
+| belite (dicalcium silicate) | Ca2SiO4 | mineral | 7 |
+| rankinite (tricalcium disilicate) | Ca3Si2O7 | mineral | 6 |
+| lithium peroxide | Li2O2 | oxidizer | 8 |
+| lithium oxide | Li2O | mineral | 6 |
+| chitin | C8H13NO5 | polymer | 12 |
+| chitosan | C6H11NO4 | polymer | 7 |
+| ergosterol | C28H44O | organic | 10 |
+| alpha-amanitin | C39H54N10O14S | fence | 5 |
+| dehydroascorbic acid | C6H6O6 | organic | 8 |
+| stearic acid | C18H36O2 | organic | 24 |
+| oleic acid | C18H34O2 | organic | 17 |
+| myristic acid | C14H28O2 | organic | below cut |
+| palmitic acid | C16H32O2 | organic | 4 |
+| lauric acid | C12H24O2 | organic | 1 |
+| linoleic acid | C18H32O2 | organic | 2 |
+| linolenic acid | C18H30O2 | organic | 1 |
+| sodium stearate | C18H35NaO2 | salt | 9 |
+| sodium oleate | C18H33NaO2 | salt | 9 |
+| potassium stearate | C18H35KO2 | salt | below cut |
+| potassium oleate | C18H33KO2 | salt | below cut |
+| sodium laurate | C12H23NaO2 | salt | 1 |
+| potassium palmitate | C16H31KO2 | salt | 2 |
+| orcinol (C7H8O2 isomer class) | C7H8O2 | organic | 18 |
+| potassium chromate | K2CrO4 | oxidizer | 5 |
+| curcumin | C21H20O6 | organic | 4 |
+| aleuritic acid | C16H32O5 | organic | 7 |
+| betulin | C30H50O2 | organic | 4 |
+| triacontanol | C30H62O | organic | 5 |
+| cerotic acid | C26H52O2 | organic | 5 |
+| limonene (C10H16 terpene class) | C10H16 | organic | 7 |
+| sheet silicate unit | Si4O10 | mineral | 7 |
+| biuret | C2H5N3O2 | organic | 9 |
+| acetaldehyde | C2H4O | organic | 22 |
+| melamine | C3H6N6 | organic | 2 |
+| hydroquinone | C6H6O2 | organic | 1 |
+| benzoquinone | C6H4O2 | organic | 1 |
+| sodium benzoate | NaC7H5O2 | salt | 1 |
+| potassium sorbate | C6H7KO2 | salt | 1 |
+| sodium lactate | C3H5NaO3 | salt | 1 |
+| glycine | C2H5NO2 | organic | 1 |
+| riboflavin | C17H20N4O6 | organic | 1 |
+| trisodium citrate | Na3C6H5O7 | salt | 2 |
+| EDTA | C10H16N2O8 | organic | 2 |
+| disodium EDTA | Na2C10H14N2O8 | salt | 2 |
+| sodium dodecyl sulfate | C12H25NaO4S | salt | 2 |
+| sodium dodecylbenzenesulfonate | C18H29NaO3S | salt | 2 |
+| theophylline | C7H8N4O2 | organic | 2 |
+| eugenol | C10H12O2 | organic | 2 |
+| thymol (C10H14O isomer class) | C10H14O | organic | 2 |
+| cinnamaldehyde | C9H8O | organic | 2 |
+| capsaicin | C18H27NO3 | organic | 7 |
+| acetic anhydride | C4H6O3 | organic | 5 |
+| morphine (C17H19NO3 class) | C17H19NO3 | fence | 2 |
+| leucoindigo | C16H12N2O2 | organic | 5 |
+| methyl red | C15H15N3O2 | organic | 1 |
+| indigo carmine | C16H10N2O8S2 | organic | 10 |
+| cyclohexane | C6H12 | solvent | 2 |
+| pentanol (amyl alcohol class) | C5H12O | solvent | 1 |
+| ethyl acetate (C4H8O2 class) | C4H8O2 | solvent | 14 |
+| vinyl acetate | C4H6O2 | organic | 18 |
+| ethyl cyanoacrylate | C6H7NO2 | polymer | 19 |
+| acrolein | C3H4O | fence | 2 |
+| trilaurin | C39H74O6 | organic | 1 |
+| tripalmitin | C51H98O6 | organic | 4 |
+| methyl salicylate (C8H8O3 class) | C8H8O3 | organic | 5 |
+| salicin | C13H18O7 | organic | 11 |
+| gallic acid | C7H6O5 | organic | 5 |
+| pentose sugars (C5H10O5 class) | C5H10O5 | organic | 4 |
+| quinine | C20H24N2O2 | organic | 3 |
+| naphthoquinone | C10H6O3 | organic | 1 |
+| sodium salicylate | NaC7H5O3 | salt | 2 |
+| octane | C8H18 | solvent | 4 |
+| potassium sulfate | K2SO4 | salt | 8 |
+| potassium metabisulfite | K2S2O5 | salt | 2 |
+| sodium pyrosulfate | Na2S2O7 | salt | 2 |
+| cyanuric acid | C3H3N3O3 | organic | 6 |
+| sodium tetrathionate | Na2S4O6 | salt | 9 |
+| potassium peroxymonosulfate | KHSO5 | oxidizer | 3 |
+| sodium iodate | NaIO3 | salt | 1 |
+| manganese(II) chloride | MnCl2 | salt | 2 |
+| potassium triiodide | KI3 | salt | 2 |
+| sodium bromate | NaBrO3 | oxidizer | 4 |
+| zinc carbonate | ZnCO3 | mineral | 1 |
+| aluminum sulfide | Al2S3 | salt | 10 |
+| tin(II) sulfate | SnSO4 | salt | 2 |
+| tin(IV) chloride | SnCl4 | salt | 3 |
+| silver sulfide | Ag2S | mineral | 5 |
+| tin(II) fluoride | SnF2 | salt | 1 |
+| ammonium bicarbonate | NH4HCO3 | salt | 4 |
+| ammonium carbamate | NH2COONH4 | salt | 2 |
+| potassium tetraiodomercurate | K2HgI4 | fence | 1 |
+| phosphorus pentoxide | P2O5 | mineral | 1 |
+| hexane | C6H14 | solvent | 2 |
+| sodium dithionite | Na2S2O4 | salt | 4 |
+| disodium phosphate | Na2HPO4 | salt | 2 |
+| potassium phosphate | K2HPO4 | salt | 2 |
+| iodic acid | HIO3 | acid-in | 1 |
+| chloric acid | HClO3 | acid-in | 1 |
+| uranium dioxide | UO2 | mineral | 1 |
+| thorium dioxide | ThO2 | mineral | 1 |
+| americium dioxide | AmO2 | mineral | 1 |
+| lead silicate | PbSiO3 | fence | 4 |
+| cortisol | C21H30O5 | organic | 1 |
+| diethylene glycol | C4H10O3 | solvent | 1 |
+| ketene | C2H2O | organic | 3 |
+| acetyl chloride | C2H3ClO | organic | 2 |
+| lysine | C6H14N2O2 | organic | 2 |
+| hydroxylamine | NH2OH | base | 1 |
+| aniline | C6H7N | organic | 3 |
+| benzenediazonium chloride | C6H5N2Cl | organic | 3 |
+| p-phenylenediamine | C6H8N2 | organic | 2 |
+| isatin | C8H5NO2 | organic | 1 |
+| pyridine | C5H5N | solvent | 1 |
+| naphthol | C10H8O | organic | 2 |
+| hydrazine sulfate | N2H6SO4 | fence | 4 |
+| sodium gluconate | C6H11NaO7 | salt | 2 |
+| tungsten trioxide | WO3 | mineral | 1 |
+| nickel(II) chloride | NiCl2 | salt | 4 |
+| gold(III) chloride | AuCl3 | salt | 4 |
+| calomel | Hg2Cl2 | fence | 2 |
+| potassium oxide | K2O | mineral | 34 |
+| sodium oxide | Na2O | mineral | 22 |
+| potassium bicarbonate | KHCO3 | salt | 4 |
+| barium chloride | BaCl2 | fence | 2 |
+| lead carbonate | PbCO3 | fence | 1 |
+| aluminum fluoride | AlF3 | salt | 4 |
+| lithium nitrate | LiNO3 | oxidizer | 2 |
+| lithium sulfate | Li2SO4 | salt | 2 |
+| lithium aluminate | LiAlO2 | mineral | 2 |
+| potassium superoxide | KO2 | oxidizer | 2 |
+| sodium borohydride | NaBH4 | salt | 2 |
+| ethylenediamine | C2H8N2 | base | 4 |
+| chloroprene | C4H5Cl | organic | 2 |
+| dodecane | C12H26 | solvent | 6 |
+| adipic acid | C6H10O4 | organic | 2 |
+| cyclopentanone | C5H8O | solvent | 3 |
+| cyclopentanone ethylene ketal | C7H12O2 | organic | 3 |
+| tribromoketal (Ch 50 route) | C7H9Br3O2 | organic | 3 |
+| bromocyclopentadienone ketal (Ch 50 route) | C7H7BrO2 | organic | 1 |
+| dimer diketal (Ch 50 route) | C14H14Br2O4 | organic | 3 |
+| dibromo diketone (Ch 50 route) | C10H6Br2O2 | organic | 5 |
+| dimethyl cubane-1,4-dicarboxylate | C12H12O4 | organic | 2 |
+| benzophenone | C13H10O | organic | 1 |
+| acetonitrile | C2H3N | solvent | 1 |
+| disodium cubane-1,4-dicarboxylate | Na2C10H6O4 | salt | 2 |
+| N-acetylglucosamine | C8H15NO6 | organic | below cut |
+| usnic acid | C18H16O7 | organic | below cut |
+| orcein | C28H24N2O7 | organic | below cut |
+| glucosamine | C6H13NO5 | organic | below cut |
+| zircon (zirconium silicate) | ZrSiO4 | mineral | below cut |
+| orthoclase feldspar | KAlSi3O8 | mineral | below cut |
+| nepheline | NaAlSiO4 | mineral | below cut |
+| spodumene | LiAlSi2O6 | mineral | below cut |
+| caffeine hydrochloride | C8H11N4O2Cl | organic | 2 |
+| allicin | C6H10OS2 | organic | 2 |
+| diallyl disulfide | C6H10S2 | organic | 2 |
+| allylsulfenic acid | C3H6OS | organic | 2 |
+| allyl isothiocyanate | C3H5NS | organic | 2 |
+
+### E.8 Standing notes
+
+- The mention-only class stands (empty).
+- The isomer classes are carried as cross-attribution notes on their rows, per the register's isomer convention: lactose/trehalose ↔ sucrose; vanillin ↔ methyl salicylate; orcinol ↔ salicyl alcohol; limonene ↔ α-pinene; morphine ↔ piperine; the PVA repeat ↔ acetaldehyde; the cubane diacid ↔ PET's repeat unit.
+- Composition is not destiny (Ch 34's own lesson): the morphine/piperine row carries both names because the corpus prints both for the same formula.
+- This section was composed and pushed from the repository directly; the local mirror sync was not possible this session (a sandbox symlink defect, disclosed) — the repository is the source of record.
