@@ -1,0 +1,1 @@
+- [ ] NEXT UNIT (session 208): on the user's continue — the Vol VIII volume-close protocol (both Vol VIII chapters now reviewed: Ch 51 at 192, Ch 52 at 196, Ch 53 at 206, Ch 54 at 207), or whatever the user calls instead; extend-never-rewrite; ALWAYS-SYNC at close; one unit per session.
