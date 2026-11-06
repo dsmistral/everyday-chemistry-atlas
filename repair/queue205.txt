@@ -1,1 +1,0 @@
-- [ ] NEXT UNIT (session 205): on the user's continue — the Vol IX volume-close protocol (both Vol IX chapters now reviewed), or whatever the user calls instead; extend-never-rewrite; ALWAYS-SYNC at close; one unit per session.
