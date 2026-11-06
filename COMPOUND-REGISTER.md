@@ -919,3 +919,8 @@ Retained as candidates, no row written, no name invented: C9H6O4, C8H5NO4, C19H1
 - The isomer classes are carried as cross-attribution notes on their rows, per the register's isomer convention: lactose/trehalose ↔ sucrose; vanillin ↔ methyl salicylate; orcinol ↔ salicyl alcohol; limonene ↔ α-pinene; morphine ↔ piperine; the PVA repeat ↔ acetaldehyde; the cubane diacid ↔ PET's repeat unit.
 - Composition is not destiny (Ch 34's own lesson): the morphine/piperine row carries both names because the corpus prints both for the same formula.
 - This section was composed and pushed from the repository directly; the local mirror sync was not possible this session (a sandbox symlink defect, disclosed) — the repository is the source of record.
+
+### E.9 Errata (same session, pre-close)
+
+- E.4's D4 list, completed: the two battery tokens whose alias targets have no register row — Zn1O2H2 (zinc hydroxide) and Al1O3H3 (aluminum hydroxide) — are D4 discards (battery artifacts with no row to alias into); the E.6 pass skipped them for want of a target row, and they are dispositioned here instead. Disclosed, never laundered.
+- The lexicon upgrade first landed at a wrong path (a stray directory `COMPOUND-REGISTER.m/`, a path-derivation bug); the deliverable of record stands at `audit/compound-register/lexicon-upgrade-204.txt` (byte-identical content), and the stray copy is deleted this session. Disclosed, not laundered.
