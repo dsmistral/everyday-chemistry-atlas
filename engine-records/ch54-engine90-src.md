@@ -31,7 +31,7 @@ sandbox-runtime-constraints rules 1-8 + the fresh Rule 21 bind this engine exact
 
 ## The core of record (TypeScript, as run)
 
-$F typescript
+```typescript
 // E90-RA core — every quantity an exact reduced rational (n, d), float64 ints.
 const QGUARD = 2n ** 51n;          // reduce() refuses d >= 2^51
 const PGUARD = 2n ** 60n;          // print-parse refuses d >= 2^60
@@ -97,7 +97,7 @@ const NaOH         = mass({ Na: 1, O: 1, H: 1 });  //  39.99717
 const glucose      = mass({ C: 6, H: 12, O: 6 });  // 180.15660
 const dihydrate    = qadd(glucose, qmul(q(2n, 1n), mass({ H: 2, O: 1 })));  // 294.10011 (H9O9 seam disclosed, RH3)
 const citric       = mass({ C: 6, H: 8, O: 7 });   // 192.12400
-$F
+```
 
 ## The per-piece rows (the battery definitions of record)
 
