@@ -200,8 +200,8 @@ indigo||C16H10N2O2||pigment||0||c16h10n2o2
 polyethylene terephthalate (PET)||[C10H8O4]n||polymer||0||c10h8o4
 ethylene glycol||C2H6O2||solvent||0||c2h6o2
 propane||C3H8||gas||0||c3h8
-kerosene||mixture||solvent||0||c25h52
-silicone||polysiloxane||polymer||0||c5h8
+paraffin wax||wax||organic||0||c25h52
+natural rubber||polyisoprene||polymer||0||c5h8
 methanol||CH3OH||solvent||0||ch4o;;c1h4o1
 formaldehyde||CH2O||organic||0||ch2o
 urea||CH4N2O||organic||0||ch4n2o
@@ -245,7 +245,7 @@ methyl orange||indicator||indicator||0||c14h14n3nao3s
 sodium ethoxide||C2H5ONa||organic||0||nac2h5o
 isopropyl alcohol||C3H8O||solvent||0||c3h8o
 boric acid||H3BO3||salt||0||bh3o3
-sodium silicate||Na2SiO3||salt||0||o2si
+silica (SiO2)||SiO2||mineral||0||o2si
 sodium hypochlorite||NaOCl||salt||0||cl2na2o2
 calcium hypochlorite||Ca(OCl)2||oxidizer||0||cacl2o2
 sodium sulfate||Na2SO4||salt||0||na2o4s
@@ -258,7 +258,7 @@ sodium chloride||NaCl||salt||0||na1cl1;;na1o1cl1
 sodium hydroxide||NaOH||base||0||na1h1o1;;na1o1h1
 hydrobromic acid||HBr||acid-in||0||h1br1
 calcium hydroxide||Ca(OH)2||base||0||cao2h2;;ca1o2h2;;h2o2ca1
-aluminum sulfate||Al2(SO4)3||salt||0||k1al1s2o20h24;;h24o20al1s2k1
+potash alum||KAl(SO4)2·12H2O||salt||0||k1al1s2o20h24;;h24o20al1s2k1
 copper(II) sulfate pentahydrate||CuSO4·5H2O||salt||0||cu1s1o4;;cu1s1o9h10
 iron(II) sulfate||FeSO4||salt||0||fe1s1o4;;fe1s1o11h14
 iron(III) chloride||FeCl3||salt||0||fe1cl3
@@ -272,7 +272,6 @@ hydrazine||N2H4||organic||0||nh2nh2
 rosin||resin||organic||0||c20h30o2;;c19h29co2h
 silver chloride||AgCl||salt||0||cl2ag2
 ammonium sulfate||(NH4)2SO4||salt||0||h8n2o4s1
-ferric ammonium sulfate||NH4Fe(SO4)2||salt||0||o12s3fe2
 tin(II) chloride||SnCl2||salt||0||sn1cl2
 methane||CH4||gas||0||c1h4
 ethylene||C2H4||gas||0||c2h4
